@@ -1,0 +1,91 @@
+\documentclass[12pt,letterpaper]{book}
+
+\input{settings/packages.tex}
+\input epsf 
+
+\renewcommand\thefootnote{\fnsymbol{footnote}}
+\setcounter{footnote}{1}
+
+\title{{\huge Electromagnetism and Optics} \\ 
+\ \\
+{\Large \bf The Lab Manual for PHY 103N \\
+Engineering Physics II Laboratory }}
+\author{ Department of Physics \\ 
+ University of Texas at Austin, Austin, TX 78712\\
+2005-2006}
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+% number frontmatter (including preface) with small roman numerals
+\renewcommand{\thepage}{\roman{page}}
+
+\tableofcontents
+
+% call the preface ``Preface''
+\renewcommand{\chaptername}{}
+\renewcommand{\thechapter}{}
+
+\chapter{Preface}  % this alone will give the preface
+\input 0_intro/preface.tex
+
+% Go back to normal chapter style
+\renewcommand{\chaptername}{Chapter}
+
+% Go back to arabic page numbering
+\renewcommand{\thepage}{\arabic{page}}
+\setcounter{page}{0}
+
+% The introduction will be chapter 0. 
+\renewcommand{\thechapter}{0}
+
+\chapter{Introduction}
+\label{ch:intro}
+\input 0_intro/0_intro.tex
+
+% Back to ordinary arabic numbering for the labs
+  \renewcommand{\thechapter}{\arabic{chapter}}
+  \setcounter{chapter}{0}
+
+
+% \chapter{Electrostatics}
+% \input elecstat.tex
+
+% \chapter{DC Circuits}
+% \input DCcirc_2/DCcirc_2.tex
+
+% \chapter{Electron Dynamics}
+% \input electron_2/electron_2.tex
+
+% \chapter{Measurements with the Oscilloscope}
+% \input scope_2/scope_2_02.tex
+
+% \chapter{RC Circuits and Filters}
+% \input rccirc_2/rclab_2.tex
+
+% \chapter{Electromagnetic Induction}
+% \input induction_2/induction_2.tex
+
+% \chapter{Polarization of Light}
+% \label{ch:pol}
+% \input polarization_2/polarization_2.tex
+
+% \chapter{Refraction Optics}
+% \label{ch:optics}
+% \input optics_2/optics_2.tex
+
+% \chapter{Imaging Optics}
+% \label{ch:imaging}
+% \input optics_2/imaging_2.tex
+
+% \chapter{Diffraction and Interference of Light}
+% \input diffint_2/diffint_new.tex
+
+
+
+
+    
+\end{document}

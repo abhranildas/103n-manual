@@ -1,0 +1,36 @@
+\contentsline {chapter}{\numberline {}Preface}{v}
+\contentsline {chapter}{\numberline {0}Introduction}{1}
+\contentsline {section}{\numberline {0.1}General Lab Procedures}{1}
+\contentsline {section}{\numberline {0.2}Error Estimation and Propagation}{2}
+\contentsline {subsection}{\numberline {0.2.1}Definition of Uncertainty}{3}
+\contentsline {subsection}{\numberline {0.2.2}Estimating Parameters and Their Uncertainties}{5}
+\contentsline {subsection}{\numberline {0.2.3}Propagating and Reporting Uncertainties}{10}
+\contentsline {section}{\numberline {0.3}The Lab Worksheet}{14}
+\contentsline {subsection}{\numberline {0.3.1}In-Lab Procedure}{15}
+\contentsline {subsection}{\numberline {0.3.2}In-Lab Computer Work}{16}
+\contentsline {subsection}{\numberline {0.3.3}Pre-Classroom Checklist}{17}
+\contentsline {subsection}{\numberline {0.3.4}In-Classroom Calculations \& Analysis}{18}
+\contentsline {subsection}{\numberline {0.3.5}In-Classroom Discussion and Conclusion}{19}
+\contentsline {section}{\numberline {0.4}Using KaleidaGraph for Data Analysis}{20}
+\contentsline {subsection}{\numberline {0.4.1}Introduction}{20}
+\contentsline {subsubsection}{What KaleidaGraph Does and Doesn't}{20}
+\contentsline {subsubsection}{\dots A Hypothetical Experiment.}{20}
+\contentsline {subsection}{\numberline {0.4.2}Entering Data}{21}
+\contentsline {subsubsection}{Actually Entering Data}{21}
+\contentsline {subsubsection}{Renaming Columns of Data}{22}
+\contentsline {subsection}{\numberline {0.4.3}Entering Formulas}{22}
+\contentsline {subsection}{\numberline {0.4.4}Plotting Data}{23}
+\contentsline {subsubsection}{Making a Scatter Plot}{23}
+\contentsline {subsubsection}{Adding Error Bars}{24}
+\contentsline {subsection}{\numberline {0.4.5}Performing a Weighted Least-Squares Fit on Plotted Data}{24}
+\contentsline {subsubsection}{Weighted Fit}{24}
+\contentsline {subsubsection}{The Work You Should Turn In}{25}
+\contentsline {section}{\numberline {0.W1}Error Analysis Worksheet}{27}
+\contentsline {subsection}{\numberline {0.W1.1}In-Lab Procedure}{27}
+\contentsline {subsection}{\numberline {0.W1.2}In-Classroom Calculations}{27}
+\contentsline {section}{\numberline {0.W2}KaleidaGraph \& Graphing By Hand}{33}
+\contentsline {subsection}{\numberline {0.W2.1}In-Lab Computer Work}{33}
+\contentsline {subsubsection}{Two Exercises for Kaleidagraph}{33}
+\contentsline {subsection}{\numberline {0.W2.2}In-Classroom Calculation \& Analysis}{35}
+\contentsline {subsubsection}{Hand-fit Graphing}{36}
+\contentsline {subsubsection}{Least Squares}{37}
