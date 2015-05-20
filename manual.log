@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  17 MAY 2015 15:45
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  19 MAY 2015 22:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -405,15 +405,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
-)
+ [3])
 \tf@toc=\write3
 \openout3 = `manual.toc'.
 
- [3] [4
+ [4]
+ .
+(./0_intro/preface.tex [5
 
 ]
- .
-(./0_intro/preface.tex [5]
 Underfull \hbox (badness 10000) in paragraph at lines 53--63
 
  []
@@ -693,34 +693,315 @@ Underfull \hbox (badness 10000) in paragraph at lines 1332--1335
 
  []
 
-) [39] (./manual.aux) ) 
+) [39] [40
+
+]
+Chapter 1.
+(./1_electro/1_electro.tex [41]
+Package epstopdf Info: Source file: <1_electro/es1.eps>
+(epstopdf)                    date: 2001-07-03 12:54:15
+(epstopdf)                    size: 18207 bytes
+(epstopdf)             Output file: <1_electro/es1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-17 16:29:48
+(epstopdf)                    size: 4516 bytes
+(epstopdf)             Command: <repstopdf --outfile=1_electro/es1-eps-converte
+d-to.pdf 1_electro/es1.eps>
+(epstopdf)             \includegraphics on input line 55.
+Package epstopdf Info: Output file is already uptodate.
+
+<1_electro/es1-eps-converted-to.pdf, id=195, 614.295pt x 794.97pt>
+File: 1_electro/es1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 1_electro/es1-eps-converted-to.pdf>
+Package pdftex.def Info: 1_electro/es1-eps-converted-to.pdf used on input line 
+55.
+(pdftex.def)             Requested size: 245.71364pt x 317.98236pt.
+Package epstopdf Info: Source file: <1_electro/es2.eps>
+(epstopdf)                    date: 2001-07-02 13:55:41
+(epstopdf)                    size: 21000 bytes
+(epstopdf)             Output file: <1_electro/es2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-19 22:04:23
+(epstopdf)                    size: 4785 bytes
+(epstopdf)             Command: <repstopdf --outfile=1_electro/es2-eps-converte
+d-to.pdf 1_electro/es2.eps>
+(epstopdf)             \includegraphics on input line 88.
+Package epstopdf Info: Output file is already uptodate.
+
+<1_electro/es2-eps-converted-to.pdf, id=196, 614.295pt x 794.97pt>
+File: 1_electro/es2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 1_electro/es2-eps-converted-to.pdf>
+Package pdftex.def Info: 1_electro/es2-eps-converted-to.pdf used on input line 
+88.
+(pdftex.def)             Requested size: 245.71364pt x 317.98236pt.
+ [42]
+Underfull \vbox (badness 1502) has occurred while \output is active []
+
+ [43 <./1_electro/es1-eps-converted-to.pdf>] [44 <./1_electro/es2-eps-converted
+-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 129--134
+
+ []
+
+Package epstopdf Info: Source file: <1_electro/es3.eps>
+(epstopdf)                    date: 2001-07-03 13:50:14
+(epstopdf)                    size: 23249 bytes
+(epstopdf)             Output file: <1_electro/es3-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-17 16:51:18
+(epstopdf)                    size: 4900 bytes
+(epstopdf)             Command: <repstopdf --outfile=1_electro/es3-eps-converte
+d-to.pdf 1_electro/es3.eps>
+(epstopdf)             \includegraphics on input line 154.
+Package epstopdf Info: Output file is already uptodate.
+<1_electro/es3-eps-converted-to.pdf, id=217, 614.295pt x 794.97pt>
+File: 1_electro/es3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 1_electro/es3-eps-converted-to.pdf>
+Package pdftex.def Info: 1_electro/es3-eps-converted-to.pdf used on input line 
+154.
+(pdftex.def)             Requested size: 245.71364pt x 317.98236pt.
+ [45] [46 <./1_electro/es3-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 230--239
+
+ []
+
+[47]
+Package epstopdf Info: Source file: <1_electro/Electrostatics.eps>
+(epstopdf)                    date: 2015-05-19 22:15:10
+(epstopdf)                    size: 3888477 bytes
+(epstopdf)             Output file: <1_electro/Electrostatics-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2015-05-19 22:18:44
+(epstopdf)                    size: 252260 bytes
+(epstopdf)             Command: <repstopdf --outfile=1_electro/Electrostatics-e
+ps-converted-to.pdf 1_electro/Electrostatics.eps>
+(epstopdf)             \includegraphics on input line 284.
+Package epstopdf Info: Output file is already uptodate.
+
+<1_electro/Electrostatics-eps-converted-to.pdf, id=232, 532.99126pt x 207.77625
+pt>
+File: 1_electro/Electrostatics-eps-converted-to.pdf Graphic file (type pdf)
+ <use 1_electro/Electrostatics-eps-converted-to.pdf>
+Package pdftex.def Info: 1_electro/Electrostatics-eps-converted-to.pdf used on 
+input line 284.
+(pdftex.def)             Requested size: 319.79723pt x 124.6667pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--301
+
+ []
+
+[48 <./1_electro/Electrostatics-eps-converted-to.pdf>] [49]
+Overfull \hbox (1.56989pt too wide) in paragraph at lines 345--345
+[]\OT1/cmr/bx/n/14.4 The \OT1/cmr/m/it/14.4 Pasco \OT1/cmr/bx/n/14.4 ES-9075A C
+harge Pro-duc-ers and Proof
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--354
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--360
+
+ []
+
+[50]
+Package epstopdf Info: Source file: <1_electro/es4.eps>
+(epstopdf)                    date: 2003-06-26 13:33:04
+(epstopdf)                    size: 63491 bytes
+(epstopdf)             Output file: <1_electro/es4-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-19 22:18:46
+(epstopdf)                    size: 42615 bytes
+(epstopdf)             Command: <repstopdf --outfile=1_electro/es4-eps-converte
+d-to.pdf 1_electro/es4.eps>
+(epstopdf)             \includegraphics on input line 413.
+Package epstopdf Info: Output file is already uptodate.
+ <1_electro/es4-eps-converted-to.pdf, id=246, 288.07625pt x 238.8925pt>
+File: 1_electro/es4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 1_electro/es4-eps-converted-to.pdf>
+Package pdftex.def Info: 1_electro/es4-eps-converted-to.pdf used on input line 
+413.
+(pdftex.def)             Requested size: 144.03777pt x 119.44595pt.
+
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.416 \end{figure}
+                  
+? 
+[51 <./1_electro/es4-eps-converted-to.pdf>] [52]
+Overfull \hbox (6.63281pt too wide) in paragraph at lines 453--457
+\OT1/cmr/bx/n/17.28 Name: []        Day/Time [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--457
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--482
+
+ []
+
+[53
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 497--505
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--509
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 512--515
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 518--519
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--526
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--537
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--541
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 546--551
+
+ []
+
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 562--565
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 570--572
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--579
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--621
+
+ []
+
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 622--623
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 629--633
+
+ []
+
+
+Underfull \vbox (badness 5446) has occurred while \output is active []
+
+ [56]
+Underfull \hbox (badness 10000) in paragraph at lines 651--663
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 668--676
+
+ []
+
+[57]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
+Underfull \hbox (badness 10000) in paragraph at lines 766--769
+
+ []
+
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 784--790
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61]
+Underfull \hbox (badness 10000) in paragraph at lines 813--817
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62]
+Underfull \hbox (badness 10000) in paragraph at lines 842--847
+
+ []
+
+) [63] (./manual.aux) )
+(\end occurred inside a group at level 3)
+
+### simple group (level 3) entered at line 408 ({)
+### simple group (level 2) entered at line 273 ({)
+### simple group (level 1) entered at line 70 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 1861 strings out of 493488
- 26177 string characters out of 3141326
- 86182 words of memory out of 3000000
- 5135 multiletter control sequences out of 15000+200000
- 10113 words of font info for 35 fonts, out of 3000000 for 9000
+ 1915 strings out of 493488
+ 27278 string characters out of 3141326
+ 86408 words of memory out of 3000000
+ 5178 multiletter control sequences out of 15000+200000
+ 11081 words of font info for 38 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,9n,25p,357b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmex10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi6.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr17.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r6.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
-pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.p
-fb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></
-usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on manual.pdf (45 pages, 264446 bytes).
+ 44i,10n,25p,357b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmex10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi6.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.p
+fb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/l
+ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
+al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on manual.pdf (69 pages, 607359 bytes).
 PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 166 compressed objects within 2 object streams
+ 352 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
