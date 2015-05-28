@@ -91,3 +91,25 @@
 \contentsline {subsection}{\numberline {2.W2.6}In-Classroom Calculations \& Analysis}{99}
 \contentsline {subsubsection}{Temperature Dependence of Resistance}{100}
 \contentsline {subsubsection}{Internal Resistance of a Dry Cell}{101}
+\contentsline {chapter}{\numberline {3}Electron Dynamics}{103}
+\contentsline {section}{\numberline {3.1}Introduction}{103}
+\contentsline {section}{\numberline {3.2}Theory}{104}
+\contentsline {subsection}{\numberline {3.2.1}References}{104}
+\contentsline {subsection}{\numberline {3.2.2}The Physical Situation}{104}
+\contentsline {subsection}{\numberline {3.2.3}Uniform Electric Field}{105}
+\contentsline {subsection}{\numberline {3.2.4}Uniform Magnetic Field}{105}
+\contentsline {section}{\numberline {3.3}Apparatus}{108}
+\contentsline {section}{\numberline {3.W}Electron Dynamics Worksheet}{113}
+\contentsline {subsection}{\numberline {3.W.1}In-Lab Procedure}{113}
+\contentsline {subsubsection}{The Magnetic Field of the Coils}{113}
+\contentsline {subsubsection}{Radius versus Magnetic Field}{115}
+\contentsline {subsection}{\numberline {3.W.2}In-Lab Computer Work}{116}
+\contentsline {subsection}{\numberline {3.W.3}In-Lab Procedure}{118}
+\contentsline {subsubsection}{Radius versus Potential}{118}
+\contentsline {subsection}{\numberline {3.W.4}In-Lab Computer Work}{118}
+\contentsline {subsection}{\numberline {3.W.5}Pre-Classroom Check List}{119}
+\contentsline {subsection}{\numberline {3.W.6}In-Classroom Calculations $\&$ Analysis}{119}
+\contentsline {subsubsection}{The Magnetic Field of the Coils}{119}
+\contentsline {subsubsection}{Radius versus Magnetic Field}{120}
+\contentsline {subsubsection}{Radius versus Potential}{120}
+\contentsline {subsection}{\numberline {3.W.7}In-Classroom Discussion}{121}

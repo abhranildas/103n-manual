@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 MAY 2015 00:41
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 MAY 2015 01:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1687,7 +1687,325 @@ Underfull \hbox (badness 10000) in paragraph at lines 1203--1207
 
  []
 
-) [101] (./manual.aux)
+) [101] [102
+
+]
+Chapter 3.
+(./3_electrondynamics/3_electrondynamics.tex [103]
+Package epstopdf Info: Source file: <3_electrondynamics/electron.eps>
+(epstopdf)                    date: 2015-05-28 00:57:08
+(epstopdf)                    size: 5157 bytes
+(epstopdf)             Output file: <3_electrondynamics/electron-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2015-05-28 01:02:17
+(epstopdf)                    size: 7286 bytes
+(epstopdf)             Command: <repstopdf --outfile=3_electrondynamics/electro
+n-eps-converted-to.pdf 3_electrondynamics/electron.eps>
+(epstopdf)             \includegraphics on input line 49.
+Package epstopdf Info: Output file is already uptodate.
+
+<3_electrondynamics/electron-eps-converted-to.pdf, id=680, 483.8075pt x 293.095
+pt>
+File: 3_electrondynamics/electron-eps-converted-to.pdf Graphic file (type pdf)
+ <use 3_electrondynamics/electron-eps-converted-to.pdf>
+Package pdftex.def Info: 3_electrondynamics/electron-eps-converted-to.pdf used 
+on input line 49.
+(pdftex.def)             Requested size: 290.28674pt x 175.85834pt.
+ [104 <./3_electrondynamics/electron-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <3_electrondynamics/lorentz.eps>
+(epstopdf)                    date: 2015-05-28 00:57:52
+(epstopdf)                    size: 4789 bytes
+(epstopdf)             Output file: <3_electrondynamics/lorentz-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2015-05-28 01:02:18
+(epstopdf)                    size: 5742 bytes
+(epstopdf)             Command: <repstopdf --outfile=3_electrondynamics/lorentz
+-eps-converted-to.pdf 3_electrondynamics/lorentz.eps>
+(epstopdf)             \includegraphics on input line 99.
+Package epstopdf Info: Output file is already uptodate.
+
+<3_electrondynamics/lorentz-eps-converted-to.pdf, id=692, 370.38374pt x 215.806
+24pt>
+File: 3_electrondynamics/lorentz-eps-converted-to.pdf Graphic file (type pdf)
+ <use 3_electrondynamics/lorentz-eps-converted-to.pdf>
+Package pdftex.def Info: 3_electrondynamics/lorentz-eps-converted-to.pdf used o
+n input line 99.
+(pdftex.def)             Requested size: 222.23195pt x 129.48474pt.
+ [105] [106 <./3_electrondynamics/lorentz-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <3_electrondynamics/circorb.eps>
+(epstopdf)                    date: 2015-05-28 00:56:44
+(epstopdf)                    size: 6855 bytes
+(epstopdf)             Output file: <3_electrondynamics/circorb-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2015-05-28 01:02:19
+(epstopdf)                    size: 5602 bytes
+(epstopdf)             Command: <repstopdf --outfile=3_electrondynamics/circorb
+-eps-converted-to.pdf 3_electrondynamics/circorb.eps>
+(epstopdf)             \includegraphics on input line 156.
+Package epstopdf Info: Output file is already uptodate.
+
+<3_electrondynamics/circorb-eps-converted-to.pdf, id=707, 325.215pt x 325.215pt
+>
+File: 3_electrondynamics/circorb-eps-converted-to.pdf Graphic file (type pdf)
+ <use 3_electrondynamics/circorb-eps-converted-to.pdf>
+Package pdftex.def Info: 3_electrondynamics/circorb-eps-converted-to.pdf used o
+n input line 156.
+(pdftex.def)             Requested size: 195.1305pt x 195.1305pt.
+ [107]
+Package epstopdf Info: Source file: <3_electrondynamics/emapparatus.eps>
+(epstopdf)                    date: 2015-05-28 00:57:26
+(epstopdf)                    size: 4213 bytes
+(epstopdf)             Output file: <3_electrondynamics/emapparatus-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2015-05-28 01:02:20
+(epstopdf)                    size: 5931 bytes
+(epstopdf)             Command: <repstopdf --outfile=3_electrondynamics/emappar
+atus-eps-converted-to.pdf 3_electrondynamics/emapparatus.eps>
+(epstopdf)             \includegraphics on input line 212.
+Package epstopdf Info: Output file is already uptodate.
+
+<3_electrondynamics/emapparatus-eps-converted-to.pdf, id=712, 367.3725pt x 491.
+8375pt>
+File: 3_electrondynamics/emapparatus-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use 3_electrondynamics/emapparatus-eps-converted-to.pdf>
+Package pdftex.def Info: 3_electrondynamics/emapparatus-eps-converted-to.pdf us
+ed on input line 212.
+(pdftex.def)             Requested size: 220.42519pt x 295.10477pt.
+Package epstopdf Info: Source file: <3_electrondynamics/electrongun.eps>
+(epstopdf)                    date: 2015-05-28 00:57:14
+(epstopdf)                    size: 3903 bytes
+(epstopdf)             Output file: <3_electrondynamics/electrongun-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2015-05-28 01:02:21
+(epstopdf)                    size: 6904 bytes
+(epstopdf)             Command: <repstopdf --outfile=3_electrondynamics/electro
+ngun-eps-converted-to.pdf 3_electrondynamics/electrongun.eps>
+(epstopdf)             \includegraphics on input line 217.
+Package epstopdf Info: Output file is already uptodate.
+
+<3_electrondynamics/electrongun-eps-converted-to.pdf, id=713, 388.45125pt x 260
+.975pt>
+File: 3_electrondynamics/electrongun-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use 3_electrondynamics/electrongun-eps-converted-to.pdf>
+Package pdftex.def Info: 3_electrondynamics/electrongun-eps-converted-to.pdf us
+ed on input line 217.
+(pdftex.def)             Requested size: 233.07254pt x 156.5862pt.
+ [108 <./3_electrondynamics/circorb-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <3_electrondynamics/helmholtz.eps>
+(epstopdf)                    date: 2015-05-28 00:57:46
+(epstopdf)                    size: 4224 bytes
+(epstopdf)             Output file: <3_electrondynamics/helmholtz-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2015-05-28 01:02:22
+(epstopdf)                    size: 5155 bytes
+(epstopdf)             Command: <repstopdf --outfile=3_electrondynamics/helmhol
+tz-eps-converted-to.pdf 3_electrondynamics/helmholtz.eps>
+(epstopdf)             \includegraphics on input line 225.
+Package epstopdf Info: Output file is already uptodate.
+
+<3_electrondynamics/helmholtz-eps-converted-to.pdf, id=725, 302.12875pt x 247.9
+2625pt>
+File: 3_electrondynamics/helmholtz-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use 3_electrondynamics/helmholtz-eps-converted-to.pdf>
+Package pdftex.def Info: 3_electrondynamics/helmholtz-eps-converted-to.pdf used
+ on input line 225.
+(pdftex.def)             Requested size: 181.27864pt x 148.7569pt.
+ [109 <./3_electrondynamics/emapparatus-eps-converted-to.pdf>] [110 <./3_electr
+ondynamics/electrongun-eps-converted-to.pdf> <./3_electrondynamics/helmholtz-ep
+s-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
+
+ []
+
+[111] [112]
+Overfull \hbox (16.6022pt too wide) in paragraph at lines 266--269
+\OT1/cmr/bx/n/17.28 Name:  []        Day/Time: [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--269
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--285
+
+ []
+
+Package epstopdf Info: Source file: <3_electrondynamics/sketch.eps>
+(epstopdf)                    date: 2015-05-28 00:58:01
+(epstopdf)                    size: 3410 bytes
+(epstopdf)             Output file: <3_electrondynamics/sketch-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2015-05-28 01:02:22
+(epstopdf)                    size: 5730 bytes
+(epstopdf)             Command: <repstopdf --outfile=3_electrondynamics/sketch-
+eps-converted-to.pdf 3_electrondynamics/sketch.eps>
+(epstopdf)             \includegraphics on input line 291.
+Package epstopdf Info: Output file is already uptodate.
+
+<3_electrondynamics/sketch-eps-converted-to.pdf, id=759, 325.215pt x 277.035pt>
+File: 3_electrondynamics/sketch-eps-converted-to.pdf Graphic file (type pdf)
+<use 3_electrondynamics/sketch-eps-converted-to.pdf>
+Package pdftex.def Info: 3_electrondynamics/sketch-eps-converted-to.pdf used on
+ input line 291.
+(pdftex.def)             Requested size: 162.6071pt x 138.51715pt.
+Package epstopdf Info: Source file: <3_electrondynamics/bfield.eps>
+(epstopdf)                    date: 2015-05-28 00:56:33
+(epstopdf)                    size: 4617 bytes
+(epstopdf)             Output file: <3_electrondynamics/bfield-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2015-05-28 01:02:23
+(epstopdf)                    size: 5094 bytes
+(epstopdf)             Command: <repstopdf --outfile=3_electrondynamics/bfield-
+eps-converted-to.pdf 3_electrondynamics/bfield.eps>
+(epstopdf)             \includegraphics on input line 297.
+Package epstopdf Info: Output file is already uptodate.
+
+<3_electrondynamics/bfield-eps-converted-to.pdf, id=760, 410.53375pt x 178.6675
+pt>
+File: 3_electrondynamics/bfield-eps-converted-to.pdf Graphic file (type pdf)
+ <use 3_electrondynamics/bfield-eps-converted-to.pdf>
+Package pdftex.def Info: 3_electrondynamics/bfield-eps-converted-to.pdf used on
+ input line 297.
+(pdftex.def)             Requested size: 205.26637pt x 89.33353pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--314
+
+ []
+
+Package epstopdf Info: Source file: <3_electrondynamics/csect.eps>
+(epstopdf)                    date: 2015-05-28 00:56:53
+(epstopdf)                    size: 3396 bytes
+(epstopdf)             Output file: <3_electrondynamics/csect-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2015-05-28 01:02:24
+(epstopdf)                    size: 4726 bytes
+(epstopdf)             Command: <repstopdf --outfile=3_electrondynamics/csect-e
+ps-converted-to.pdf 3_electrondynamics/csect.eps>
+(epstopdf)             \includegraphics on input line 316.
+Package epstopdf Info: Output file is already uptodate.
+
+<3_electrondynamics/csect-eps-converted-to.pdf, id=761, 140.525pt x 229.85875pt
+>
+File: 3_electrondynamics/csect-eps-converted-to.pdf Graphic file (type pdf)
+ <use 3_electrondynamics/csect-eps-converted-to.pdf>
+Package pdftex.def Info: 3_electrondynamics/csect-eps-converted-to.pdf used on 
+input line 316.
+(pdftex.def)             Requested size: 84.31564pt x 137.91629pt.
+ [113
+
+] [114 <./3_electrondynamics/sketch-eps-converted-to.pdf> <./3_electrondynamics
+/bfield-eps-converted-to.pdf> <./3_electrondynamics/csect-eps-converted-to.pdf>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 327--336
+
+ []
+
+[115]
+Underfull \hbox (badness 10000) in paragraph at lines 387--437
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--437
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--437
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--437
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--437
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--437
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--437
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--437
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--437
+
+ []
+
+[116]
+Underfull \hbox (badness 10000) in paragraph at lines 444--449
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [117]
+Underfull \hbox (badness 10000) in paragraph at lines 491--498
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--498
+
+ []
+
+[118]
+Underfull \hbox (badness 10000) in paragraph at lines 509--515
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--523
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 524--528
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--534
+
+ []
+
+[119]
+Underfull \hbox (badness 10000) in paragraph at lines 536--541
+
+ []
+
+[120]
+Overfull \hbox (20.84995pt too wide) in paragraph at lines 543--549
+\OT1/cmr/m/n/12 Compare both val-ues of $\OML/cmm/m/it/12 e=m$ \OT1/cmr/m/n/12 
+you mea-sured to the ac-cepted value $1\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 758 []
+819 []62(53) \OMS/cmsy/m/n/12 ^^A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 552--555
+
+ []
+
+) [121] (./manual.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -1699,11 +2017,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 ### simple group (level 1) entered at line 70 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 2101 strings out of 493488
- 33116 string characters out of 3141326
- 86894 words of memory out of 3000000
- 5332 multiletter control sequences out of 15000+200000
- 11081 words of font info for 38 fonts, out of 3000000 for 9000
+ 2176 strings out of 493488
+ 35605 string characters out of 3141326
+ 87166 words of memory out of 3000000
+ 5392 multiletter control sequences out of 15000+200000
+ 11699 words of font info for 40 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  44i,10n,25p,357b,350s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
@@ -1721,10 +2039,10 @@ r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/l
 ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
 al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on manual.pdf (109 pages, 771856 bytes).
+Output written on manual.pdf (129 pages, 825891 bytes).
 PDF statistics:
- 726 PDF objects out of 1000 (max. 8388607)
- 494 compressed objects within 5 object streams
+ 859 PDF objects out of 1000 (max. 8388607)
+ 583 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 
