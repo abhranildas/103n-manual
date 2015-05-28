@@ -113,3 +113,22 @@
 \contentsline {subsubsection}{Radius versus Magnetic Field}{120}
 \contentsline {subsubsection}{Radius versus Potential}{120}
 \contentsline {subsection}{\numberline {3.W.7}In-Classroom Discussion}{121}
+\contentsline {chapter}{\numberline {4}Measurements with the Oscilloscope}{123}
+\contentsline {section}{\numberline {4.1}Introduction}{123}
+\contentsline {section}{\numberline {4.2}Theory}{124}
+\contentsline {subsection}{\numberline {4.2.1}References}{124}
+\contentsline {subsection}{\numberline {4.2.2}The Properties of Waves}{124}
+\contentsline {section}{\numberline {4.3}Apparatus}{129}
+\contentsline {subsection}{\numberline {4.3.1}The Oscilloscope}{129}
+\contentsline {subsection}{\numberline {4.3.2}The Function Generator}{135}
+\contentsline {subsection}{\numberline {4.3.3}The Phase Shifter}{136}
+\contentsline {section}{\numberline {4.W}Oscilloscope Worksheet}{138}
+\contentsline {subsection}{\numberline {4.W.1}In-Lab Procedure}{138}
+\contentsline {subsubsection}{Turning on the Oscilloscope}{138}
+\contentsline {subsubsection}{Operating the Equipment}{138}
+\contentsline {subsubsection}{Measuring Amplitude and Frequency}{139}
+\contentsline {subsubsection}{Measuring Phase Difference}{142}
+\contentsline {subsection}{\numberline {4.W.2}Pre-Classroom Check List}{144}
+\contentsline {subsection}{\numberline {4.W.3}In-Classroom Calculations $\&$ Analysis}{144}
+\contentsline {subsubsection}{Measuring Amplitude and Frequency}{144}
+\contentsline {subsubsection}{Measuring Phase Difference}{145}

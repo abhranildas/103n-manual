@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 MAY 2015 01:04
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 MAY 2015 01:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2005,7 +2005,599 @@ Underfull \hbox (badness 10000) in paragraph at lines 552--555
 
  []
 
-) [121] (./manual.aux)
+) [121] [122
+
+]
+Chapter 4.
+(./4_oscilloscope/4_oscilloscope.tex [123]
+Package epstopdf Info: Source file: <4_oscilloscope/periodic.eps>
+(epstopdf)                    date: 2015-05-28 01:12:27
+(epstopdf)                    size: 3647 bytes
+(epstopdf)             Output file: <4_oscilloscope/periodic-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-05-28 01:12:34
+(epstopdf)                    size: 5302 bytes
+(epstopdf)             Command: <repstopdf --outfile=4_oscilloscope/periodic-ep
+s-converted-to.pdf 4_oscilloscope/periodic.eps>
+(epstopdf)             \includegraphics on input line 40.
+Package epstopdf Info: Output file is already uptodate.
+
+<4_oscilloscope/periodic-eps-converted-to.pdf, id=813, 704.6325pt x 158.5925pt>
+File: 4_oscilloscope/periodic-eps-converted-to.pdf Graphic file (type pdf)
+<use 4_oscilloscope/periodic-eps-converted-to.pdf>
+Package pdftex.def Info: 4_oscilloscope/periodic-eps-converted-to.pdf used on i
+nput line 40.
+(pdftex.def)             Requested size: 422.78278pt x 95.15622pt.
+
+Overfull \hbox (32.78278pt too wide) in paragraph at lines 40--41
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <4_oscilloscope/sinusoid.eps>
+(epstopdf)                    date: 2015-05-28 01:12:27
+(epstopdf)                    size: 5596 bytes
+(epstopdf)             Output file: <4_oscilloscope/sinusoid-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-05-28 01:12:35
+(epstopdf)                    size: 6162 bytes
+(epstopdf)             Command: <repstopdf --outfile=4_oscilloscope/sinusoid-ep
+s-converted-to.pdf 4_oscilloscope/sinusoid.eps>
+(epstopdf)             \includegraphics on input line 56.
+Package epstopdf Info: Output file is already uptodate.
+
+<4_oscilloscope/sinusoid-eps-converted-to.pdf, id=814, 536.0025pt x 411.5375pt>
+File: 4_oscilloscope/sinusoid-eps-converted-to.pdf Graphic file (type pdf)
+<use 4_oscilloscope/sinusoid-eps-converted-to.pdf>
+Package pdftex.def Info: 4_oscilloscope/sinusoid-eps-converted-to.pdf used on i
+nput line 56.
+(pdftex.def)             Requested size: 321.60397pt x 246.92441pt.
+ [124 <./4_oscilloscope/periodic-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <4_oscilloscope/phasediffer.eps>
+(epstopdf)                    date: 2015-05-28 01:12:27
+(epstopdf)                    size: 10393 bytes
+(epstopdf)             Output file: <4_oscilloscope/phasediffer-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2015-05-28 01:12:35
+(epstopdf)                    size: 8350 bytes
+(epstopdf)             Command: <repstopdf --outfile=4_oscilloscope/phasediffer
+-eps-converted-to.pdf 4_oscilloscope/phasediffer.eps>
+(epstopdf)             \includegraphics on input line 85.
+Package epstopdf Info: Output file is already uptodate.
+
+<4_oscilloscope/phasediffer-eps-converted-to.pdf, id=827, 536.0025pt x 411.5375
+pt>
+File: 4_oscilloscope/phasediffer-eps-converted-to.pdf Graphic file (type pdf)
+ <use 4_oscilloscope/phasediffer-eps-converted-to.pdf>
+Package pdftex.def Info: 4_oscilloscope/phasediffer-eps-converted-to.pdf used o
+n input line 85.
+(pdftex.def)             Requested size: 321.60397pt x 246.92441pt.
+Package epstopdf Info: Source file: <4_oscilloscope/differfreq.eps>
+(epstopdf)                    date: 2015-05-28 01:12:27
+(epstopdf)                    size: 15398 bytes
+(epstopdf)             Output file: <4_oscilloscope/differfreq-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2015-05-28 01:12:36
+(epstopdf)                    size: 6894 bytes
+(epstopdf)             Command: <repstopdf --outfile=4_oscilloscope/differfreq-
+eps-converted-to.pdf 4_oscilloscope/differfreq.eps>
+(epstopdf)             \includegraphics on input line 96.
+Package epstopdf Info: Output file is already uptodate.
+
+<4_oscilloscope/differfreq-eps-converted-to.pdf, id=828, 536.0025pt x 411.5375p
+t>
+File: 4_oscilloscope/differfreq-eps-converted-to.pdf Graphic file (type pdf)
+ <use 4_oscilloscope/differfreq-eps-converted-to.pdf>
+Package pdftex.def Info: 4_oscilloscope/differfreq-eps-converted-to.pdf used on
+ input line 96.
+(pdftex.def)             Requested size: 321.60397pt x 246.92441pt.
+ [125 <./4_oscilloscope/sinusoid-eps-converted-to.pdf>] [126 <./4_oscilloscope/
+phasediffer-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <4_oscilloscope/squarewave.eps>
+(epstopdf)                    date: 2015-05-28 01:12:27
+(epstopdf)                    size: 2510 bytes
+(epstopdf)             Output file: <4_oscilloscope/squarewave-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2015-05-28 01:12:37
+(epstopdf)                    size: 4689 bytes
+(epstopdf)             Command: <repstopdf --outfile=4_oscilloscope/squarewave-
+eps-converted-to.pdf 4_oscilloscope/squarewave.eps>
+(epstopdf)             \includegraphics on input line 135.
+Package epstopdf Info: Output file is already uptodate.
+
+<4_oscilloscope/squarewave-eps-converted-to.pdf, id=854, 379.4175pt x 254.9525p
+t>
+File: 4_oscilloscope/squarewave-eps-converted-to.pdf Graphic file (type pdf)
+ <use 4_oscilloscope/squarewave-eps-converted-to.pdf>
+Package pdftex.def Info: 4_oscilloscope/squarewave-eps-converted-to.pdf used on
+ input line 135.
+(pdftex.def)             Requested size: 227.65225pt x 152.97266pt.
+Package epstopdf Info: Source file: <4_oscilloscope/squarephase.eps>
+(epstopdf)                    date: 2015-05-28 01:12:27
+(epstopdf)                    size: 2028 bytes
+(epstopdf)             Output file: <4_oscilloscope/squarephase-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2015-05-28 01:12:38
+(epstopdf)                    size: 4533 bytes
+(epstopdf)             Command: <repstopdf --outfile=4_oscilloscope/squarephase
+-eps-converted-to.pdf 4_oscilloscope/squarephase.eps>
+(epstopdf)             \includegraphics on input line 146.
+Package epstopdf Info: Output file is already uptodate.
+
+<4_oscilloscope/squarephase-eps-converted-to.pdf, id=855, 415.5525pt x 254.9525
+pt>
+File: 4_oscilloscope/squarephase-eps-converted-to.pdf Graphic file (type pdf)
+ <use 4_oscilloscope/squarephase-eps-converted-to.pdf>
+Package pdftex.def Info: 4_oscilloscope/squarephase-eps-converted-to.pdf used o
+n input line 146.
+(pdftex.def)             Requested size: 249.33342pt x 152.97266pt.
+Package epstopdf Info: Source file: <4_oscilloscope/triwave.eps>
+(epstopdf)                    date: 2015-05-28 01:12:27
+(epstopdf)                    size: 2439 bytes
+(epstopdf)             Output file: <4_oscilloscope/triwave-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2015-05-28 01:12:39
+(epstopdf)                    size: 4682 bytes
+(epstopdf)             Command: <repstopdf --outfile=4_oscilloscope/triwave-eps
+-converted-to.pdf 4_oscilloscope/triwave.eps>
+(epstopdf)             \includegraphics on input line 153.
+Package epstopdf Info: Output file is already uptodate.
+
+<4_oscilloscope/triwave-eps-converted-to.pdf, id=856, 542.025pt x 368.37625pt>
+File: 4_oscilloscope/triwave-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 4_oscilloscope/triwave-eps-converted-to.pdf>
+Package pdftex.def Info: 4_oscilloscope/triwave-eps-converted-to.pdf used on in
+put line 153.
+(pdftex.def)             Requested size: 325.2175pt x 221.02744pt.
+ [127 <./4_oscilloscope/differfreq-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <4_oscilloscope/TDS1002FP.eps>
+(epstopdf)                    date: 2015-05-28 01:12:27
+(epstopdf)                    size: 5040218 bytes
+(epstopdf)             Output file: <4_oscilloscope/TDS1002FP-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2015-05-28 01:12:40
+(epstopdf)                    size: 34509 bytes
+(epstopdf)             Command: <repstopdf --outfile=4_oscilloscope/TDS1002FP-e
+ps-converted-to.pdf 4_oscilloscope/TDS1002FP.eps>
+(epstopdf)             \includegraphics on input line 172.
+Package epstopdf Info: Output file is already uptodate.
+
+<4_oscilloscope/TDS1002FP-eps-converted-to.pdf, id=862, 4969.56625pt x 2250.407
+5pt>
+File: 4_oscilloscope/TDS1002FP-eps-converted-to.pdf Graphic file (type pdf)
+ <use 4_oscilloscope/TDS1002FP-eps-converted-to.pdf>
+Package pdftex.def Info: 4_oscilloscope/TDS1002FP-eps-converted-to.pdf used on 
+input line 172.
+(pdftex.def)             Requested size: 248.49287pt x 112.52696pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [128 <./4_oscilloscope/squarewave-eps-converted-to.pdf> <./4_oscilloscope/squa
+rephase-eps-converted-to.pdf>] [129 <./4_oscilloscope/triwave-eps-converted-to.
+pdf>]
+[130 <./4_oscilloscope/TDS1002FP-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <4_oscilloscope/tds1002d.eps>
+(epstopdf)                    date: 2015-05-28 01:12:27
+(epstopdf)                    size: 102830 bytes
+(epstopdf)             Output file: <4_oscilloscope/tds1002d-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-05-28 01:12:41
+(epstopdf)                    size: 5911 bytes
+(epstopdf)             Command: <repstopdf --outfile=4_oscilloscope/tds1002d-ep
+s-converted-to.pdf 4_oscilloscope/tds1002d.eps>
+(epstopdf)             \includegraphics on input line 256.
+Package epstopdf Info: Output file is already uptodate.
+
+<4_oscilloscope/tds1002d-eps-converted-to.pdf, id=902, 496.85625pt x 373.395pt>
+File: 4_oscilloscope/tds1002d-eps-converted-to.pdf Graphic file (type pdf)
+<use 4_oscilloscope/tds1002d-eps-converted-to.pdf>
+Package pdftex.def Info: 4_oscilloscope/tds1002d-eps-converted-to.pdf used on i
+nput line 256.
+(pdftex.def)             Requested size: 347.797pt x 261.37471pt.
+ [131] [132 <./4_oscilloscope/tds1002d-eps-converted-to.pdf>] [133] [134]
+Package epstopdf Info: Source file: <4_oscilloscope/functiongen.eps>
+(epstopdf)                    date: 2015-05-28 01:12:27
+(epstopdf)                    size: 7588 bytes
+(epstopdf)             Output file: <4_oscilloscope/functiongen-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2015-05-28 01:12:42
+(epstopdf)                    size: 10604 bytes
+(epstopdf)             Command: <repstopdf --outfile=4_oscilloscope/functiongen
+-eps-converted-to.pdf 4_oscilloscope/functiongen.eps>
+(epstopdf)             \includegraphics on input line 420.
+Package epstopdf Info: Output file is already uptodate.
+
+<4_oscilloscope/functiongen-eps-converted-to.pdf, id=919, 686.565pt x 234.8775p
+t>
+File: 4_oscilloscope/functiongen-eps-converted-to.pdf Graphic file (type pdf)
+ <use 4_oscilloscope/functiongen-eps-converted-to.pdf>
+Package pdftex.def Info: 4_oscilloscope/functiongen-eps-converted-to.pdf used o
+n input line 420.
+(pdftex.def)             Requested size: 343.28166pt x 117.43846pt.
+
+Overfull \hbox (0.26459pt too wide) in paragraph at lines 432--434
+[]\OT1/cmr/bx/n/12 waveform\OT1/cmr/m/n/12 : These but-tons se-lect be-tween si
+-nu-soidal, tri-an-gle, or square
+ []
+
+[135]
+Package epstopdf Info: Source file: <4_oscilloscope/phaseshifter.eps>
+(epstopdf)                    date: 2015-05-28 01:12:27
+(epstopdf)                    size: 3558 bytes
+(epstopdf)             Output file: <4_oscilloscope/phaseshifter-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2015-05-28 01:12:43
+(epstopdf)                    size: 5605 bytes
+(epstopdf)             Command: <repstopdf --outfile=4_oscilloscope/phaseshifte
+r-eps-converted-to.pdf 4_oscilloscope/phaseshifter.eps>
+(epstopdf)             \includegraphics on input line 462.
+Package epstopdf Info: Output file is already uptodate.
+
+<4_oscilloscope/phaseshifter-eps-converted-to.pdf, id=923, 442.65375pt x 228.85
+5pt>
+File: 4_oscilloscope/phaseshifter-eps-converted-to.pdf Graphic file (type pdf)
+ <use 4_oscilloscope/phaseshifter-eps-converted-to.pdf>
+Package pdftex.def Info: 4_oscilloscope/phaseshifter-eps-converted-to.pdf used 
+on input line 462.
+(pdftex.def)             Requested size: 309.8555pt x 160.1974pt.
+ [136 <./4_oscilloscope/functiongen-eps-converted-to.pdf>] [137 <./4_oscillosco
+pe/phaseshifter-eps-converted-to.pdf>]
+Overfull \hbox (16.6022pt too wide) in paragraph at lines 488--491
+\OT1/cmr/bx/n/17.28 Name:  []        Day/Time: [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 488--491
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--535
+
+ []
+
+[138
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 536--551
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--551
+
+ []
+
+[139]
+Package epstopdf Info: Source file: <4_oscilloscope/scope.eps>
+(epstopdf)                    date: 2015-05-28 01:12:27
+(epstopdf)                    size: 5737 bytes
+(epstopdf)             Output file: <4_oscilloscope/scope-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-05-28 01:12:44
+(epstopdf)                    size: 3225 bytes
+(epstopdf)             Command: <repstopdf --outfile=4_oscilloscope/scope-eps-c
+onverted-to.pdf 4_oscilloscope/scope.eps>
+(epstopdf)             \includegraphics on input line 563.
+Package epstopdf Info: Output file is already uptodate.
+
+<4_oscilloscope/scope-eps-converted-to.pdf, id=951, 271.0125pt x 216.81pt>
+File: 4_oscilloscope/scope-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 4_oscilloscope/scope-eps-converted-to.pdf>
+Package pdftex.def Info: 4_oscilloscope/scope-eps-converted-to.pdf used on inpu
+t line 563.
+(pdftex.def)             Requested size: 189.70744pt x 151.76596pt.
+Package epstopdf Info: Source file: <4_oscilloscope/scope.eps>
+(epstopdf)                    date: 2015-05-28 01:12:27
+(epstopdf)                    size: 5737 bytes
+(epstopdf)             Output file: <4_oscilloscope/scope-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-05-28 01:12:44
+(epstopdf)                    size: 3225 bytes
+(epstopdf)             Command: <repstopdf --outfile=4_oscilloscope/scope-eps-c
+onverted-to.pdf 4_oscilloscope/scope.eps>
+(epstopdf)             \includegraphics on input line 565.
+Package epstopdf Info: Output file is already uptodate.
+File: 4_oscilloscope/scope-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 4_oscilloscope/scope-eps-converted-to.pdf>
+Package pdftex.def Info: 4_oscilloscope/scope-eps-converted-to.pdf used on inpu
+t line 565.
+(pdftex.def)             Requested size: 189.70744pt x 151.76596pt.
+
+Overfull \hbox (39.64125pt too wide) in paragraph at lines 562--567
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--590
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--590
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--590
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--590
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--590
+
+ []
+
+[140 <./4_oscilloscope/scope-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <4_oscilloscope/scope.eps>
+(epstopdf)                    date: 2015-05-28 01:12:27
+(epstopdf)                    size: 5737 bytes
+(epstopdf)             Output file: <4_oscilloscope/scope-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-05-28 01:12:44
+(epstopdf)                    size: 3225 bytes
+(epstopdf)             Command: <repstopdf --outfile=4_oscilloscope/scope-eps-c
+onverted-to.pdf 4_oscilloscope/scope.eps>
+(epstopdf)             \includegraphics on input line 599.
+Package epstopdf Info: Output file is already uptodate.
+File: 4_oscilloscope/scope-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 4_oscilloscope/scope-eps-converted-to.pdf>
+Package pdftex.def Info: 4_oscilloscope/scope-eps-converted-to.pdf used on inpu
+t line 599.
+(pdftex.def)             Requested size: 189.70744pt x 151.76596pt.
+Package epstopdf Info: Source file: <4_oscilloscope/scope.eps>
+(epstopdf)                    date: 2015-05-28 01:12:27
+(epstopdf)                    size: 5737 bytes
+(epstopdf)             Output file: <4_oscilloscope/scope-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-05-28 01:12:44
+(epstopdf)                    size: 3225 bytes
+(epstopdf)             Command: <repstopdf --outfile=4_oscilloscope/scope-eps-c
+onverted-to.pdf 4_oscilloscope/scope.eps>
+(epstopdf)             \includegraphics on input line 600.
+Package epstopdf Info: Output file is already uptodate.
+File: 4_oscilloscope/scope-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 4_oscilloscope/scope-eps-converted-to.pdf>
+Package pdftex.def Info: 4_oscilloscope/scope-eps-converted-to.pdf used on inpu
+t line 600.
+(pdftex.def)             Requested size: 189.70744pt x 151.76596pt.
+
+Overfull \hbox (39.64125pt too wide) in paragraph at lines 598--602
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 603--614
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 603--614
+
+ []
+
+[141]
+Package epstopdf Info: Source file: <4_oscilloscope/phasemeas.eps>
+(epstopdf)                    date: 2015-05-28 01:12:27
+(epstopdf)                    size: 3856 bytes
+(epstopdf)             Output file: <4_oscilloscope/phasemeas-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2015-05-28 01:12:45
+(epstopdf)                    size: 6206 bytes
+(epstopdf)             Command: <repstopdf --outfile=4_oscilloscope/phasemeas-e
+ps-converted-to.pdf 4_oscilloscope/phasemeas.eps>
+(epstopdf)             \includegraphics on input line 626.
+Package epstopdf Info: Output file is already uptodate.
+
+<4_oscilloscope/phasemeas-eps-converted-to.pdf, id=960, 435.6275pt x 178.6675pt
+>
+File: 4_oscilloscope/phasemeas-eps-converted-to.pdf Graphic file (type pdf)
+ <use 4_oscilloscope/phasemeas-eps-converted-to.pdf>
+Package pdftex.def Info: 4_oscilloscope/phasemeas-eps-converted-to.pdf used on 
+input line 626.
+(pdftex.def)             Requested size: 304.93716pt x 125.06639pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 620--634
+
+ []
+
+Package epstopdf Info: Source file: <4_oscilloscope/scope.eps>
+(epstopdf)                    date: 2015-05-28 01:12:27
+(epstopdf)                    size: 5737 bytes
+(epstopdf)             Output file: <4_oscilloscope/scope-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-05-28 01:12:44
+(epstopdf)                    size: 3225 bytes
+(epstopdf)             Command: <repstopdf --outfile=4_oscilloscope/scope-eps-c
+onverted-to.pdf 4_oscilloscope/scope.eps>
+(epstopdf)             \includegraphics on input line 643.
+Package epstopdf Info: Output file is already uptodate.
+File: 4_oscilloscope/scope-eps-converted-to.pdf Graphic file (type pdf)
+<use 4_oscilloscope/scope-eps-converted-to.pdf>
+Package pdftex.def Info: 4_oscilloscope/scope-eps-converted-to.pdf used on inpu
+t line 643.
+(pdftex.def)             Requested size: 189.70744pt x 151.76596pt.
+Package epstopdf Info: Source file: <4_oscilloscope/scope.eps>
+(epstopdf)                    date: 2015-05-28 01:12:27
+(epstopdf)                    size: 5737 bytes
+(epstopdf)             Output file: <4_oscilloscope/scope-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-05-28 01:12:44
+(epstopdf)                    size: 3225 bytes
+(epstopdf)             Command: <repstopdf --outfile=4_oscilloscope/scope-eps-c
+onverted-to.pdf 4_oscilloscope/scope.eps>
+(epstopdf)             \includegraphics on input line 644.
+Package epstopdf Info: Output file is already uptodate.
+File: 4_oscilloscope/scope-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 4_oscilloscope/scope-eps-converted-to.pdf>
+Package pdftex.def Info: 4_oscilloscope/scope-eps-converted-to.pdf used on inpu
+t line 644.
+(pdftex.def)             Requested size: 189.70744pt x 151.76596pt.
+
+Overfull \hbox (39.64125pt too wide) in paragraph at lines 642--645
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [142 <./4_oscilloscope/phasemeas-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 647--659
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 647--659
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 647--659
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 647--659
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 660--660
+
+ []
+
+Package epstopdf Info: Source file: <4_oscilloscope/scope.eps>
+(epstopdf)                    date: 2015-05-28 01:12:27
+(epstopdf)                    size: 5737 bytes
+(epstopdf)             Output file: <4_oscilloscope/scope-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-05-28 01:12:44
+(epstopdf)                    size: 3225 bytes
+(epstopdf)             Command: <repstopdf --outfile=4_oscilloscope/scope-eps-c
+onverted-to.pdf 4_oscilloscope/scope.eps>
+(epstopdf)             \includegraphics on input line 662.
+Package epstopdf Info: Output file is already uptodate.
+File: 4_oscilloscope/scope-eps-converted-to.pdf Graphic file (type pdf)
+<use 4_oscilloscope/scope-eps-converted-to.pdf>
+Package pdftex.def Info: 4_oscilloscope/scope-eps-converted-to.pdf used on inpu
+t line 662.
+(pdftex.def)             Requested size: 189.70744pt x 151.76596pt.
+Package epstopdf Info: Source file: <4_oscilloscope/scope.eps>
+(epstopdf)                    date: 2015-05-28 01:12:27
+(epstopdf)                    size: 5737 bytes
+(epstopdf)             Output file: <4_oscilloscope/scope-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-05-28 01:12:44
+(epstopdf)                    size: 3225 bytes
+(epstopdf)             Command: <repstopdf --outfile=4_oscilloscope/scope-eps-c
+onverted-to.pdf 4_oscilloscope/scope.eps>
+(epstopdf)             \includegraphics on input line 663.
+Package epstopdf Info: Output file is already uptodate.
+File: 4_oscilloscope/scope-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 4_oscilloscope/scope-eps-converted-to.pdf>
+Package pdftex.def Info: 4_oscilloscope/scope-eps-converted-to.pdf used on inpu
+t line 663.
+(pdftex.def)             Requested size: 189.70744pt x 151.76596pt.
+
+Overfull \hbox (39.64125pt too wide) in paragraph at lines 661--664
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 666--672
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 666--672
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 666--672
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 666--672
+
+ []
+
+[143]
+Underfull \hbox (badness 10000) in paragraph at lines 675--682
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 687--690
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 687--690
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 691--710
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 691--710
+
+ []
+
+[144]
+Underfull \hbox (badness 10000) in paragraph at lines 716--730
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 716--730
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 716--730
+
+ []
+
+
+Underfull \vbox (badness 2384) has occurred while \output is active []
+
+ [145]
+Underfull \hbox (badness 10000) in paragraph at lines 732--759
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--759
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--759
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--759
+
+ []
+
+[146]) [147] (./manual.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -2017,13 +2609,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 ### simple group (level 1) entered at line 70 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 2176 strings out of 493488
- 35605 string characters out of 3141326
- 87166 words of memory out of 3000000
- 5392 multiletter control sequences out of 15000+200000
+ 2263 strings out of 493488
+ 38839 string characters out of 3141326
+ 87395 words of memory out of 3000000
+ 5462 multiletter control sequences out of 15000+200000
  11699 words of font info for 40 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,10n,25p,357b,350s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,11n,25p,357b,370s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmex10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/c
@@ -2039,10 +2631,10 @@ r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/l
 ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
 al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on manual.pdf (129 pages, 825891 bytes).
+Output written on manual.pdf (155 pages, 936199 bytes).
 PDF statistics:
- 859 PDF objects out of 1000 (max. 8388607)
- 583 compressed objects within 6 object streams
+ 1039 PDF objects out of 1200 (max. 8388607)
+ 704 compressed objects within 8 object streams
  0 named destinations out of 1000 (max. 500000)
- 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 291 words of extra memory for PDF output out of 10000 (max. 10000000)
 
