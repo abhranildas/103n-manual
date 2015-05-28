@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  19 MAY 2015 22:20
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 MAY 2015 00:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -405,15 +405,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
- [3])
+ [3] [4])
 \tf@toc=\write3
 \openout3 = `manual.toc'.
 
- [4]
- .
-(./0_intro/preface.tex [5
+ [5] [6
 
 ]
+ .
+(./0_intro/preface.tex [7]
 Underfull \hbox (badness 10000) in paragraph at lines 53--63
 
  []
@@ -439,17 +439,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
 Package epstopdf Info: Source file: <0_intro/graph.eps>
-(epstopdf)                    date: 2015-05-17 15:22:39
+(epstopdf)                    date: 2015-05-17 13:22:39
 (epstopdf)                    size: 3981 bytes
 (epstopdf)             Output file: <0_intro/graph-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-17 15:22:48
+(epstopdf)                    date: 2015-05-17 13:22:48
 (epstopdf)                    size: 8892 bytes
 (epstopdf)             Command: <repstopdf --outfile=0_intro/graph-eps-converte
 d-to.pdf 0_intro/graph.eps>
 (epstopdf)             \includegraphics on input line 280.
 Package epstopdf Info: Output file is already uptodate.
 
-<0_intro/graph-eps-converted-to.pdf, id=56, 451.6875pt x 397.485pt>
+<0_intro/graph-eps-converted-to.pdf, id=62, 451.6875pt x 397.485pt>
 File: 0_intro/graph-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 0_intro/graph-eps-converted-to.pdf>
@@ -465,16 +465,16 @@ l.374 \epsfxsize=13 \includegraphics
 
 ? 
 Package epstopdf Info: Source file: <0_intro/vigraph.eps>
-(epstopdf)                    date: 1998-09-15 10:01:43
+(epstopdf)                    date: 1998-09-15 08:01:43
 (epstopdf)                    size: 5657 bytes
 (epstopdf)             Output file: <0_intro/vigraph-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-17 15:08:45
+(epstopdf)                    date: 2015-05-17 13:08:45
 (epstopdf)                    size: 6342 bytes
 (epstopdf)             Command: <repstopdf --outfile=0_intro/vigraph-eps-conver
 ted-to.pdf 0_intro/vigraph.eps>
 (epstopdf)             \includegraphics on input line 374.
 Package epstopdf Info: Output file is already uptodate.
-<0_intro/vigraph-eps-converted-to.pdf, id=71, 536.0025pt x 411.5375pt>
+<0_intro/vigraph-eps-converted-to.pdf, id=77, 536.0025pt x 411.5375pt>
 File: 0_intro/vigraph-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 0_intro/vigraph-eps-converted-to.pdf>
@@ -600,16 +600,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 1077--1080
  []
 
 Package epstopdf Info: Source file: <0_intro/triangle.eps>
-(epstopdf)                    date: 1998-09-15 10:01:43
+(epstopdf)                    date: 1998-09-15 08:01:43
 (epstopdf)                    size: 1896 bytes
 (epstopdf)             Output file: <0_intro/triangle-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-17 15:08:03
+(epstopdf)                    date: 2015-05-17 13:08:03
 (epstopdf)                    size: 4926 bytes
 (epstopdf)             Command: <repstopdf --outfile=0_intro/triangle-eps-conve
 rted-to.pdf 0_intro/triangle.eps>
 (epstopdf)             \includegraphics on input line 1083.
 Package epstopdf Info: Output file is already uptodate.
-<0_intro/triangle-eps-converted-to.pdf, id=146, 330.23375pt x 194.7275pt>
+<0_intro/triangle-eps-converted-to.pdf, id=153, 330.23375pt x 194.7275pt>
 File: 0_intro/triangle-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 0_intro/triangle-eps-converted-to.pdf>
@@ -697,100 +697,104 @@ Underfull \hbox (badness 10000) in paragraph at lines 1332--1335
 
 ]
 Chapter 1.
-(./1_electro/1_electro.tex [41]
-Package epstopdf Info: Source file: <1_electro/es1.eps>
-(epstopdf)                    date: 2001-07-03 12:54:15
+(./1_electrostatics/1_electrostatics.tex [41]
+Package epstopdf Info: Source file: <1_electrostatics/es1.eps>
+(epstopdf)                    date: 2001-07-03 10:54:15
 (epstopdf)                    size: 18207 bytes
-(epstopdf)             Output file: <1_electro/es1-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-17 16:29:48
+(epstopdf)             Output file: <1_electrostatics/es1-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-05-17 14:29:48
 (epstopdf)                    size: 4516 bytes
-(epstopdf)             Command: <repstopdf --outfile=1_electro/es1-eps-converte
-d-to.pdf 1_electro/es1.eps>
+(epstopdf)             Command: <repstopdf --outfile=1_electrostatics/es1-eps-c
+onverted-to.pdf 1_electrostatics/es1.eps>
 (epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
 
-<1_electro/es1-eps-converted-to.pdf, id=195, 614.295pt x 794.97pt>
-File: 1_electro/es1-eps-converted-to.pdf Graphic file (type pdf)
+<1_electrostatics/es1-eps-converted-to.pdf, id=202, 614.295pt x 794.97pt>
+File: 1_electrostatics/es1-eps-converted-to.pdf Graphic file (type pdf)
 
-<use 1_electro/es1-eps-converted-to.pdf>
-Package pdftex.def Info: 1_electro/es1-eps-converted-to.pdf used on input line 
-55.
+<use 1_electrostatics/es1-eps-converted-to.pdf>
+Package pdftex.def Info: 1_electrostatics/es1-eps-converted-to.pdf used on inpu
+t line 55.
 (pdftex.def)             Requested size: 245.71364pt x 317.98236pt.
-Package epstopdf Info: Source file: <1_electro/es2.eps>
-(epstopdf)                    date: 2001-07-02 13:55:41
+Package epstopdf Info: Source file: <1_electrostatics/es2.eps>
+(epstopdf)                    date: 2001-07-02 11:55:41
 (epstopdf)                    size: 21000 bytes
-(epstopdf)             Output file: <1_electro/es2-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-19 22:04:23
+(epstopdf)             Output file: <1_electrostatics/es2-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-05-19 20:04:23
 (epstopdf)                    size: 4785 bytes
-(epstopdf)             Command: <repstopdf --outfile=1_electro/es2-eps-converte
-d-to.pdf 1_electro/es2.eps>
+(epstopdf)             Command: <repstopdf --outfile=1_electrostatics/es2-eps-c
+onverted-to.pdf 1_electrostatics/es2.eps>
 (epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
 
-<1_electro/es2-eps-converted-to.pdf, id=196, 614.295pt x 794.97pt>
-File: 1_electro/es2-eps-converted-to.pdf Graphic file (type pdf)
+<1_electrostatics/es2-eps-converted-to.pdf, id=203, 614.295pt x 794.97pt>
+File: 1_electrostatics/es2-eps-converted-to.pdf Graphic file (type pdf)
 
-<use 1_electro/es2-eps-converted-to.pdf>
-Package pdftex.def Info: 1_electro/es2-eps-converted-to.pdf used on input line 
-88.
+<use 1_electrostatics/es2-eps-converted-to.pdf>
+Package pdftex.def Info: 1_electrostatics/es2-eps-converted-to.pdf used on inpu
+t line 88.
 (pdftex.def)             Requested size: 245.71364pt x 317.98236pt.
  [42]
 Underfull \vbox (badness 1502) has occurred while \output is active []
 
- [43 <./1_electro/es1-eps-converted-to.pdf>] [44 <./1_electro/es2-eps-converted
--to.pdf>]
+ [43 <./1_electrostatics/es1-eps-converted-to.pdf>] [44 <./1_electrostatics/es2
+-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 129--134
 
  []
 
-Package epstopdf Info: Source file: <1_electro/es3.eps>
-(epstopdf)                    date: 2001-07-03 13:50:14
+Package epstopdf Info: Source file: <1_electrostatics/es3.eps>
+(epstopdf)                    date: 2001-07-03 11:50:14
 (epstopdf)                    size: 23249 bytes
-(epstopdf)             Output file: <1_electro/es3-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-17 16:51:18
+(epstopdf)             Output file: <1_electrostatics/es3-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-05-17 14:51:18
 (epstopdf)                    size: 4900 bytes
-(epstopdf)             Command: <repstopdf --outfile=1_electro/es3-eps-converte
-d-to.pdf 1_electro/es3.eps>
+(epstopdf)             Command: <repstopdf --outfile=1_electrostatics/es3-eps-c
+onverted-to.pdf 1_electrostatics/es3.eps>
 (epstopdf)             \includegraphics on input line 154.
 Package epstopdf Info: Output file is already uptodate.
-<1_electro/es3-eps-converted-to.pdf, id=217, 614.295pt x 794.97pt>
-File: 1_electro/es3-eps-converted-to.pdf Graphic file (type pdf)
+<1_electrostatics/es3-eps-converted-to.pdf, id=223, 614.295pt x 794.97pt>
+File: 1_electrostatics/es3-eps-converted-to.pdf Graphic file (type pdf)
 
-<use 1_electro/es3-eps-converted-to.pdf>
-Package pdftex.def Info: 1_electro/es3-eps-converted-to.pdf used on input line 
-154.
+<use 1_electrostatics/es3-eps-converted-to.pdf>
+Package pdftex.def Info: 1_electrostatics/es3-eps-converted-to.pdf used on inpu
+t line 154.
 (pdftex.def)             Requested size: 245.71364pt x 317.98236pt.
- [45] [46 <./1_electro/es3-eps-converted-to.pdf>]
+ [45] [46 <./1_electrostatics/es3-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 230--239
 
  []
 
 [47]
-Package epstopdf Info: Source file: <1_electro/Electrostatics.eps>
-(epstopdf)                    date: 2015-05-19 22:15:10
+Package epstopdf Info: Source file: <1_electrostatics/Electrostatics.eps>
+(epstopdf)                    date: 2015-05-19 20:15:10
 (epstopdf)                    size: 3888477 bytes
-(epstopdf)             Output file: <1_electro/Electrostatics-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2015-05-19 22:18:44
+(epstopdf)             Output file: <1_electrostatics/Electrostatics-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2015-05-19 20:18:44
 (epstopdf)                    size: 252260 bytes
-(epstopdf)             Command: <repstopdf --outfile=1_electro/Electrostatics-e
-ps-converted-to.pdf 1_electro/Electrostatics.eps>
+(epstopdf)             Command: <repstopdf --outfile=1_electrostatics/Electrost
+atics-eps-converted-to.pdf 1_electrostatics/Electrostatics.eps>
 (epstopdf)             \includegraphics on input line 284.
 Package epstopdf Info: Output file is already uptodate.
 
-<1_electro/Electrostatics-eps-converted-to.pdf, id=232, 532.99126pt x 207.77625
-pt>
-File: 1_electro/Electrostatics-eps-converted-to.pdf Graphic file (type pdf)
- <use 1_electro/Electrostatics-eps-converted-to.pdf>
-Package pdftex.def Info: 1_electro/Electrostatics-eps-converted-to.pdf used on 
-input line 284.
+<1_electrostatics/Electrostatics-eps-converted-to.pdf, id=239, 532.99126pt x 20
+7.77625pt>
+File: 1_electrostatics/Electrostatics-eps-converted-to.pdf Graphic file (type p
+df)
+ <use 1_electrostatics/Electrostatics-eps-converted-to.pdf>
+Package pdftex.def Info: 1_electrostatics/Electrostatics-eps-converted-to.pdf u
+sed on input line 284.
 (pdftex.def)             Requested size: 319.79723pt x 124.6667pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 299--301
 
  []
 
-[48 <./1_electro/Electrostatics-eps-converted-to.pdf>] [49]
+[48 <./1_electrostatics/Electrostatics-eps-converted-to.pdf>] [49]
 Overfull \hbox (1.56989pt too wide) in paragraph at lines 345--345
 []\OT1/cmr/bx/n/14.4 The \OT1/cmr/m/it/14.4 Pasco \OT1/cmr/bx/n/14.4 ES-9075A C
 harge Pro-duc-ers and Proof
@@ -807,22 +811,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 355--360
  []
 
 [50]
-Package epstopdf Info: Source file: <1_electro/es4.eps>
-(epstopdf)                    date: 2003-06-26 13:33:04
+Package epstopdf Info: Source file: <1_electrostatics/es4.eps>
+(epstopdf)                    date: 2003-06-26 11:33:04
 (epstopdf)                    size: 63491 bytes
-(epstopdf)             Output file: <1_electro/es4-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-19 22:18:46
+(epstopdf)             Output file: <1_electrostatics/es4-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-05-19 20:18:46
 (epstopdf)                    size: 42615 bytes
-(epstopdf)             Command: <repstopdf --outfile=1_electro/es4-eps-converte
-d-to.pdf 1_electro/es4.eps>
+(epstopdf)             Command: <repstopdf --outfile=1_electrostatics/es4-eps-c
+onverted-to.pdf 1_electrostatics/es4.eps>
 (epstopdf)             \includegraphics on input line 413.
 Package epstopdf Info: Output file is already uptodate.
- <1_electro/es4-eps-converted-to.pdf, id=246, 288.07625pt x 238.8925pt>
-File: 1_electro/es4-eps-converted-to.pdf Graphic file (type pdf)
 
-<use 1_electro/es4-eps-converted-to.pdf>
-Package pdftex.def Info: 1_electro/es4-eps-converted-to.pdf used on input line 
-413.
+<1_electrostatics/es4-eps-converted-to.pdf, id=252, 288.07625pt x 238.8925pt>
+File: 1_electrostatics/es4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 1_electrostatics/es4-eps-converted-to.pdf>
+Package pdftex.def Info: 1_electrostatics/es4-eps-converted-to.pdf used on inpu
+t line 413.
 (pdftex.def)             Requested size: 144.03777pt x 119.44595pt.
 
 ! Extra }, or forgotten \endgroup.
@@ -831,7 +837,7 @@ Package pdftex.def Info: 1_electro/es4-eps-converted-to.pdf used on input line
 l.416 \end{figure}
                   
 ? 
-[51 <./1_electro/es4-eps-converted-to.pdf>] [52]
+[51 <./1_electrostatics/es4-eps-converted-to.pdf>] [52]
 Overfull \hbox (6.63281pt too wide) in paragraph at lines 453--457
 \OT1/cmr/bx/n/17.28 Name: []        Day/Time [] 
  []
@@ -968,7 +974,724 @@ Underfull \hbox (badness 10000) in paragraph at lines 842--847
 
  []
 
-) [63] (./manual.aux) )
+) [63] [64
+
+]
+Chapter 2.
+(./2_dc/dc.tex [65] [66]
+Package epstopdf Info: Source file: <2_dc/voltdrop.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 3773 bytes
+(epstopdf)             Output file: <2_dc/voltdrop-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:39:14
+(epstopdf)                    size: 6108 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/voltdrop-eps-converte
+d-to.pdf 2_dc/voltdrop.eps>
+(epstopdf)             \includegraphics on input line 83.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/voltdrop-eps-converted-to.pdf, id=317, 277.035pt x 148.555pt>
+File: 2_dc/voltdrop-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/voltdrop-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/voltdrop-eps-converted-to.pdf used on input line 
+83.
+(pdftex.def)             Requested size: 138.51715pt x 74.27731pt.
+Package epstopdf Info: Source file: <2_dc/voltsource.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 3784 bytes
+(epstopdf)             Output file: <2_dc/voltsource-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:39:14
+(epstopdf)                    size: 7195 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/voltsource-eps-conver
+ted-to.pdf 2_dc/voltsource.eps>
+(epstopdf)             \includegraphics on input line 116.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/voltsource-eps-converted-to.pdf, id=318, 394.47375pt x 264.99pt>
+File: 2_dc/voltsource-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/voltsource-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/voltsource-eps-converted-to.pdf used on input lin
+e 116.
+(pdftex.def)             Requested size: 197.23639pt x 132.49467pt.
+ [67 <./2_dc/voltdrop-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <2_dc/schemdef.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 2704 bytes
+(epstopdf)             Output file: <2_dc/schemdef-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:39:15
+(epstopdf)                    size: 6097 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/schemdef-eps-converte
+d-to.pdf 2_dc/schemdef.eps>
+(epstopdf)             \includegraphics on input line 123.
+Package epstopdf Info: Output file is already uptodate.
+ <2_dc/schemdef-eps-converted-to.pdf, id=330, 625.33624pt x 59.22125pt>
+File: 2_dc/schemdef-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/schemdef-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/schemdef-eps-converted-to.pdf used on input line 
+123.
+(pdftex.def)             Requested size: 312.66736pt x 29.61053pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68 <./2_dc/voltsource-eps-converted-to.pdf> <./2_dc/schemdef-eps-converted-to
+.pdf>]
+Package epstopdf Info: Source file: <2_dc/voltmeter.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 6486 bytes
+(epstopdf)             Output file: <2_dc/voltmeter-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:39:16
+(epstopdf)                    size: 7191 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/voltmeter-eps-convert
+ed-to.pdf 2_dc/voltmeter.eps>
+(epstopdf)             \includegraphics on input line 137.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/voltmeter-eps-converted-to.pdf, id=351, 50.1875pt x 35.13126pt>
+File: 2_dc/voltmeter-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/voltmeter-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/voltmeter-eps-converted-to.pdf used on input line
+ 137.
+(pdftex.def)             Requested size: 301.12418pt x 210.7869pt.
+Package epstopdf Info: Source file: <2_dc/ammeter.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 6198 bytes
+(epstopdf)             Output file: <2_dc/ammeter-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:39:17
+(epstopdf)                    size: 7255 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/ammeter-eps-converted
+-to.pdf 2_dc/ammeter.eps>
+(epstopdf)             \includegraphics on input line 153.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/ammeter-eps-converted-to.pdf, id=352, 50.1875pt x 35.13126pt>
+File: 2_dc/ammeter-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/ammeter-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/ammeter-eps-converted-to.pdf used on input line 1
+53.
+(pdftex.def)             Requested size: 301.12418pt x 210.7869pt.
+Package epstopdf Info: Source file: <2_dc/voltseries.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 4009 bytes
+(epstopdf)             Output file: <2_dc/voltseries-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:39:18
+(epstopdf)                    size: 5454 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/voltseries-eps-conver
+ted-to.pdf 2_dc/voltseries.eps>
+(epstopdf)             \includegraphics on input line 165.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/voltseries-eps-converted-to.pdf, id=353, 474.77374pt x 154.5775pt>
+File: 2_dc/voltseries-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/voltseries-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/voltseries-eps-converted-to.pdf used on input lin
+e 165.
+(pdftex.def)             Requested size: 284.86644pt x 92.7472pt.
+
+Underfull \vbox (badness 1983) has occurred while \output is active []
+
+ [69 <./2_dc/voltmeter-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <2_dc/battalign.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 3466 bytes
+(epstopdf)             Output file: <2_dc/battalign-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:39:19
+(epstopdf)                    size: 5250 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/battalign-eps-convert
+ed-to.pdf 2_dc/battalign.eps>
+(epstopdf)             \includegraphics on input line 178.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/battalign-eps-converted-to.pdf, id=366, 245.91875pt x 102.3825pt>
+File: 2_dc/battalign-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/battalign-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/battalign-eps-converted-to.pdf used on input line
+ 178.
+(pdftex.def)             Requested size: 147.55237pt x 61.42996pt.
+Package epstopdf Info: Source file: <2_dc/battopp.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 3466 bytes
+(epstopdf)             Output file: <2_dc/battopp-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:39:20
+(epstopdf)                    size: 5252 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/battopp-eps-converted
+-to.pdf 2_dc/battopp.eps>
+(epstopdf)             \includegraphics on input line 189.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/battopp-eps-converted-to.pdf, id=367, 245.91875pt x 102.3825pt>
+File: 2_dc/battopp-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/battopp-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/battopp-eps-converted-to.pdf used on input line 1
+89.
+(pdftex.def)             Requested size: 147.55237pt x 61.42996pt.
+ [70 <./2_dc/ammeter-eps-converted-to.pdf> <./2_dc/voltseries-eps-converted-to.
+pdf>]
+Package epstopdf Info: Source file: <2_dc/voltparallel.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 3555 bytes
+(epstopdf)             Output file: <2_dc/voltparallel-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:39:21
+(epstopdf)                    size: 5601 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/voltparallel-eps-conv
+erted-to.pdf 2_dc/voltparallel.eps>
+(epstopdf)             \includegraphics on input line 203.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/voltparallel-eps-converted-to.pdf, id=388, 243.91125pt x 227.85126pt>
+File: 2_dc/voltparallel-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/voltparallel-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/voltparallel-eps-converted-to.pdf used on input l
+ine 203.
+(pdftex.def)             Requested size: 146.34787pt x 136.71179pt.
+Package epstopdf Info: Source file: <2_dc/junction.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 4309 bytes
+(epstopdf)             Output file: <2_dc/junction-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:59:13
+(epstopdf)                    size: 4834 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/junction-eps-converte
+d-to.pdf 2_dc/junction.eps>
+(epstopdf)             \includegraphics on input line 229.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/junction-eps-converted-to.pdf, id=389, 249.93375pt x 247.92625pt>
+File: 2_dc/junction-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/junction-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/junction-eps-converted-to.pdf used on input line 
+229.
+(pdftex.def)             Requested size: 124.96657pt x 123.96281pt.
+ [71 <./2_dc/battalign-eps-converted-to.pdf> <./2_dc/battopp-eps-converted-to.p
+df>] [72 <./2_dc/voltparallel-eps-converted-to.pdf> <./2_dc/junction-eps-conver
+ted-to.pdf>]
+Package epstopdf Info: Source file: <2_dc/ohm.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 2708 bytes
+(epstopdf)             Output file: <2_dc/ohm-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:39:39
+(epstopdf)                    size: 4372 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/ohm-eps-converted-to.
+pdf 2_dc/ohm.eps>
+(epstopdf)             \includegraphics on input line 252.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/ohm-eps-converted-to.pdf, id=426, 204.765pt x 76.285pt>
+File: 2_dc/ohm-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/ohm-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/ohm-eps-converted-to.pdf used on input line 252.
+(pdftex.def)             Requested size: 122.85992pt x 45.77135pt.
+Package epstopdf Info: Source file: <2_dc/series1.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 4856 bytes
+(epstopdf)             Output file: <2_dc/series1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:39:40
+(epstopdf)                    size: 5941 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/series1-eps-converted
+-to.pdf 2_dc/series1.eps>
+(epstopdf)             \includegraphics on input line 283.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/series1-eps-converted-to.pdf, id=427, 701.62125pt x 112.42pt>
+File: 2_dc/series1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/series1-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/series1-eps-converted-to.pdf used on input line 2
+83.
+(pdftex.def)             Requested size: 350.80975pt x 56.20985pt.
+ [73 <./2_dc/ohm-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <2_dc/resistseries.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 5173 bytes
+(epstopdf)             Output file: <2_dc/resistseries-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:39:41
+(epstopdf)                    size: 6428 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/resistseries-eps-conv
+erted-to.pdf 2_dc/resistseries.eps>
+(epstopdf)             \includegraphics on input line 301.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/resistseries-eps-converted-to.pdf, id=436, 589.20125pt x 257.96375pt>
+File: 2_dc/resistseries-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/resistseries-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/resistseries-eps-converted-to.pdf used on input l
+ine 301.
+(pdftex.def)             Requested size: 353.52347pt x 154.77943pt.
+Package epstopdf Info: Source file: <2_dc/parallel1.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 6733 bytes
+(epstopdf)             Output file: <2_dc/parallel1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:39:41
+(epstopdf)                    size: 6483 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/parallel1-eps-convert
+ed-to.pdf 2_dc/parallel1.eps>
+(epstopdf)             \includegraphics on input line 322.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/parallel1-eps-converted-to.pdf, id=437, 643.40375pt x 275.0275pt>
+File: 2_dc/parallel1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/parallel1-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/parallel1-eps-converted-to.pdf used on input line
+ 322.
+(pdftex.def)             Requested size: 386.04523pt x 165.01776pt.
+ [74 <./2_dc/series1-eps-converted-to.pdf> <./2_dc/resistseries-eps-converted-t
+o.pdf>]
+Package epstopdf Info: Source file: <2_dc/parallel2.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 5617 bytes
+(epstopdf)             Output file: <2_dc/parallel2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:39:42
+(epstopdf)                    size: 6359 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/parallel2-eps-convert
+ed-to.pdf 2_dc/parallel2.eps>
+(epstopdf)             \includegraphics on input line 342.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/parallel2-eps-converted-to.pdf, id=457, 555.07375pt x 275.0275pt>
+File: 2_dc/parallel2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/parallel2-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/parallel2-eps-converted-to.pdf used on input line
+ 342.
+(pdftex.def)             Requested size: 333.0468pt x 165.01776pt.
+ [75 <./2_dc/parallel1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <2_dc/resistpar.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 5114 bytes
+(epstopdf)             Output file: <2_dc/resistpar-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:39:43
+(epstopdf)                    size: 6296 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/resistpar-eps-convert
+ed-to.pdf 2_dc/resistpar.eps>
+(epstopdf)             \includegraphics on input line 386.
+Package epstopdf Info: Output file is already uptodate.
+ <2_dc/resistpar-eps-converted-to.pdf, id=469, 555.07375pt x 289.08pt>
+File: 2_dc/resistpar-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/resistpar-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/resistpar-eps-converted-to.pdf used on input line
+ 386.
+(pdftex.def)             Requested size: 333.0468pt x 173.44933pt.
+Package epstopdf Info: Source file: <2_dc/parallelred.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 5568 bytes
+(epstopdf)             Output file: <2_dc/parallelred-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:39:44
+(epstopdf)                    size: 6349 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/parallelred-eps-conve
+rted-to.pdf 2_dc/parallelred.eps>
+(epstopdf)             \includegraphics on input line 395.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/parallelred-eps-converted-to.pdf, id=470, 804.00375pt x 189.70876pt>
+File: 2_dc/parallelred-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/parallelred-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/parallelred-eps-converted-to.pdf used on input li
+ne 395.
+(pdftex.def)             Requested size: 402.0009pt x 94.85414pt.
+
+Overfull \hbox (12.0009pt too wide) in paragraph at lines 395--396
+ [][] 
+ []
+
+[76 <./2_dc/parallel2-eps-converted-to.pdf>] [77 <./2_dc/resistpar-eps-converte
+d-to.pdf> <./2_dc/parallelred-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <2_dc/resistreduce.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 5223 bytes
+(epstopdf)             Output file: <2_dc/resistreduce-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:39:45
+(epstopdf)                    size: 5457 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/resistreduce-eps-conv
+erted-to.pdf 2_dc/resistreduce.eps>
+(epstopdf)             \includegraphics on input line 422.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/resistreduce-eps-converted-to.pdf, id=503, 518.93875pt x 330.23375pt>
+File: 2_dc/resistreduce-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/resistreduce-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/resistreduce-eps-converted-to.pdf used on input l
+ine 422.
+(pdftex.def)             Requested size: 311.36565pt x 198.14177pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--448
+
+ []
+
+[78 <./2_dc/resistreduce-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <2_dc/resistor.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 5825 bytes
+(epstopdf)             Output file: <2_dc/resistor-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:39:46
+(epstopdf)                    size: 7206 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/resistor-eps-converte
+d-to.pdf 2_dc/resistor.eps>
+(epstopdf)             \includegraphics on input line 451.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/resistor-eps-converted-to.pdf, id=512, 545.03625pt x 234.8775pt>
+File: 2_dc/resistor-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/resistor-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/resistor-eps-converted-to.pdf used on input line 
+451.
+(pdftex.def)             Requested size: 327.02428pt x 140.92758pt.
+
+Overfull \hbox (39.0991pt too wide) in paragraph at lines 481--489
+[] 
+ []
+
+Package epstopdf Info: Source file: <2_dc/multimeter.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 4535 bytes
+(epstopdf)             Output file: <2_dc/multimeter-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:39:47
+(epstopdf)                    size: 8971 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/multimeter-eps-conver
+ted-to.pdf 2_dc/multimeter.eps>
+(epstopdf)             \includegraphics on input line 497.
+Package epstopdf Info: Output file is already uptodate.
+<2_dc/multimeter-eps-converted-to.pdf, id=513, 234.8775pt x 397.485pt>
+File: 2_dc/multimeter-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/multimeter-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/multimeter-eps-converted-to.pdf used on input lin
+e 497.
+(pdftex.def)             Requested size: 164.41312pt x 278.2376pt.
+ [79 <./2_dc/resistor-eps-converted-to.pdf>] [80]
+Underfull \vbox (badness 2213) has occurred while \output is active []
+
+ [81 <./2_dc/multimeter-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <2_dc/powersupply.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 6557 bytes
+(epstopdf)             Output file: <2_dc/powersupply-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:42:01
+(epstopdf)                    size: 11903 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/powersupply-eps-conve
+rted-to.pdf 2_dc/powersupply.eps>
+(epstopdf)             \includegraphics on input line 550.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/powersupply-eps-converted-to.pdf, id=543, 397.485pt x 379.4175pt>
+File: 2_dc/powersupply-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/powersupply-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/powersupply-eps-converted-to.pdf used on input li
+ne 550.
+(pdftex.def)             Requested size: 238.49283pt x 227.65225pt.
+Package epstopdf Info: Source file: <2_dc/breadboard.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 151443 bytes
+(epstopdf)             Output file: <2_dc/breadboard-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:39:48
+(epstopdf)                    size: 15230 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/breadboard-eps-conver
+ted-to.pdf 2_dc/breadboard.eps>
+(epstopdf)             \includegraphics on input line 560.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/breadboard-eps-converted-to.pdf, id=544, 48.18pt x 106.3975pt>
+File: 2_dc/breadboard-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/breadboard-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/breadboard-eps-converted-to.pdf used on input lin
+e 560.
+(pdftex.def)             Requested size: 192.71942pt x 425.58893pt.
+Package epstopdf Info: Source file: <2_dc/backboard.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 15830 bytes
+(epstopdf)             Output file: <2_dc/backboard-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:39:49
+(epstopdf)                    size: 7355 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/backboard-eps-convert
+ed-to.pdf 2_dc/backboard.eps>
+(epstopdf)             \includegraphics on input line 561.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/backboard-eps-converted-to.pdf, id=545, 39.14626pt x 98.3675pt>
+File: 2_dc/backboard-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/backboard-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/backboard-eps-converted-to.pdf used on input line
+ 561.
+(pdftex.def)             Requested size: 156.5846pt x 393.46893pt.
+Package epstopdf Info: Source file: <2_dc/exampleboard.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 154096 bytes
+(epstopdf)             Output file: <2_dc/exampleboard-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:42:02
+(epstopdf)                    size: 18444 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/exampleboard-eps-conv
+erted-to.pdf 2_dc/exampleboard.eps>
+(epstopdf)             \includegraphics on input line 573.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/exampleboard-eps-converted-to.pdf, id=546, 99.37125pt x 107.40125pt>
+File: 2_dc/exampleboard-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/exampleboard-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/exampleboard-eps-converted-to.pdf used on input l
+ine 573.
+(pdftex.def)             Requested size: 397.48401pt x 429.60388pt.
+
+Overfull \hbox (7.48401pt too wide) in paragraph at lines 573--575
+ [][] 
+ []
+
+
+Underfull \vbox (badness 3291) has occurred while \output is active []
+
+ [82 <./2_dc/powersupply-eps-converted-to.pdf>] [83 <./2_dc/breadboard-eps-conv
+erted-to.pdf> <./2_dc/backboard-eps-converted-to.pdf>] [84] [85 <./2_dc/example
+board-eps-converted-to.pdf>]
+Overfull \hbox (16.6022pt too wide) in paragraph at lines 605--608
+\OT1/cmr/bx/n/17.28 Name:  []        Day/Time: [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--608
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 620--627
+
+ []
+
+Package epstopdf Info: Source file: <2_dc/procbatt.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 5370 bytes
+(epstopdf)             Output file: <2_dc/procbatt-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:41:42
+(epstopdf)                    size: 5819 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/procbatt-eps-converte
+d-to.pdf 2_dc/procbatt.eps>
+(epstopdf)             \includegraphics on input line 635.
+Package epstopdf Info: Output file is already uptodate.
+<2_dc/procbatt-eps-converted-to.pdf, id=595, 544.0325pt x 196.735pt>
+File: 2_dc/procbatt-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/procbatt-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/procbatt-eps-converted-to.pdf used on input line 
+635.
+(pdftex.def)             Requested size: 380.82016pt x 137.71355pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--683
+
+ []
+
+[86
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 684--695
+
+ []
+
+Package epstopdf Info: Source file: <2_dc/procresist.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 4536 bytes
+(epstopdf)             Output file: <2_dc/procresist-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:41:43
+(epstopdf)                    size: 4361 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/procresist-eps-conver
+ted-to.pdf 2_dc/procresist.eps>
+(epstopdf)             \includegraphics on input line 697.
+Package epstopdf Info: Output file is already uptodate.
+<2_dc/procresist-eps-converted-to.pdf, id=599, 132.495pt x 68.255pt>
+File: 2_dc/procresist-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/procresist-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/procresist-eps-converted-to.pdf used on input lin
+e 697.
+(pdftex.def)             Requested size: 198.74199pt x 102.38223pt.
+ [87 <./2_dc/procbatt-eps-converted-to.pdf>] [88 <./2_dc/procresist-eps-convert
+ed-to.pdf>]
+Package epstopdf Info: Source file: <2_dc/procserpar.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 5996 bytes
+(epstopdf)             Output file: <2_dc/procserpar-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:41:44
+(epstopdf)                    size: 4825 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/procserpar-eps-conver
+ted-to.pdf 2_dc/procserpar.eps>
+(epstopdf)             \includegraphics on input line 748.
+Package epstopdf Info: Output file is already uptodate.
+
+<2_dc/procserpar-eps-converted-to.pdf, id=619, 498.86375pt x 112.42pt>
+File: 2_dc/procserpar-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/procserpar-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/procserpar-eps-converted-to.pdf used on input lin
+e 748.
+(pdftex.def)             Requested size: 349.20224pt x 78.69345pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 766--772
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 766--772
+
+ []
+
+
+Underfull \vbox (badness 6910) has occurred while \output is active []
+
+ [89 <./2_dc/procserpar-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 817--820
+
+ []
+
+
+Underfull \vbox (badness 7415) has occurred while \output is active []
+
+ [90]
+Underfull \hbox (badness 10000) in paragraph at lines 834--839
+
+ []
+
+[91]
+Underfull \hbox (badness 10000) in paragraph at lines 841--847
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 851--859
+
+ []
+
+[92]
+Underfull \hbox (badness 10000) in paragraph at lines 860--866
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 867--870
+
+ []
+
+[93]
+Overfull \hbox (16.6022pt too wide) in paragraph at lines 885--888
+\OT1/cmr/bx/n/17.28 Name:  []        Day/Time: [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 885--888
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 891--902
+
+ []
+
+
+Underfull \vbox (badness 7704) has occurred while \output is active []
+
+ [94]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [95]
+[96]
+Package epstopdf Info: Source file: <2_dc/procintresist.eps>
+(epstopdf)                    date: 2015-05-20 13:28:18
+(epstopdf)                    size: 6978 bytes
+(epstopdf)             Output file: <2_dc/procintresist-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 13:41:45
+(epstopdf)                    size: 4176 bytes
+(epstopdf)             Command: <repstopdf --outfile=2_dc/procintresist-eps-con
+verted-to.pdf 2_dc/procintresist.eps>
+(epstopdf)             \includegraphics on input line 1061.
+Package epstopdf Info: Output file is already uptodate.
+ <2_dc/procintresist-eps-converted-to.pdf, id=652, 125.46875pt x 168.63pt>
+File: 2_dc/procintresist-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2_dc/procintresist-eps-converted-to.pdf>
+Package pdftex.def Info: 2_dc/procintresist-eps-converted-to.pdf used on input 
+line 1061.
+(pdftex.def)             Requested size: 87.82751pt x 118.04018pt.
+ [97] [98 <./2_dc/procintresist-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1138--1144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1154--1157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1154--1157
+
+ []
+
+[99
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1160--1163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1160--1163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1167--1170
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1180--1182
+
+ []
+
+[100]
+Underfull \hbox (badness 10000) in paragraph at lines 1183--1187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1199--1202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1203--1207
+
+ []
+
+) [101] (./manual.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
 (\end occurred inside a group at level 3)
 
 ### simple group (level 3) entered at line 408 ({)
@@ -976,13 +1699,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 842--847
 ### simple group (level 1) entered at line 70 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 1915 strings out of 493488
- 27278 string characters out of 3141326
- 86408 words of memory out of 3000000
- 5178 multiletter control sequences out of 15000+200000
+ 2101 strings out of 493488
+ 33116 string characters out of 3141326
+ 86894 words of memory out of 3000000
+ 5332 multiletter control sequences out of 15000+200000
  11081 words of font info for 38 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,10n,25p,357b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,10n,25p,357b,350s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmex10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/c
@@ -998,10 +1721,10 @@ r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/l
 ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
 al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on manual.pdf (69 pages, 607359 bytes).
+Output written on manual.pdf (109 pages, 771856 bytes).
 PDF statistics:
- 352 PDF objects out of 1000 (max. 8388607)
- 242 compressed objects within 3 object streams
+ 726 PDF objects out of 1000 (max. 8388607)
+ 494 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

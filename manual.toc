@@ -1,4 +1,4 @@
-\contentsline {chapter}{\numberline {}Preface}{v}
+\contentsline {chapter}{\numberline {}Preface}{vii}
 \contentsline {chapter}{\numberline {0}Introduction}{1}
 \contentsline {section}{\numberline {0.1}General Lab Procedures}{1}
 \contentsline {section}{\numberline {0.2}Error Estimation and Propagation}{2}
@@ -57,3 +57,37 @@
 \contentsline {subsection}{\numberline {1.4.2}Pre-Classroom Check List}{59}
 \contentsline {subsubsection}{Pre-classroom Check List}{59}
 \contentsline {subsection}{\numberline {1.4.3}In-Classroom Calculations \& Analysis}{59}
+\contentsline {chapter}{\numberline {2}DC Circuits}{65}
+\contentsline {section}{\numberline {2.1}Introduction}{65}
+\contentsline {section}{\numberline {2.2}Theory}{65}
+\contentsline {subsection}{\numberline {2.2.1}References}{65}
+\contentsline {subsection}{\numberline {2.2.2}Voltage, Current, and Resistance}{66}
+\contentsline {subsection}{\numberline {2.2.3}Diagrams and Meters}{68}
+\contentsline {subsection}{\numberline {2.2.4}Voltage Sources}{70}
+\contentsline {subsection}{\numberline {2.2.5}Series and Parallel Circuits with Resistors}{71}
+\contentsline {subsection}{\numberline {2.2.6}The Color Code for Resistors}{78}
+\contentsline {section}{\numberline {2.3}Apparatus}{80}
+\contentsline {subsection}{\numberline {2.3.1}The Multimeter}{80}
+\contentsline {subsection}{\numberline {2.3.2}The Power Supply}{82}
+\contentsline {subsection}{\numberline {2.3.3}The Breadboard}{83}
+\contentsline {section}{\numberline {2.W1}DC Circuits Part I Worksheet}{86}
+\contentsline {subsection}{\numberline {2.W1.1}In-Lab Procedure}{86}
+\contentsline {subsubsection}{Batteries in Series and Opposition}{86}
+\contentsline {subsubsection}{Resistance Measurement}{86}
+\contentsline {subsubsection}{Resistors in Series and Parallel}{89}
+\contentsline {subsection}{\numberline {2.W1.2}Part I Pre-Classroom Check List}{90}
+\contentsline {subsection}{\numberline {2.W1.3}In-Classroom Calculations \& Analysis}{90}
+\contentsline {subsubsection}{Batteries in Series and Opposition}{91}
+\contentsline {subsubsection}{Resistance Measurement}{91}
+\contentsline {subsubsection}{Resistors in Series and Parallel}{92}
+\contentsline {section}{\numberline {2.W2}DC Circuits Part II Worksheet}{94}
+\contentsline {subsection}{\numberline {2.W2.1}In-Lab Procedure}{94}
+\contentsline {subsubsection}{Temperature Dependence of Resistance}{94}
+\contentsline {subsection}{\numberline {2.W2.2}In-Lab Computer Work}{97}
+\contentsline {subsection}{\numberline {2.W2.3}In-Lab Procedure}{97}
+\contentsline {subsubsection}{Internal Resistance of a Dry Cell}{97}
+\contentsline {subsection}{\numberline {2.W2.4}In-Lab Computer Work}{99}
+\contentsline {subsection}{\numberline {2.W2.5}Part II Pre-Classroom Check List}{99}
+\contentsline {subsection}{\numberline {2.W2.6}In-Classroom Calculations \& Analysis}{99}
+\contentsline {subsubsection}{Temperature Dependence of Resistance}{100}
+\contentsline {subsubsection}{Internal Resistance of a Dry Cell}{101}
