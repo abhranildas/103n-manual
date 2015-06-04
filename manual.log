@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  3 JUN 2015 20:21
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  3 JUN 2015 20:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4210,7 +4210,522 @@ Underfull \hbox (badness 10000) in paragraph at lines 600--604
 
  []
 
-[250]) [251] (./manual.aux) )
+[250]) [251] [252
+
+]
+Chapter 10.
+(./10_diffraction/10_diffraction.tex
+Package epstopdf Info: Source file: <10_diffraction/opening.eps>
+(epstopdf)                    date: 2015-06-03 20:31:57
+(epstopdf)                    size: 5464 bytes
+(epstopdf)             Output file: <10_diffraction/opening-eps-converted-to.pd
+f>
+(epstopdf)             Command: <repstopdf --outfile=10_diffraction/opening-eps
+-converted-to.pdf 10_diffraction/opening.eps>
+(epstopdf)             \includegraphics on input line 23.
+runsystem(repstopdf --outfile=10_diffraction/opening-eps-converted-to.pdf 10_di
+ffraction/opening.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <10_diffraction/opening-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2015-06-03 20:32:53
+(epstopdf)                    size: 5778 bytes.
+
+<10_diffraction/opening-eps-converted-to.pdf, id=1815, 301.125pt x 298.11375pt>
+File: 10_diffraction/opening-eps-converted-to.pdf Graphic file (type pdf)
+<use 10_diffraction/opening-eps-converted-to.pdf>
+Package pdftex.def Info: 10_diffraction/opening-eps-converted-to.pdf used on in
+put line 23.
+(pdftex.def)             Requested size: 180.67638pt x 178.86963pt.
+ [253]
+Underfull \hbox (badness 10000) in paragraph at lines 53--61
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [254 <./10_diffraction/opening-eps-converted-to.pdf>] [255]
+Package epstopdf Info: Source file: <10_diffraction/twoslit.eps>
+(epstopdf)                    date: 2015-06-03 20:31:57
+(epstopdf)                    size: 6418 bytes
+(epstopdf)             Output file: <10_diffraction/twoslit-eps-converted-to.pd
+f>
+(epstopdf)             Command: <repstopdf --outfile=10_diffraction/twoslit-eps
+-converted-to.pdf 10_diffraction/twoslit.eps>
+(epstopdf)             \includegraphics on input line 126.
+runsystem(repstopdf --outfile=10_diffraction/twoslit-eps-converted-to.pdf 10_di
+ffraction/twoslit.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <10_diffraction/twoslit-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2015-06-03 20:32:54
+(epstopdf)                    size: 7791 bytes.
+
+<10_diffraction/twoslit-eps-converted-to.pdf, id=1835, 468.75125pt x 303.1325pt
+>
+File: 10_diffraction/twoslit-eps-converted-to.pdf Graphic file (type pdf)
+ <use 10_diffraction/twoslit-eps-converted-to.pdf>
+Package pdftex.def Info: 10_diffraction/twoslit-eps-converted-to.pdf used on in
+put line 126.
+(pdftex.def)             Requested size: 281.25291pt x 181.8809pt.
+ [256 <./10_diffraction/twoslit-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <10_diffraction/triangle.eps>
+(epstopdf)                    date: 2015-06-03 20:31:57
+(epstopdf)                    size: 1896 bytes
+(epstopdf)             Output file: <10_diffraction/triangle-eps-converted-to.p
+df>
+(epstopdf)             Command: <repstopdf --outfile=10_diffraction/triangle-ep
+s-converted-to.pdf 10_diffraction/triangle.eps>
+(epstopdf)             \includegraphics on input line 153.
+runsystem(repstopdf --outfile=10_diffraction/triangle-eps-converted-to.pdf 10_d
+iffraction/triangle.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <10_diffraction/triangle-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-06-03 20:32:55
+(epstopdf)                    size: 4926 bytes.
+
+<10_diffraction/triangle-eps-converted-to.pdf, id=1851, 330.23375pt x 194.7275p
+t>
+File: 10_diffraction/triangle-eps-converted-to.pdf Graphic file (type pdf)
+ <use 10_diffraction/triangle-eps-converted-to.pdf>
+Package pdftex.def Info: 10_diffraction/triangle-eps-converted-to.pdf used on i
+nput line 153.
+(pdftex.def)             Requested size: 198.14177pt x 116.83739pt.
+ [257 <./10_diffraction/triangle-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <10_diffraction/2E.eps>
+(epstopdf)                    date: 2015-06-03 20:31:57
+(epstopdf)                    size: 4096 bytes
+(epstopdf)             Output file: <10_diffraction/2E-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=10_diffraction/2E-eps-conv
+erted-to.pdf 10_diffraction/2E.eps>
+(epstopdf)             \includegraphics on input line 214.
+runsystem(repstopdf --outfile=10_diffraction/2E-eps-converted-to.pdf 10_diffrac
+tion/2E.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <10_diffraction/2E-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-03 20:32:56
+(epstopdf)                    size: 6128 bytes.
+
+<10_diffraction/2E-eps-converted-to.pdf, id=1865, 74.2775pt x 51.19125pt>
+File: 10_diffraction/2E-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 10_diffraction/2E-eps-converted-to.pdf>
+Package pdftex.def Info: 10_diffraction/2E-eps-converted-to.pdf used on input l
+ine 214.
+(pdftex.def)             Requested size: 44.56683pt x 30.71498pt.
+ [258 <./10_diffraction/2E-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <10_diffraction/phasors_2slit.eps>
+(epstopdf)                    date: 2015-06-03 20:31:57
+(epstopdf)                    size: 11219 bytes
+(epstopdf)             Output file: <10_diffraction/phasors_2slit-eps-converted
+-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=10_diffraction/phasors_2sl
+it-eps-converted-to.pdf 10_diffraction/phasors_2slit.eps>
+(epstopdf)             \includegraphics on input line 271.
+runsystem(repstopdf --outfile=10_diffraction/phasors_2slit-eps-converted-to.pdf
+ 10_diffraction/phasors_2slit.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <10_diffraction/phasors_2slit-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2015-06-03 20:32:57
+(epstopdf)                    size: 7529 bytes.
+
+<10_diffraction/phasors_2slit-eps-converted-to.pdf, id=1878, 180.675pt x 90.337
+5pt>
+File: 10_diffraction/phasors_2slit-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use 10_diffraction/phasors_2slit-eps-converted-to.pdf>
+Package pdftex.def Info: 10_diffraction/phasors_2slit-eps-converted-to.pdf used
+ on input line 271.
+(pdftex.def)             Requested size: 108.40582pt x 54.2029pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [259]
+Package epstopdf Info: Source file: <10_diffraction/3E.eps>
+(epstopdf)                    date: 2015-06-03 20:31:57
+(epstopdf)                    size: 3908 bytes
+(epstopdf)             Output file: <10_diffraction/3E-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=10_diffraction/3E-eps-conv
+erted-to.pdf 10_diffraction/3E.eps>
+(epstopdf)             \includegraphics on input line 292.
+runsystem(repstopdf --outfile=10_diffraction/3E-eps-converted-to.pdf 10_diffrac
+tion/3E.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <10_diffraction/3E-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-03 20:32:58
+(epstopdf)                    size: 5870 bytes.
+
+<10_diffraction/3E-eps-converted-to.pdf, id=1882, 90.3375pt x 88.33pt>
+File: 10_diffraction/3E-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 10_diffraction/3E-eps-converted-to.pdf>
+Package pdftex.def Info: 10_diffraction/3E-eps-converted-to.pdf used on input l
+ine 292.
+(pdftex.def)             Requested size: 54.2029pt x 52.9984pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [260 <./10_diffraction/phasors_2slit-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <10_diffraction/phasors_3slit.eps>
+(epstopdf)                    date: 2015-06-03 20:31:57
+(epstopdf)                    size: 11781 bytes
+(epstopdf)             Output file: <10_diffraction/phasors_3slit-eps-converted
+-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=10_diffraction/phasors_3sl
+it-eps-converted-to.pdf 10_diffraction/phasors_3slit.eps>
+(epstopdf)             \includegraphics on input line 301.
+runsystem(repstopdf --outfile=10_diffraction/phasors_3slit-eps-converted-to.pdf
+ 10_diffraction/phasors_3slit.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <10_diffraction/phasors_3slit-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2015-06-03 20:32:59
+(epstopdf)                    size: 8010 bytes.
+
+<10_diffraction/phasors_3slit-eps-converted-to.pdf, id=1895, 415.5525pt x 83.31
+125pt>
+File: 10_diffraction/phasors_3slit-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use 10_diffraction/phasors_3slit-eps-converted-to.pdf>
+Package pdftex.def Info: 10_diffraction/phasors_3slit-eps-converted-to.pdf used
+ on input line 301.
+(pdftex.def)             Requested size: 249.33342pt x 49.98712pt.
+Package epstopdf Info: Source file: <10_diffraction/internodiff.eps>
+(epstopdf)                    date: 2015-06-03 20:31:57
+(epstopdf)                    size: 8097 bytes
+(epstopdf)             Output file: <10_diffraction/internodiff-eps-converted-t
+o.pdf>
+(epstopdf)             Command: <repstopdf --outfile=10_diffraction/internodiff
+-eps-converted-to.pdf 10_diffraction/internodiff.eps>
+(epstopdf)             \includegraphics on input line 331.
+runsystem(repstopdf --outfile=10_diffraction/internodiff-eps-converted-to.pdf 1
+0_diffraction/internodiff.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <10_diffraction/internodiff-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2015-06-03 20:32:59
+(epstopdf)                    size: 7598 bytes.
+
+<10_diffraction/internodiff-eps-converted-to.pdf, id=1896, 156.585pt x 266.9975
+pt>
+File: 10_diffraction/internodiff-eps-converted-to.pdf Graphic file (type pdf)
+ <use 10_diffraction/internodiff-eps-converted-to.pdf>
+Package pdftex.def Info: 10_diffraction/internodiff-eps-converted-to.pdf used o
+n input line 331.
+(pdftex.def)             Requested size: 93.95172pt x 160.19972pt.
+Package epstopdf Info: Source file: <10_diffraction/grating.eps>
+(epstopdf)                    date: 2015-06-03 20:31:57
+(epstopdf)                    size: 5822 bytes
+(epstopdf)             Output file: <10_diffraction/grating-eps-converted-to.pd
+f>
+(epstopdf)             Command: <repstopdf --outfile=10_diffraction/grating-eps
+-converted-to.pdf 10_diffraction/grating.eps>
+(epstopdf)             \includegraphics on input line 345.
+runsystem(repstopdf --outfile=10_diffraction/grating-eps-converted-to.pdf 10_di
+ffraction/grating.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <10_diffraction/grating-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2015-06-03 20:33:00
+(epstopdf)                    size: 5746 bytes.
+
+<10_diffraction/grating-eps-converted-to.pdf, id=1897, 260.975pt x 161.60374pt>
+File: 10_diffraction/grating-eps-converted-to.pdf Graphic file (type pdf)
+<use 10_diffraction/grating-eps-converted-to.pdf>
+Package pdftex.def Info: 10_diffraction/grating-eps-converted-to.pdf used on in
+put line 345.
+(pdftex.def)             Requested size: 156.5862pt x 96.96298pt.
+ [261 <./10_diffraction/3E-eps-converted-to.pdf> <./10_diffraction/phasors_3sli
+t-eps-converted-to.pdf>]
+[262 <./10_diffraction/internodiff-eps-converted-to.pdf> <./10_diffraction/grat
+ing-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <10_diffraction/diffractI.eps>
+(epstopdf)                    date: 2015-06-03 20:31:57
+(epstopdf)                    size: 5825 bytes
+(epstopdf)             Output file: <10_diffraction/diffractI-eps-converted-to.
+pdf>
+(epstopdf)             Command: <repstopdf --outfile=10_diffraction/diffractI-e
+ps-converted-to.pdf 10_diffraction/diffractI.eps>
+(epstopdf)             \includegraphics on input line 369.
+runsystem(repstopdf --outfile=10_diffraction/diffractI-eps-converted-to.pdf 10_
+diffraction/diffractI.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <10_diffraction/diffractI-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2015-06-03 20:33:01
+(epstopdf)                    size: 6716 bytes.
+
+<10_diffraction/diffractI-eps-converted-to.pdf, id=1941, 172.645pt x 125.46875p
+t>
+File: 10_diffraction/diffractI-eps-converted-to.pdf Graphic file (type pdf)
+ <use 10_diffraction/diffractI-eps-converted-to.pdf>
+Package pdftex.def Info: 10_diffraction/diffractI-eps-converted-to.pdf used on 
+input line 369.
+(pdftex.def)             Requested size: 103.58778pt x 75.28181pt.
+Package epstopdf Info: Source file: <10_diffraction/singlediff.eps>
+(epstopdf)                    date: 2015-06-03 20:31:57
+(epstopdf)                    size: 3378 bytes
+(epstopdf)             Output file: <10_diffraction/singlediff-eps-converted-to
+.pdf>
+(epstopdf)             Command: <repstopdf --outfile=10_diffraction/singlediff-
+eps-converted-to.pdf 10_diffraction/singlediff.eps>
+(epstopdf)             \includegraphics on input line 397.
+runsystem(repstopdf --outfile=10_diffraction/singlediff-eps-converted-to.pdf 10
+_diffraction/singlediff.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <10_diffraction/singlediff-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2015-06-03 20:33:02
+(epstopdf)                    size: 6479 bytes.
+
+<10_diffraction/singlediff-eps-converted-to.pdf, id=1942, 637.38126pt x 546.04p
+t>
+File: 10_diffraction/singlediff-eps-converted-to.pdf Graphic file (type pdf)
+ <use 10_diffraction/singlediff-eps-converted-to.pdf>
+Package pdftex.def Info: 10_diffraction/singlediff-eps-converted-to.pdf used on
+ input line 397.
+(pdftex.def)             Requested size: 382.4317pt x 327.62653pt.
+ [263 <./10_diffraction/diffractI-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <10_diffraction/singslitpatt.eps>
+(epstopdf)                    date: 2015-06-03 20:31:57
+(epstopdf)                    size: 7176 bytes
+(epstopdf)             Output file: <10_diffraction/singslitpatt-eps-converted-
+to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=10_diffraction/singslitpat
+t-eps-converted-to.pdf 10_diffraction/singslitpatt.eps>
+(epstopdf)             \includegraphics on input line 422.
+runsystem(repstopdf --outfile=10_diffraction/singslitpatt-eps-converted-to.pdf 
+10_diffraction/singslitpatt.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <10_diffraction/singslitpatt-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2015-06-03 20:33:03
+(epstopdf)                    size: 7746 bytes.
+
+<10_diffraction/singslitpatt-eps-converted-to.pdf, id=1955, 536.0025pt x 411.53
+75pt>
+File: 10_diffraction/singslitpatt-eps-converted-to.pdf Graphic file (type pdf)
+ <use 10_diffraction/singslitpatt-eps-converted-to.pdf>
+Package pdftex.def Info: 10_diffraction/singslitpatt-eps-converted-to.pdf used 
+on input line 422.
+(pdftex.def)             Requested size: 321.60397pt x 246.92441pt.
+ [264 <./10_diffraction/singlediff-eps-converted-to.pdf>] [265 <./10_diffractio
+n/singslitpatt-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <10_diffraction/envelope.eps>
+(epstopdf)                    date: 2015-06-03 20:31:57
+(epstopdf)                    size: 27909 bytes
+(epstopdf)             Output file: <10_diffraction/envelope-eps-converted-to.p
+df>
+(epstopdf)             Command: <repstopdf --outfile=10_diffraction/envelope-ep
+s-converted-to.pdf 10_diffraction/envelope.eps>
+(epstopdf)             \includegraphics on input line 465.
+runsystem(repstopdf --outfile=10_diffraction/envelope-eps-converted-to.pdf 10_d
+iffraction/envelope.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <10_diffraction/envelope-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-06-03 20:33:04
+(epstopdf)                    size: 12692 bytes.
+
+<10_diffraction/envelope-eps-converted-to.pdf, id=1987, 536.0025pt x 411.5375pt
+>
+File: 10_diffraction/envelope-eps-converted-to.pdf Graphic file (type pdf)
+ <use 10_diffraction/envelope-eps-converted-to.pdf>
+Package pdftex.def Info: 10_diffraction/envelope-eps-converted-to.pdf used on i
+nput line 465.
+(pdftex.def)             Requested size: 321.60397pt x 246.92441pt.
+ [266 <./10_diffraction/envelope-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <10_diffraction/interferencepatt.eps>
+(epstopdf)                    date: 2015-06-03 20:31:57
+(epstopdf)                    size: 87986 bytes
+(epstopdf)             Output file: <10_diffraction/interferencepatt-eps-conver
+ted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=10_diffraction/interferenc
+epatt-eps-converted-to.pdf 10_diffraction/interferencepatt.eps>
+(epstopdf)             \includegraphics on input line 476.
+runsystem(repstopdf --outfile=10_diffraction/interferencepatt-eps-converted-to.
+pdf 10_diffraction/interferencepatt.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <10_diffraction/interferencepatt-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2015-06-03 20:33:05
+(epstopdf)                    size: 15298 bytes.
+
+<10_diffraction/interferencepatt-eps-converted-to.pdf, id=1996, 279.0425pt x 59
+0.205pt>
+File: 10_diffraction/interferencepatt-eps-converted-to.pdf Graphic file (type p
+df)
+ <use 10_diffraction/interferencepatt-eps-converted-to.pdf>
+Package pdftex.def Info: 10_diffraction/interferencepatt-eps-converted-to.pdf u
+sed on input line 476.
+(pdftex.def)             Requested size: 167.42679pt x 354.12573pt.
+ [267 <./10_diffraction/interferencepatt-eps-converted-to.pdf>] [268]
+Overfull \hbox (1.46782pt too wide) in paragraph at lines 502--502
+[]\OT1/cmr/bx/n/17.28 Diffraction and In-ter-fer-ence Work-sheet 
+ []
+
+
+Overfull \hbox (16.6022pt too wide) in paragraph at lines 503--506
+\OT1/cmr/bx/n/17.28 Name:  []        Day/Time: [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--535
+
+ []
+
+[269
+
+]
+Package epstopdf Info: Source file: <10_diffraction/interpatt.eps>
+(epstopdf)                    date: 2015-06-03 20:31:57
+(epstopdf)                    size: 9328 bytes
+(epstopdf)             Output file: <10_diffraction/interpatt-eps-converted-to.
+pdf>
+(epstopdf)             Command: <repstopdf --outfile=10_diffraction/interpatt-e
+ps-converted-to.pdf 10_diffraction/interpatt.eps>
+(epstopdf)             \includegraphics on input line 566.
+runsystem(repstopdf --outfile=10_diffraction/interpatt-eps-converted-to.pdf 10_
+diffraction/interpatt.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <10_diffraction/interpatt-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2015-06-03 20:33:06
+(epstopdf)                    size: 9528 bytes.
+
+<10_diffraction/interpatt-eps-converted-to.pdf, id=2017, 517.935pt x 221.82875p
+t>
+File: 10_diffraction/interpatt-eps-converted-to.pdf Graphic file (type pdf)
+ <use 10_diffraction/interpatt-eps-converted-to.pdf>
+Package pdftex.def Info: 10_diffraction/interpatt-eps-converted-to.pdf used on 
+input line 566.
+(pdftex.def)             Requested size: 310.76338pt x 133.09825pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 571--581
+
+ []
+
+[270
+
+ <./10_diffraction/interpatt-eps-converted-to.pdf>]
+Overfull \hbox (19.96895pt too wide) in paragraph at lines 591--607
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 628--631
+
+ []
+
+Package epstopdf Info: Source file: <10_diffraction/diffpatt.eps>
+(epstopdf)                    date: 2015-06-03 20:31:57
+(epstopdf)                    size: 6669 bytes
+(epstopdf)             Output file: <10_diffraction/diffpatt-eps-converted-to.p
+df>
+(epstopdf)             Command: <repstopdf --outfile=10_diffraction/diffpatt-ep
+s-converted-to.pdf 10_diffraction/diffpatt.eps>
+(epstopdf)             \includegraphics on input line 647.
+runsystem(repstopdf --outfile=10_diffraction/diffpatt-eps-converted-to.pdf 10_d
+iffraction/diffpatt.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <10_diffraction/diffpatt-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-06-03 20:33:07
+(epstopdf)                    size: 6829 bytes.
+
+<10_diffraction/diffpatt-eps-converted-to.pdf, id=2029, 454.69875pt x 227.85126
+pt>
+File: 10_diffraction/diffpatt-eps-converted-to.pdf Graphic file (type pdf)
+ <use 10_diffraction/diffpatt-eps-converted-to.pdf>
+Package pdftex.def Info: 10_diffraction/diffpatt-eps-converted-to.pdf used on i
+nput line 647.
+(pdftex.def)             Requested size: 272.82135pt x 136.71179pt.
+ [271]
+Underfull \hbox (badness 10000) in paragraph at lines 661--664
+
+ []
+
+Package epstopdf Info: Source file: <10_diffraction/gratgraph.eps>
+(epstopdf)                    date: 2015-06-03 20:31:57
+(epstopdf)                    size: 6332 bytes
+(epstopdf)             Output file: <10_diffraction/gratgraph-eps-converted-to.
+pdf>
+(epstopdf)             Command: <repstopdf --outfile=10_diffraction/gratgraph-e
+ps-converted-to.pdf 10_diffraction/gratgraph.eps>
+(epstopdf)             \includegraphics on input line 677.
+runsystem(repstopdf --outfile=10_diffraction/gratgraph-eps-converted-to.pdf 10_
+diffraction/gratgraph.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <10_diffraction/gratgraph-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2015-06-03 20:33:08
+(epstopdf)                    size: 6992 bytes.
+
+<10_diffraction/gratgraph-eps-converted-to.pdf, id=2033, 378.41376pt x 283.0575
+pt>
+File: 10_diffraction/gratgraph-eps-converted-to.pdf Graphic file (type pdf)
+ <use 10_diffraction/gratgraph-eps-converted-to.pdf>
+Package pdftex.def Info: 10_diffraction/gratgraph-eps-converted-to.pdf used on 
+input line 677.
+(pdftex.def)             Requested size: 227.05pt x 169.8358pt.
+ [272 <./10_diffraction/diffpatt-eps-converted-to.pdf>] [273 <./10_diffraction/
+gratgraph-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 733--737
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 748--757
+
+ []
+
+[274
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 763--767
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 770--774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 778--784
+
+ []
+
+[275]
+Underfull \hbox (badness 10000) in paragraph at lines 805--810
+
+ []
+
+
+Underfull \vbox (badness 3128) has occurred while \output is active []
+
+ [276]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [277]
+[278] [279]
+Underfull \hbox (badness 10000) in paragraph at lines 888--891
+
+ []
+
+) [280] (./manual.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
 (\end occurred inside a group at level 3)
 
 ### simple group (level 3) entered at line 408 ({)
@@ -4218,10 +4733,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 600--604
 ### simple group (level 1) entered at line 70 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 2629 strings out of 493488
- 50985 string characters out of 3141326
- 94460 words of memory out of 3000000
- 5759 multiletter control sequences out of 15000+200000
+ 2746 strings out of 493488
+ 55275 string characters out of 3141326
+ 94855 words of memory out of 3000000
+ 5856 multiletter control sequences out of 15000+200000
  11699 words of font info for 40 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  44i,11n,25p,357b,368s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -4240,10 +4755,10 @@ r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/l
 ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
 al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on manual.pdf (261 pages, 1289966 bytes).
+Output written on manual.pdf (290 pages, 1409874 bytes).
 PDF statistics:
- 1871 PDF objects out of 2073 (max. 8388607)
- 1273 compressed objects within 13 object streams
+ 2139 PDF objects out of 2487 (max. 8388607)
+ 1457 compressed objects within 15 object streams
  0 named destinations out of 1000 (max. 500000)
- 551 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 636 words of extra memory for PDF output out of 10000 (max. 10000000)
 

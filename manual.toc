@@ -238,3 +238,29 @@
 \contentsline {subsubsection}{Focal Length and Magnification of a Lens}{249}
 \contentsline {subsubsection}{A Compound Lens System}{250}
 \contentsline {subsection}{\numberline {9.W.7}In-Classroom Conclusion}{251}
+\contentsline {chapter}{\numberline {10}Diffraction and Interference of Light}{253}
+\contentsline {section}{\numberline {10.1}Introduction}{253}
+\contentsline {section}{\numberline {10.2}Theory}{255}
+\contentsline {subsection}{\numberline {10.2.1}References}{255}
+\contentsline {subsection}{\numberline {10.2.2}Diffraction and Interference}{255}
+\contentsline {subsection}{\numberline {10.2.3}Two-Slit Interference}{255}
+\contentsline {subsection}{\numberline {10.2.4}Multiple-Slit Interference}{260}
+\contentsline {subsection}{\numberline {10.2.5}Diffraction Grating}{262}
+\contentsline {subsection}{\numberline {10.2.6}Single-Slit Diffraction and Available Light}{263}
+\contentsline {subsection}{\numberline {10.2.7}Multiple-Slit Diffraction}{265}
+\contentsline {section}{\numberline {10.3}Apparatus}{267}
+\contentsline {section}{\numberline {10.W}Diffraction and Interference Worksheet}{269}
+\contentsline {subsection}{\numberline {10.W.1}In-Lab Procedure}{269}
+\contentsline {subsubsection}{Single-Slit Diffraction}{269}
+\contentsline {subsubsection}{Multiple-Slit Diffraction/Interference Patterns}{270}
+\contentsline {subsubsection}{Diffraction Grating Pattern}{272}
+\contentsline {subsection}{\numberline {10.W.2}In-Lab Computer Work}{274}
+\contentsline {subsubsection}{Multiple-Slit Diffraction/Interference Patterns}{274}
+\contentsline {subsubsection}{Diffraction Grating Pattern}{274}
+\contentsline {subsection}{\numberline {10.W.3}Pre-Classroom Check List}{275}
+\contentsline {subsection}{\numberline {10.W.4}In-Classroom Calculations \& Analysis}{275}
+\contentsline {subsection}{\numberline {10.W.5}In-Classroom Discussion}{276}
+\contentsline {subsubsection}{Single-Slit Diffraction}{276}
+\contentsline {subsubsection}{Multiple Slit Diffraction/Interference Patterns}{277}
+\contentsline {subsubsection}{Diffraction Grating Pattern}{278}
+\contentsline {subsection}{\numberline {10.W.6}In-Classroom Conclusion}{280}
