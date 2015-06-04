@@ -215,3 +215,26 @@
 \contentsline {subsubsection}{Snell's Law and a Glass Slab}{230}
 \contentsline {subsubsection}{Total Internal Reflection}{231}
 \contentsline {subsection}{\numberline {8.W.5}In-Classroom Conclusion}{232}
+\contentsline {chapter}{\numberline {9}Imaging Optics}{233}
+\contentsline {section}{\numberline {9.1}Introduction}{233}
+\contentsline {section}{\numberline {9.2}Theory}{233}
+\contentsline {subsection}{\numberline {9.2.1}References}{233}
+\contentsline {subsection}{\numberline {9.2.2}Imaging Optics and Lenses}{233}
+\contentsline {subsection}{\numberline {9.2.3}Compound Lenses}{237}
+\contentsline {subsection}{\numberline {9.2.4}The Thin Lens Equation}{237}
+\contentsline {subsection}{\numberline {9.2.5}Magnification}{238}
+\contentsline {section}{\numberline {9.3}Apparatus}{239}
+\contentsline {section}{\numberline {9.W}Imaging Optics Worksheet}{241}
+\contentsline {subsection}{\numberline {9.W.1}In-Lab Procedure}{241}
+\contentsline {subsubsection}{Focal Length and Magnification of a Lens}{241}
+\contentsline {subsection}{\numberline {9.W.2}In-Lab Computer Work}{244}
+\contentsline {subsection}{\numberline {9.W.3}In-Lab Procedure}{245}
+\contentsline {subsubsection}{A Compound Lens System}{245}
+\contentsline {subsection}{\numberline {9.W.4}Pre-Classroom Checklist}{246}
+\contentsline {subsection}{\numberline {9.W.5}In-Classroom Calculations \& Analysis}{246}
+\contentsline {subsubsection}{Focal Length and Magnification of a Lens}{246}
+\contentsline {subsubsection}{A Compound Lens System}{247}
+\contentsline {subsection}{\numberline {9.W.6}In-Classroom Discussion}{249}
+\contentsline {subsubsection}{Focal Length and Magnification of a Lens}{249}
+\contentsline {subsubsection}{A Compound Lens System}{250}
+\contentsline {subsection}{\numberline {9.W.7}In-Classroom Conclusion}{251}
