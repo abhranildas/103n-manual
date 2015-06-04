@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  3 JUN 2015 19:46
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  3 JUN 2015 19:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3642,7 +3642,322 @@ Underfull \hbox (badness 10000) in paragraph at lines 501--504
 
  []
 
-) [212] (./manual.aux) )
+) [212]
+Chapter 8.
+(./8_optics/8_optics.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [213
+
+]
+[214]
+Package epstopdf Info: Source file: <8_optics/interface.eps>
+(epstopdf)                    date: 2015-06-03 19:50:17
+(epstopdf)                    size: 3517 bytes
+(epstopdf)             Output file: <8_optics/interface-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=8_optics/interface-eps-con
+verted-to.pdf 8_optics/interface.eps>
+(epstopdf)             \includegraphics on input line 96.
+runsystem(repstopdf --outfile=8_optics/interface-eps-converted-to.pdf 8_optics/
+interface.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <8_optics/interface-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-03 19:50:22
+(epstopdf)                    size: 6043 bytes.
+
+<8_optics/interface-eps-converted-to.pdf, id=1523, 314.17375pt x 318.18875pt>
+File: 8_optics/interface-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 8_optics/interface-eps-converted-to.pdf>
+Package pdftex.def Info: 8_optics/interface-eps-converted-to.pdf used on input 
+line 96.
+(pdftex.def)             Requested size: 188.50569pt x 190.9147pt.
+Package epstopdf Info: Source file: <8_optics/parallelpts.eps>
+(epstopdf)                    date: 2015-06-03 19:50:17
+(epstopdf)                    size: 2850 bytes
+(epstopdf)             Output file: <8_optics/parallelpts-eps-converted-to.pdf>
+
+(epstopdf)             Command: <repstopdf --outfile=8_optics/parallelpts-eps-c
+onverted-to.pdf 8_optics/parallelpts.eps>
+(epstopdf)             \includegraphics on input line 112.
+runsystem(repstopdf --outfile=8_optics/parallelpts-eps-converted-to.pdf 8_optic
+s/parallelpts.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <8_optics/parallelpts-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-06-03 19:50:23
+(epstopdf)                    size: 4644 bytes.
+
+<8_optics/parallelpts-eps-converted-to.pdf, id=1524, 325.215pt x 261.97874pt>
+File: 8_optics/parallelpts-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 8_optics/parallelpts-eps-converted-to.pdf>
+Package pdftex.def Info: 8_optics/parallelpts-eps-converted-to.pdf used on inpu
+t line 112.
+(pdftex.def)             Requested size: 195.1305pt x 157.18845pt.
+ [215]
+Package epstopdf Info: Source file: <8_optics/reflected.eps>
+(epstopdf)                    date: 2015-06-03 19:50:17
+(epstopdf)                    size: 4830 bytes
+(epstopdf)             Output file: <8_optics/reflected-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=8_optics/reflected-eps-con
+verted-to.pdf 8_optics/reflected.eps>
+(epstopdf)             \includegraphics on input line 131.
+runsystem(repstopdf --outfile=8_optics/reflected-eps-converted-to.pdf 8_optics/
+reflected.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <8_optics/reflected-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-03 19:50:24
+(epstopdf)                    size: 6581 bytes.
+
+<8_optics/reflected-eps-converted-to.pdf, id=1528, 578.16pt x 322.20375pt>
+File: 8_optics/reflected-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 8_optics/reflected-eps-converted-to.pdf>
+Package pdftex.def Info: 8_optics/reflected-eps-converted-to.pdf used on input 
+line 131.
+(pdftex.def)             Requested size: 346.89867pt x 193.32373pt.
+Package epstopdf Info: Source file: <8_optics/refracted.eps>
+(epstopdf)                    date: 2015-06-03 19:50:17
+(epstopdf)                    size: 4664 bytes
+(epstopdf)             Output file: <8_optics/refracted-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=8_optics/refracted-eps-con
+verted-to.pdf 8_optics/refracted.eps>
+(epstopdf)             \includegraphics on input line 155.
+runsystem(repstopdf --outfile=8_optics/refracted-eps-converted-to.pdf 8_optics/
+refracted.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <8_optics/refracted-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-03 19:50:25
+(epstopdf)                    size: 6471 bytes.
+
+<8_optics/refracted-eps-converted-to.pdf, id=1529, 523.9575pt x 277.035pt>
+File: 8_optics/refracted-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 8_optics/refracted-eps-converted-to.pdf>
+Package pdftex.def Info: 8_optics/refracted-eps-converted-to.pdf used on input 
+line 155.
+(pdftex.def)             Requested size: 314.37692pt x 166.22227pt.
+ [216 <./8_optics/interface-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <8_optics/slab.eps>
+(epstopdf)                    date: 2015-06-03 19:50:17
+(epstopdf)                    size: 48323 bytes
+(epstopdf)             Output file: <8_optics/slab-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=8_optics/slab-eps-converte
+d-to.pdf 8_optics/slab.eps>
+(epstopdf)             \includegraphics on input line 186.
+runsystem(repstopdf --outfile=8_optics/slab-eps-converted-to.pdf 8_optics/slab.
+eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <8_optics/slab-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-03 19:50:26
+(epstopdf)                    size: 6552 bytes.
+
+<8_optics/slab-eps-converted-to.pdf, id=1542, 494.84875pt x 449.68pt>
+File: 8_optics/slab-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 8_optics/slab-eps-converted-to.pdf>
+Package pdftex.def Info: 8_optics/slab-eps-converted-to.pdf used on input line 
+186.
+(pdftex.def)             Requested size: 296.91154pt x 269.81007pt.
+ [217 <./8_optics/parallelpts-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <8_optics/totintref.eps>
+(epstopdf)                    date: 2015-06-03 19:50:17
+(epstopdf)                    size: 3787 bytes
+(epstopdf)             Output file: <8_optics/totintref-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=8_optics/totintref-eps-con
+verted-to.pdf 8_optics/totintref.eps>
+(epstopdf)             \includegraphics on input line 209.
+runsystem(repstopdf --outfile=8_optics/totintref-eps-converted-to.pdf 8_optics/
+totintref.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <8_optics/totintref-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-03 19:50:27
+(epstopdf)                    size: 6781 bytes.
+
+<8_optics/totintref-eps-converted-to.pdf, id=1551, 314.17375pt x 271.0125pt>
+File: 8_optics/totintref-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 8_optics/totintref-eps-converted-to.pdf>
+Package pdftex.def Info: 8_optics/totintref-eps-converted-to.pdf used on input 
+line 209.
+(pdftex.def)             Requested size: 188.50569pt x 162.60875pt.
+ [218 <./8_optics/reflected-eps-converted-to.pdf>] [219 <./8_optics/refracted-e
+ps-converted-to.pdf>]
+Package epstopdf Info: Source file: <8_optics/fibopt.eps>
+(epstopdf)                    date: 2015-06-03 19:50:17
+(epstopdf)                    size: 2215 bytes
+(epstopdf)             Output file: <8_optics/fibopt-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=8_optics/fibopt-eps-conver
+ted-to.pdf 8_optics/fibopt.eps>
+(epstopdf)             \includegraphics on input line 270.
+runsystem(repstopdf --outfile=8_optics/fibopt-eps-converted-to.pdf 8_optics/fib
+opt.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <8_optics/fibopt-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-03 19:50:27
+(epstopdf)                    size: 5639 bytes.
+
+<8_optics/fibopt-eps-converted-to.pdf, id=1578, 574.145pt x 87.32625pt>
+File: 8_optics/fibopt-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 8_optics/fibopt-eps-converted-to.pdf>
+Package pdftex.def Info: 8_optics/fibopt-eps-converted-to.pdf used on input lin
+e 270.
+(pdftex.def)             Requested size: 344.48965pt x 52.39615pt.
+ [220 <./8_optics/slab-eps-converted-to.pdf>] [221 <./8_optics/totintref-eps-co
+nverted-to.pdf> <./8_optics/fibopt-eps-converted-to.pdf>] [222] [223]
+Overfull \hbox (16.6022pt too wide) in paragraph at lines 328--331
+\OT1/cmr/bx/n/17.28 Name:  []        Day/Time: [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--331
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--343
+
+ []
+
+Package epstopdf Info: Source file: <8_optics/slabproc.eps>
+(epstopdf)                    date: 2015-06-03 19:50:17
+(epstopdf)                    size: 3675 bytes
+(epstopdf)             Output file: <8_optics/slabproc-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=8_optics/slabproc-eps-conv
+erted-to.pdf 8_optics/slabproc.eps>
+(epstopdf)             \includegraphics on input line 352.
+runsystem(repstopdf --outfile=8_optics/slabproc-eps-converted-to.pdf 8_optics/s
+labproc.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <8_optics/slabproc-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-03 19:50:28
+(epstopdf)                    size: 5017 bytes.
+<8_optics/slabproc-eps-converted-to.pdf, id=1617, 587.19376pt x 331.2375pt>
+File: 8_optics/slabproc-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 8_optics/slabproc-eps-converted-to.pdf>
+Package pdftex.def Info: 8_optics/slabproc-eps-converted-to.pdf used on input l
+ine 352.
+(pdftex.def)             Requested size: 352.31897pt x 198.74402pt.
+Package epstopdf Info: Source file: <8_optics/raytrace.eps>
+(epstopdf)                    date: 2015-06-03 19:50:17
+(epstopdf)                    size: 3107 bytes
+(epstopdf)             Output file: <8_optics/raytrace-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=8_optics/raytrace-eps-conv
+erted-to.pdf 8_optics/raytrace.eps>
+(epstopdf)             \includegraphics on input line 361.
+runsystem(repstopdf --outfile=8_optics/raytrace-eps-converted-to.pdf 8_optics/r
+aytrace.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <8_optics/raytrace-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-03 19:50:29
+(epstopdf)                    size: 5753 bytes.
+
+<8_optics/raytrace-eps-converted-to.pdf, id=1618, 525.965pt x 238.8925pt>
+File: 8_optics/raytrace-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 8_optics/raytrace-eps-converted-to.pdf>
+Package pdftex.def Info: 8_optics/raytrace-eps-converted-to.pdf used on input l
+ine 361.
+(pdftex.def)             Requested size: 315.58142pt x 143.3366pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--374
+
+ []
+
+[224
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 387--400
+
+ []
+
+Package epstopdf Info: Source file: <8_optics/tirproc.eps>
+(epstopdf)                    date: 2015-06-03 19:50:17
+(epstopdf)                    size: 51051 bytes
+(epstopdf)             Output file: <8_optics/tirproc-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=8_optics/tirproc-eps-conve
+rted-to.pdf 8_optics/tirproc.eps>
+(epstopdf)             \includegraphics on input line 409.
+runsystem(repstopdf --outfile=8_optics/tirproc-eps-converted-to.pdf 8_optics/ti
+rproc.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <8_optics/tirproc-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-03 19:50:30
+(epstopdf)                    size: 9197 bytes.
+<8_optics/tirproc-eps-converted-to.pdf, id=1622, 737.75626pt x 298.11375pt>
+File: 8_optics/tirproc-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 8_optics/tirproc-eps-converted-to.pdf>
+Package pdftex.def Info: 8_optics/tirproc-eps-converted-to.pdf used on input li
+ne 409.
+(pdftex.def)             Requested size: 442.65717pt x 178.86963pt.
+
+Overfull \hbox (52.65717pt too wide) in paragraph at lines 409--410
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--419
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [225 <./8_optics/slabproc-eps-converted-to.pdf>] [226 <./8_optics/raytrace-eps
+-converted-to.pdf> <./8_optics/tirproc-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 430--437
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--453
+
+ []
+
+[227]
+Underfull \hbox (badness 10000) in paragraph at lines 462--464
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--474
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--485
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [228]
+Underfull \hbox (badness 10000) in paragraph at lines 493--500
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 514--518
+
+ []
+
+[229]
+Underfull \hbox (badness 10000) in paragraph at lines 522--530
+
+ []
+
+[230] [231] [232
+
+]) (./manual.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
 (\end occurred inside a group at level 3)
 
 ### simple group (level 3) entered at line 408 ({)
@@ -3650,10 +3965,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 501--504
 ### simple group (level 1) entered at line 70 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 2493 strings out of 493488
- 46575 string characters out of 3141326
- 94063 words of memory out of 3000000
- 5650 multiletter control sequences out of 15000+200000
+ 2565 strings out of 493488
+ 48771 string characters out of 3141326
+ 94282 words of memory out of 3000000
+ 5708 multiletter control sequences out of 15000+200000
  11699 words of font info for 40 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  44i,11n,25p,357b,368s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3672,10 +3987,10 @@ r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/l
 ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
 al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on manual.pdf (222 pages, 1168420 bytes).
+Output written on manual.pdf (242 pages, 1231450 bytes).
 PDF statistics:
- 1574 PDF objects out of 1728 (max. 8388607)
- 1071 compressed objects within 11 object streams
+ 1730 PDF objects out of 2073 (max. 8388607)
+ 1178 compressed objects within 12 object streams
  0 named destinations out of 1000 (max. 500000)
- 456 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 506 words of extra memory for PDF output out of 10000 (max. 10000000)
 

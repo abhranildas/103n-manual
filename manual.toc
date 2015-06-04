@@ -194,3 +194,24 @@
 \contentsline {subsection}{\numberline {7.W.7}Pre-Classroom Check List}{208}
 \contentsline {subsection}{\numberline {7.W.8}In-Classroom Discussion}{208}
 \contentsline {subsection}{\numberline {7.W.9}In-Classroom Conclusion}{212}
+\contentsline {chapter}{\numberline {8}Refraction Optics}{213}
+\contentsline {section}{\numberline {8.1}Introduction}{213}
+\contentsline {section}{\numberline {8.2}Theory}{214}
+\contentsline {subsection}{\numberline {8.2.1}References}{214}
+\contentsline {subsection}{\numberline {8.2.2}Index of Refraction}{214}
+\contentsline {subsection}{\numberline {8.2.3}Refraction at a Boundary - Snell's Law}{215}
+\contentsline {subsection}{\numberline {8.2.4}Total Internal Reflection}{218}
+\contentsline {section}{\numberline {8.3}Apparatus}{221}
+\contentsline {section}{\numberline {8.W}Refraction Worksheet}{224}
+\contentsline {subsection}{\numberline {8.W.1}In-Lab Procedure}{224}
+\contentsline {subsubsection}{Ray Tracing}{224}
+\contentsline {subsubsection}{Snell's Law and a Glass Slab}{225}
+\contentsline {subsubsection}{Total Internal Reflection}{226}
+\contentsline {subsection}{\numberline {8.W.2}Pre-Classroom Check List}{227}
+\contentsline {subsection}{\numberline {8.W.3}In-Classroom Calculations \& Analysis}{227}
+\contentsline {subsubsection}{Snell's law and a Glass Slab}{227}
+\contentsline {subsubsection}{Total Internal Reflection}{229}
+\contentsline {subsection}{\numberline {8.W.4}In-Classroom Discussion}{230}
+\contentsline {subsubsection}{Snell's Law and a Glass Slab}{230}
+\contentsline {subsubsection}{Total Internal Reflection}{231}
+\contentsline {subsection}{\numberline {8.W.5}In-Classroom Conclusion}{232}
