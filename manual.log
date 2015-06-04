@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 MAY 2015 01:17
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  3 JUN 2015 19:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -405,15 +405,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
- [3] [4])
+ [3] [4] [5])
 \tf@toc=\write3
 \openout3 = `manual.toc'.
 
- [5] [6
+ [6]
+ .
+(./0_intro/preface.tex [7
 
 ]
- .
-(./0_intro/preface.tex [7]
 Underfull \hbox (badness 10000) in paragraph at lines 53--63
 
  []
@@ -2027,12 +2027,7 @@ File: 4_oscilloscope/periodic-eps-converted-to.pdf Graphic file (type pdf)
 <use 4_oscilloscope/periodic-eps-converted-to.pdf>
 Package pdftex.def Info: 4_oscilloscope/periodic-eps-converted-to.pdf used on i
 nput line 40.
-(pdftex.def)             Requested size: 422.78278pt x 95.15622pt.
-
-Overfull \hbox (32.78278pt too wide) in paragraph at lines 40--41
- [][] 
- []
-
+(pdftex.def)             Requested size: 352.3154pt x 79.29604pt.
 Package epstopdf Info: Source file: <4_oscilloscope/sinusoid.eps>
 (epstopdf)                    date: 2015-05-28 01:12:27
 (epstopdf)                    size: 5596 bytes
@@ -2050,7 +2045,7 @@ File: 4_oscilloscope/sinusoid-eps-converted-to.pdf Graphic file (type pdf)
 <use 4_oscilloscope/sinusoid-eps-converted-to.pdf>
 Package pdftex.def Info: 4_oscilloscope/sinusoid-eps-converted-to.pdf used on i
 nput line 56.
-(pdftex.def)             Requested size: 321.60397pt x 246.92441pt.
+(pdftex.def)             Requested size: 268.0006pt x 205.76825pt.
  [124 <./4_oscilloscope/periodic-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <4_oscilloscope/phasediffer.eps>
 (epstopdf)                    date: 2015-05-28 01:12:27
@@ -2070,7 +2065,7 @@ File: 4_oscilloscope/phasediffer-eps-converted-to.pdf Graphic file (type pdf)
  <use 4_oscilloscope/phasediffer-eps-converted-to.pdf>
 Package pdftex.def Info: 4_oscilloscope/phasediffer-eps-converted-to.pdf used o
 n input line 85.
-(pdftex.def)             Requested size: 321.60397pt x 246.92441pt.
+(pdftex.def)             Requested size: 268.0006pt x 205.76825pt.
 Package epstopdf Info: Source file: <4_oscilloscope/differfreq.eps>
 (epstopdf)                    date: 2015-05-28 01:12:27
 (epstopdf)                    size: 15398 bytes
@@ -2089,7 +2084,7 @@ File: 4_oscilloscope/differfreq-eps-converted-to.pdf Graphic file (type pdf)
  <use 4_oscilloscope/differfreq-eps-converted-to.pdf>
 Package pdftex.def Info: 4_oscilloscope/differfreq-eps-converted-to.pdf used on
  input line 96.
-(pdftex.def)             Requested size: 321.60397pt x 246.92441pt.
+(pdftex.def)             Requested size: 268.0006pt x 205.76825pt.
  [125 <./4_oscilloscope/sinusoid-eps-converted-to.pdf>] [126 <./4_oscilloscope/
 phasediffer-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <4_oscilloscope/squarewave.eps>
@@ -2148,8 +2143,7 @@ File: 4_oscilloscope/triwave-eps-converted-to.pdf Graphic file (type pdf)
 <use 4_oscilloscope/triwave-eps-converted-to.pdf>
 Package pdftex.def Info: 4_oscilloscope/triwave-eps-converted-to.pdf used on in
 put line 153.
-(pdftex.def)             Requested size: 325.2175pt x 221.02744pt.
- [127 <./4_oscilloscope/differfreq-eps-converted-to.pdf>]
+(pdftex.def)             Requested size: 271.01183pt x 184.18767pt.
 Package epstopdf Info: Source file: <4_oscilloscope/TDS1002FP.eps>
 (epstopdf)                    date: 2015-05-28 01:12:27
 (epstopdf)                    size: 5040218 bytes
@@ -2162,20 +2156,20 @@ ps-converted-to.pdf 4_oscilloscope/TDS1002FP.eps>
 (epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
 
-<4_oscilloscope/TDS1002FP-eps-converted-to.pdf, id=862, 4969.56625pt x 2250.407
+<4_oscilloscope/TDS1002FP-eps-converted-to.pdf, id=857, 4969.56625pt x 2250.407
 5pt>
 File: 4_oscilloscope/TDS1002FP-eps-converted-to.pdf Graphic file (type pdf)
  <use 4_oscilloscope/TDS1002FP-eps-converted-to.pdf>
 Package pdftex.def Info: 4_oscilloscope/TDS1002FP-eps-converted-to.pdf used on 
 input line 172.
 (pdftex.def)             Requested size: 248.49287pt x 112.52696pt.
+ [127 <./4_oscilloscope/differfreq-eps-converted-to.pdf>] [128 <./4_oscilloscop
+e/squarewave-eps-converted-to.pdf> <./4_oscilloscope/squarephase-eps-converted-
+to.pdf>]
+Underfull \vbox (badness 1184) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [128 <./4_oscilloscope/squarewave-eps-converted-to.pdf> <./4_oscilloscope/squa
-rephase-eps-converted-to.pdf>] [129 <./4_oscilloscope/triwave-eps-converted-to.
-pdf>]
-[130 <./4_oscilloscope/TDS1002FP-eps-converted-to.pdf>]
+ [129 <./4_oscilloscope/triwave-eps-converted-to.pdf> <./4_oscilloscope/TDS1002
+FP-eps-converted-to.pdf>] [130]
 Package epstopdf Info: Source file: <4_oscilloscope/tds1002d.eps>
 (epstopdf)                    date: 2015-05-28 01:12:27
 (epstopdf)                    size: 102830 bytes
@@ -2220,7 +2214,7 @@ Overfull \hbox (0.26459pt too wide) in paragraph at lines 432--434
 -nu-soidal, tri-an-gle, or square
  []
 
-[135]
+[135 <./4_oscilloscope/functiongen-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <4_oscilloscope/phaseshifter.eps>
 (epstopdf)                    date: 2015-05-28 01:12:27
 (epstopdf)                    size: 3558 bytes
@@ -2233,15 +2227,14 @@ r-eps-converted-to.pdf 4_oscilloscope/phaseshifter.eps>
 (epstopdf)             \includegraphics on input line 462.
 Package epstopdf Info: Output file is already uptodate.
 
-<4_oscilloscope/phaseshifter-eps-converted-to.pdf, id=923, 442.65375pt x 228.85
+<4_oscilloscope/phaseshifter-eps-converted-to.pdf, id=931, 442.65375pt x 228.85
 5pt>
 File: 4_oscilloscope/phaseshifter-eps-converted-to.pdf Graphic file (type pdf)
  <use 4_oscilloscope/phaseshifter-eps-converted-to.pdf>
 Package pdftex.def Info: 4_oscilloscope/phaseshifter-eps-converted-to.pdf used 
 on input line 462.
 (pdftex.def)             Requested size: 309.8555pt x 160.1974pt.
- [136 <./4_oscilloscope/functiongen-eps-converted-to.pdf>] [137 <./4_oscillosco
-pe/phaseshifter-eps-converted-to.pdf>]
+ [136 <./4_oscilloscope/phaseshifter-eps-converted-to.pdf>] [137] [138]
 Overfull \hbox (16.6022pt too wide) in paragraph at lines 488--491
 \OT1/cmr/bx/n/17.28 Name:  []        Day/Time: [] 
  []
@@ -2256,7 +2249,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 526--535
 
  []
 
-[138
+[139
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 536--551
@@ -2268,7 +2261,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 536--551
 
  []
 
-[139]
+[140]
 Package epstopdf Info: Source file: <4_oscilloscope/scope.eps>
 (epstopdf)                    date: 2015-05-28 01:12:27
 (epstopdf)                    size: 5737 bytes
@@ -2281,7 +2274,7 @@ onverted-to.pdf 4_oscilloscope/scope.eps>
 (epstopdf)             \includegraphics on input line 563.
 Package epstopdf Info: Output file is already uptodate.
 
-<4_oscilloscope/scope-eps-converted-to.pdf, id=951, 271.0125pt x 216.81pt>
+<4_oscilloscope/scope-eps-converted-to.pdf, id=954, 271.0125pt x 216.81pt>
 File: 4_oscilloscope/scope-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 4_oscilloscope/scope-eps-converted-to.pdf>
@@ -2335,7 +2328,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 568--590
 
  []
 
-[140 <./4_oscilloscope/scope-eps-converted-to.pdf>]
+[141 <./4_oscilloscope/scope-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <4_oscilloscope/scope.eps>
 (epstopdf)                    date: 2015-05-28 01:12:27
 (epstopdf)                    size: 5737 bytes
@@ -2385,7 +2378,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 603--614
 
  []
 
-[141]
+[142]
 Package epstopdf Info: Source file: <4_oscilloscope/phasemeas.eps>
 (epstopdf)                    date: 2015-05-28 01:12:27
 (epstopdf)                    size: 3856 bytes
@@ -2398,7 +2391,7 @@ ps-converted-to.pdf 4_oscilloscope/phasemeas.eps>
 (epstopdf)             \includegraphics on input line 626.
 Package epstopdf Info: Output file is already uptodate.
 
-<4_oscilloscope/phasemeas-eps-converted-to.pdf, id=960, 435.6275pt x 178.6675pt
+<4_oscilloscope/phasemeas-eps-converted-to.pdf, id=963, 435.6275pt x 178.6675pt
 >
 File: 4_oscilloscope/phasemeas-eps-converted-to.pdf Graphic file (type pdf)
  <use 4_oscilloscope/phasemeas-eps-converted-to.pdf>
@@ -2451,7 +2444,7 @@ Overfull \hbox (39.64125pt too wide) in paragraph at lines 642--645
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [142 <./4_oscilloscope/phasemeas-eps-converted-to.pdf>]
+ [143 <./4_oscilloscope/phasemeas-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 647--659
 
  []
@@ -2534,7 +2527,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 666--672
 
  []
 
-[143]
+[144]
 Underfull \hbox (badness 10000) in paragraph at lines 675--682
 
  []
@@ -2559,7 +2552,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 691--710
 
  []
 
-[144]
+[145]
 Underfull \hbox (badness 10000) in paragraph at lines 716--730
 
  []
@@ -2577,7 +2570,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 716--730
 
 Underfull \vbox (badness 2384) has occurred while \output is active []
 
- [145]
+ [146]
 Underfull \hbox (badness 10000) in paragraph at lines 732--759
 
  []
@@ -2597,11 +2590,443 @@ Underfull \hbox (badness 10000) in paragraph at lines 732--759
 
  []
 
-[146]) [147] (./manual.aux)
+[147]) [148]
+Chapter 5.
+(./5_rccircuits/5_rccircuits.tex [149
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+]
+Package epstopdf Info: Source file: <5_rccircuits/rc1.eps>
+(epstopdf)                    date: 2015-06-03 19:29:02
+(epstopdf)                    size: 4363 bytes
+(epstopdf)             Output file: <5_rccircuits/rc1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-03 19:31:37
+(epstopdf)                    size: 6302 bytes
+(epstopdf)             Command: <repstopdf --outfile=5_rccircuits/rc1-eps-conve
+rted-to.pdf 5_rccircuits/rc1.eps>
+(epstopdf)             \includegraphics on input line 44.
+Package epstopdf Info: Output file is already uptodate.
 
- )
+<5_rccircuits/rc1-eps-converted-to.pdf, id=992, 509.905pt x 219.82124pt>
+File: 5_rccircuits/rc1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 5_rccircuits/rc1-eps-converted-to.pdf>
+Package pdftex.def Info: 5_rccircuits/rc1-eps-converted-to.pdf used on input li
+ne 44.
+(pdftex.def)             Requested size: 254.95187pt x 109.91034pt.
+ [150 <./5_rccircuits/rc1-eps-converted-to.pdf>] [151]
+Package epstopdf Info: Source file: <5_rccircuits/chargev.eps>
+(epstopdf)                    date: 2015-06-03 19:29:02
+(epstopdf)                    size: 9075 bytes
+(epstopdf)             Output file: <5_rccircuits/chargev-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-06-03 19:31:38
+(epstopdf)                    size: 7990 bytes
+(epstopdf)             Command: <repstopdf --outfile=5_rccircuits/chargev-eps-c
+onverted-to.pdf 5_rccircuits/chargev.eps>
+(epstopdf)             \includegraphics on input line 143.
+Package epstopdf Info: Output file is already uptodate.
+
+<5_rccircuits/chargev-eps-converted-to.pdf, id=1007, 536.0025pt x 411.5375pt>
+File: 5_rccircuits/chargev-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 5_rccircuits/chargev-eps-converted-to.pdf>
+Package pdftex.def Info: 5_rccircuits/chargev-eps-converted-to.pdf used on inpu
+t line 143.
+(pdftex.def)             Requested size: 268.0006pt x 205.76825pt.
+Package epstopdf Info: Source file: <5_rccircuits/chargei.eps>
+(epstopdf)                    date: 2015-06-03 19:29:02
+(epstopdf)                    size: 8380 bytes
+(epstopdf)             Output file: <5_rccircuits/chargei-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-06-03 19:31:39
+(epstopdf)                    size: 8091 bytes
+(epstopdf)             Command: <repstopdf --outfile=5_rccircuits/chargei-eps-c
+onverted-to.pdf 5_rccircuits/chargei.eps>
+(epstopdf)             \includegraphics on input line 144.
+Package epstopdf Info: Output file is already uptodate.
+
+<5_rccircuits/chargei-eps-converted-to.pdf, id=1008, 536.0025pt x 411.5375pt>
+File: 5_rccircuits/chargei-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 5_rccircuits/chargei-eps-converted-to.pdf>
+Package pdftex.def Info: 5_rccircuits/chargei-eps-converted-to.pdf used on inpu
+t line 144.
+(pdftex.def)             Requested size: 268.0006pt x 205.76825pt.
+ [152]
+Package epstopdf Info: Source file: <5_rccircuits/dischargev.eps>
+(epstopdf)                    date: 2015-06-03 19:29:02
+(epstopdf)                    size: 8389 bytes
+(epstopdf)             Output file: <5_rccircuits/dischargev-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-06-03 19:31:40
+(epstopdf)                    size: 7964 bytes
+(epstopdf)             Command: <repstopdf --outfile=5_rccircuits/dischargev-ep
+s-converted-to.pdf 5_rccircuits/dischargev.eps>
+(epstopdf)             \includegraphics on input line 188.
+Package epstopdf Info: Output file is already uptodate.
+
+<5_rccircuits/dischargev-eps-converted-to.pdf, id=1012, 536.0025pt x 411.5375pt
+>
+File: 5_rccircuits/dischargev-eps-converted-to.pdf Graphic file (type pdf)
+ <use 5_rccircuits/dischargev-eps-converted-to.pdf>
+Package pdftex.def Info: 5_rccircuits/dischargev-eps-converted-to.pdf used on i
+nput line 188.
+(pdftex.def)             Requested size: 268.0006pt x 205.76825pt.
+Package epstopdf Info: Source file: <5_rccircuits/dischargei.eps>
+(epstopdf)                    date: 2015-06-03 19:29:02
+(epstopdf)                    size: 13857 bytes
+(epstopdf)             Output file: <5_rccircuits/dischargei-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-06-03 19:31:41
+(epstopdf)                    size: 8547 bytes
+(epstopdf)             Command: <repstopdf --outfile=5_rccircuits/dischargei-ep
+s-converted-to.pdf 5_rccircuits/dischargei.eps>
+(epstopdf)             \includegraphics on input line 189.
+Package epstopdf Info: Output file is already uptodate.
+
+<5_rccircuits/dischargei-eps-converted-to.pdf, id=1013, 536.0025pt x 411.5375pt
+>
+File: 5_rccircuits/dischargei-eps-converted-to.pdf Graphic file (type pdf)
+ <use 5_rccircuits/dischargei-eps-converted-to.pdf>
+Package pdftex.def Info: 5_rccircuits/dischargei-eps-converted-to.pdf used on i
+nput line 189.
+(pdftex.def)             Requested size: 268.0006pt x 205.76825pt.
+Package epstopdf Info: Source file: <5_rccircuits/rc2.eps>
+(epstopdf)                    date: 2015-06-03 19:29:02
+(epstopdf)                    size: 3834 bytes
+(epstopdf)             Output file: <5_rccircuits/rc2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-03 19:31:42
+(epstopdf)                    size: 5308 bytes
+(epstopdf)             Command: <repstopdf --outfile=5_rccircuits/rc2-eps-conve
+rted-to.pdf 5_rccircuits/rc2.eps>
+(epstopdf)             \includegraphics on input line 203.
+Package epstopdf Info: Output file is already uptodate.
+
+<5_rccircuits/rc2-eps-converted-to.pdf, id=1014, 443.6575pt x 198.7425pt>
+File: 5_rccircuits/rc2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 5_rccircuits/rc2-eps-converted-to.pdf>
+Package pdftex.def Info: 5_rccircuits/rc2-eps-converted-to.pdf used on input li
+ne 203.
+(pdftex.def)             Requested size: 221.8282pt x 99.371pt.
+ [153] [154]
+Package epstopdf Info: Source file: <5_rccircuits/sinevout.eps>
+(epstopdf)                    date: 2015-06-03 19:29:02
+(epstopdf)                    size: 12960 bytes
+(epstopdf)             Output file: <5_rccircuits/sinevout-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2015-06-03 19:31:42
+(epstopdf)                    size: 10319 bytes
+(epstopdf)             Command: <repstopdf --outfile=5_rccircuits/sinevout-eps-
+converted-to.pdf 5_rccircuits/sinevout.eps>
+(epstopdf)             \includegraphics on input line 290.
+Package epstopdf Info: Output file is already uptodate.
+
+<5_rccircuits/sinevout-eps-converted-to.pdf, id=1021, 536.0025pt x 411.5375pt>
+File: 5_rccircuits/sinevout-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 5_rccircuits/sinevout-eps-converted-to.pdf>
+Package pdftex.def Info: 5_rccircuits/sinevout-eps-converted-to.pdf used on inp
+ut line 290.
+(pdftex.def)             Requested size: 268.0006pt x 205.76825pt.
+Package epstopdf Info: Source file: <5_rccircuits/sineiout.eps>
+(epstopdf)                    date: 2015-06-03 19:29:02
+(epstopdf)                    size: 17583 bytes
+(epstopdf)             Output file: <5_rccircuits/sineiout-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2015-06-03 19:31:43
+(epstopdf)                    size: 10443 bytes
+(epstopdf)             Command: <repstopdf --outfile=5_rccircuits/sineiout-eps-
+converted-to.pdf 5_rccircuits/sineiout.eps>
+(epstopdf)             \includegraphics on input line 291.
+Package epstopdf Info: Output file is already uptodate.
+
+<5_rccircuits/sineiout-eps-converted-to.pdf, id=1022, 536.0025pt x 411.5375pt>
+File: 5_rccircuits/sineiout-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 5_rccircuits/sineiout-eps-converted-to.pdf>
+Package pdftex.def Info: 5_rccircuits/sineiout-eps-converted-to.pdf used on inp
+ut line 291.
+(pdftex.def)             Requested size: 268.0006pt x 205.76825pt.
+Package epstopdf Info: Source file: <5_rccircuits/campout.eps>
+(epstopdf)                    date: 2015-06-03 19:29:02
+(epstopdf)                    size: 13107 bytes
+(epstopdf)             Output file: <5_rccircuits/campout-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-06-03 19:31:44
+(epstopdf)                    size: 8009 bytes
+(epstopdf)             Command: <repstopdf --outfile=5_rccircuits/campout-eps-c
+onverted-to.pdf 5_rccircuits/campout.eps>
+(epstopdf)             \includegraphics on input line 309.
+Package epstopdf Info: Output file is already uptodate.
+
+<5_rccircuits/campout-eps-converted-to.pdf, id=1023, 536.0025pt x 411.5375pt>
+File: 5_rccircuits/campout-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 5_rccircuits/campout-eps-converted-to.pdf>
+Package pdftex.def Info: 5_rccircuits/campout-eps-converted-to.pdf used on inpu
+t line 309.
+(pdftex.def)             Requested size: 268.0006pt x 205.76825pt.
+ [155]
+Package epstopdf Info: Source file: <5_rccircuits/rampout.eps>
+(epstopdf)                    date: 2015-06-03 19:29:02
+(epstopdf)                    size: 8588 bytes
+(epstopdf)             Output file: <5_rccircuits/rampout-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-06-03 19:31:45
+(epstopdf)                    size: 7170 bytes
+(epstopdf)             Command: <repstopdf --outfile=5_rccircuits/rampout-eps-c
+onverted-to.pdf 5_rccircuits/rampout.eps>
+(epstopdf)             \includegraphics on input line 336.
+Package epstopdf Info: Output file is already uptodate.
+
+<5_rccircuits/rampout-eps-converted-to.pdf, id=1028, 536.0025pt x 411.5375pt>
+File: 5_rccircuits/rampout-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 5_rccircuits/rampout-eps-converted-to.pdf>
+Package pdftex.def Info: 5_rccircuits/rampout-eps-converted-to.pdf used on inpu
+t line 336.
+(pdftex.def)             Requested size: 268.0006pt x 205.76825pt.
+ [156]
+Package epstopdf Info: Source file: <5_rccircuits/capacitor.eps>
+(epstopdf)                    date: 2015-06-03 19:29:02
+(epstopdf)                    size: 3972 bytes
+(epstopdf)             Output file: <5_rccircuits/capacitor-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2015-06-03 19:31:46
+(epstopdf)                    size: 5313 bytes
+(epstopdf)             Command: <repstopdf --outfile=5_rccircuits/capacitor-eps
+-converted-to.pdf 5_rccircuits/capacitor.eps>
+(epstopdf)             \includegraphics on input line 378.
+Package epstopdf Info: Output file is already uptodate.
+
+<5_rccircuits/capacitor-eps-converted-to.pdf, id=1032, 106.3975pt x 68.255pt>
+File: 5_rccircuits/capacitor-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 5_rccircuits/capacitor-eps-converted-to.pdf>
+Package pdftex.def Info: 5_rccircuits/capacitor-eps-converted-to.pdf used on in
+put line 378.
+(pdftex.def)             Requested size: 53.19861pt x 34.12741pt.
+ [157] [158 <./5_rccircuits/chargev-eps-converted-to.pdf> <./5_rccircuits/charg
+ei-eps-converted-to.pdf>]
+[159 <./5_rccircuits/dischargev-eps-converted-to.pdf> <./5_rccircuits/discharge
+i-eps-converted-to.pdf>] [160 <./5_rccircuits/rc2-eps-converted-to.pdf>]
+[161 <./5_rccircuits/sinevout-eps-converted-to.pdf> <./5_rccircuits/sineiout-ep
+s-converted-to.pdf>] [162 <./5_rccircuits/campout-eps-converted-to.pdf> <./5_rc
+circuits/rampout-eps-converted-to.pdf>] [163 <./5_rccircuits/capacitor-eps-conv
+erted-to.pdf>]
+Overfull \hbox (16.6022pt too wide) in paragraph at lines 389--392
+\OT1/cmr/bx/n/17.28 Name:  []        Day/Time: [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--392
+
+ []
+
+Package epstopdf Info: Source file: <5_rccircuits/squareout.eps>
+(epstopdf)                    date: 2015-06-03 19:29:02
+(epstopdf)                    size: 2546 bytes
+(epstopdf)             Output file: <5_rccircuits/squareout-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2015-06-03 19:31:47
+(epstopdf)                    size: 4578 bytes
+(epstopdf)             Command: <repstopdf --outfile=5_rccircuits/squareout-eps
+-converted-to.pdf 5_rccircuits/squareout.eps>
+(epstopdf)             \includegraphics on input line 412.
+Package epstopdf Info: Output file is already uptodate.
+<5_rccircuits/squareout-eps-converted-to.pdf, id=1168, 650.43pt x 365.365pt>
+File: 5_rccircuits/squareout-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 5_rccircuits/squareout-eps-converted-to.pdf>
+Package pdftex.def Info: 5_rccircuits/squareout-eps-converted-to.pdf used on in
+put line 412.
+(pdftex.def)             Requested size: 325.2142pt x 182.68205pt.
+Package epstopdf Info: Source file: <5_rccircuits/wiring.eps>
+(epstopdf)                    date: 2015-06-03 19:29:02
+(epstopdf)                    size: 5812 bytes
+(epstopdf)             Output file: <5_rccircuits/wiring-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-03 19:31:48
+(epstopdf)                    size: 7081 bytes
+(epstopdf)             Command: <repstopdf --outfile=5_rccircuits/wiring-eps-co
+nverted-to.pdf 5_rccircuits/wiring.eps>
+(epstopdf)             \includegraphics on input line 435.
+Package epstopdf Info: Output file is already uptodate.
+
+<5_rccircuits/wiring-eps-converted-to.pdf, id=1169, 467.7475pt x 102.3825pt>
+File: 5_rccircuits/wiring-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 5_rccircuits/wiring-eps-converted-to.pdf>
+Package pdftex.def Info: 5_rccircuits/wiring-eps-converted-to.pdf used on input
+ line 435.
+(pdftex.def)             Requested size: 233.87317pt x 51.19112pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--457
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--457
+
+ []
+
+[164
+
+] [165 <./5_rccircuits/squareout-eps-converted-to.pdf> <./5_rccircuits/wiring-e
+ps-converted-to.pdf>]
+Package epstopdf Info: Source file: <5_rccircuits/rcboard.eps>
+(epstopdf)                    date: 2015-06-03 19:29:02
+(epstopdf)                    size: 624620 bytes
+(epstopdf)             Output file: <5_rccircuits/rcboard-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-06-03 19:31:49
+(epstopdf)                    size: 25677 bytes
+(epstopdf)             Command: <repstopdf --outfile=5_rccircuits/rcboard-eps-c
+onverted-to.pdf 5_rccircuits/rcboard.eps>
+(epstopdf)             \includegraphics on input line 461.
+Package epstopdf Info: Output file is already uptodate.
+
+<5_rccircuits/rcboard-eps-converted-to.pdf, id=1186, 1133.23375pt x 1214.5375pt
+>
+File: 5_rccircuits/rcboard-eps-converted-to.pdf Graphic file (type pdf)
+ <use 5_rccircuits/rcboard-eps-converted-to.pdf>
+Package pdftex.def Info: 5_rccircuits/rcboard-eps-converted-to.pdf used on inpu
+t line 461.
+(pdftex.def)             Requested size: 566.6155pt x 607.26727pt.
+
+Overfull \hbox (176.6155pt too wide) in paragraph at lines 461--464
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 115.26727pt on input line 466.
+
+[166 <./5_rccircuits/rcboard-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 470--479
+
+ []
+
+Package epstopdf Info: Source file: <5_rccircuits/scope.eps>
+(epstopdf)                    date: 2015-06-03 19:29:02
+(epstopdf)                    size: 9762 bytes
+(epstopdf)             Output file: <5_rccircuits/scope-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-03 19:31:50
+(epstopdf)                    size: 7184 bytes
+(epstopdf)             Command: <repstopdf --outfile=5_rccircuits/scope-eps-con
+verted-to.pdf 5_rccircuits/scope.eps>
+(epstopdf)             \includegraphics on input line 483.
+Package epstopdf Info: Output file is already uptodate.
+<5_rccircuits/scope-eps-converted-to.pdf, id=1206, 271.0125pt x 242.9075pt>
+File: 5_rccircuits/scope-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 5_rccircuits/scope-eps-converted-to.pdf>
+Package pdftex.def Info: 5_rccircuits/scope-eps-converted-to.pdf used on input 
+line 483.
+(pdftex.def)             Requested size: 135.5059pt x 121.45345pt.
+
+Overfull \hbox (14.27849pt too wide) in paragraph at lines 502--525
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 532--535
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--546
+
+ []
+
+[167
+
+
+ <./5_rccircuits/scope-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 569--575
+
+ []
+
+[168]
+Package epstopdf Info: Source file: <5_rccircuits/lowpass.eps>
+(epstopdf)                    date: 2015-06-03 19:29:02
+(epstopdf)                    size: 52977 bytes
+(epstopdf)             Output file: <5_rccircuits/lowpass-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-06-03 19:31:51
+(epstopdf)                    size: 9281 bytes
+(epstopdf)             Command: <repstopdf --outfile=5_rccircuits/lowpass-eps-c
+onverted-to.pdf 5_rccircuits/lowpass.eps>
+(epstopdf)             \includegraphics on input line 586.
+Package epstopdf Info: Output file is already uptodate.
+
+<5_rccircuits/lowpass-eps-converted-to.pdf, id=1222, 682.55pt x 372.39125pt>
+File: 5_rccircuits/lowpass-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 5_rccircuits/lowpass-eps-converted-to.pdf>
+Package pdftex.def Info: 5_rccircuits/lowpass-eps-converted-to.pdf used on inpu
+t line 586.
+(pdftex.def)             Requested size: 341.27417pt x 186.19516pt.
+ [169]
+Underfull \hbox (badness 10000) in paragraph at lines 598--607
+
+ []
+
+[170 <./5_rccircuits/lowpass-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 656--660
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 663--679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 663--679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 663--679
+
+ []
+
+[171]
+Underfull \hbox (badness 10000) in paragraph at lines 682--688
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 693--698
+
+ []
+
+[172]
+Overfull \hbox (19.70135pt too wide) in paragraph at lines 733--734
+\OT1/cmr/m/n/12 With the equa-tion be-low, cal-cu-late $\OML/cmm/m/it/12 A[]$ \
+OT1/cmr/m/n/12 at the cut-off fre-quency $\OML/cmm/m/it/12 f[] \OT1/cmr/m/n/12 
+= 1\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 (2\OML/cmm/m/it/12 ^^Y^^\[]\OT1/cmr/m/n/12
+ )$,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 733--734
+
+ []
+
+[173]
+Underfull \hbox (badness 10000) in paragraph at lines 736--738
+
+ []
+
+[174]
+Underfull \hbox (badness 10000) in paragraph at lines 754--757
+
+ []
+
+) [175
+
+] (./manual.aux) )
 (\end occurred inside a group at level 3)
 
 ### simple group (level 3) entered at line 408 ({)
@@ -2609,13 +3034,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 ### simple group (level 1) entered at line 70 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 2263 strings out of 493488
- 38839 string characters out of 3141326
- 87395 words of memory out of 3000000
- 5462 multiletter control sequences out of 15000+200000
+ 2369 strings out of 493488
+ 42422 string characters out of 3141326
+ 87675 words of memory out of 3000000
+ 5549 multiletter control sequences out of 15000+200000
  11699 words of font info for 40 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,11n,25p,357b,370s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,11n,25p,357b,368s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmex10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/c
@@ -2631,10 +3056,10 @@ r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/l
 ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
 al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on manual.pdf (155 pages, 936199 bytes).
+Output written on manual.pdf (183 pages, 1062087 bytes).
 PDF statistics:
- 1039 PDF objects out of 1200 (max. 8388607)
- 704 compressed objects within 8 object streams
+ 1313 PDF objects out of 1440 (max. 8388607)
+ 893 compressed objects within 9 object streams
  0 named destinations out of 1000 (max. 500000)
- 291 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 371 words of extra memory for PDF output out of 10000 (max. 10000000)
 
