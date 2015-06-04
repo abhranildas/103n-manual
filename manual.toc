@@ -153,3 +153,23 @@
 \contentsline {subsubsection}{DC Response}{172}
 \contentsline {subsubsection}{AC Response}{174}
 \contentsline {subsection}{\numberline {5.W.8}Conclusion}{175}
+\contentsline {chapter}{\numberline {6}Electromagnetic Induction}{177}
+\contentsline {section}{\numberline {6.1}Introduction}{177}
+\contentsline {section}{\numberline {6.2}Theory}{178}
+\contentsline {subsection}{\numberline {6.2.1}References}{178}
+\contentsline {subsection}{\numberline {6.2.2}Magnetic Flux}{178}
+\contentsline {subsection}{\numberline {6.2.3}Faraday's Law}{179}
+\contentsline {subsection}{\numberline {6.2.4}The Transformer}{180}
+\contentsline {section}{\numberline {6.3}Apparatus}{183}
+\contentsline {section}{\numberline {6.W}Electromagnetic Induction Worksheet}{184}
+\contentsline {subsubsection}{Sinusoidal Input}{184}
+\contentsline {subsection}{\numberline {6.W.1}In-Lab Computer Work}{186}
+\contentsline {subsubsection}{Amplitude versus Frequency}{186}
+\contentsline {subsubsection}{Amplitude versus Turns}{187}
+\contentsline {subsection}{\numberline {6.W.2}In-Lab Procedure}{187}
+\contentsline {subsubsection}{Triangle and Square Wave Input}{187}
+\contentsline {subsection}{\numberline {6.W.3}Pre-Classroom Check List}{188}
+\contentsline {subsection}{\numberline {6.W.4}In-Classroom Calculations $\&$ Discussions}{189}
+\contentsline {subsubsection}{Sinusoidal Input}{189}
+\contentsline {subsubsection}{Triangle and Square Wave Input}{191}
+\contentsline {subsection}{\numberline {6.W.5}Conclusion}{193}
