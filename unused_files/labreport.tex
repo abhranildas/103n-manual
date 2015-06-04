@@ -1,0 +1,189 @@
+Your lab reports will be graded on both content and presentation. A good 
+report is not only factually accurate, but is well organized. This document 
+outlines the content and the logical construction that your report should 
+contain, please read it carefully.
+
+As a general rule be concise when writing your report, but be clear. Each 
+section (with the exception of the title page) should include brief 
+introductory remarks,  typically a single sentence, which explain exactly what 
+is being performed and to what purpose. {\bf If we use detailed reports, we 
+should require abstracts and introductions for those.} This will be elaborated 
+on for each section individually, but keep in mind that the report should be 
+kept brief. \\
+\begin{center}
+\begin{tabular}{ll}
+{\large \bf Structure:} & Title Page\\
+& Data\\
+& Analysis\\
+& Additional Questions\\
+& Discussion
+\end{tabular}
+\end{center}
+
+\section{Title Page}
+
+This should simply contain your name, the number and title of the experiment,
+the date the experiment was performed and the names of any partners
+you worked with.  
+
+\section{Data Section} 
+
+This preliminary section includes all data taken and any constant
+parameters or sketches needed for later analysis. The original data sheets,  
+with the initials of the TA, should be included, even if the data are recopied.
+You should make a few remarks (keep them brief) so that the reader knows what 
+it is that he's looking at. If you measured voltage vs. current for a resistor,
+say this. Don't just write $V$ vs.\ $I$. Long lists of data may be 
+appropriately displayed in tabular form.  It is most important that the units 
+and an estimate of the experimental uncertainty of each piece of data be 
+clearly stated. Since this is the Data Section, no calculations should be 
+reported here, with the exception of those needed in order to carry out the 
+experiments, such as for the calibration or positioning of a piece of 
+equipment. Most calculations are better left to the Analysis Section. 
+{\bf We should decide if we want them to carry out all of the analysis for 
+each section seperately, following the presentation of recopied data.  The 
+original data sheets will still be turned in and the conclusion section should 
+be written for the whole lab, i.e.\ not piecemeal.}
+
+As an example, suppose that an experimental procedure consisted of measuring 
+the voltage across a 100k$\Omega$ resistor as the current through the
+resistor was varied. The uncertainties in each of the voltage values was the 
+same as were those of the current. The relevant part of the data section might 
+look like this:
+\begin{quote}
+{\underline{Voltage Measurement}}\\
+A variable resistor was used to vary the current through a 100k$\Omega$ 
+resistor. The voltage across the resistor was measured as a function of 
+current.\\
+\begin{center}
+\begin{tabular}{l|l}
+\multicolumn{1}{c} I(mA)  & \multicolumn{1}{c} V(V)\\
+\hline
+1.2 $\pm$ 0.1 & 2.43 $\pm$ 0.01 \\
+2.5 & 3.67\\
+$\vdots$ & $\vdots$\\
+\end{tabular}
+\end{center}
+\end{quote}
+
+There are several items illustrated by this example. Only a brief description 
+of the procedure was given, but it is clear what measurements were made. Since
+the same measurement was repeated, the data have been presented in a table.
+The table is labeled with the quantities being reported (in this case 
+by mathematical abbreviations) and their units. Note that even though a $V$ has
+been used to label the voltage values, the units of volts (again labeled by a 
+$V$) have still been included, despite the fact that the symbol $V$ was 
+repeated.  An estimate of the experimental uncertainty has been included for 
+the data, but since it is the same for each piece of data, it was unnecessary 
+to recopy it on each row of the table. However, note that this will not always 
+be the case.        
+
+\section{Analysis Section}
+
+This includes all graphs, calculations, etc.\ used to obtain the physical 
+quantities of interest from the data taken in the lab. Your introductory 
+remarks should just outline what quantities are being used in the calculation
+and what is being calculated.  If you're plotting voltage vs. current values 
+to obtain the resistance of a resistor, then say so. Don't just have a $V$ vs.\
+$I$ graph and then a calculation which results in some value of $R$. 
+
+Also, since this is the Analysis Section, it is not in good style to begin 
+formulating conclusions about the results.  Save all remarks on conclusions 
+about your results for the Discussion Section. It is also crucial that care be 
+taken in following the units and error propagation through each step of the 
+analysis.  Do not ignore units for several steps of a calculation and then 
+just write down what seem to be the proper units.  By showing how the units 
+follow through a calculation many mistakes can be avoided. 
+
+If you must perform the same calculation several times, you do not need to 
+show each calculation.  You should provide a single sample of the calculation 
+including error propagation.  Make a table up of the results for the set of 
+data. This also applies to calculations you've performed in previous writeups. 
+If you need to perform a calculation that was also made in a previous lab you 
+don't need to provide me with a sample calculation. {\bf We can give a 
+specific example here.} 
+
+
+Suppose a required  calculation was that of the power absorbed by the 
+resistor in the experiment in our previous example. The analysis might look 
+like:
+\begin{quote}
+{\underline{Power Absorbed}}
+Measurements of the voltage across and the current through a 100k$\Omega$ 
+resistor are used to calculate the power absorbed by the resistor. \\
+\ \\
+Sample Calculation: 
+\begin{eqnarray}
+P &=& IV \nonumber \\
+&=& (1.2 \mbox{mA})(2.43 \mbox{V}) \nonumber \\
+&=& 2.916 \mbox{mW} \nonumber  
+\end{eqnarray}
+Error Propagation:
+\begin{eqnarray}
+\frac{\Delta P}{P} &=& \frac{\Delta I}{I} + \frac{\Delta V}{V} \nonumber \\
+&=& \frac{0.1 \mbox{mA}}{1.2 \mbox{mA}} + \frac{0.01 \mbox{V}}{2.43 \mbox{V}}
+\nonumber \\  
+&=& 0.08744856 \nonumber \\
+\Delta P &=& 0.08744856 * 2.916 \mbox{mW} \nonumber \\ 
+&=& 0.255 \mbox{mW} \nonumber \\
+P &=& 2.92 \pm 0.26 \mbox{mW} \nonumber
+\end{eqnarray}
+Results: \\ 
+\begin{center}
+\begin{tabular}{l|l|l}
+\multicolumn{1}{c} I(mA)  & \multicolumn{1}{c} V(V) &
+\multicolumn{1}{c} P(mW)  \\
+\hline
+1.2 $\pm$ 0.1 & 2.43 $\pm$ 0.01 & 2.92 $\pm$ 0.26\\
+2.5 & 3.67 & 9.18 $\pm$ 0.39\\
+$\vdots$ & $\vdots$ & $\vdots$\\
+\end{tabular}
+\end{center}
+\end{quote}
+
+Note that a summary sentence introduced the section and that the relevant 
+equations to be used for the calculation were clearly presented.  Enough
+of the calculation was presented so that each part could be followed: values
+were substituted into the equations, but since a calculator was used, most
+of the intermediate steps could be left out for brevity. The units of all 
+quantities were always included and the concise mW was used instead of 
+$10^{-3}$ W. The uncertainty was calculated and used to provide the correct 
+number of significant figures, but as the table shows, a separate uncertainty 
+calculation was necessary for each value, since the uncertainty varied with
+the data.   
+
+\section{Additional Questions}
+	
+There will often be additional questions about the physical  principles
+or experimental techniques used in an experiment.  Answers will usually consist
+of a brief calculation or discussion,  or possibly a sketch.  The objective of
+such questions will be mainly to apply the understanding of the phenomenon
+examined to either a ``real world'' case or to a slight variation in the
+experiment that was not performed in the lab.  Occasionally, an additional 
+question might address a possible source of error for one of the procedures in
+a lab.  In any case, it is a good idea to work through the additional questions
+before writing up your discussion section. 
+
+\section{Discussion Section}
+	
+Here you will make specific statements about the results of the
+analysis and draw conclusions regarding the accuracy of techniques and success 
+in reaching the objectives of the lab.  You should only briefly allude to the 
+theory which applies to the experiment performed,  it is often sufficient to 
+state what principles apply and to quote the specific equations or accepted
+result which is being examined.  You should state clearly whether or not your
+graphs have the expected functional form ({\it i.e.}\ linear, etc.)\ and 
+whether or not your calculated results agree within the calculated 
+uncertainties to any accepted values given in the lab manual.  You should 
+attempt to explain any discrepancies in terms of specific areas of the 
+experimental technique which could have been subject to error.  Even if your 
+results do agree with expectations, you should briefly point out such sources 
+of possible error,  as this is one way of demonstrating your understanding of 
+the experiment you have performed.  Note that you should never claim ``human 
+error'' as a source of error.  If you believe there was a systematic error 
+which occurred during the data taking, you may say so, but you must explain 
+exactly which part of the apparatus or procedure was involved. Note also, that 
+an ``error in the calculations'' is not a source of error either.  If you 
+believe you've made a mistake when performing your analysis and you can't find 
+it, go to your TA's office hours and let him or her find it for you.   
+

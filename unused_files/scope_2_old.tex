@@ -1,0 +1,682 @@
+\section{Introduction}
+
+We've already seen some of the properties of DC~circuits; as you'll recall, in 
+a DC~circuit, the current and voltage values are steady.  A much more general 
+situation is where the voltage and current values change over time, as is the 
+case with the power supplied by the wall outlets in our homes and in our 
+laboratory.  The voltage and current supplied by a wall outlet does not change
+arbitrarily, however. They are examples of {\it periodic} signals, they repeat 
+themselves over time; for outlets in the US, the frequency of oscillation is 
+60~Hz.  
+
+Since these periodic signals are so important to us (our appliances, computers,
+TV's, etc.\ use them), we will spend a few weeks studying examples of 
+AC~circuits with varying types of periodic signals. We'll learn some crucial
+fundamental principles along the way. It is important that we learn how to 
+make measurements with such circuits; this will be our goal for this week's 
+lab.  The device we'll use, an oscilloscope, will display on its screen a 
+visual representation of the signal produced by the changing voltage across a 
+part of our circuit. We can measure the period of a signal, read off voltage 
+values at specific times along the signal, and display two signals so that we 
+can compare them.  Viewing two signals will be important when we want to 
+learn how the output from a specific device, such as an inductor or capacitor, 
+depends on the characteristics of the input signal. 
+\vfill
+\pagebreak
+
+\section{Theory}
+
+\subsection{References}
+
+The properties of waves are discussed in Serway, Chapter~16 (Wave Motion). 
+ 
+
+\subsection{The Properties of Waves}
+\label{sec:SCOPE:waveprop}
+As we mentioned in the introduction, a signal which repeats itself after a 
+certain amount of time is called {\it periodic}; such a signal is shown in 
+Figure~\ref{fig:scope:periodic}.
+\begin{figure}[htb]
+\centerline{\epsfxsize=12cm \epsfbox{scope_2/periodic.eps}}
+\caption{A periodic, albeit weird, signal.}
+\label{fig:scope:periodic}
+\end{figure}
+The amount of time it takes for the signal to repeat is called the {\it period}
+of the signal and is denoted $T$.  The {\it rate} at which 
+the signal repeats itself is called the {\it frequency} and is denoted by $f$. 
+It is easy to see that $f=1/T$.  The maximum ``height'' between the peaks of
+the signal is called the {\it peak-to-peak amplitude} and denoted $A_{pp}$.
+What we more commonly refer to as the {\it amplitude} is half of $A_{pp}$.  
+
+The periodic signals we will study are often referred to as {\it waves}, due to
+their relationship to the physically important solutions to the {\it wave
+equation}.  The first type of wave we'll discuss is the sinusoid in 
+Figure~\ref{fig:scope:sinusoid}.
+\begin{figure}
+\centerline{\epsfxsize=8cm \epsfbox{scope_2/sinusoid.eps}}
+\caption{A sinusoidal wave.}
+\label{fig:scope:sinusoid}
+\end{figure}
+The mathematical functions that describe sinusoidal waves are sine and cosine.
+They can be expressed in the form
+\begin{eqnarray*}
+& F(t) = A \sin(\omega t+\phi) & \\ 
+& \mbox{or} & \\
+& F(t) = A \cos(\omega t+\theta), &  
+\end{eqnarray*}
+where $\omega$ is the {\it angular frequency}, defined by $\omega=2\pi f$, and
+$\phi$ and $\theta$ are constants called {\it phase angles}.  The phase angle
+is an artifact of the time-coordinate we choose to define the sinusoid; it
+tells us where the zeros of the wave are located.  Since the sine and cosine
+functions take a maximum value of 1, we see that $A$ is the {\it amplitude} of 
+the wave.
+
+The concept of phase is an important one; we'll learn how to measure the 
+{\it difference} in phase between two waves in the lab. Let's examine an 
+example: the phase difference between sine and cosine waves of the same 
+frequency, 
+illustrated in Figure~\ref{fig:scope:phasediffer}, where
+\begin{eqnarray*}
+& F_1 & =A_1\sin\omega t,  \nonumber \\
+& F_2 & = A_2 \cos\omega t.
+\end{eqnarray*}
+\begin{figure}[htb]
+\centerline{\epsfxsize=8cm \epsfbox{scope_2/phasediffer.eps}}
+\caption{Sine and cosine waves differ in phase.}
+\label{fig:scope:phasediffer}
+\end{figure}
+We see that these two waves differ along the time axis; that the amplitudes
+are different does not matter; the maxima, minima, and zeros of the two waves
+will always differ by a distance in {\it time}, $\Delta t$, called the 
+{\it phase difference} between 1 and 2.  We note that it is important that the 
+two waves are of the {\it same} frequency. If we were dealing with waves of 
+different frequencies, as in Figure~\ref{fig:scope:differfreq},
+\begin{figure}[htb]
+\centerline{\epsfxsize=8cm \epsfbox{scope_2/differfreq.eps}}
+\caption{The concept of phase difference does not apply to waves of different
+frequencies.}
+\label{fig:scope:differfreq}
+\end{figure}
+there's no reason for the maxima (or minima, or zeros) to be separated by a 
+{\it uniform} amount.  The concept of phase difference is, therefore, 
+meaningless unless we are discussing waves of the same frequency.
+
+Let's see how phase difference relates to the concept of phase angle. Again 
+we'll study the sine and cosine example. Note that, from the trigonometric
+identity
+$$ \sin(A+B) = \sin A \cos B + \cos A \sin B, $$
+we can write
+$$ \cos\omega t = \sin (\omega t +90^\circ), $$
+where $90^\circ$ is a phase angle.  We can therefore write
+\begin{eqnarray*}
+& F_1 & = A_1 \sin \omega t \nonumber \\
+& F_2 & = A_2 \sin(\omega t+90^\circ).
+\end{eqnarray*}
+These are of the same functional form (though of differing amplitudes), but 
+differ in that the phase angle of $F_2$ is $\phi_2=90^\circ$, while that of 
+$F_1$ is $\phi_1=0$.  In a more general case, we might have
+\begin{eqnarray*}
+& F_1 & = A_1 \sin (\omega t+\phi_1) \nonumber \\
+& F_2 & = A_2 \sin (\omega t + \phi_2);
+\end{eqnarray*}
+the {\it angular phase difference} between 1 and 2 is defined to be
+$$ \phi=\phi_2-\phi_1.$$  
+We note that a similar definition exists if we have cosine, rather than sine, 
+waves. As an exercise, the student should verify that the time shift, 
+$\Delta t$, is related to the angular phase difference, $\phi$, by
+\begin{equation}
+\fbox{$ \displaystyle \frac{\phi}{2\pi} = \frac{\Delta t}{T}.$} \label{eq:scope:angphase}
+\end{equation}
+
+Another type of wave that we'll find important is the {\it square wave}, 
+illustrated in Figure~\ref{fig:scope:squarewave}.
+\begin{figure}[htb]
+\centerline{\epsfxsize=8cm \epsfbox{scope_2/squarewave.eps}}
+\caption{A square wave.}
+\label{fig:scope:squarewave}
+\end{figure}
+Functionally, we can write
+$$ F(t) = \left\{ 
+\begin{array}{cc} A & 0<t<T/2 \\ -A & T/2<t<T. \end{array} \right. $$
+The concept of phase difference (but not phase angle, this isn't a 
+trigonometric function!) can clearly be applied to two square waves of the same
+frequency, see Figure~\ref{fig:scope:squarephase}.
+\begin{figure}[htb]
+\centerline{\epsfxsize=8cm \epsfbox{scope_2/squarephase.eps}}
+\caption{A phase difference between two square waves.}
+\label{fig:scope:squarephase}
+\end{figure}
+Finally, we also have the {\it triangle wave} in 
+Figure~\ref{fig:scope:triwave}.
+\begin{figure}[htb]
+\centerline{\epsfxsize=8cm \epsfbox{scope_2/triwave.eps}}
+\caption{A triangle wave.}
+\label{fig:scope:triwave}
+\end{figure}
+We leave it to the interested student to write the triangle wave down in 
+mathematical form. Note that, once again, phase difference is meaningful for
+triangle waves of equal frequency.
+
+\section{Apparatus}
+
+\subsection{The Oscilloscope}
+
+The oscilloscope is a device which displays a voltage signal, constant or 
+time-varying, periodic or otherwise, as a function of time.  The screen it uses
+is part of a cathode ray-tube, like that in your television.  What this amounts
+to is an extremely enlightening picture of what is happening in our circuit.
+The ability to adjust the characteristics of how the oscilloscope displays our
+signal makes it an extremely versatile tool.  An illustration of the 
+oscilloscope we'll be using appears in Figure~\ref{fig:scope:oscope}.
+\begin{figure}[htb]
+\centerline{\epsfxsize=16cm \epsfbox{scope_2/oscilloscope.eps}}
+\caption{The Tektronix model 2225 oscilloscope.}
+\label{fig:scope:oscope}
+\end{figure}
+
+How does the oscilloscope work? Everything begins with an AC voltage input
+fed into one of the channels of the oscilloscope.  A logic circuit, called the
+{\it trigger}, is configured to detect a signal when the input reaches some 
+minimum value; this value may be adjusted by the user.  When an input signal of
+at least this value is detected, the trigger sends a message to the display
+circuit, which begins displaying the signal on the screen. 
+
+The vertical direction indicates the voltage value of the input at a given 
+time; each large division (the boxes) indicates a number of volts given by the
+scale factor on the V/div knob.  For example, if we measure the amplitude of 
+the signal displayed in Figure ~\ref{fig:scope:oscope} to be 3.6~div (ignoring 
+uncertainty for the moment) and if the V/div knob is set at 0.5~V/div, then 
+the amplitude, in volts, is 
+$$ (3.6~\mbox{div}) (0.5~\mbox{V/div}) = 1.8~\mbox{V}. $$
+We should always use the scale factor on the V/div knob so that we report the 
+amplitude, and any other voltage values we measure, in units of voltage.
+The horizontal direction indicates time. If we measure the distance between 
+the maxima of the wave in Figure ~\ref{fig:scope:oscope} to be $5$~div and 
+the sec/div knob reads 5~ms/div, then the period is 
+$$(10~\mbox{div}) (5~\mbox{ms/div}) = 50~\mbox{ms}.$$
+
+What about the uncertainty in our measurements made with the oscilloscope? 
+Note that, since the oscilloscope screen is ruled, the finest scale marking 
+may be used to estimate the uncertainty in all of the measurements we make.  
+Estimating the uncertainty in this manner is precisely the same thing we do
+when we're measuring length with a ruler. Remember that the uncertainty 
+expressed in divisions, like the quantity itself, must be multiplied by the 
+proper scale factor to obtain an uncertainty expressed in the appropriate 
+units.
+
+Finally, we'll provide a reference to the buttons and knobs on the scope.  
+We'll group the adjustments into several categories:
+
+\begin{enumerate}
+
+\item {\bf Display Quality Adjustments}
+	\begin{enumerate}
+	\item {\bf Power}: This button turns the oscilloscope on and off.  
+Let the oscilloscope warm up for a few seconds until a bright line, the 
+{\it trace}, appears.
+
+	\item {\bf Intensity}: This knob adjusts the intensity of the trace so
+that it can be comfortably viewed. 
+
+	\item {\bf Beam Find}: This button allows you to find the trace when 
+it appears somewhere off scale, and out of the present field of view.   
+ 
+	\item {\bf Focus}: This knob allows you to focus the trace into a thin 
+line. This makes reading the scale on the screen easier and more precise.
+	\end{enumerate}
+
+\item {\bf Vertical Mode  Adjustments}:
+	\begin{enumerate}
+  	\item {\bf Channel 1 input}: This is a BNC connection which is used to 
+feed a voltage signal into channel 1.
+
+	\item {\bf Channel 2 input}: This BNC connection is the channel 2 feed.
+
+	\item {\bf ch1/both/ch2}: This switch allows you to set the display to
+channel 1 only, both channels simultaneously, or channel 2 only.  Note that
+both channels have the same time scale.
+ 
+	\item {\bf norm/ch2 invert}: If this switch is set to {\it ch2 invert}
+channel 2 will display the negative of whatever signal is being sent in to the
+{\it channel 2 input}.  We'll want to leave this on {\it normal} for all of our
+measurements.
+
+	\item {\bf add/alt/chop}: This switch is used when displaying two 
+signals simultaneously.  We'll leave this set to {\it alternate}, so that the 
+electron gun in the CRT will alternate between the channel~1 and channel~2 
+inputs during its refresh cycle.  
+ 
+	\item {\bf (vertical) position}: These are two knobs, one for 
+each channel, that change the vertical position of the signal (from the 
+corresponding channel), without changing the amplitude, frequency, or phase.
+ 
+	\item {\bf trace sep}: This knob increases or decreases the vertical 
+distance between the channel 1 and channel 2 traces when displaying them 
+simultaneously.
+
+	\item {\bf V/div}:  These knobs vary the voltage scale for each 
+channel.  The number displayed in the $\times 1$ box to the side represents the
+voltage value (in V or mV, check the units on the particular setting) that
+corresponds to each large division (the squares) of the oscilloscope screen.
+  
+	\item {\bf cal}: These knobs allow {\it calibration} of the voltage
+scale for each channel.  We'll want to keep them turned all the way 
+{\it clockwise}, which restores the factory calibration settings.
+
+	\item {\bf AC/gnd/DC}: These switches choose between three modes of 
+operation for each channel.  The {\it ground} option displays the ground value
+of the corresponding channel; this is used to ``zero'' this out on the screen.
+The AC setting is used to display an AC signal, while the DC setting is used 
+to display a signal that has a DC component in addition to any AC variation. 
+ 	\end{enumerate}
+
+\item {\bf Horizontal Mode Adjustments}:
+	\begin{enumerate}
+	\item {\bf (horizontal) position-coarse/fine}: These two knobs adjust
+the horizontal position of the signal (same for both channels), without 
+changing the amplitude, frequency, or phase.
+
+	\item {\bf sec/div}: This knob varies the time scale for both channels.
+The number displayed in the box to the side represents the time value (in s, 
+ms, or $\mu$s, check the units on the particular setting) that corresponds to 
+each large division (the squares) of the oscilloscope screen.
+  
+	\item {\bf cal}: This allows calibration of the time scale.  As with 
+the V/div knobs, we'll keep this turned all the way {\it clockwise} to maintain
+the factory setting.
+
+	\item {\bf $\times 1$/alt/mag}: The {\it magnification} option allows 
+the use of one of the three horizontal magnification settings, 
+$\times 5$,$\times 10$, or $\times 15$. This switch should
+be kept at the $\times 1$ setting; we shouldn't need to use any of the other
+options.
+
+	\item {\bf $\times 5$/$\times 10$/$\times 15$}:  Selects the desired
+magnification scale when the $\times 1$/alt/mag switch is set to mag.
+
+	\item {\bf ground/calibration signal}:  This provides a reference 
+signal and ground, predominantly used to calibrate the scales.  There is 
+approximately a 20\% uncertainty in the voltage and frequency of the reference 
+signal, so we won't gain anything from calibrating with this.
+	\end{enumerate}
+
+\item {\bf Trigger Adjustments}: \\
+
+Its a good idea to leave these alone (with the exception of the {\it source}
+option, see below) unless you have problems getting a stable trace to appear 
+on the screen; even in that case, it's a good idea to leave the necessary 
+adjustments up to your instructor.  
+
+	\begin{enumerate}
+	\item {\bf Slope}: This sets the triggering on either an increase in 
+signal strength (the upward slope) or on a decrease in signal strength (the 
+downward slope).
+
+	\item {\bf level}: This sets the minimum value of the input signal that
+will be required to begin triggering. 
+
+	\item {\bf mode}: We'll want this set on the {\it auto} setting; we'll
+keep triggering decisions up to the oscilloscope.         
+
+	\item {\bf holdoff}: This is used to get rid of ``ghost'' signals that
+appear from time to time.
+
+	\item {\bf source}: This switch allows you to select the reference 
+signal (channel 1, channel 2, or an external signal) to be used by the 
+trigger. We won't use external triggering in this lab.  When we're examining 
+the input and output of a circuit, we'll want to trigger on the {\it input} 
+signal, so set the source to the corresponding channel.
+
+	\item {\bf external input}: This BNC input allows an external signal
+to be used for triggering. We won't need to use this.
+	
+	\item {\bf coupling}: This switch indicates the type of signal that 
+should be used for triggering.  Since we're using AC signals, this should be
+set to the AC position.
+	\end{enumerate}
+
+\end{enumerate}
+
+\subsection{The Function Generator}
+
+The function generator is designed to produce waveforms of variable shape,
+frequency, and amplitude; an illustration of the one we'll be using appears in
+Figure~\ref{fig:scope:functiongen}.
+\begin{figure}[htb]
+\centerline{\epsfxsize=14cm \epsfbox{scope_2/functiongen.eps}}
+\caption{The function generator.}
+\label{fig:scope:functiongen}
+\end{figure}
+The function generator controls are as follows:
+
+\begin{enumerate}
+
+\item {\bf power}: This button just turns the function generator on and off.
+
+\item {\bf output}: This BNC connection is the signal output.
+
+\item {\bf waveform}: These buttons select between sinusoidal, triangle, or 
+square wave output.
+
+\item {\bf amplitude}: This adjusts the amplitude (voltage value) of the output
+signal.
+
+\item {\bf 0~dB/-30~dB}: This button selects between two output voltage ranges.
+We'll want to keep this on the 0~dB setting, for a strong output signal.  
+
+\item {\bf frequency}: This allows for fine tuning of the frequency output.
+The number on the dial must be multiplied by the range setting (see below) to 
+obtain a frequency in units of Hz. The frequency read from the function 
+generator should be regarded as a strictly nominal value. Since we generally 
+want a frequency value that we can trust, we will {\it always} be sure to 
+measure the frequency with the oscilloscope; we don't want to place very much 
+trust in the nominal value.
+
+\item {\bf range}: These buttons select between 7 frequency ranges, from 
+0.1~Hz to 100~kHz.
+
+\item {\bf DC offset}: This provides a DC component to the output signal. Since
+we'll only be interested in AC signals, we'll leave this set to {\it off}.
+
+\end{enumerate}
+
+\subsection{The Phase Shifter}
+
+The phase shifter consists of a variable resistor and two capacitors, 
+illustrated in Figure~\ref{fig:scope:phaseshifter}.
+\begin{figure}[htb]
+\centerline{\epsfxsize=8cm \epsfbox{scope_2/phaseshifter.eps}}
+\caption{The phase shifter circuit.}
+\label{fig:scope:phaseshifter}
+\end{figure}
+The knob on the phase shifter box controls the amount of resistance provided
+by the variable resistor.  When we study RC circuits in the next lab, we'll
+learn that these circuits change both the {\it amplitude} and {\it phase} of
+an AC input, but not its frequency.  For now, we can ignore the details of
+why this happens; we'll simply use the phase shifter to change the phase of the
+output signal.  By examining the input and output signals together on the 
+oscilloscope, we'll learn how to measure phase differences between signals.
+
+\vfill
+\pagebreak
+
+%  Label worksheets by \thechapter.W
+\renewcommand{\thesection}{\thechapter.W}
+
+\section{Oscilloscope Worksheet}
+
+{\bf \Large Name:}~ \rule{5cm}{.1mm}~~~~~~~
+{\bf \Large Day/Time:}~\rule{3cm}{.1mm}\\
+{\bf \Large Partner's Names:}~\rule{6cm}{.1mm}\\
+   \subsection{In-Lab Procedure}
+
+\subsubsection{Referencing the Signal to Ground}
+\label{sec:scope:ground}
+Turn on the oscilloscope and wait until the trace appears; if necessary, use 
+the beam find button and the position knobs to bring the trace into view. Use
+the Ch~1/both/Ch~2 switch to check that the traces from {\it both} channels
+appear.  Set the oscilloscope to display only one channel, switch to ground
+(below the knob), then adjust the 
+vertical position of that channel so that the trace lines up with the 
+horizontal axis (the ``ticked'' horizontal line in the center of the screen).
+Repeat this for the other channel.
+
+\subsubsection{Operating the Equipment}
+\label{sec:scope:oper}
+Now that the channels' vertical display are referenced to ground, 
+turn the function generator on and connect 
+it to one of the channels.  Set it to produce a sinusoidal wave of 
+approximately~1~kHz; the amplitude should be set to an arbitrary non-zero 
+value. Make sure that the oscilloscope AC/gnd/DC switch is set to AC and that 
+you are triggering on the channel that you've connected the input to.  Adjust 
+the V/div and sec/div knobs so that a single wave fills the screen, as 
+illustrated in Figure~\ref{fig:scope:oscope}.  This means that a single
+period should take up the entire oscilloscope screen.  The oscilloscope
+controls are
+versatile enough to allow you to adjust the display so that you can comfortably
+make measurements of the amplitude and period of the signal. \\
+
+\noindent Check that the sine wave appears to be symmetric about the
+horizontal axis; if
+not, you need to adjust the vertical position again.  To do this, you do not need to 
+disconnect the input. Simply set the AC/gnd/DC switch to {\it gnd} and use the
+vertical position knobs to realign the trace with the axis.  You might need
+to repeat this procedure again later, since changing the V/div and sec/div
+scales can upset the ground. When you're done, be sure to return the AC/gnd/DC 
+switch to AC.
+
+\noindent Before making any measurements, let's experiment with the equipment a bit.
+Change the amplitude and frequency on the function generator and watch how
+the signal changes on the screen. Practice readjusting the oscilloscope scales
+so that you get only one or two cycles on the screen; readjust the ground when 
+necessary.  Now set the function generator to display a square wave.  Again,
+experiment with different frequencies and amplitudes. Examine the {\it shape}
+of the signal carefully.  You should have a single period filling the screen
+before examining the shape, i.e. a change in frequency does not constitute a 
+change in shape. \\
+
+\noindent {\bf {\large Answer the following questions completely 
+(not yes or no) stating
+your reasoning behind each answer.}}  \\
+\ \\
+\noindent {\bf Question 1:} \hspace*{0.5cm} Comparing with 
+Figure~\ref{fig:scope:squarewave}, does the shape vary with the frequency?
+Illustrate as necessary. \\
+\vspace*{2cm} \\  
+\noindent {\bf Question 2:} \hspace*{0.5cm}Also examine the triangle waves produced by the
+function generator; compare the triangle waves to those illustrated in
+Figure~\ref{fig:scope:triwave}.  Does the shape vary with the frequency?
+Illustrate as necessary. \\
+\vspace*{2cm} \\   
+\noindent {\bf Question 3:} \hspace*{0.5cm}  Now make a definitive statement
+about the quality of the signals generated by your function generator.  You
+will need to use this information as we continue with the labs. \\  
+
+\subsubsection{Measuring Amplitude and Frequency}
+\label{sec:scope:measampfreq}
+
+Reset the function generator to produce a sinusoidal wave and adjust the scope
+so that the signal fills the screen.  Sketch the wave displayed onto the grid 
+below.  Note that the second grid is just in case you make a mistake on the first one.   
+\begin{center}
+\begin{tabular}{ccc}
+\epsfxsize=7cm \epsfbox{scope_2/scope.eps} & \hspace{0.5cm} &
+\epsfxsize=7cm \epsfbox{scope_2/scope.eps}
+\end{tabular}\\
+\end{center}
+\noindent Record the frequency setting on the function generator in the {\bf correct 
+units}(Note that this is a nominal value and may be far from the accurate one): \\
+\ \\
+Frequency setting: \rule{3cm}{.1mm}\\
+\ \\
+Measure the
+amplitude and period of the signal.  The way you should measure the amplitude 
+is to measure the {\it peak-to-peak amplitude} and divide by two; this 
+eliminates any error that might creep in if the wave is not symmetric about
+the horizontal axis.  Remember to use the V/div and sec/div scale factors to
+convert these into the proper units, and to estimate the uncertainty for each
+measurement.  Show all of your work in the space above the answer. \\
+\vspace*{2.5cm}\\
+Amplitude:  \rule{3cm}{.1mm} \hspace*{1cm} Period: \rule{3cm}{.1mm}\\
+\vspace*{1cm}\\ 
+\ \\
+Readjust the oscilloscope scales ({\it not} the function generator settings) so
+that the signal no longer fills the screen. Be sure that several cycles can be
+seen.  Sketch the signal on the grid below.
+\begin{center}
+\begin{tabular}{ccc}
+\epsfxsize=7cm \epsfbox{scope_2/scope.eps} & \hspace{0.5cm} &
+\epsfxsize=7cm \epsfbox{scope_2/scope.eps}
+\end{tabular}\\
+\end{center}
+\noindent Record the frequency setting on the function generator in the 
+{\bf correct 
+units}: \\
+\ \\
+Frequency setting: \rule{3cm}{.1mm}\\
+\ \\
+Measure the amplitude and period with units and uncertainties showing your 
+work in the space above 
+your answer.  
+\vfill
+Amplitude:  \rule{3cm}{.1mm} \hspace*{1cm} Period: \rule{3cm}{.1mm}\\
+\pagebreak
+\subsubsection{Measuring Phase Difference}
+\label{sec:scope:measphdiff}
+
+Let's examine the effect of the phase shifter. Use the BNC T-connector to 
+split the output of the function generator. Connect one wire to channel~1 and
+the other to the input of the phase shifter.  Connect the output of the phase
+shifter to channel~2; the circuit is illustrated in 
+Figure~\ref{fig:scope:phasemeas}.
+\begin{figure}[htb]
+\centerline{\epsfxsize=8cm \epsfbox{scope_2/phasemeas.eps}}
+\caption{How to connect the phase shifter.}
+\label{fig:scope:phasemeas}
+\end{figure}
+Set the function generator to produce a sine wave at $\sim$5~kHz and set the
+phase shifter to its minimum value. Adjust the oscilloscope to display both 
+signals and to trigger on channel~1 (the direct output of the function 
+generator). \\
+
+\noindent You'll probably have to set the V/div settings of each channel to different 
+values so that both signals are displayed at optimal size. 
+Sketch the two waveforms for the {\bf minimum} setting 
+of the phase shifter at
+$\sim$5~kHz. (Draw both on the same grid. Remember that the second grid is 
+there just in case you make a mistake.)
+\begin{center}
+\begin{tabular}{ccc}
+\epsfxsize=7cm \epsfbox{scope_2/scope.eps} & \hspace{0.5cm} &
+\epsfxsize=7cm \epsfbox{scope_2/scope.eps}
+\end{tabular}\\
+\end{center}
+\noindent Measure the period $T$ for both waves and the time shift $\Delta t$ between 
+them and mark them, in the proper units and with an uncertainty for each, 
+below.\\
+\ \\
+$T$ (ch. 1): \rule{3cm}{.1mm} \hspace*{1cm} $T$ (ch. 2): 
+\rule{3cm}{.1mm} \\
+\ \\
+$\Delta t$: \rule{3cm}{.1mm} \\
+\ \\
+\ \\
+\noindent Now set the phase shifter to its {\bf maximum} value and repeat the above sketch and 
+measurements.
+
+\ \\\begin{center}
+\begin{tabular}{ccc}
+\epsfxsize=7cm \epsfbox{scope_2/scope.eps} & \hspace{0.5cm} &
+\epsfxsize=7cm \epsfbox{scope_2/scope.eps}
+\end{tabular}\\
+\end{center}
+$T$ (ch. 1): \rule{3cm}{.1mm} \hspace*{1cm} $T$ (ch. 2): 
+\rule{3cm}{.1mm} \\
+\ \\  
+$\Delta t$: \rule{3cm}{.1mm} \\
+\ \\
+\ \\
+
+
+\subsection{Pre-Classroom Check List}
+\noindent $\bigcirc$ \hspace*{1cm} Answered questions $\#1-3$. \\
+$\bigcirc$ \hspace*{1cm} Sketched 2 waveforms and found their respective 
+amplitudes and \\ \hspace*{1.5cm} periods with uncertainties. \\
+$\bigcirc$ \hspace*{1cm} Sketched a wave and its phase shifted counterpart on 
+the same grid \\ \hspace*{1.5cm} for a minimum shift and found their periods and time shift. \\
+$\bigcirc$ \hspace*{1cm} Sketched a wave and its phase shifted counterpart on the same grid
+\\ \hspace*{1.5cm} for a maximum  shift and found their periods and time shift. \\
+
+
+
+\subsection{In-Classroom Calculations $\&$ Analysis}
+\subsubsection{Measuring Amplitude and Frequency}
+Calculate frequency from the period of the first waveform measured.  Show your
+work for this and every calculation. \\
+\ \\
+\vskip \baselineskip
+\noindent Frequency:  \rule{3cm}{.1mm} \\    
+\ \\
+\noindent Compare the measured frequency value with the nominal value from the function
+generator on your discussion sheet.\\
+\vspace*{3cm} \\
+\noindent Repeat this calculation to determine the frequency of the second 
+waveform measured with the contracted oscilloscope setting. \\
+\vspace*{2cm} \\
+\noindent Frequency:  \rule{3cm}{.1mm} \\    
+\ \\
+\noindent How do these values compare
+to those made with the ``larger'' signal (the first one you sketched)?  
+Specifically, how do the 
+uncertainties compare; which are the more precise values?  \\
+\vspace*{3cm} \\
+\noindent If you require the
+most precise measurements possible, what should you make sure to do when you
+make measurements with the oscilloscope? \\
+\vspace*{2cm}
+
+\subsubsection{Measuring Phase Difference}
+From the two periods obtained, using the {\bf min.} phase shift,  determine 
+the change in period. \\
+\ \\
+$\Delta T$: \rule{3cm}{.1mm} \\ 
+\ \\
+\noindent Are the periods
+equal, within uncertainty, {\it i.e.}, has the phase shifter changed the
+frequency of the input signal? \\
+\ \\
+\vspace*{1.5cm} \\
+\noindent Now calculate the corresponding phase shift $\phi$ (in radians and degrees) 
+with 
+uncertainty using equation~(\ref{eq:scope:angphase}).  \\
+\vspace*{3cm}\\
+$\phi$ (min.) \rule{3cm}{.1mm} \\
+\ \\
+\vfill
+
+\noindent Now repeat the above for the {\bf max.} 
+\ \\
+\ \\
+\ \\
+$\Delta T$: \rule{3cm}{.1mm} \\ 
+\ \\
+\noindent Are the periods
+equal, within uncertainty, {\it i.e.}, has the phase shifter changed the
+frequency of the input signal? \\
+\vfill
+\pagebreak
+\noindent Calculate the phase shift $\phi$ (in radians and degrees) with 
+uncertainty.\\
+\vspace*{3cm}\\
+$\phi$ (max.) \rule{3cm}{.1mm} \\ 
+\ \\
+\noindent Now calculate the {\bf range} of the phase shifter with an uncertainty in radians and degrees: \\
+\vspace*{1.5cm}\\
+Phase Shift Range: \rule{3cm}{.1mm} \\
+\ \\
+\noindent Make concluding remarks about the quality of your phase shifter comparing the range which you calculated above to the range you expect the shifter to have. Cite all relevant data from your experiment.
+
+\vfill
+\noindent {\Large End Worksheet}
+
+
+
+% Go back to ordinary section numbering
+\renewcommand{\thesection}{\thechapter.\arabic{section}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,109 @@
+\documentclass[12pt]{article}
+\oddsidemargin 0mm
+\evensidemargin 0mm
+\textwidth=160mm
+\textheight=230mm
+\headsep=0cm
+\parindent=10mm
+\headheight=-15mm
+\usepackage{epsf}
+
+\begin{document}
+
+\begin{center}
+{\LARGE \bf PHY 103N - RC Circuits} \\
+\vspace*{3mm}
+{\large \bf Procedural Modifications}
+\end{center}
+
+\noindent
+{\bf Instructions}: 
+This handout outlines several changes to the procedures in
+the lab manual. Where this handout and the manual conflict, follow the 
+instructions contained here.
+
+\section{Apparatus}
+
+We will use the T-connectors to split the output of the function generator, as
+illustrated in Figure~\ref{fig:wiring}.
+\begin{figure}[htb]
+\epsfxsize=8cm
+\centerline{\epsfbox{wiring.eps}}
+\caption{We will use the T-connector and trigger the oscilloscope on 
+channel~1.}
+\label{fig:wiring}
+\end{figure}
+The split signal will allow us to trigger on the raw output of the function 
+generator (on channel~1).
+
+We will use a 51~$\Omega$ resistor and a 68~nF capacitor in our RC~circuit.
+Since the function generator has a 600~$\Omega$ output impedance, what should
+really go into our formulae during our analysis is the equivalent resistance 
+of each circuit. Take care when evaluating this, since the resistor and the
+function generator can be in series or in parallel, depending on where you 
+decide to make measurements. The circuit we will set up on the board is 
+illustrated in Figure~\ref{fig:rcboard}.
+\begin{figure}[htb]
+\epsfxsize=15cm
+\centerline{\epsfbox{rcboard.eps}}
+\caption{The proper breadboard connections for our RC circuit. Note that the
+oscilloscope can be connected so that it measures the voltage across the 
+capacitor ($V_C$) or that across the resistor ($V_R$).}
+\label{fig:rcboard}
+\end{figure}
+\clearpage
+
+\section{DC Response}
+Arrange the circuit in Figure~\ref{fig:rcboard} on the breadboard and set the 
+function generator to provide a square wave at about 1~kHz.  Connect the 
+alligator clips of the BNC-to-alligator clip wire to jumpers on the board 
+so that they are measuring the voltage across the {\it capacitor}, $V_C$; 
+send this into channel~2 of the oscilloscope. Trigger the oscilloscope on 
+channel~1 and display channel~2; adjust the scope until
+you can see the decay/growth response illustrated as ``output'' at the bottom
+of Figure~4.9 in the manual.  By adjusting the V/div and sec/div knobs of the
+scope, focus in on a {\it decay} portion of the signal. Adjust the channel~2
+vertical position and the horizontal position knobs until the maximum of the 
+decay curve lands on a vertical grid line (voltage axis) and the minimum lands 
+on a horizontal grid line (time axis), as illustrated in 
+Figure~\ref{fig:scope}.
+\begin{figure}[htb]
+\epsfxsize=8cm
+\centerline{\epsfbox{scope.eps}}
+\caption{Adjust the scope until you have the decay curve aligned with a 
+``voltage axis'' and ``time axis.''}
+\label{fig:scope}
+\end{figure}
+Now use the axes you thus created to measure the voltage-time pairs referred to
+in the manual. Perform all of the analysis on this data as asked in 
+Section~4.4.1 of the manual.
+%\clearpage
+
+\section{AC Response}
+Now adjust the function generator to provide a sinusoidal input to the circuit.
+Referring to the circuit diagram in Figure~\ref{fig:lowpass} for this 
+arrangement, calculate the equivalent resistance from the nominal value of 
+resistance and the output impedance of the function generator. 
+\begin{figure}[htb]
+\epsfxsize=8cm
+\centerline{\epsfbox{lowpass.eps}}
+\caption{A low-pass filter arrangement.}
+\label{fig:lowpass}
+\end{figure}
+Use this and the nominal capacitance to calculate the cutoff frequency for the 
+circuit. 
+
+Ignore the phase difference measurement. 
+
+Set the function generator to a 
+frequency below the cutoff. You can tell that you're below the cutoff when you 
+see that the amplitude of the output signal doesn't depend on the frequency;
+this will probably be somewhere in the 1~kHz range of the function generator. 
+Continue with the amplitude versus frequency measurements and subsequent
+analysis in Section 4.4.2 for this circuit. 
+
+Ignore the procedure for measuring voltage across the resistor.
+
+\end{document}
+
+

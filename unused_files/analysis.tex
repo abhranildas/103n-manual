@@ -1,0 +1,175 @@
+At the moment this will just be a disjoint union of things I cleaved from my 
+handout on the style of the labreport. The rest of the handout forms the 
+beginnings of the Lab Report chapter. 
+
+\section{Significant Figures}
+
+A remark about the significant figures that you should report your 
+results to is in order. To get the correct number of significant figures 
+in a result:  
+\begin{enumerate} 
+\item Calculate the uncertainty in the quantity.
+\item Round off the uncertainty to one or two digits.
+\item Express the uncertainty in the same units as the quantity.
+\item Round off the quantity to the last decimal place of the uncertainty.
+\item Always write down the final result of a calculation with the uncertainty
+and units included. 
+\end{enumerate}
+Use the form 
+\begin{eqnarray}
+(2.34 \pm 0.23) \cdot 10^3 m, \mbox{ or } 2.34 \pm 0.23 \mbox{km} \nonumber 
+\end{eqnarray}
+{\bf not} expressions such as 
+\begin{eqnarray}
+& 2.34 \cdot 10^3 m \pm 0.23 \cdot 10^3 m, \nonumber \\
+& 2.34  km \pm 23 \cdot 10^1 m, \nonumber \\
+& 2340 \cdot m \pm 0.23 \cdot 10^3 m. \nonumber
+\end{eqnarray}
+
+\section{Graphing}
+ 
+In many labs you will be required to graph sets of 5 to 15 data points and make
+linear fits to the data.  Such graphs should be made on graph paper of at least
+4 boxes to the inch and should be large and clearly drawn.  Using a full page 
+for a graph of 10 points is not unreasonable.  The scales on the axes should be
+chosen appropriately,  in order that the data is well spread over the area of 
+the graph. Having bunched data points leads to difficulty in reading the graph 
+and loss of precision in fitting lines and calculating slopes and intercepts.  
+Do not draw your axes across a full page and choose your scale in such a way 
+that the data points occupy only a few cm$^2$!  Also, take care to distinguish 
+between dependent and independent variables when graphing;  the quantity which 
+is the function of the other in the experiment is conventionally plotted along 
+the vertical axis.  If you are asked to plot $y$ vs.\ $x$,  for example,  what 
+is usually meant is that $y$ depends on $x$ and should appear on the vertical 
+axis.
+
+You should be familiar with the techniques of line fitting to linear data 
+points.  Note, however, that in general,  the process of fitting a line or 
+curve to experimental data is theory dependent.  As this course focuses on the
+experimental techniques of physics, you should avoid drawing lines or curves
+through data points unless directed to.  In any case,  do not simply attempt 
+to ``connect the dots'';  doing so has no physical basis and yields no insight
+into  what is being examined.  Also, avoid obscuring data points when drawing
+lines on a graph.  Before fitting lines you should include errorbars on two or 
+three of your data points in order to take into account your experimental 
+uncertainty.  The line which best fits the linear trend of the data is then 
+drawn.  In addition,  you should draw the steepest and least steep lines that 
+are consistent with both the trend of the data points and the errorbars.  Note 
+that these lines represent overall trends in the data and need not pass 
+through any specific data points. You should never just pick two convenient 
+data points and draw a line through them. You want to fit the trend of the 
+data, which is not represented by just a sampling of a few data points. Make 
+use all of your data. The slopes and intercepts of these lines may then be 
+calculated.  
+
+When calculating the slope of a line,  select points on the line to make your 
+calculation,  do not use data points, which need not fall precisely on any of 
+the lines you have drawn.  Remember to follow the units through your 
+calculations. The slope and intercept of the best line fit are taken to be the 
+parameters of the fit to the data. Do not average the values obtained from the 
+bounding lines,  these are used to calculate the uncertainty in the best fit 
+values by the formulas
+\begin{eqnarray}
+\Delta m &=& \frac{\mid m_{steepest} - m_{least} \mid}{2} \\
+\Delta b &=& \frac{\mid b_{steepest} - b_{least} \mid}{2},
+\end{eqnarray}  
+where $m$ and $b$ denote the slope and intercept respectively. 
+
+As an example of proper graphing technique, consider a plot of the voltage
+vs. current data:
+\begin{center}
+\begin{tabular}{l|l}
+\multicolumn{1}{c} I(mA)  & \multicolumn{1}{c} V(V)\\
+\hline
+0.66 $\pm$ 0.01 & 0.6 $\pm$ 0.1 \\
+1.44 & 1.8 \\
+2.90 & 3.2 \\
+3.90 & 3.6 \\
+4.21 & 4.6 \\
+5.43 & 5.3
+\end{tabular}
+\end{center}
+\begin{figure}
+\epsfxsize=14cm \epsfbox{graph.eps}
+\caption{The proper way to draw a graph.}
+\end{figure}
+Note that errorbars are used and that the best fit line and the bounding lines
+are drawn to the trend of the data, not through any data points in particular. 
+The points selected to calculate slopes are not data points, they are points 
+from the line\\
+\begin{tabular}{ll}
+best fit line: &(0.25mA, 0.3V), (5.0mA, 5.15V)\\
+steepest line: &(0.5mA, 0.5V), (4.6mA, 5.0V)\\
+least steep line: &(0.65mA, 1.0V), (5.2mA, 5.0V).
+\end{tabular}\\
+The slopes are calculated to be
+\begin{eqnarray}
+m &=& \frac{5.15V-0.3V}{5.0mA-0.25mA} \nonumber \\
+&=& 1.02105k\Omega, \nonumber \\
+m_{steepest} &=& 1.09756k\Omega , \nonumber \\
+m_{least} &=& 0.87912k\Omega . \nonumber 
+\end{eqnarray}
+The uncertainty in the slope is calculated to no more than two digits
+\begin{eqnarray}
+\Delta m &=& \frac{\mid m_{steepest} - m_{least} \mid}{2} \nonumber \\
+&=& \frac{|1.09756k\Omega -0.87912k\Omega |}{2} \nonumber \\
+&=& 0.11k\Omega . \nonumber 
+\end{eqnarray}
+The slope is therefore 
+\begin{eqnarray}
+m = 1.02 \pm 0.11k\Omega . \nonumber
+\end{eqnarray}
+
+
+\section{Least Squares Analysis}
+	
+As an alternative to the graphical techniques above,  a linear fit to data may 
+also be obtained by the least squares method.  Note, however, that you must 
+still plot your data in order to visually verify the linear behavior.  The lab 
+manual provides the formula for calculation of the uncertainty in the slope of 
+a least squares fit as
+\[ \sigma_{m} = \left[ \frac{N}{N-2} \sum_{n} \frac{d_{n}^{2}}{\Delta}
+\right]^{1/2}. \]
+Refer to the manual for the notation used.  It is also possible to calculate
+the uncertainty in the intercept,  in the same notation we have
+\[ \sigma_{b} = \left[ \frac{N}{N-2} 
+\left(\sum_{n} \frac{d_{n}^{2}}{\Delta} \right) 
+\left(\sum_{n} x_{i}^{2}\right) \right]^{1/2}. \]
+
+\section{Using a Computer to Simplify Analysis}
+
+You are strongly encouraged to make use of computer programs to simplify data
+analysis.  Many computer labs on campus (such as that in the UGL) have 
+computers with spreadsheet and graphing programs that can take quite a bit of 
+work out of writing a lab up. However, some caveats must be made here:
+\begin{enumerate}
+\item You still need to provide sample calculations, though once a given 
+calculation has been demonstrated, you don't have to repeat the sample 
+calculation in later labs.   
+
+\item Most computer programs will not keep track of  units for you. You must 
+take extra care to be sure that your results are reported in the correct units,
+especially in terms of the proper order of magnitude.
+
+\item Similarly, most computer programs can report the result of a calculation
+to a large decimal place. You need to get the proper number of significant
+figures by apply the uncertainty method previously described. If you have a
+program that will do this, fine. If not, you need to do this by hand. Be sure
+that your final results are displayed in the format prescribed, if necessary
+do this by hand as well.
+
+\item If you use a graphing program, be sure that it can include errorbars. 
+Also, be especially sure not to let the program 
+``connect the dots'' on the graph. If it cannot draw a ``trend'' line, 
+plot only the data points with some errorbars and draw the line fits yourself.
+
+\item Since the axes provided by most computer graphs display only a few 
+``ticks'' to indicate distance, it is hard to use such a graph to do a line 
+fit by hand.  If possible use a least squares fit or use your own judgment to 
+determine whether or not you need to plot your data on graph paper, by hand.
+\item Least squares fitting routines are often provided by one of the following
+sources: a scientific calculator, a graphing program (such as Cricket Graph 
+which is on most of the UGL computers), or on a spreadsheet.  Remember that
+you will need to provide uncertainties in the fit parameters and a plot
+of the data.     
+\end{enumerate}

@@ -1,0 +1,236 @@
+\vfill
+\pagebreak
+
+%  Label worksheets by \thechapter.W
+\renewcommand{\thesection}{\thechapter.W}
+
+
+\section{RC Circuits and Filters Worksheet}
+\subsection{Data}
+
+\subsubsection{DC Response Data}
+
+Record the equivalent resistance and the capacitance of your circuit:
+
+\begin{center}
+$R_{eq}=$~ \rule{3cm}{.1mm}~~~~
+$C$=~ \rule{3cm}{.1mm} \\
+\end{center}
+
+\noindent
+Enter your voltage-time pairs in the table below.
+
+\noindent
+{\bf Take Note:} Your first measurement should be of the voltage at the beginning of
+the discharging phase. (That's the peak of the curve on the screen.) 
+
+\begin{table}[htb]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multicolumn{5}{|c|}{Voltage and Time Coordinates} \\
+\hline
+Voltage & Time & & Voltage & Time \\
+\hline
+\hspace*{3cm} & \hspace*{3cm} & \hspace*{.1cm} & \hspace*{3cm} & \hspace*{3cm} \\
+& & & & \\
+\hline
+& & & & \\
+& & & & \\
+\hline
+& & & & \\
+& & & & \\
+\hline
+& & & & \\
+& & & & \\
+\hline
+& & & & \\
+& & & & \\
+\hline
+
+\end{tabular}
+\end{center}
+\caption{V vs. t measurements for discharging capacitor.}
+\label{tab:RC:decay}
+\end{table}
+
+\subsubsection{AC Response Data}
+
+Calculate (without uncertainty) the {\it natural} cutoff frequency of your circuit.
+Record this value:
+
+\begin{center}
+f=~ \rule{3cm}{.1mm}
+\end{center}
+
+\noindent
+Enter your amplitude-period pairs in the table below. 
+
+\noindent
+{\bf Take Note:} Your first amplitude measurement should be taken from a signal with
+a frequency of around 100 Hz. Once you have taken this measurement, {\bf DO NOT adjust
+the AMPLITUDE KNOB on the function generator.} 
+
+\noindent
+{\bf Take Note:} A good majority (at least seven) of your amplitude 
+measurements should be taken from signals with frequencies {\it above} the natural 
+cutoff frequency of the circuit.
+
+\begin{table}[htb]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multicolumn{5}{|c|}{Amplitude vs. Period Measurements} \\
+\hline
+Amplitude & Period & & Amplitude & Period \\
+\hline
+\hspace*{3cm} & \hspace*{3cm} & \hspace*{.1cm} & \hspace*{3cm} & \hspace*{3cm} \\
+& & & & \\
+\hline
+& & & & \\
+& & & & \\
+\hline
+& & & & \\
+& & & & \\
+\hline
+& & & & \\
+& & & & \\
+\hline
+& & & & \\
+& & & & \\
+\hline
+
+\end{tabular}
+\end{center}
+\caption{Amplitude vs. Period Measurements.}
+\label{tab:RC:lowpass}
+\end{table}
+
+\subsection{Calculations}
+
+\subsubsection{DC Response}
+
+From your data in Table~\ref{tab:RC:decay}, plot ln$(V/V_0)$ versus $t$, with error
+bars. ($V_0$ is the voltage of the signal at the beginning of the decay curve.) Find
+the weighted best-fit slope and intercept of this plot with uncertainties,
+and record them below.
+
+\begin{center}
+Slope=~ \rule{3cm}{.1mm} ~~~~
+Intercept=~ \rule{3cm}{.1mm}
+\end{center} 
+\vspace*{.5cm}
+
+\noindent
+From equation (4.4) in the lab manual, determine how the slope of your plot should be
+related to the time constant of your circuit. With this information, 
+calculate the time constant of your circuit, 
+$\tau _{meas}$, from the slope of your plot. Now, from the nominal values of
+resistance and capacitance of your circuit, calculate the expected time constant,
+$\tau _{nom}$. Record these below. Be sure to include units and uncertainties.
+
+\begin{center}
+$\tau _{meas}=$~ \rule{3cm}{.1mm} ~~~~
+$\tau _{nom}=$~ \rule{3cm}{.1mm}
+\end{center}
+\vspace*{.5cm}
+
+\noindent
+From $\tau _{meas}$, and the nominal resistance of your circuit, $R_{eq}$, calculate
+a value for the capacitance of your circuit, $C_{meas}$. Record this below. Be sure to
+include units and uncertainties.
+
+\begin{center}
+$C_{meas}=$~ \rule{3cm}{.1mm}
+\end{center}
+
+\noindent
+{\it Sample Calculations:}
+\newpage
+
+\subsubsection{AC Response}
+
+From your data in Table~\ref{tab:RC:lowpass}, make a plot of amplitude versus {\bf
+natural frequency}, with error bars. 
+\vspace*{.5cm}
+
+\noindent
+Now, using the value you {\bf measured} for the time constant of the circuit, make a
+plot of the {\it theoretical} ampltiude versus natural frequency, as predicted by
+equation (4.7) in the lab manual. In other words, plot this expression,
+
+$$
+V_0 \over {\sqrt {1+(2\pi f \tau_{meas})^2} },
+$$
+
+\noindent
+versus frequency on the same plot as your amplitude versus frequency plot. In this
+case, $V_0$ is the amplitude you measured for the signal with frequency around 100 Hz,
+$\tau_{meas}$ is the time constant you measured for your circuit, and $f$ is frequency.
+{\bf Hint:} plot this at the same frequencies at which you measured your amplitude 
+values. Make sure both plots contain error bars.
+
+\vspace*{.2cm}
+\noindent
+{\it Sample Calulations:}
+\newpage
+
+\subsection{Discussion}
+\subsubsection{DC Response}
+Explain how equation (4.4) in the lab manual leads you to expect a plot of ln($V/V_0$)
+versus $t$ to be linear.
+\vspace*{2cm}
+
+\noindent
+Was your plot of ln($V/V_0$) versus $t$ linear?
+\vspace*{.3cm}
+
+\noindent
+What do you expect the slope and intercept of this plot to be?
+Write your answers in terms of $\tau _{meas}$, the nominal time constant of the 
+circuit.
+\vspace*{1.4cm}
+
+\noindent 
+Compare the value of the intercept of your plot to its expected value.
+\vspace*{1.4cm}
+
+\noindent
+Compare the value of the circuit's time constant that you obtained from the plot ($\tau
+_{meas}$), to its expected value ($\tau _{nom}$).
+\vspace*{1.4cm}
+
+\noindent
+Compare the value you measured for the capacitance of your circuit ($C_{meas}$), to
+its nominal value ($C_{nom}$).
+\vspace*{1.4cm}
+
+\noindent 
+Discuss the conclusions which can be drawn from the results of the above three
+comparisons.
+\newpage 
+
+\subsubsection{AC Response}  
+
+Compare your plot of measured amplitude versus frequency to your plot of theoretical
+amplitude versus frequency. In particular, discuss the degree to which they agree
+within uncertainties.
+\vspace*{2cm}
+
+\noindent
+Discuss what conclusions can be drawn on the basis of this comparison.
+\vspace*{3.5cm}
+
+\subsection{Conclusion}
+
+Write a {\it brief} (that is, a one or two paragraph) conclusion for this lab (on your
+own paper). In it, you should summarize the physical principles which were meant to be
+illustrated in this experiment. You should also describe the degree to which your data
+supported these principles.
+
+
+% Go back to ordinary section numbering
+\renewcommand{\thesection}{\thechapter.\arabic{section}}
+
+
+

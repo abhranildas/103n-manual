@@ -1,0 +1,327 @@
+\section{Introduction}
+
+The generators that supply electricity to our homes and the motors in our cars
+are important devices whose mechanism of operation is typically taken for 
+granted. Today, we'll explore the fundamental physical law responsible for 
+their operation, Faraday's law of induction.
+
+Faraday's law states that a changing magnetic field can produce an induced 
+voltage in an electric circuit.  The device we will study is a simple
+transformer, two coils of wire linked by an iron core.  It operates by
+running an alternating current (the input) through one coil (the primary coil)
+to generate an alternating magnetic field in the iron. (This phenomenon is 
+described by another fundamental law, called Amp\`{e}re's law.)  The magnetic 
+field passes through the second coil (the secondary coil), where, by Faraday's 
+law, it induces an alternating potential (the output) across the coil. This 
+voltage can be viewed on the oscilloscope (remember that it's varying in time),
+so that its properties can be studied.
+
+In particular, we will examine the output signal from the transformer when we
+use a sinusoidal input. We will see that the output is also sinusoidal and we
+will examine the dependence of the output amplitude on both the frequency of
+the input signal and the number of turns in the secondary coil. We will also
+examine the output for other input signals: triangle waves and square waves.
+Examining these signals will reveal that the output signals is proportional
+to the {\it time derivative} of the input signal.
+
+\vfill
+\pagebreak
+
+\section{Theory}
+
+\subsection{References}
+
+Faraday's law of induction is introduced in Serway, Chapter~31 (Faraday's
+Law), p.~874.  Chapter~33 (Alternating Current Circuits), p.~927 is also 
+useful, since we're using AC circuits.  The magnetic field of a solenoid is 
+discussed in Sections~30.4 (The Magnetic Field of a Solenoid), p.~845 and~30.5
+(The Magnetic Field Along the Axis of a Solenoid),p.~847.
+
+\subsection{Magnetic Flux}
+
+Whenever we have a vector field present we may speak of the flux of that field 
+through a surface.  If we have a magnetic field $\vec{B}$ which passes through 
+an open surface $S$ as in Figure~\ref{fig:ind:fluxdef},
+\begin{figure}[htb]
+\centerline{\epsfxsize=7cm \epsfbox{induction_2/fluxdef.eps}}
+\caption{A magnetic flux $\Phi_M$ passes through the surface $S$.}
+\label{fig:ind:fluxdef}
+\end{figure}
+then we define the magnetic flux to be the integral
+$$
+\Phi_M=\int_S \vec{B}\cdot d\vec{A},
+$$
+where $d\vec{A}$ is the perpendicularly oriented differential area element.
+
+Let's calculate the magnetic flux which passes through a long thin solenoid, 
+of $N$ turns, length $L$, radius $a\ll L$, and carrying a current $I$, 
+illustrated in Figure~\ref{fig:ind:solenoid}. 
+\begin{figure}[htb]
+\centerline{\epsfxsize=9cm \epsfbox{induction_2/solenoid.eps}}
+\caption{A long thin solenoid (not to scale).}
+\label{fig:ind:solenoid}
+\end{figure}
+We'll consider the field responsible for the flux to be that of the solenoid 
+itself, so this is an example of {\it self-induction}. The magnetic field 
+along the cross section of the solenoid is roughly constant and given by
+$$ B= \frac{\mu_0 N I}{L}; $$
+for a more complete discussion, see Serway. The flux is then
+\begin{eqnarray}
+\Phi_M &=& \int_S \vec{B}\cdot d\vec{A} \nonumber \\
+&=& \int_0^{2\pi} d\theta \int_0^a r dr \frac{\mu_0 NI}{L} \nonumber \\
+&=& \frac{\mu_0 NI}{L} (\pi a^2) \nonumber \\
+\Phi_M &=& \frac{\pi\mu_0N Ia^2}{L}.
+\end{eqnarray}
+
+\subsection{Faraday's Law}
+
+Consider again the solenoid in Figure~\ref{fig:ind:solenoid}, but this time 
+imagine that the magnetic field is time-varying and is coming from some
+external source, perhaps another coil, rather than from a current running 
+through the solenoid.  Faraday's law states that the magnetic flux through the 
+solenoid induces a voltage
+\begin{equation}
+V=-N\frac{d\Phi_M}{dt} \label{eq:ind:faraday}
+\end{equation}
+across the solenoid.  The factor of $N$ appears because the flux $\Phi_M$ links
+each of the $N$ coils of the solenoid; the voltages induced by $\Phi_M$ in 
+each turn of the coil add in series. 
+
+\subsection{The Transformer}
+
+Let's now apply what we've learned to a transformer, illustrated in 
+Figure~\ref{fig:ind:transformer}. 
+\begin{figure}[htb]
+\centerline{\epsfxsize=10cm \epsfbox{induction_2/transformer.eps}}
+\caption{A simple transformer.}
+\label{fig:ind:transformer}
+\end{figure}
+A voltage $V_{\mbox{in}}$ is supplied to a primary coil of $N_1$ turns,
+producing a current $I_{\mbox{in}}$, which, from~(\ref{eq:ind:fluxgen}),
+generates a flux 
+$$\Phi= \frac{\pi\mu  N_1 a_1^2}{L_1} I_{\mbox{in}},
+$$
+in the iron core. We assume that, since the iron is a magnetic material, it
+holds this flux and carries it through the secondary coil of $N_2$ turns;
+since we aren't dealing with a field in vacuo anymore, we have replaced 
+$\mu_0$ by $\mu$, the permeability of iron. 
+Faraday's law~(\ref{eq:ind:faraday}) implies that a voltage, given by 
+$$V_{\mbox{out}} = - N_2\frac{d\Phi}{dt},$$  
+is generated across the secondary coil.  We can substitute in for $\Phi$ to 
+write
+$$
+V_{\mbox{out}} = - \left( \frac{\pi\mu  N_1 a_1^2}{R L_1} \right) N_2 
+\frac{d V_{\mbox{in}}}{dt}.
+$$
+Now, in our experimental setup, we will vary $N_2$ and $V_{\mbox{in}}$, but 
+will not vary or measure $a_1,L_1,R$, or $N_1$. It will therefore be useful to 
+define the (positive) constant $C=\pi\mu  N_1 a_1^2/RL_1$ and write
+\begin{equation}
+V_{\mbox{out}}= -C N_2 \frac{d V_{\mbox{in}}}{dt}, \label{eq:ind:transformer}
+\end{equation}
+which illustrates the dependencies that we will study, leaving the constant $C$ 
+to conveniently sum up the (unknown, but unchanging) properties of the 
+transformer.  We see that $V_{\mbox{out}}$ depends linearly on $N_2$, the 
+number of turns in the secondary coil, and also depends linearly on the
+time derivative of $V_{\mbox{in}}$.  We also note that there is an important
+minus sign in~(\ref{eq:ind:transformer}) which corresponds to the minus sign
+in Faraday's law~(\ref{eq:ind:faraday}). This is called Lenz's law: the induced
+voltage {\it opposes} the change in flux.  
+  
+Let's see what the relationship~(\ref{eq:ind:transformer}) predicts for the 
+output when we use a sinusoidal input
+$$
+V_{\mbox{in}} = A_{\mbox{in}} \sin\omega t.
+$$
+Using (\ref{eq:ind:transformer}) yields
+$$
+V_{\mbox{out}}= -C N_2 \omega A_{\mbox{in}} \cos\omega t.
+$$
+Figure~{\ref{fig:ind:sinusoid} shows a plot of a sine wave versus the negative
+of a cosine wave.
+There is therefore a phase difference of $90^\circ$ (that between sine and 
+--cosine) between the input and output signals and the amplitudes of the input 
+and output are related by 
+$$ A_{\mbox{out}} = C N_2 \omega A_{\mbox{in}}. $$
+$A_{\mbox{out}}$ depends linearly on both $N_2$ and $\omega$.
+\begin{figure}[htb]
+\centerline{\epsfxsize=10cm \epsfbox{induction_2/sinusoid.eps}}
+\caption{A plot of a sine wave and a --cosine wave.}
+\label{fig:ind:sinusoid}
+\end{figure}
+
+\section{Apparatus}
+
+The apparatus we will use centers around the transformer box, illustrated in
+Figure~\ref{fig:ind:connect}, which houses a transformer such as that in 
+Figure~\ref{fig:ind:transformer}, but which allows us to vary the number of 
+turns in the secondary coil. 
+Note that each setting of the knob corresponds to
+{\it four} turns in the coil}. We will use the function generator to provide 
+our input signals and the oscilloscope to view both the input and output 
+signals.
+
+
+\vfill
+\pagebreak
+
+%  Label worksheets by \thechapter.W
+\renewcommand{\thesection}{\thechapter.W}
+
+\section{Electromagnetic Induction Worksheet}
+
+{\bf \Large Name:}~ \rule{5cm}{.1mm}~~~~~~~
+{\bf \Large Day/Time:}~\rule{3cm}{.1mm}\\
+
+\subsection{In-Lab Procedure}
+\label{sec:ind:proc}
+
+Before doing anything else, examine the transformer box.  Turn it over so that
+you can see the coils inside.  Does it resemble a transformer such as that 
+we've been talking about, {\it i.e.}, that in 
+Figure~\ref{fig:ind:transformer}?  Connect the box to the function generator
+and oscilloscope as in Figure~\ref{fig:ind:connect}.
+\begin{figure}[htb]
+\centerline{\epsfxsize=12cm \epsfbox{induction_2/connect.eps}}
+\caption{How to connect the transformer box.}
+\label{fig:ind:connect}
+\end{figure}
+
+\subsubsection{Sinusoidal Input}
+
+Set the function generator to produce a sinusoidal signal. Adjust the 
+oscilloscope so that it displays both the input and output signals.  Make
+sure that you adjust the channel 1 and channel 2 V/div settings so that the 
+waveforms fill the screen.  Sketch the two waveforms on the gird below.
+Sketch both the input and output on the same grid; use the second grid only if
+you make a mistake.  {\bf Draw carefully.}  You will be answering questions 
+based on this sketch in teh classroom.\\
+\ \\
+% Use the same oscilloscope grids as in the Measurements with the Oscilloscope
+% lab.
+\begin{tabular}{ccc}
+\epsfxsize=7cm \epsfbox{scope_2/scope.eps} & \hspace{1cm} &
+\epsfxsize=7cm \epsfbox{scope_2/scope.eps}
+\end{tabular}\\
+
+\noindent Measure the phase shift, %\Delta t$, between the 2 waveforms, and their periods..
+$$\Delta t = $$.  \\
+$$\tau1 = 
+
+
+
+Measure the output {\it amplitude}, $A_{\mbox{out}}$, versus the frequency, 
+$\omega$ of the input for at least 10 data points.  Make sure that you 
+calculate the frequency values by measuring the period of the input wave on 
+the oscilloscope; {\it do not} trust the values given by the function 
+generator. Plot $A_{\mbox{out}}$ versus $\omega$ with a few representative 
+error bars and comment on the linearity of the graph. Is your data in 
+agreement with Faraday's law?
+
+Now measure the output amplitude versus the number of turns in the secondary
+coil, $N_2$, for each setting that the knob allows.  Plot $A_{\mbox{out}}$ 
+versus $N_2$ with a few error bars and comment on your data's agreement with 
+Faraday's law.
+
+\subsection{Triangle and Square Wave Input}
+
+Set the function generator to produce a triangle wave and adjust the 
+oscilloscope to display the input and output signals. Sketch the input and
+output signals. Using the oscilloscope (not just your sketch), carefully 
+examine the input signal.  How close does it come to being a triangle wave?
+Are the peaks perfectly sharp or do they round off gently? You might want to
+adjust the oscilloscope to zoom into the peaks to answer this. As you did with
+the sinusoidal input, compare the output signal with the negative time 
+derivative of the input. You should find it helpful to answer the same 
+questions. Does the output signal agree with Faraday's law?
+
+Now set the function generator to produce a square wave and make a sketch of
+the input and output signals, as before.  Does the output signal resemble a 
+smooth curve?  Again, carefully examine the input signal, re-adjusting the 
+oscilloscope whenever necessary. How good a square wave do you have? Are the
+corners of the waves perfectly sharp? Do the sides of the square wave curve
+or have a slope? As with your other sketches, compare the output signal with 
+the negative time derivative of the input. Does the output signal agree with 
+Faraday's law?
+
+\vfill
+\pagebreak
+
+%  Label worksheets by \thechapter.W
+\renewcommand{\thesection}{\thechapter.W}
+
+\section{Electromagnetic Induction Worksheet}
+
+{\bf \Large Name:}~ \rule{5cm}{.1mm}~~~~~~~
+{\bf \Large Day/Time:}~\rule{3cm}{.1mm}\\
+\ \\
+{\bf Instructions:} This worksheet is written specifically for using the 
+computers in the laboratory to draw your graphs.  Refer 
+to Section~\ref{sec:ind:proc} (Procedure and Analysis) for more information.  
+
+\subsection{Sinusoidal Input}
+
+Use the grid for your sketch of the input and output signals (remember to 
+sketch both the input and output on the same grid; use the second grid only if
+you make a mistake):\\
+\ \\
+% Use the same oscilloscope grids as in the Measurements with the Oscilloscope
+% lab.
+\begin{tabular}{ccc}
+\epsfxsize=7cm \epsfbox{scope_2/scope.eps} & \hspace{1cm} &
+\epsfxsize=7cm \epsfbox{scope_2/scope.eps}
+\end{tabular}\\
+\ \\
+
+\subsection{Triangle and Square Wave Input}
+
+Sketch the input triangle wave and the output on the grid:\\ 
+\ \\
+\begin{tabular}{ccc}
+\epsfxsize=7cm \epsfbox{scope_2/scope.eps} & \hspace{1cm} &
+\epsfxsize=7cm \epsfbox{scope_2/scope.eps}
+\end{tabular}\\
+\ \\
+
+\ \\
+Sketch the input square wave and the output:\\
+\ \\
+\begin{tabular}{ccc}
+\epsfxsize=7cm \epsfbox{scope_2/scope.eps} & \hspace{1cm} &
+\epsfxsize=7cm \epsfbox{scope_2/scope.eps}
+\end{tabular}\\
+\ \\
+
+ 
+
+\subsection{Calculations $\&$ Discussions}
+\subsubsection{Sinusoidal Input}
+Calculate the phase difference between the input and output signals with an 
+uncertainty. Show your work.\\ 
+\vspace*{4cm}\\
+\hspace*{2cm} {$\phi$ =~\rule{3cm}{.1mm}}\\ 
+
+Attach your data, graphs, and discussion on separate paper.  Be sure that you
+answer all of the questions in the lab manual.
+\subsubsection{Triangle and Square Wave Input}
+Add your discussion of this graph to the discussion section you made for the 
+sinusoidal input. Again, be sure that you answer all of the questions in
+the manual.\\
+Discuss this sketch in the discussion section you formed above.
+
+
+
+Does the output resemble the negative of the time derivative of the input? 
+Explain your answer in detail by answering the following questions.  Does the 
+output reach a maximum when the time rate of change of the input is a minimum? 
+Is it a minimum when the derivative of the input is a maximum?  What happens 
+when the slope of the input is zero? Are there any other characteristics of 
+your sketch that help you make an interpretation? Is all of this consistent 
+with Faraday's law, particularly the minus sign that appears?
+
+Measure the angular phase difference between the input and output signals.  
+Does it agree within uncertainty with the phase difference predicted by 
+Faraday's law?  
+
+% Go back to ordinary section numbering
+\renewcommand{\thesection}{\thechapter.\arabic{section}}

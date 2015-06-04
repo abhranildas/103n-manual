@@ -1,0 +1,838 @@
+\section{Introduction}
+
+We have seen how a beam of light behaves as it passes through different 
+media. Since Maxwell's electrodynamics indicates that light is really a 
+wave, the principle approximation that allowed us to treat these waves as
+a beam involved the smallness of the wavelength of light. Since all the 
+objects that we put in the way of the light were much, much bigger than
+an individual wavelength, the ray approximation worked quite well. Here,
+we will use objects whose dimensions are approximately those of the 
+wavelength of light. These will then reveal the wave-like properties of 
+these waves.
+
+The principle difference between rays and waves lies in the 
+superposition principle. This leads to interference phenomena, and
+specifically here, to diffraction effects for waves. We will observe several 
+different types of diffraction patterns, due to one, several and many
+individual slits or openings. We will verify some qualitative predictions
+of the superposition principle and use these effects to measure the 
+wavelength of the laser light source. These ideas form the basis for some
+of the most precise measurements ever made; furthermore, these notions 
+underlie most of the technology used in manufacturing computer chips.
+
+\section{Theory}
+
+\subsection{References}
+
+Serway addresses the interference of light waves in Chapter~37 
+(Interference of Light Waves), and cursorily discusses diffraction
+in Chapter~38 (Diffraction and Polarization). The single slit
+diffraction pattern appears in Section~38.2, and the diffraction
+grating shows up in Section~38.4. We will discuss these and other
+effects here.
+
+\subsection{Mathematical Preliminaries}
+
+In order to give a coherent and efficient treatment of the interference 
+of many waves, we need to introduce some formulas that you may not have 
+seen before. The first bit is called {\em Euler's formula}:
+\begin{eqnarray}
+e^{ix} = \cos x + i \sin x, \label{eq:diff:euler}
+\end{eqnarray}
+where $i = \sqrt{-1}$ is the complex unit. This relationship between the 
+complex exponential and trig functions will help us streamline our 
+calculations. To derive~(\ref{eq:diff:euler}), examine the Taylor series 
+for the exponential:
+\begin{eqnarray*}
+e^{ix} = \sum^\infty_{n=0} \frac{(ix)^n}{n!};
+\end{eqnarray*}
+We can now use the periodicity of complex multiplication to separate this
+series into even and odd parts:
+\begin{eqnarray*}
+e^{ix} & = & \sum^\infty_{n=0} \frac{(ix)^n}{n!},\\
+       & = & \sum^\infty_{n=0} \frac{(ix)^{2n}}{(2n)!} +
+             \sum^\infty_{n=0} \frac{(ix)^{2n+1}}{(2n+1)!},\\
+       & = & \sum^\infty_{n=0} \frac{(-1)^n x^{2n}}{(2n)!} +
+            i\sum^\infty_{n=0} \frac{(-1)^n x^{2n+1}}{(2n+1)!},\\
+       & = & \cos x + i \sin x,
+\end{eqnarray*}
+where to move from the second to the third line we used $i^{2n} = (-1)^n$ 
+and $i^{2n+1} = i(-1)^n$ and then we identified the remaining series as
+the sine and cosine series.
+
+The second bit of mathematical trickery is the geometric series:
+\begin{eqnarray*}
+\sum^N_{n=0} x^n = \frac{1-x^{N+1}}{1-x}
+\end{eqnarray*}
+To see how to derive this, write out the left-hand side:
+\begin{eqnarray*}
+\sum^N_{n=0} x^n = 1 + x + x^2 + \cdots + x^N
+\end{eqnarray*}
+Now, rewrite $1$ as $\frac{1-x}{1-x}$ and multiply this sum by this form 
+of $1$: 
+\begin{eqnarray*}
+\sum^N_{n=0} x^n & = & (1 + x + x^2 + \cdots + x^N) \frac{1-x}{1-x},\\
+    & = & ( 1 + x + x^2 + \cdots + x^N\\ 
+    &   & \phantom{(1} - x - x^2 - \cdots - x^N - x^{N+1} )
+                   \frac{1}{1-x},\\
+    & = & \frac{1-x^{N+1}}{1-x}.
+\end{eqnarray*}
+
+For most of the experiments we will do, the angles involved will be quite 
+small. There are some handy approximations we can use in this case to simplify
+our trigonometric calculations and assist us in extracting qualitative 
+behavior. Recall that the leading term in the Taylor series expansion of 
+$\sin \theta$ is simply $\theta$; so if $\theta$ is small, the higher order 
+terms are unimportant. So,
+\begin{eqnarray*}
+\sin \theta \sim \theta.
+\end{eqnarray*}
+Now, if we have a right triangle with $\theta$ as one of the acute angles, and
+legs with lengths $y$ and $L$, $L \gg y$ (see Figure~\ref{fig:diff:triangle}), 
+then we can approximate
+\begin{eqnarray*}
+\sin \theta &\sim& \theta \\
+\frac{y}{\sqrt{y^2+L^2}} &=& \frac{y}{L}
+\frac{1}{\sqrt{1+\frac{y^2}{L^2}}}
+\sim \frac{y}{L}
+\end{eqnarray*}
+so that we arrive at the {\em small angle approximation} $\theta \sim y/L$. We
+will make extensive use of this relation.
+Now we can move on to the more interesting physics applications of these 
+relations.
+\begin{figure}[htb]
+\centerline{\epsfxsize=6cm \epsfbox{diffint_2/triangle.eps}}
+\caption{The triangle used to relate $\sin\theta$ to $y$ and $L$.} 
+\label{fig:diff:triangle}
+\end{figure}
+
+\subsection{Interference of Monochromatic Waves}
+
+Interference occurs when two waves overlap. For water waves, the net 
+displacement of the surface at any given point is the sum of the displacements
+due to the component waves. In this case of light, the electric fields and 
+magnetic fields each add together via the superposition principle. 
+We will only consider the rather ideal case of the interference of two waves 
+that have the same frequency; such waves go by the name {\em monochromatic} 
+waves.
+
+To get things rolling, consider a monochromatic light wave that occupies some 
+region of space. We can represent its electric field magnitude in the form
+\begin{eqnarray*}
+E = E_0 \cos (\omega t - k x + \phi)
+\end{eqnarray*}
+where $E_0$ is the maximum amplitude of the wave, $(x,t)$ is the location and 
+time at which we measure the wave's amplitude, $\omega$ is the angular 
+frequency of the wave, $k$ is the wave number $2 \pi/\lambda$ with $\lambda$
+being the wavelength and $\phi$ is the phase of the wave. 
+Using~(\ref{eq:diff:euler}), we can write this as
+$$ E = E_0 {\cal R}e\left[e^{i(\omega t - k x + \phi)}\right],$$
+where ${\cal R}e$ stands for taking just the real part of the complex 
+expression. Now, suppose we have two such monochromatic waves with the same
+frequency and wavelength, each with its own phase. Then, we can write
+\begin{eqnarray*}
+E_1 = E_{0} e^{i(\omega t - k x + \phi_1)},\\
+E_2 = E_{0} e^{i(\omega t - k x + \phi_2)}.
+\end{eqnarray*}
+Since these two waves occupy the same region of space, they will interfere;
+the resultant amplitude of the combined wave will then be
+\begin{eqnarray*}
+E_1+E_2 & = & E_0 \left( e^{i(\omega t - k x + \phi_1)} +
+                         e^{i(\omega t - k x + \phi_2)} \right)\\
+        & = & E_0 e^{i(\omega t - k x)} \left(e^{i\phi_1}+e^{i\phi_2}\right)\\ 
+        & = & E_0 e^{i(\omega t - k x)} \left( 
+               e^{i\phi_1/2}e^{i\phi_1/2}e^{i\phi_2/2}e^{-i\phi_2/2}
+            +  e^{i\phi_2/2}e^{i\phi_2/2}e^{i\phi_1/2}e^{-i\phi_1/2} \right)\\
+        & = & E_0 e^{i(\omega t - k x)} e^{i(\phi_1+\phi_2)/2} 
+            \left( e^{i(\phi_1-\phi_2)/2} + e^{-i(\phi_1-\phi_2)/2} \right)\\
+        & = & 2E_0 \cos \left( \frac{\phi_1-\phi_2}{2} \right) 
+                e^{i(\omega t - k x + (\phi_1+\phi_2)/2)}
+\end{eqnarray*}
+where we've used the fact that $\cos x = \frac{1}{2} (e^{ix}+e^{-ix})$. This 
+expression says some interesting things about the resultant amplitude which 
+consists of everything not in the exponential. If $(\phi_1-\phi_2)/2 = 
+(2n+1) \frac{\pi}{2}$ for some integer $n$, then the amplitude is $0$! This is 
+the condition for destructive interference. Similarly, if $(\phi_1-\phi_2)/2
+= n \pi$ then the amplitude takes on its extreme values of $\pm 2E_0$ 
+according to whether $n$ is even or odd; this is the condition for constructive
+interference. Thus, we see that the resultant amplitude depends critically on
+the phase difference $\phi_1-\phi_2$ of the two waves; this is what we will 
+need to calculate for specific setups.
+
+\subsection{Two Slit Interference}
+
+Consider the diagram in Figure~\ref{fig:diff:2-slit}. It shows two openings of 
+width $a$ whose centers are separated by a distance $d$. We want to calculate 
+the intensity as a function of position on a screen a distance $L$ away. 
+Consider point~P which makes an angle of $\theta$ with respect to the center 
+normal. If we illuminate both slits from the left with a monochromatic wave, 
+we can consider each slit as a source of light; to compute the intensity we 
+need to determine the phase difference between the waves coming from each slit.
+Then our two wave interference analysis will tell us the amplitude, from which 
+we can get the intensity.
+\begin{figure}[htb]
+\centerline{\epsfxsize=10cm \epsfbox{diffint_2/twoslit.eps}}
+\caption{The geometry of a simple two slit interference experiment.}
+\label{fig:diff:2-slit}
+\end{figure}
+
+If the screen is quite far away from the slits, $d \ll L$, then the two rays
+between P and each slit are practically parallel. The phase difference arises
+from the additional distance one ray must travel over the other. From the 
+geometry of Figure~\ref{fig:diff:2-slit}, we see that this distance is
+$ \ell = d \sin \theta.$ Thus, the angular phase shift that arises from this 
+distance is then $2 \pi \ell/\lambda = k \ell$. Thus, the intensity
+maxima should occur when
+\begin{eqnarray*}
+\frac{k \ell}{2} = n \pi;
+\end{eqnarray*}
+that is, when
+\begin{eqnarray}
+\sin \theta = n \frac{d}{\lambda}.~~~{\rm (maxima)}
+\label{eq:diff:2 slit maxima}
+\end{eqnarray}
+In the small angle approximation this becomes
+\begin{eqnarray*}
+\fbox{$ \displaystyle y_n=n \lambda \frac{L}{d} $}
+\end{eqnarray*}
+where $y_n$ is the distance from the centerline to the $n$th maximum.
+We can also predict where the minimum intensity should occur; simply set
+$k \ell = (2n+1) \frac{\pi}{2}$, which becomes
+\begin{eqnarray}
+\sin \theta = \frac{2n+1}{2} \frac{d}{\lambda}. ~~~{\rm (minima)}
+\label{eq:diff:2 slit minima}
+\end{eqnarray}
+which has the small angle form
+\begin{eqnarray*}
+y_n = \frac{2n+1}{2} \lambda \frac{L}{d}.
+\end{eqnarray*}
+We can gain some quick intuition about the behavior of this interference 
+pattern back looking at the widths of the primary maxima; this quantity, $w$, 
+we define as the distance between successive minima:
+\begin{eqnarray*}
+w = y_{n+1}-y_n \sim \lambda \frac{L}{d}
+\end{eqnarray*}
+which indicates that the width grows as the distance between the slits 
+decreases. This is a common feature of interference and diffraction, as we will
+see.
+
+
+\subsection{Multiple Slit Interference}
+
+Now, we consider what happens when we have a situation with more than 2 slits, 
+say $n$ slits. We will see that our complex formalism, which was quite awkward 
+in the 2 slit case, will serve us well. Consider the configuration in 
+Figure~\ref{fig:diff:n-slits}. 
+\begin{figure}[htb]
+\centerline{\epsfxsize=10cm \epsfbox{diffint_2/multislit.eps}}
+\caption{Multiple slit geometry.}
+\label{fig:diff:n-slits}
+\end{figure}
+At point P on the screen, there will now be 
+$n$~waves interfering. We need to determine all the relative phase shifts and 
+add them up. Keeping things reasonable, let's consider the situation for which 
+all the slits have the same width $a$ and separation $d$ and all are 
+illuminated by the same monochromatic wave from the left. Labeling the rays 
+with the one that must travel the farthest first, we need to perform the sum
+\begin{eqnarray*}
+\sum^n_{j=1} E_j & = & \sum^n_{j=1} E_0 e^{i(\omega t - k x + \phi_j)}\\
+                   & = & E_0 e^{i(\omega t - k x)} \sum^n_{j=1} e^{i\phi_j}
+\end{eqnarray*}
+for the total electric field at P. $\phi_j$ is the phase difference of the 
+$j$-th ray from the first. From the geometry, we see that the phase shift 
+between each successive ray is $\phi_0 = k \ell = -kd \sin \theta$. Thus, the 
+difference between the first and $j$th rays is $\phi_j=(j-1)\phi_0$. Plugging 
+this into our sum, we find
+\begin{eqnarray*}
+\sum^n_{j=1} E_j & = & E_0 e^{i(\omega t - k x)} \sum^{n-1}_{j=0} 
+\left( e^{i\phi_0} \right)^j\\
+& = & E_0 e^{i(\omega t - k x)} \frac{1-e^{in\phi_0}}{1-e^{i\phi_0}}\\
+& = & E_0 e^{i(\omega t - k x)} e^{i\frac{(n-1)\phi_0}{2}}
+      \frac{e^{in\phi_0/2}-e^{-in\phi_0/2}}{e^{i\phi_0/2}-e^{-i\phi_0/2}}\\
+& = & E_0 e^{i\left(\omega t - k x + \frac{(n-1)\phi_0}{2}\right)}
+       \frac{\sin (n\phi_0/2)}{\sin (\phi_0/2)}
+\end{eqnarray*}
+where we have used the fact that $\sin x = \frac{1}{2i}(e^{ix}-e^{-ix})$ to 
+obtain the last line. So, the real electric field is the real part of this 
+expression:
+\begin{eqnarray*}
+E = E_0 \frac{\sin (n\phi_0/2)}{\sin (\phi_0/2)}
+        \cos\left(\omega t - k x + \frac{(n-1)\phi_0}{2}\right), 
+\end{eqnarray*}
+from which we obtain the time averaged intensity as
+\begin{eqnarray*}
+I & = & I_0 \frac{\sin^2 (n\phi_0/2)}{\sin^2 (\phi_0/2)},\\
+  & = & I_0 \frac{\sin^2 \left(n \pi \frac{d}{\lambda} \sin \theta\right)}
+                 {\sin^2 \left(  \pi \frac{d}{\lambda} \sin \theta\right)}
+\end{eqnarray*}
+where $I_0 = \epsilon_0 E_0^2/2$. As an exercise you can show that, when $n=2$,
+this takes the form
+$$I=4I_0\cos^2\left(\pi \frac{d}{\lambda} \sin \theta\right).$$
+This two slit intensity is plotted as a function of the angle~$\theta$ in in 
+Figure~\ref{fig:diff:2slitint}.  Figure~\ref{fig:diff:n slit intensity} 
+illustrates the intensity pattern for 4~slits.
+\vfill
+\begin{figure}[htb]
+\centerline{\epsfxsize=10cm \epsfbox{diffint_2/2slitint.eps}}
+\caption{Two slit ($n=2$) intensity pattern for $\lambda=10d$.}
+\label{fig:diff:2slitint}
+\end{figure}
+\begin{figure}[htb]
+\centerline{\epsfxsize=10cm \epsfbox{diffint_2/multiint.eps}}
+\caption{Multiple slit intensity pattern for $n=4$ and $\lambda=10d$.}
+\label{fig:diff:n slit intensity}
+\end{figure}
+
+\subsection{Single Slit Diffraction}
+\label{sec:diff:singleslit}
+
+If we place a single slit in front a monochromatic beam, we find a surprising
+result: the beam gets distorted and fringes appear in the shadow zone of slit.
+To describe this phenomenon, known as diffraction, we can use Huygen's 
+principle. According to this idea, we can treat the single slit as a bunch of
+really, really small single slits, and let them interfere with one another. So,
+let our real slit have a width $a$ and consider a small subset of this region
+with a width $\Delta y$ located a distance $y$ from the center, as shown in 
+Figure~\ref{fig:diff:single slit diffraction}.
+\begin{figure}[htb]
+\centerline{\epsfxsize=10cm \epsfbox{diffint_2/singlediff.eps}}
+\caption{Configuration for analyzing single slit diffraction using Huygen's
+principle.}
+\label{fig:diff:single slit diffraction}
+\end{figure}
+Now, the phase difference between a ray at  our minislit at $y$ and one at
+the center is $\phi(y)  = k y \sin \theta$, where we have again 
+assumed that the rays leaving are practically parallel. Thus, if our 
+observation point P is a distance $x$ from the slit's center, we can write
+the electric field field at P due to the minislit at $y$ as
+\begin{eqnarray*}
+E(y) = E_0(y) e^{i(\omega t - k x + \phi(y))}.
+\end{eqnarray*}
+The initial electric field will only be a small fraction of the electric field 
+passing through the entire slit; you can think about this in terms of energy 
+flux. The amount of energy passing through the minislit of width $\Delta y$, 
+is $\left( \Delta y/a \right)^2$ times the amount of energy passing through 
+the entire slit, since energy flux depends on the area. So, the amount of 
+field at this slit is $\Delta y / a$ of the field for the entire slit, $E_0$. 
+So, $E_0(y) = (\Delta y/a) E_0$; then
+\begin{eqnarray*}
+E(y) = \frac{E_0}{a} \Delta y e^{i(\omega t - k x + k y \sin \theta)}.
+\end{eqnarray*}
+Adding up all the contributions of all these slits and taking the minislit
+widths to zero yields the following integral
+\begin{eqnarray*}
+E & = & \frac{E_0}{a} e^{i(\omega t - k x)} \int^{a/2}_{-a/2} e^{iky \sin 
+\theta)} dy\\
+& = & E_0 e^{i(\omega t - k x)} \left(  \frac{\sin ( \frac{ka}{2}
+\sin \theta )}{\frac{ka}{2} \sin \theta} \right).
+\end{eqnarray*}
+Notice the similarity between this calculation using the integral and the 
+finite multiple slit result using the geometric series. It provides an almost 
+identical result. Taking the real part, squaring it and averaging over time 
+leads to an analogous expression for the intensity in this case. A plot of this
+function appears in Figure~\ref{fig:diff:single slit diffraction intensity}.\\
+\begin{figure}[htb]
+\centerline{\epsfxsize=11cm \epsfbox{diffint_2/singslitpatt.eps}}
+\caption{Intensity pattern for a single slit diffraction experiment.}
+\label{fig:diff:single slit diffraction intensity}
+\end{figure}
+
+\noindent Within the small angle approximation, the positions of the minima 
+are 
+\begin{eqnarray*}
+y_n = n \lambda \frac{L}{a}
+\end{eqnarray*}
+which is the same as the two slit interference result with the slit separation
+$d$ replaced by the slit width $a$. This yields a fringe width $w$ proportional
+to $\lambda L/a$, showing that the fringes expand as the slit width decreases. 
+\suppressfloats
+
+\subsection{Multiple Slit Diffraction}
+\label{sec:diff:multislit}
+
+You can go through a similar calculation for multiple slit diffraction 
+patterns. But, we can also be a bit smarter about it and save ourselves some 
+work. Notice that the diffraction of a single slit will not affect the 
+treatment of interference of multiple slits because you simply add the 
+corresponding contributions from the various slits, with the appropriate phase
+factors. Because of the exponential dependence on this phase, the result simply
+becomes the product of the single slit diffraction pattern and the multiple 
+slit interference pattern. 
+\begin{eqnarray}
+I = I_0 \frac{\sin^2 \left(\frac{n\pi d}{\lambda} \sin \theta \right)}{
+\sin^2 \left(\frac{\pi d}{\lambda} \sin \theta\right)}
+        \frac{\sin^2 \left( \frac{\pi a}{\lambda} \sin \theta\right)}{
+        \left( \frac{\pi a}{\lambda} \sin \theta  \right)^2}
+    \label{eq:diff:multislit diffraction intensity}
+\end{eqnarray}
+This is what you will observe in the lab. We provide a graph of this intensity 
+in Figure~\ref{fig:diff:multislit diffraction} for $n=2$.
+\begin{figure}
+\centerline{\epsfysize=8cm \epsfbox{diffint_2/envelope.eps}}
+\caption{Multislit diffraction pattern for $n=2$.}
+\label{fig:diff:multislit diffraction}
+\end{figure}
+
+From this relation, we can find out where the intensity minima are. To 
+accomplish this, we must make the numerators zero while keeping the 
+denominators nonzero. For the interference part, this condition yields
+\begin{eqnarray*}
+n \pi \frac{d}{\lambda} \sin \theta = m \pi, \hspace{2cm} m \neq 0
+\end{eqnarray*}
+where the condition on the integer $m$ arises from keeping the denominator
+finite. Thus, the angles for a minimum intensity satisfy
+\begin{eqnarray*}
+\sin \theta = \frac{m}{n} \frac{d}{\lambda}
+\end{eqnarray*}
+for $m$ and $n$ incommensurate ($m\neq n$). Now, for the diffraction part, we 
+don't need to worry about the denominator vanishing except at $\theta=0$; this 
+leads us to the minimum condition
+\begin{eqnarray*}
+\sin \theta = m \frac{\lambda}{a}, \hspace{2cm} m \neq 0.
+\end{eqnarray*}
+Since $a < d$, the diffraction minima occur farther apart than the 
+interference minima; this means that the diffraction really forms an envelope
+of the interference patterns. The maxima are harder to locate, since they 
+involve the interplay between the denominator and the numerator. To find them,
+you must take the derivative and set it equal to zero. This will yield an
+unpleasant transcendental equation, that will tell us that the maxima are 
+roughly half way in between the minima, but a little closer to the center.
+
+\subsection{Diffraction Grating}
+
+We can use our multislit diffraction pattern to examine a very useful device:
+the diffraction grating. This is a plate that has thousand of slits cut into 
+it. For this large $n$ limit, we can easily locate the intensity maxima. 
+Consider equation~(\ref{eq:diff:multislit diffraction intensity}) with $n$ very
+large. The interference part produces sharp peaks of very high intensity, 
+scaling as $n^2$, separated by many ($n-1$) practically invisible secondary
+maxima. The diffraction part simply provides an overall decrease in the
+intensity of these peaks away from the center. So, we can focus our attention
+on the interference part to extract where the primary peaks are.
+
+So, looking at the interference part of 
+equation~(\ref{eq:diff:multislit diffraction intensity}), to make $I$ a 
+maximum, we need the arguments of both the top and the bottom to go to zero 
+simultaneously. If this is the case, then L'H\^opital's rule gives the value 
+$n^2$ for the ratio. This occurs when
+\begin{eqnarray*}
+\pi \frac{d}{\lambda} \sin \theta = m \pi
+\end{eqnarray*}
+for some integer $m$. Rearranging this condition gives the {\em grating
+equation}:
+\begin{eqnarray*}
+\fbox{$ \displaystyle d \sin \theta = m \lambda; $}
+\end{eqnarray*}
+$m$ is called the {\em order} of the fringe. Knowing the slit spacing~$d$, the 
+order of the fringe and measuring $\sin \theta$ will produce a fairly precise
+measurement of the wavelength.
+
+\section{Apparatus}
+
+The apparatus for this lab is rather simple.  We'll use the lasers as light 
+sources, since we need a monochromatic beam of light to clearly illustrate the
+effects of interference and diffraction. Please recall the guidelines for 
+laser safety given in Lab~\ref{ch:optics}. We'll use an adjustable single
+slit to study single slit diffraction, a slide with multislit patterns, and
+a diffraction grating slide.
+
+\vfill
+\pagebreak
+
+%  Label worksheets by \thechapter.W
+\renewcommand{\thesection}{\thechapter.W}
+
+\section{Diffraction and Interference Worksheet}
+{\bf \Large Name:}~ \rule{5cm}{.1mm}~~~~~~~
+{\bf \Large Day/Time:}~\rule{3cm}{.1mm}\\ 
+\ \\
+{\bf \large Partners' Names:}~\rule{6cm}{.1mm}\\
+
+\subsection{In-Lab Procedure}
+
+For most of the procedures in this lab, we will require a distance of at least
+2~m between the slit assembly and the screen you'll use to observe the pattern;
+$L$ must be large for the small angle approximation.  As a screen, we'll 
+use large sheets of computer paper taped to the wall; these are nice, because 
+you can easily trace the pattern on them.  However, this means that several 
+groups of students will have to aim the lasers {\it across} the room.  As long
+as everyone is careful not to aim their own lasers up at eye level and we 
+remain aware of everyone else's lasers, there should be no problems.  Be 
+patient and understanding if your instructor or a classmate needs to walk in
+front of your beam when you're in the middle of making a sketch.
+ 
+\subsubsection{Single Slit Diffraction}  
+
+Find a convenient way to aim the laser at one of the walls so that there's
+no electrical outlet or other obstruction to taping your paper screen onto the
+wall; make sure that you will have at least a 2~m separation between the 
+{\it slit assembly} and the wall.  Place the single slit apparatus in front of 
+the laser and align the slit with the beam. This may take a bit of playing 
+around; try placing the slit apparatus on its side or prop it up if necessary. 
+You might also need to adjust the slit width; just be careful not to look 
+directly into the laser beam or its reflections.  When you have the slit set 
+up properly, you should see a pattern of {\it spots}. \\ 
+\vspace*{.3cm} \\
+{\bf Question 0}: What does this pattern, 
+specifically the brightness of the spots, have to do with 
+Figure~\ref{fig:diff:single slit diffraction intensity}?   \\
+
+\clearpage
+
+\noindent Trace {\bf two} patterns: one with a relatively large slit 
+width and another with a 
+relatively small slit width; make sure that you label these appropriately.   
+You will use these traces to answer a series of questions in the In-Classroom
+Calculation \& Analysis section.  
+
+
+\subsubsection{Multiple Slit Diffraction/Interference Patterns} 
+\label{sec:diff:multislitproc}
+
+\noindent Using a length of string and a meterstick, 
+measure distance from slit 
+to screen, $L$ and record this value below with uncertainty.
+\begin{center}
+$L=$~ \rule{3cm}{.1mm} 
+\end{center}
+Replace the single slit assembly with the multi-slit slide (mounted in a 
+magnetic holder).  Adjust the slide
+so that the two slit pattern (slit pattern, not interference pattern) is 
+directly in front of the beam; adjust it until you get a clear interference 
+pattern on the screen. Record the slit width $a$ and the slit spacing 
+$d$ below.
+
+\begin{center}
+$a=$~ \rule{3cm}{.1mm}~~~~ $d=$~ \rule{3cm}{.1mm}
+\end{center}
+\vspace*{.5cm}
+
+\begin{figure}[htb]
+\centerline{\epsfxsize=15cm \epsfbox{diffint_2/interpatt.eps}}
+\caption{The interference/diffraction pattern for 5 slits.}
+\label{fig:diff:interpatt}
+\end{figure}
+
+\noindent Trace the {\bf two} slit pattern (remember to label it). 
+When doing the trace,
+make sure you are able to trace at least {\bf eight primary} maxima. (Four
+primary maxima on each side of the central maximum is preferable).
+Determine the orders of each of the primary maxima on your trace of
+the two-slit interference pattern. Refer to Figure~\ref{fig:diff:interpatt}
+for guidance but note that this figure is of a 5-slit pattern.
+Measure the distances $y_n$ for at least 8 primary maxima; remember to skip
+the secondary maxima and missing orders when you do this; once again 
+referring  to Figure~\ref{fig:diff:interpatt} for guidance. \\
+
+\noindent
+Measure the distances $y_n$ from the $n$th primary maximum to the
+center of the central maximum for at least eight primary maxima. {\bf
+Note:} The values of $y_n$ for negative $n$ should be taken to be
+negative. Record your eight $y_n$ vs. $n$ measurements into 
+Table~\ref{tab:DI:twoslit}.
+
+\begin{table}[htb]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multicolumn{5}{|c|}{Measurements of $y_n$ vs. $n$ for Two-slit Diffraction Pattern.} \\
+\hline
+Distance ($y_n$) & Order ($n$) & & Distance ($y_n$) & Order ($n$) \\
+\hline
+\hspace*{3cm} & \hspace*{3cm} & \hspace*{.3cm} & \hspace*{3cm} & \hspace*{3cm} \\
+& & & & \\
+\hline
+& & & & \\ & & & & \\
+\hline
+& & & & \\ & & & & \\
+\hline
+& & & & \\ & & & & \\
+\hline
+\end{tabular}
+\end{center}
+\caption{$y_n$ vs. $n$ measurements for two-slit diffraction pattern.}
+\label {tab:DI:twoslit}
+\end{table}
+
+\ \\
+\noindent 
+Let's also examine the qualitative properties of the other slit
+patterns.  Observe the patterns for the 3, 4, and 5 slit patterns; you
+don't need to sketch them.  Is there anything discussed in
+Section~\ref{sec:diff:multislit} that you can compare this behavior
+with?  Record below the results of your observations of the {\it
+qualitative} properties of the interference patterns resulting from 3,
+4, and 5 slits. In particular, answer the following two questions. 
+\vspace*{.5cm}
+
+\noindent 
+{\bf Question 1}: For each of the 3, 4, and 5 slit patterns, how many
+secondary maxima appear between primary maxima?
+\vspace*{.8cm}
+
+\noindent
+{\bf Question 2}: What happens to the size of the primary maxima as you
+increase the number of slits?\\
+
+
+
+
+
+
+
+
+\subsubsection{Diffraction Grating Pattern} 
+
+Replace the multi-slit slide with the diffraction grating slide.  Can you see
+the diffraction pattern?  What if you place a sheet of paper directly in front
+of the grating?  Move the laser and grating so that you decrease the distance
+between the grating and the wall. Adjust the grating-to-screen distance until 
+you can see five dots, as illustrated in Figure~\ref{fig:diff:diffgratpat}. 
+\begin{figure}[htb]
+\centerline{\epsfxsize=8cm \epsfbox{diffint_2/diffpatt.eps}}
+\caption{The interference pattern from the diffraction grating.} 
+\label{fig:diff:diffgratpat}
+\end{figure}
+
+\noindent
+Measure the grating-to-screen distance, $L_g$, and write down the number of 
+lines/cm, $s,$
+as printed on the grating slide. 
+
+\begin{center}
+$L_g=$~ \rule{3cm}{.1mm} ~~~~ $s=$~ \rule{3cm}{.1mm}
+\end{center}
+\vspace*{.5cm}
+\noindent  Now trace the 5~bright spots that form the 
+interference pattern. Some dim spots may appear above and/or below the bright 
+ones; these are due to imperfections in the grating and we may ignore them. \\
+
+\noindent 
+On your trace of the diffraction grating interference pattern, assign
+a value for $n$ to each of the dots. Refer to Figure~\ref{fig:diff:diffgratpat}
+to see how.  Measure the distances $y_n$ from the $n$th dot to the center 
+dot for
+all five of the dots. {\bf Note:} Again, the values of $y_n$ for
+negative $n$ should be taken to be negative, see 
+Figure~\ref{fig:diff:gratgraph}. 
+
+
+\begin{figure}[htb]
+\centerline{\epsfxsize=7cm \epsfbox{diffint_2/gratgraph.eps}}
+\caption{An illustration of a typical graph of the grating data.}
+\label{fig:diff:gratgraph}
+\end{figure}
+\vspace*{1cm} 
+\noindent 
+Record your five $y_n$
+vs. $n$ measurements into Table~\ref{tab:DI:Grating}.
+\begin{table}[htb]
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+\multicolumn{2}{|c|}{Measurements of $y_n$ vs. $n$} \\
+\hline
+Distance ($y_n$) & Order ($n$) \\
+\hline
+\hspace*{3cm} & \hspace*{3cm}  \\
+& \\
+\hline
+& \\ & \\
+\hline
+& \\ & \\
+\hline
+& \\ & \\
+\hline
+& \\ & \\
+\hline
+\end{tabular}
+\end{center}
+\caption{$y_n$ vs. $n$ measurements for diffraction grating pattern.}
+\label {tab:DI:Grating}
+\end{table}
+ 
+\clearpage
+
+\subsection{In-Lab Computer Work}
+
+
+\subsubsection{Multiple Slit Diffraction/Interference Patterns}
+
+Using the measured values in Table~\ref{tab:DI:twoslit}, calculate
+$y_nd/L$ and its uncertainty for one set of data.  
+{\bf Show all work} in the space provided
+below. \\
+\vspace*{4cm} \\
+\noindent Make a plot (with error bars) of $y_nd/L$ vs. $n$ 
+Find the slope of the weighted best fit line, and record this
+below with uncertainty.
+
+\begin{center}
+Slope1=~ \rule{3cm}{.1mm}
+\end{center}
+
+
+\subsubsection{Diffraction Grating Pattern}
+
+Using the measured values in Table~\ref{tab:DI:Grating}, calculate
+$y_nd/ \sqrt{y_n^2 + L^2}$ and its uncertainty for one set of data.  
+{\bf Show all work} in the space provided below. \\
+\vspace*{5cm} \\
+
+\noindent Now, plot $y_nd/ \sqrt{y_n^2 + L^2}$ vs. $n$ with error bars. 
+Find the
+slope of the weighted best fit line, and record this below with
+uncertainty.
+
+\begin{center}
+Slope2=~ \rule{3cm}{.1mm}
+\end{center}
+
+\subsection{Pre-Classroom Check List}
+$\bigcirc$ \hspace*{1cm} One partner has two labeled tracings from single slit \\
+$\bigcirc$ \hspace*{1cm} One partner has a labeled tracing from two-slit \\
+$\bigcirc$ \hspace*{1cm} One partner has a labeled tracing from grating \\
+$\bigcirc$ \hspace*{1cm} Table~\ref{tab:DI:twoslit} completed with units and uncertainties \\
+$\bigcirc$ \hspace*{1cm} Table~\ref{tab:DI:Grating} completed with units and uncertainties \\
+$\bigcirc$ \hspace*{1cm} $S_1$ with uncertainty and units \\
+$\bigcirc$ \hspace*{1cm} $S_2$ with uncertainty and units \\
+$\bigcirc$ \hspace*{1cm} 2 Plots labeled completely and correctly \\
+$\bigcirc$ \hspace*{1cm} Each student has her/his own plots and worksheet \\
+ 
+
+
+\subsection{In-Classroom Calculations \& Analysis}
+
+
+From your value for Slope1, determine the value of the wavelength of
+the laser light for your two-slit interference pattern, $\lambda _1,$
+with uncertainty. \\
+\vspace*{2cm} \\
+\begin{center}
+$\lambda _1=$~ \rule{3cm}{.1mm} 
+\end{center}
+\noindent From your value of Slope2, determine the value of
+the wavelength of the laser light for your diffraction grating
+interference pattern, $\lambda _2$ with uncertainty. \\
+\vspace*{2cm} \\
+\begin{center}
+$\lambda _2=$~ \rule{3cm}{.1mm}
+\end{center}
+
+\noindent
+From $\lambda _1$ and $\lambda _2$ calculate the average wavelength
+with standard deviation. {\bf Note:} Use equations (0.1) and (0.2) in
+$\S$~\ref{sec:intro:uncert}. Record the average value $\lambda
+_{avg}$ below with uncertainty. \\
+\vspace*{3cm} \\ 
+\begin{center}
+$\lambda _{avg}=$~ \rule{3cm}{.1mm}
+\end{center}
+
+\subsection{In-Classroom Discussion}
+\subsubsection{Single Slit Diffraction}
+Refer to the traces you made of the single-slit diffraction patterns.
+Is the small angle approximation valid for analyzing these traces?
+Explain.
+\vspace*{2cm}
+
+\noindent 
+What happened to the width of the spots in the single-slit diffraction
+pattern as you increased the slit width?
+\vspace*{2cm}
+
+\noindent
+What happened to the separation between the spots in the single-slit
+diffraction pattern as you increased the slit-width?
+\vspace*{2cm}
+
+\noindent
+Do your answers to the above two questions agree qualitatively with
+the results obtained in 
+$\S$~\ref{sec:diff:singleslit}? Explain by citing the relevant results. \\
+\vspace*{2cm} \\
+
+\subsubsection{Multiple Slit Diffraction/Interference Patterns}
+What is responsible for the existence of missing orders in a multiple
+slit interference pattern? (Hint: examine 
+Figure~\ref{fig:diff:multislit diffraction}).  
+\vspace*{1.4cm} 
+
+\noindent
+Is the small-angle approximation valid for analyzing your trace of the
+two-slit interference pattern? Explain by comparing your largest
+$y_n$ value to $L.$
+\vspace*{3cm}
+
+\noindent
+Is your plot of $y_nd/L$ vs. $n$ linear?
+\vspace*{.3cm}
+
+\noindent
+Compare your value of $\lambda _1$ to the known wavelength of He-Ne
+light, 632.8 nm.
+\vspace*{2.5cm} 
+
+\noindent
+Does your observation of how the sizes of the primary maxima behave as
+you increase the number of slits agree or disagree with the discussion
+in $\S$~\ref{sec:diff:multislit}? Explain.
+\vspace*{3cm}
+  
+
+\noindent
+Referring to your trace of the two-slit interference pattern and the
+qualitative observations you made about the 3, 4, and 5 slit
+interference patterns, write an equation that relates the number of
+slits, $N$, to the number of secondary maxima, $M,$ that occur in the
+corresponding interference pattern. \\
+\vspace*{2cm}
+
+
+\subsubsection{Diffraction Grating Pattern}
+Is your plot of $y_nd/ \sqrt{y_n^2 + L^2}$ linear?
+\vspace*{.3cm}
+
+\noindent
+Compare your value of $\lambda _2$ to the known wavelength of He-Ne
+light, 632.8 nm.
+\vspace*{1.4 cm}
+
+\newpage
+
+
+\noindent
+Compare your value for $\lambda _{avg}$ with the known wavelength.
+\vspace*{2.4cm}
+
+\noindent
+Which of the two methods of measuring wavelength is the most {\it
+accurate}?
+\vspace*{2cm}
+
+\noindent
+Is this expected? Why?
+\vspace*{1cm}
+
+\noindent
+Do you gain anything by having made two separate measurements? What?
+\vspace*{1.4cm} 
+
+\newpage
+\subsection{In-Classroom Conclusion}
+
+Write a {\it brief} (that is, a one or two paragraph) conclusion for
+this lab. In it, you should summarize the physical
+principles which were meant to be illustrated in this experiment. You
+should also describe the degree to which your data supported these
+principles.
+
+
+\vfill
+\noindent Attach plots and tracings to the worksheet. \\
+\ \\
+{\Large End Worksheet} 
+
+% Go back to ordinary section numbering
+\renewcommand{\thesection}{\thechapter.\arabic{section}}
+

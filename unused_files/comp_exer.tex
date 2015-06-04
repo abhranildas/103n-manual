@@ -1,0 +1,298 @@
+\documentclass[12pt]{article}
+\oddsidemargin 0mm
+\evensidemargin 0mm
+\textwidth=160mm
+\textheight=230mm
+\headsep=0cm
+\parindent=10mm
+\headheight=-15mm
+\usepackage{epsf}
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+{\LARGE \bf PHY 103N} \\
+\vspace*{3mm}
+{\large \bf Using KaleidaGraph for Data Analysis}
+\end{center}
+
+\section{Introduction}
+\subsection{What KaleidaGraph Does and Doesn't}
+
+The software package known as KaleidaGraph can be a useful tool for data
+analysis. Of course, it will only be useful if you learn how to tell it to do what you
+want it to do. This knowledge is best acquired by experience with using the
+software, and you will get plenty of that in the upcoming semester. That fact
+doesn't help you at the moment, though. Getting started is the difficult part.
+Hopefully, this handout will you help you with that. 
+
+This handout is not meant to be a detailed guide to using KaleidaGraph. Instead,
+it hopes to demonstrate how to use those features of KaleidaGraph which will be
+most useful to you: plotting and fitting curves to data. To accomplish this, each
+section of this handout will have two parts. In the first part of each section, the
+steps you need to follow to accomplish a basic task are listed. In the second, an
+example to illustrate these steps is given. You should follow along with the examples
+to get the feel of working with the software. 
+
+When you are using KaleidaGraph to analyze real data, you'll probably have to
+perform most of the tasks described below. In that spirit, we'll connect all the
+examples with
+
+\subsection{An Hypothetical Experiment.}
+
+Suppose an experiment has been performed that tests the well-known conjecture that the
+probablity that a slice of toast buttered on one side will fall butter-side-up is
+inversely proportional to the value of the carpet on which it falls. This assertion
+can be represented by an equation:
+
+$$ U = a{1 \over V}, $$
+where $U$ represents the probabilty of a piece of bread falling butter side up, $a$ is a
+proportionality constant, and $V$ is the price of the carpet in U.S. dollars. If you
+were to somehow measure the probabilities of the toast falling butter-side-up on several
+carpets, and plot these against the reciprocal of the price of the carpet, you'd
+expect to see a straight line, with a slope equal to the proportionality constant.
+The following examples will lead you through the process of plotting data taken in such an experiment and finding the slope of the best fit line of the plot.
+
+Now for some details. On each run of the experiment, a helicopter dropped 100,000 slices
+of buttered toast on a large sample of carpet. Then, the U.S. Dept. of Parks and
+Wildlife flew in with their own helicopter to take an aerial photograph of the
+result. From the photograph, the fraction of butter-side-up slices was measured, and
+reported as the probablility.\footnote{These results have met with some controversy. The Association of Premium Carpet Manufacturers has filed a lawsuit claiming that the results have been altered to make their products seem less desirable.} Only five runs were accomplished before funding ran
+out. The results of the experiment are given in the next section.
+
+\section {Entering Data}
+\subsection {Actually Entering Data}
+
+KaleidaGraph holds data in a {\bf data window.} One of these should appear when you
+start; it's default name is {\bf Data 1.} To enter data,
+
+\noindent
+\begin{enumerate}
+\item Activate the data window by clicking on it.
+\item Position cursor on cell you want to enter data into.
+\item Type in a piece of data
+\item Move to another cell using mouse, arrow keys, Tab or Return
+\end{enumerate}
+\indent
+
+Note that KaleidaGraph plots data in a column vs. column fashion, so the
+x-coordinate and y-coordinate of a single piece of data should be placed in the same
+row, but different columns.
+\subsection{Renaming Columns of Data}
+
+This might not seem important at first, but KaleidaGraph labels the axes on plots with
+the name of the columns it used in the plot. The default names of columns are ``A",
+``B", ``C", etc. These appear in the {\bf column title} row of the data window, along
+with a number. To change the name of the column,
+
+\noindent
+\begin{enumerate}
+\item Double-click on the column title you wish to change.
+\item In the ``Column Format:" dialog box which appears there will be a list of column 
+titles. Highlight the title you wish to alter by clicking on it.
+\item Type in the new title of the column.
+\item When you are finished changing names, click on the button labeled 
+{\bf Done.}
+\end{enumerate}
+\indent
+
+The number of any column can be set to zero merely by clicking on the title cell of
+that column. The columns to the right then take the numbers 1, 2, 3.... The columns to
+the left become unnumbered.
+
+\subsection{Entering Buttered Toast Data} 
+
+The results of the buttered toast experiment are summarized in the following table.
+ 
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$V (\$)$ & $U$ \\
+$100 \pm 1$ & $0.43 \pm 0.01$ \\    
+$250 \pm 1$ & $0.15 \pm 0.01$ \\ 
+$500 \pm 2$ & $0.09 \pm 0.01$ \\
+$750 \pm 2$ & $0.06 \pm 0.01$ \\ 
+$1000 \pm 3$ & $0.04 \pm 0.01$ \\
+\hline
+\end{tabular}
+\end{center}  
+
+Enter the values for $V$ in the first five rows of column ``A," the uncertainties in $V$
+in column ``B," the values for $U$ in column ``C," and the uncertainties in $U$ in
+column ``D." Make sure that all the values belonging to a single data point are in the
+same row.
+
+Now, retitle the columns by clicking on the title cell of one the columns. Highlight
+``A" in the list of column names, and type in ``$V (\$).$'' Don't forget the
+units! Now click on ``B" in the list of column titles, and type in ``d$V.$ (\$)''
+Continue similarly with the remaining columns.
+
+\section{Operating on Data}
+\subsection{Using Formulas}
+
+Often, the raw data you enter is not immediately in the form you need for plotting.
+Never fear, KaleidaGraph is capable of performing mathematical operations on the
+numbers you have entered. One way of using this feature is to define a formula for
+KaleidaGraph. Formulas tell KaleidaGraph to put in one column the result of operations
+on data in other columns.
+
+The syntax of formulas you define should be
+\begin{center}
+c$x$ = f(c$y$, c$z$, ...)
+\end{center}
+where $x, y,$ and $z$ are the numbers of the columns which contain the numbers you
+wish to operate on, and f(...) is the mathematical expression you wish KaleidaGraph to
+calculate.
+
+For example, to tell KaleidaGraph to take the fourth power of data in column ``B,''
+and place the results four columns to the left, you would first click on the title box
+of column ``B," to make it column 0, and then enter the formula c4 = c0 \char'136 4.
+
+\subsection{Entering Formulas}
+
+To actually enter and execute a formula, 
+
+\noindent
+\begin{enumerate}
+\item Activate the appropriate data window by clicking on it.
+\item From the {\bf Windows} menu at the top of the screen, select the option {\it
+Formula Entry.}
+\item In the ``Formula Entry'' window which appears, click on one of the buttons 
+labeled {\bf F1 - F8.}
+\item Type in the formula in the space provided in the ``Formula Entry'' window.
+\item Click button marked Run in the ``Formula Entry'' window.
+\end{enumerate}
+\indent
+
+The button labeled {\bf F1-F8} you choose corresponds to one of the function keys at the top
+of the keyboard. Pressing that key will bring up the ``Formula Entry''
+window again, this time containing the formula you defined.
+
+\subsection{Turning Dollars Into Reciprocal Dollars}
+ 
+Since you want to plot $U$ vs. $1/V,$ you need to make a column containing the
+reciprocal dollar values of the carpets. So begin by clicking on the title cell of the
+column you've already titled $V (\$).$ This makes it column zero. Move the cursor over to
+columns 4 and 5 to make sure they exist, then choose {\it Formula Entry}
+from the {\bf Windows} menu. Click on the button marked {\bf F3}, and enter this formula
+\begin{center}
+c4 = 1/c0.
+\end{center}
+Now click the {\bf Run} button and watch the magic. You should change the title of this
+column now (and don't forget the units!)
+
+Of course, the uncertainties in $1/V$ are different from the uncertainties in $V.$ So
+you'll need to get KaleidaGraph to calculate an uncertainty column for you. Try to
+figure out the necessary formula yourself.
+
+\section{Plotting Data}
+
+\subsection{Making a Scatter Plot}
+These two sections on plotting and fitting data require little motivation. But a few
+important notes will be made. First, {\bf Never} connect-the-dots when you plot data.
+Fortunately, if you follow these steps, you'll never forget and accidentally do it.
+
+\noindent
+\begin{enumerate}
+\item Activate the window containing the data you want to plot by clicking on it.
+\item From the {\bf Gallery} menu at the top of the screen, select the {\bf Linear}
+submenu, and from that select the {\bf Scatter} option.
+\item A dialog box will appear. In it, there will be columns of circles labelled ``X"
+and ``Y." Under ``X" click on the circle in the row containing the title of the column
+which contains the x-coordinates of your data. A solid black circle should appear.
+\item Do the same with your y-coordinates in the column labelled ``Y."
+\item Click on the button labelled {\bf New Plot.}
+\end{enumerate}
+\indent
+
+Note the conspicuous lack of error bars.
+
+\subsection{Adding Error Bars}
+
+\noindent
+\begin{enumerate}
+\item Activate the window containing your plot by clicking on it.
+\item From the {\bf Plot} menu at the top of the screen, select the option ``Error
+bars..."
+\item In the ``Error Bar Variables" dialog box which appears, click on the square
+labeled ``X Err.''
+\item Click and hold on one of the two rectangles labeled ``\% of values," and select
+the option ``Data Column." 
+\item Select the column which contains the uncertainties in the x-coordinates of your
+plotted data. 
+\item Click on button labelled {\bf OK.}
+\item Now, follow the same procedure starting with the square labelled ``Y Err.''
+\item Click on button labelled {\bf Plot.}
+\end{enumerate}
+\indent
+
+\subsection{Plotting Buttered Toast vs. Inverse Dollar Value}
+
+Simply follow the above instructions to make a scatter plot, choosing $1/V$ as your
+x-coordinate column, $U$ as your y-coordinate column. For error bars, choose the
+appropriate columns. You're almost there.
+
+\section{Performing a Weighted Least-Squares Fit on Plotted Data}
+\subsection{Ditto}
+
+We come to the moment of truth. Both the slope, and y-intercept of a linear plot are
+often important pieces of information to obtain. Of course, they are meaningless without
+uncertainties. Therefore, you should make sure you take into account the uncertainties in your
+points when calculating the fit. 
+
+\noindent
+\begin{enumerate}
+\item Activate the window containing your plot by clicking on it.
+\item From the {\bf Curve Fit} Menu at the top of the screen, select the {\bf General}
+submenu, and from that, select the option {\bf fit1.}
+\item In the ``Curve Fit Selections:" dialog box which appears, click on the button
+labelled {\bf Define...}
+\item In the new dialog box that appears, click on the square labelled ``Weight Data"
+so that an X appears in it.
+\item Click on the button labelled {\bf OK.}
+\item In the ``Curve Fit Selections:" dialog box, click on the square next to the
+column title which contains the y-coordinate of the data you are plotting.
+\item A new dialog box will appear called ``Weight Data From Column:". By clicking on
+the buttons labelled $\ll$ and $\gg$ , make sure the name of the column containing the
+uncertainties for the y-coordinate appears in the window.
+\item Click on the button labelled {\bf OK}.
+\item Now click on this button labelled {\bf OK}.
+\end{enumerate}
+\indent
+
+Now you need the numerical results of the fit. Simply choose the ``Display Equations"
+option from the {\bf Plot} menu, and a table containing the numbers you desire will
+appear. Note that, in this table, m1 is the y-intercept and m2 is the slope of the
+best fit line.
+
+\subsection{Finding the Buttered Toast Constant}
+
+Again, simply follow the above steps, using $U$ as your y-coordinate and the delta$U$ 
+column as the column of the weights. Print out your plot, making sure you report the
+slope as the constant of propotionality in the correct units.
+  
+\subsection{The Work You Should Turn In}
+
+After you have followed through the above example, you should turn in the printout you have made. This printout should at least contain: properly labeled axes, x and y error bars, and the best fit line plotted by KaleidaGraph through your plotted points. Also, somewhere on the page below the plot, you should report {\it in a complete sentence} what you have found to be the constant of proportionality (with uncertainty!).
+
+Of course, your TA may require more of you.
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

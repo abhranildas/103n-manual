@@ -1,0 +1,266 @@
+\contentsline {chapter}{\numberline {}Preface}{ix}
+\contentsline {chapter}{\numberline {0}Introduction}{1}
+\contentsline {section}{\numberline {0.1}General Lab Procedures}{1}
+\contentsline {section}{\numberline {0.2}Error Estimation and Propagation}{2}
+\contentsline {subsection}{\numberline {0.2.1}Definition of Uncertainty}{3}
+\contentsline {subsection}{\numberline {0.2.2}Estimating Parameters and Their Uncertainties}{5}
+\contentsline {subsection}{\numberline {0.2.3}Propagating and Reporting Uncertainties}{12}
+\contentsline {section}{\numberline {0.3}The Lab Worksheet}{15}
+\contentsline {subsection}{\numberline {0.3.1}In-Lab Procedure}{15}
+\contentsline {subsection}{\numberline {0.3.2}In-Lab Computer Work}{16}
+\contentsline {subsection}{\numberline {0.3.3}Pre-Classroom Checklist}{18}
+\contentsline {subsection}{\numberline {0.3.4}In-Classroom Calculations \& Analysis}{18}
+\contentsline {subsection}{\numberline {0.3.5}In-Classroom Discussion and Conclusion}{20}
+\contentsline {section}{\numberline {0.4}Using KaleidaGraph for Data Analysis}{20}
+\contentsline {subsection}{\numberline {0.4.1}Introduction}{20}
+\contentsline {subsubsection}{What KaleidaGraph Does and Doesn't}{20}
+\contentsline {subsubsection}{\dots A Hypothetical Experiment.}{21}
+\contentsline {subsection}{\numberline {0.4.2}Entering Data}{22}
+\contentsline {subsubsection}{Actually Entering Data}{22}
+\contentsline {subsubsection}{Renaming Columns of Data}{22}
+\contentsline {subsection}{\numberline {0.4.3}Entering Formulas}{23}
+\contentsline {subsection}{\numberline {0.4.4}Plotting Data}{24}
+\contentsline {subsubsection}{Making a Scatter Plot}{24}
+\contentsline {subsubsection}{Adding Error Bars}{24}
+\contentsline {subsection}{\numberline {0.4.5}Performing a Weighted Least-Squares Fit on Plotted Data}{25}
+\contentsline {subsubsection}{Weighted Fit}{25}
+\contentsline {subsubsection}{The Work You Should Turn In}{26}
+\contentsline {section}{\numberline {0.W1}Error Analysis Worksheet}{27}
+\contentsline {subsection}{\numberline {0.W1.1}In-Lab Procedure}{27}
+\contentsline {subsection}{\numberline {0.W1.2}In-Classroom Calculations}{27}
+\contentsline {section}{\numberline {0.W2}KaleidaGraph \& Graphing By Hand}{33}
+\contentsline {subsection}{\numberline {0.W2.1}In-Lab Computer Work}{33}
+\contentsline {subsubsection}{Two Exercises for Kaleidagraph}{33}
+\contentsline {subsection}{\numberline {0.W2.2}In-Classroom Calculation \& Analysis}{35}
+\contentsline {subsubsection}{Hand-fit Graphing}{36}
+\contentsline {subsubsection}{Least Squares}{37}
+\contentsline {chapter}{\numberline {1}Electrostatics}{41}
+\contentsline {section}{\numberline {1.1}Introduction}{41}
+\contentsline {section}{\numberline {1.2}Theory}{41}
+\contentsline {subsection}{\numberline {1.2.1}Electric Charge}{41}
+\contentsline {subsection}{\numberline {1.2.2}Coulomb's Law}{42}
+\contentsline {subsection}{\numberline {1.2.3}Electric Field}{42}
+\contentsline {subsection}{\numberline {1.2.4}Gauss' Law}{43}
+\contentsline {subsection}{\numberline {1.2.5}Electric Potential}{45}
+\contentsline {section}{\numberline {1.3}Apparatus}{47}
+\contentsline {subsection}{\numberline {1.3.1}The {\it Pasco} ES-9077 Electrostatics Voltage Source}{48}
+\contentsline {subsection}{\numberline {1.3.2}The {\it Pasco} ES-9078 Electrometer}{48}
+\contentsline {subsection}{\numberline {1.3.3}The {\it Pasco} ES-9042A Faraday Ice Pail}{49}
+\contentsline {subsection}{\numberline {1.3.4}The {\it Pasco} ES-9075A Charge Producers and Proof Planes}{49}
+\contentsline {subsection}{\numberline {1.3.5}The {\it Pasco} ES-9059 13-cm Spheres}{50}
+\contentsline {subsection}{\numberline {1.3.6}The {\it Pasco} High Resistance Paper and Conductive Ink}{50}
+\contentsline {section}{\numberline {1.W}Electrostatics Worksheet}{53}
+\contentsline {subsection}{\numberline {1.W.1}In-Lab Procedure}{53}
+\contentsline {subsubsection}{Faraday Ice Pail and Charge Production}{53}
+\contentsline {subsubsection}{Charge Distribution}{56}
+\contentsline {subsubsection}{Electric Field and Electric Potential}{57}
+\contentsline {subsection}{\numberline {1.4.2}Pre-Classroom Check List}{59}
+\contentsline {subsubsection}{Pre-classroom Check List}{59}
+\contentsline {subsection}{\numberline {1.4.3}In-Classroom Calculations \& Analysis}{59}
+\contentsline {chapter}{\numberline {2}DC Circuits}{65}
+\contentsline {section}{\numberline {2.1}Introduction}{65}
+\contentsline {section}{\numberline {2.2}Theory}{65}
+\contentsline {subsection}{\numberline {2.2.1}References}{65}
+\contentsline {subsection}{\numberline {2.2.2}Voltage, Current, and Resistance}{66}
+\contentsline {subsection}{\numberline {2.2.3}Diagrams and Meters}{68}
+\contentsline {subsection}{\numberline {2.2.4}Voltage Sources}{70}
+\contentsline {subsection}{\numberline {2.2.5}Series and Parallel Circuits with Resistors}{72}
+\contentsline {subsection}{\numberline {2.2.6}The Color Code for Resistors}{78}
+\contentsline {section}{\numberline {2.3}Apparatus}{80}
+\contentsline {subsection}{\numberline {2.3.1}The Multimeter}{80}
+\contentsline {subsection}{\numberline {2.3.2}The Power Supply}{81}
+\contentsline {subsection}{\numberline {2.3.3}The Breadboard}{82}
+\contentsline {section}{\numberline {2.W1}DC Circuits Part I Worksheet}{87}
+\contentsline {subsection}{\numberline {2.W1.1}In-Lab Procedure}{87}
+\contentsline {subsubsection}{Batteries in Series and Opposition}{87}
+\contentsline {subsubsection}{Resistance Measurement}{89}
+\contentsline {subsubsection}{Resistors in Series and Parallel}{90}
+\contentsline {subsection}{\numberline {2.W1.2}Part I Pre-Classroom Check List}{92}
+\contentsline {subsection}{\numberline {2.W1.3}In-Classroom Calculations \& Analysis}{92}
+\contentsline {subsubsection}{Batteries in Series and Opposition}{92}
+\contentsline {subsubsection}{Resistance Measurement}{92}
+\contentsline {subsubsection}{Resistors in Series and Parallel}{93}
+\contentsline {section}{\numberline {2.W2}DC Circuits Part II Worksheet}{95}
+\contentsline {subsection}{\numberline {2.W2.1}In-Lab Procedure}{95}
+\contentsline {subsubsection}{Temperature Dependence of Resistance}{95}
+\contentsline {subsection}{\numberline {2.W2.2}In-Lab Computer Work}{98}
+\contentsline {subsection}{\numberline {2.W2.3}In-Lab Procedure}{98}
+\contentsline {subsubsection}{Internal Resistance of a Dry Cell}{98}
+\contentsline {subsection}{\numberline {2.W2.4}In-Lab Computer Work}{100}
+\contentsline {subsection}{\numberline {2.W2.5}Part II Pre-Classroom Check List}{100}
+\contentsline {subsection}{\numberline {2.W2.6}In-Classroom Calculations \& Analysis}{100}
+\contentsline {subsubsection}{Temperature Dependence of Resistance}{101}
+\contentsline {subsubsection}{Internal Resistance of a Dry Cell}{102}
+\contentsline {chapter}{\numberline {3}Electron Dynamics}{103}
+\contentsline {section}{\numberline {3.1}Introduction}{103}
+\contentsline {section}{\numberline {3.2}Theory}{104}
+\contentsline {subsection}{\numberline {3.2.1}References}{104}
+\contentsline {subsection}{\numberline {3.2.2}The Physical Situation}{104}
+\contentsline {subsection}{\numberline {3.2.3}Uniform Electric Field}{105}
+\contentsline {subsection}{\numberline {3.2.4}Uniform Magnetic Field}{105}
+\contentsline {section}{\numberline {3.3}Apparatus}{108}
+\contentsline {section}{\numberline {3.W}Electron Dynamics Worksheet}{113}
+\contentsline {subsection}{\numberline {3.W.1}In-Lab Procedure}{113}
+\contentsline {subsubsection}{The Magnetic Field of the Coils}{113}
+\contentsline {subsubsection}{Radius versus Magnetic Field}{115}
+\contentsline {subsection}{\numberline {3.W.2}In-Lab Computer Work}{116}
+\contentsline {subsection}{\numberline {3.W.3}In-Lab Procedure}{118}
+\contentsline {subsubsection}{Radius versus Potential}{118}
+\contentsline {subsection}{\numberline {3.W.4}In-Lab Computer Work}{118}
+\contentsline {subsection}{\numberline {3.W.5}Pre-Classroom Check List}{119}
+\contentsline {subsection}{\numberline {3.W.6}In-Classroom Calculations $\&$ Analysis}{119}
+\contentsline {subsubsection}{The Magnetic Field of the Coils}{119}
+\contentsline {subsubsection}{Radius versus Magnetic Field}{120}
+\contentsline {subsubsection}{Radius versus Potential}{120}
+\contentsline {subsection}{\numberline {3.W.7}In-Classroom Discussion}{121}
+\contentsline {chapter}{\numberline {4}Measurements with the Oscilloscope}{123}
+\contentsline {section}{\numberline {4.1}Introduction}{123}
+\contentsline {section}{\numberline {4.2}Theory}{124}
+\contentsline {subsection}{\numberline {4.2.1}References}{124}
+\contentsline {subsection}{\numberline {4.2.2}The Properties of Waves}{124}
+\contentsline {section}{\numberline {4.3}Apparatus}{127}
+\contentsline {subsection}{\numberline {4.3.1}The Oscilloscope}{127}
+\contentsline {subsection}{\numberline {4.3.2}The Function Generator}{135}
+\contentsline {subsection}{\numberline {4.3.3}The Phase Shifter}{136}
+\contentsline {section}{\numberline {4.W}Oscilloscope Worksheet}{139}
+\contentsline {subsection}{\numberline {4.W.1}In-Lab Procedure}{139}
+\contentsline {subsubsection}{Turning on the Oscilloscope}{139}
+\contentsline {subsubsection}{Operating the Equipment}{139}
+\contentsline {subsubsection}{Measuring Amplitude and Frequency}{140}
+\contentsline {subsubsection}{Measuring Phase Difference}{143}
+\contentsline {subsection}{\numberline {4.W.2}Pre-Classroom Check List}{144}
+\contentsline {subsection}{\numberline {4.W.3}In-Classroom Calculations $\&$ Analysis}{145}
+\contentsline {subsubsection}{Measuring Amplitude and Frequency}{145}
+\contentsline {subsubsection}{Measuring Phase Difference}{146}
+\contentsline {chapter}{\numberline {5}RC Circuits and Filters}{149}
+\contentsline {section}{\numberline {5.1}Introduction}{149}
+\contentsline {section}{\numberline {5.2}Theory}{149}
+\contentsline {subsection}{\numberline {5.2.1}References}{149}
+\contentsline {subsection}{\numberline {5.2.2}DC Response of Capacitors}{150}
+\contentsline {subsection}{\numberline {5.2.3}AC Response of Capacitors}{154}
+\contentsline {section}{\numberline {5.3}Apparatus}{159}
+\contentsline {section}{\numberline {5.W}RC Circuits and Filters Worksheet}{161}
+\contentsline {subsection}{\numberline {5.W.1}In-Lab Procedure}{161}
+\contentsline {subsubsection}{DC Response}{161}
+\contentsline {subsection}{\numberline {5.W.2}In-Lab Computer Work}{165}
+\contentsline {subsection}{\numberline {5.W.3}In-Lab Procedure}{166}
+\contentsline {subsubsection}{AC Response}{166}
+\contentsline {subsection}{\numberline {5.W.4}In-Lab Computer Work}{168}
+\contentsline {subsection}{\numberline {5.W.5}In-Lab Procedure}{168}
+\contentsline {subsubsection}{High-pass Filter}{168}
+\contentsline {subsection}{\numberline {5.W.6}Pre-Classroom Check List}{169}
+\contentsline {subsection}{\numberline {5.W.7}In-Classroom Calculations \& Analysis}{169}
+\contentsline {subsubsection}{DC Response}{169}
+\contentsline {subsubsection}{AC Response}{171}
+\contentsline {subsection}{\numberline {5.W.8}Conclusion}{172}
+\contentsline {chapter}{\numberline {6}Electromagnetic Induction}{173}
+\contentsline {section}{\numberline {6.1}Introduction}{173}
+\contentsline {section}{\numberline {6.2}Theory}{174}
+\contentsline {subsection}{\numberline {6.2.1}References}{174}
+\contentsline {subsection}{\numberline {6.2.2}Magnetic Flux}{174}
+\contentsline {subsection}{\numberline {6.2.3}Faraday's Law}{175}
+\contentsline {subsection}{\numberline {6.2.4}The Transformer}{176}
+\contentsline {section}{\numberline {6.3}Apparatus}{178}
+\contentsline {section}{\numberline {6.W}Electromagnetic Induction Worksheet}{179}
+\contentsline {subsubsection}{Sinusoidal Input}{179}
+\contentsline {subsection}{\numberline {6.W.1}In-Lab Computer Work}{181}
+\contentsline {subsubsection}{Amplitude versus Frequency}{181}
+\contentsline {subsubsection}{Amplitude versus Turns}{182}
+\contentsline {subsection}{\numberline {6.W.2}In-Lab Procedure}{182}
+\contentsline {subsubsection}{Triangle and Square Wave Input}{182}
+\contentsline {subsection}{\numberline {6.W.3}Pre-Classroom Check List}{183}
+\contentsline {subsection}{\numberline {6.W.4}In-Classroom Calculations $\&$ Discussions}{184}
+\contentsline {subsubsection}{Sinusoidal Input}{184}
+\contentsline {subsubsection}{Triangle and Square Wave Input}{186}
+\contentsline {subsection}{\numberline {6.W.5}Conclusion}{188}
+\contentsline {chapter}{\numberline {7}Polarization of Light}{189}
+\contentsline {section}{\numberline {7.1}Introduction}{189}
+\contentsline {section}{\numberline {7.2}Theory}{189}
+\contentsline {subsection}{\numberline {7.2.1}References}{189}
+\contentsline {subsection}{\numberline {7.2.2}Polarization}{189}
+\contentsline {subsection}{\numberline {7.2.3}Polarizers}{192}
+\contentsline {subsection}{\numberline {7.2.4}Malus' Law}{193}
+\contentsline {section}{\numberline {7.3}Apparatus}{195}
+\contentsline {section}{\numberline {7.W}Polarization of Light Worksheet}{197}
+\contentsline {subsection}{\numberline {7.W.1}In-Lab Procedure}{197}
+\contentsline {subsubsection}{Preliminaries}{197}
+\contentsline {subsection}{\numberline {7.W.2}In-Lab Computer Work}{198}
+\contentsline {subsection}{\numberline {7.W.3}In-Lab Procedure}{198}
+\contentsline {subsubsection}{Polarized Light and a Polarizer}{198}
+\contentsline {subsection}{\numberline {7.W.4}In-Lab Computer Work}{199}
+\contentsline {subsection}{\numberline {7.W.5}In-Lab Procedure}{200}
+\contentsline {subsubsection}{Crossed Polarizers}{200}
+\contentsline {subsection}{\numberline {7.W.6}In-Lab Computer Work}{200}
+\contentsline {subsection}{\numberline {7.W.7}Pre-Classroom Check List}{201}
+\contentsline {subsection}{\numberline {7.W.8}In-Classroom Discussion}{201}
+\contentsline {subsection}{\numberline {7.W.9}In-Classroom Conclusion}{205}
+\contentsline {chapter}{\numberline {8}Refraction Optics}{207}
+\contentsline {section}{\numberline {8.1}Introduction}{207}
+\contentsline {section}{\numberline {8.2}Theory}{208}
+\contentsline {subsection}{\numberline {8.2.1}References}{208}
+\contentsline {subsection}{\numberline {8.2.2}Index of Refraction}{208}
+\contentsline {subsection}{\numberline {8.2.3}Refraction at a Boundary - Snell's Law}{209}
+\contentsline {subsection}{\numberline {8.2.4}Total Internal Reflection}{213}
+\contentsline {section}{\numberline {8.3}Apparatus}{215}
+\contentsline {section}{\numberline {8.W}Refraction Worksheet}{217}
+\contentsline {subsection}{\numberline {8.W.1}In-Lab Procedure}{217}
+\contentsline {subsubsection}{Ray Tracing}{217}
+\contentsline {subsubsection}{Snell's Law and a Glass Slab}{218}
+\contentsline {subsubsection}{Total Internal Reflection}{219}
+\contentsline {subsection}{\numberline {8.W.2}Pre-Classroom Check List}{220}
+\contentsline {subsection}{\numberline {8.W.3}In-Classroom Calculations \& Analysis}{220}
+\contentsline {subsubsection}{Snell's law and a Glass Slab}{220}
+\contentsline {subsubsection}{Total Internal Reflection}{222}
+\contentsline {subsection}{\numberline {8.W.4}In-Classroom Discussion}{223}
+\contentsline {subsubsection}{Snell's Law and a Glass Slab}{223}
+\contentsline {subsubsection}{Total Internal Reflection}{224}
+\contentsline {subsection}{\numberline {8.W.5}In-Classroom Conclusion}{225}
+\contentsline {chapter}{\numberline {9}Imaging Optics}{227}
+\contentsline {section}{\numberline {9.1}Introduction}{227}
+\contentsline {section}{\numberline {9.2}Theory}{227}
+\contentsline {subsection}{\numberline {9.2.1}References}{227}
+\contentsline {subsection}{\numberline {9.2.2}Imaging Optics and Lenses}{227}
+\contentsline {subsection}{\numberline {9.2.3}Compound Lenses}{231}
+\contentsline {subsection}{\numberline {9.2.4}The Thin Lens Equation}{232}
+\contentsline {subsection}{\numberline {9.2.5}Magnification}{232}
+\contentsline {section}{\numberline {9.3}Apparatus}{233}
+\contentsline {section}{\numberline {9.W}Imaging Optics Worksheet}{235}
+\contentsline {subsection}{\numberline {9.W.1}In-Lab Procedure}{235}
+\contentsline {subsubsection}{Focal Length and Magnification of a Lens}{235}
+\contentsline {subsection}{\numberline {9.W.2}In-Lab Computer Work}{238}
+\contentsline {subsection}{\numberline {9.W.3}In-Lab Procedure}{239}
+\contentsline {subsubsection}{A Compound Lens System}{239}
+\contentsline {subsection}{\numberline {9.W.4}Pre-Classroom Checklist}{239}
+\contentsline {subsection}{\numberline {9.W.5}In-Classroom Calculations \& Analysis}{240}
+\contentsline {subsubsection}{Focal Length and Magnification of a Lens}{240}
+\contentsline {subsubsection}{A Compound Lens System}{241}
+\contentsline {subsection}{\numberline {9.W.6}In-Classroom Discussion}{243}
+\contentsline {subsubsection}{Focal Length and Magnification of a Lens}{243}
+\contentsline {subsubsection}{A Compound Lens System}{244}
+\contentsline {subsection}{\numberline {9.W.7}In-Classroom Conclusion}{245}
+\contentsline {chapter}{\numberline {10}Diffraction and Interference of Light}{247}
+\contentsline {section}{\numberline {10.1}Introduction}{247}
+\contentsline {section}{\numberline {10.2}Theory}{249}
+\contentsline {subsection}{\numberline {10.2.1}References}{249}
+\contentsline {subsection}{\numberline {10.2.2}Diffraction and Interference}{249}
+\contentsline {subsection}{\numberline {10.2.3}Two-Slit Interference}{249}
+\contentsline {subsection}{\numberline {10.2.4}Multiple-Slit Interference}{254}
+\contentsline {subsection}{\numberline {10.2.5}Diffraction Grating}{256}
+\contentsline {subsection}{\numberline {10.2.6}Single-Slit Diffraction and Available Light}{257}
+\contentsline {subsection}{\numberline {10.2.7}Multiple-Slit Diffraction}{259}
+\contentsline {section}{\numberline {10.3}Apparatus}{261}
+\contentsline {section}{\numberline {10.W}Diffraction and Interference Worksheet}{263}
+\contentsline {subsection}{\numberline {10.W.1}In-Lab Procedure}{263}
+\contentsline {subsubsection}{Single-Slit Diffraction}{263}
+\contentsline {subsubsection}{Multiple-Slit Diffraction/Interference Patterns}{264}
+\contentsline {subsubsection}{Diffraction Grating Pattern}{266}
+\contentsline {subsection}{\numberline {10.W.2}In-Lab Computer Work}{268}
+\contentsline {subsubsection}{Multiple-Slit Diffraction/Interference Patterns}{268}
+\contentsline {subsubsection}{Diffraction Grating Pattern}{268}
+\contentsline {subsection}{\numberline {10.W.3}Pre-Classroom Check List}{269}
+\contentsline {subsection}{\numberline {10.W.4}In-Classroom Calculations \& Analysis}{269}
+\contentsline {subsection}{\numberline {10.W.5}In-Classroom Discussion}{270}
+\contentsline {subsubsection}{Single-Slit Diffraction}{270}
+\contentsline {subsubsection}{Multiple Slit Diffraction/Interference Patterns}{271}
+\contentsline {subsubsection}{Diffraction Grating Pattern}{272}
+\contentsline {subsection}{\numberline {10.W.6}In-Classroom Conclusion}{274}

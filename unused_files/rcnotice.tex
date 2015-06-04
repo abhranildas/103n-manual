@@ -1,0 +1,47 @@
+\documentclass[12pt]{article}
+\oddsidemargin 0mm
+\evensidemargin 0mm
+\textwidth=160mm
+\textheight=230mm
+\headsep=0cm
+\parindent=10mm
+\headheight=-15mm
+\begin{document}
+\pagestyle{empty}
+
+\begin{flushleft}
+\begin{tabular}{ll}
+To: & 103N TA's (Scott Hawley, Christopher Jones, Kevin Koch, Brian LaCour, \\ 
+& Xiao-Rong Morrow, James Pitts, Ed Qubain, Deidre Shoemaker, Rusty Towell, \\
+& Tom Yudichak) \\
+From: & Richard Corrado \\
+Re: & RC Circuits modifications.
+\end{tabular}
+\end{flushleft}
+
+I was able to get the RC circuit setup to work properly as far as being able
+to see both the low-pass and hi-pass filter configurations in action. We still
+can't see the pure function generator output while the circuit is connected,
+so we'll only use the T-connector to let us trigger off of channel~1 (we don't
+really need to do this, but it doesn't really matter\ldots)
+
+I've provided diagrams of both the breadboard configuration and the hi- and
+low-pass filter configurations.  You should note that the capacitor is in the
+circuit {\it before} the resistor. From some combination of voodoo and spite,
+this was the only way I could make both $V_C$ and $V_R$ measurements and still
+see the right frequency attenuation.  If the resistor comes before the 
+capacitor, you get a flat line for $V_R$~vs.~$\omega$.  This is weird behavior
+for an AC circuit and I'd be happy if someone could come up with a decent
+explanation of it. For now I'm happy that something works.
+
+I cleared up the discussion of how to make $V$~vs.~$t$ measurements off of the 
+decay curve with Figure~3 in the handout. I also gave a vague, but hopefully
+useful elaboration of what the Additional Question is asking for.  Feel free
+to drop your students a few more hints if you want to.
+
+Let me know how things work out after your first lab; if there's any major 
+problems, I'd like to clear them up for the later lab sections, if possible.
+
+\end{document}
+
+

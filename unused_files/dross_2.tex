@@ -1,0 +1,96 @@
+A particle of electric charge $q$ and mass $m$ in a constant electric 
+potential $V$, will be accelerated linearly, since the force on the charge is
+\beq
+\vec{F}_{\mbox{\tiny elec}} = -q \frac{dV}{dx} \hat{x},
+\eeq
+where $\hat{x}$ is the unit vector in the direction of the acceleration on the
+electron. The work done on the charge by the potential is 
+\beq
+W_{\mbox{\tiny elec}} = \int \vec{F}_{\mbox{\tiny elec}} \cdot d\vec{x}= qV.
+\eeq
+This work done increases the kinetic energy of the charge, so that if we ignore
+any initial velocity it had when it left the filament, we find that the 
+kinetic energy of the charge is 
+\beq
+\frac{1}{2} mv^2=qV. \label{eq:ed:kinetic}
+\eeq 
+We can solve this to determine the velocity $v$ from the charge, mass, and 
+potential
+\beq
+v=\sqrt{\frac{2qV}{m}}. \label{eq:ed:velocity}
+\eeq
+
+The charge now enters the uniform magnetic field at $x=z=0$ with velocity
+\beq
+\vec{v}_{\mbox{\tiny init}}=\sqrt{\frac{2qV}{m}}~\hat{x} \label{eq:ed:initvel}
+\eeq 
+(note the coordinates drawn in Figure~\ref{fig:ed:elec}). We take the 
+magnetic field to be in the $y$-direction, $\vec{B}=B\hat{y}$, where the 
+magnitude of the field $B$ is constant. This means that the magnetic field is 
+pointing out of the page in Figure~\ref{fig:ed:elec}. The force on the charge 
+due to the magnetic field is given by the Lorentz force law  
+\beq
+\vec{F}_{\mbox{\tiny mag}} = q\vec{v}\times\vec{B}. 
+\eeq
+If we use dots to denote time derivatives, as in $\vec{v} = \dot{\vec{x}}$, we 
+have from Newton's second law
+\beq
+m \ddot{\vec{x}} = q \dot{\vec{x}} \times \vec{B},
+\eeq
+or, carrying out the cross product and using $\vec{x}=(x,y,z)$
+\beq
+m\left(\ddot{x}\hat{x} + \ddot{y}\hat{y} + \ddot{z}\hat{z} \right) 
+= qB \left(\dot{x}\hat{z} - \dot{z}\hat{x}\right).
+\eeq
+If we equate vector components, we have the set of equations
+\beq
+m\ddot{x}=-qB\dot{z}, \label{eq:ed:xcomp} 
+\eeq
+\beq
+\ddot{y} = 0, \label{eq:ed:ycomp} 
+\eeq
+\beq
+m\ddot{z}=qB\dot{x}. \label{eq:ed:zcomp} 
+\eeq 
+Equation~(\ref{eq:ed:zcomp}) tells us that the force in the $y$ direction is
+zero. Equations (\ref{eq:ed:xcomp}) and (\ref{eq:ed:zcomp}) can be integrated
+once with respect to time to give 
+\beqra
+m\dot{x} &=& -qBz + c_1, \nonumber \\
+m\dot{z} &=& qBx + c_2, \label{eq:ed:intonce} 
+\eeqra
+where $c_1,c_2$ are constants of integration. We can solve for the constants by
+using the initial condition (\ref{eq:ed:initvel}). When $z=0$, 
+$\dot{x}=\sqrt{2qV/m}$, so that $c_1=\sqrt{2qV/m}$. When $x=0$, $\dot{z}=0$, so
+$c_2=0$. Substituing (\ref{eq:ed:intonce}) into (\ref{eq:ed:xcomp}) and 
+(\ref{eq:ed:zcomp}) yield two equations
+\beqra
+\ddot{x} &=& -\omega^2 x \nonumber \\
+\ddot{z} &=& -\omega^2 z -\omega^2  \sqrt{\frac{2mV}{qB^2}},
+\eeqra
+where we have defined $\omega=qB/m$. These are just equations of harmonic 
+motion, so they have the solution
+\beqra
+x &=& A \sin(\omega t +\theta) \nonumber \\ 
+z &=& -\sqrt{\frac{2mV}{qB^2}} - A \cos(\omega t +\theta),
+\eeqra
+where $A$ is an amplitude and $\theta$ is a phase angle. We can again
+use the initial conditions $x=z=0$ at $t=0$.  When $t=0$, we have from above
+$x=A\sin\theta=0$, which is satisfied if $\theta=0$. Then, when $t=0$, 
+$z= -\sqrt{2mV/qB^2} - A=0$, so that $A=-\sqrt{2mV/qB^2}$. We therefore have a 
+solution
+\beqra
+x &=& \sqrt{\frac{2mV}{qB^2}} \sin\omega t \nonumber \\ 
+z &=& -\sqrt{\frac{2mV}{qB^2}} \left( 1+ \cos\omega t \right), 
+\eeqra
+
+If we form the combination
+\beqra
+x^2 + \left( z+ \sqrt{\frac{2mV}{qB^2}}\right)^2
+&=&  \frac{2mV}{qB^2} \left( \sin^2\omega t + \cos^2\omega t \right)
+\nonumber \\
+&=& \frac{2mV}{qB^2}, \label{eq:ed:circ}
+\eeqra
+we notice a very interesting thing. The form $(x-a)^2 + (z-b)^2 = R^2$ is that 
+of a circle of radius $R$ which is centered at the point $(a,b)$. Applying this
+knowledge to (\ref{eq:ed:circ}) tells us that
