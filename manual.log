@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  3 JUN 2015 19:38
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  3 JUN 2015 19:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -405,15 +405,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
- [3] [4] [5])
+ [3] [4] [5] [6])
 \tf@toc=\write3
 \openout3 = `manual.toc'.
 
- [6]
- .
-(./0_intro/preface.tex [7
+ [7] [8
 
 ]
+ .
+(./0_intro/preface.tex [9]
 Underfull \hbox (badness 10000) in paragraph at lines 53--63
 
  []
@@ -449,7 +449,7 @@ d-to.pdf 0_intro/graph.eps>
 (epstopdf)             \includegraphics on input line 280.
 Package epstopdf Info: Output file is already uptodate.
 
-<0_intro/graph-eps-converted-to.pdf, id=62, 451.6875pt x 397.485pt>
+<0_intro/graph-eps-converted-to.pdf, id=68, 451.6875pt x 397.485pt>
 File: 0_intro/graph-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 0_intro/graph-eps-converted-to.pdf>
@@ -474,7 +474,7 @@ Package epstopdf Info: Source file: <0_intro/vigraph.eps>
 ted-to.pdf 0_intro/vigraph.eps>
 (epstopdf)             \includegraphics on input line 374.
 Package epstopdf Info: Output file is already uptodate.
-<0_intro/vigraph-eps-converted-to.pdf, id=77, 536.0025pt x 411.5375pt>
+<0_intro/vigraph-eps-converted-to.pdf, id=84, 536.0025pt x 411.5375pt>
 File: 0_intro/vigraph-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 0_intro/vigraph-eps-converted-to.pdf>
@@ -609,7 +609,7 @@ Package epstopdf Info: Source file: <0_intro/triangle.eps>
 rted-to.pdf 0_intro/triangle.eps>
 (epstopdf)             \includegraphics on input line 1083.
 Package epstopdf Info: Output file is already uptodate.
-<0_intro/triangle-eps-converted-to.pdf, id=153, 330.23375pt x 194.7275pt>
+<0_intro/triangle-eps-converted-to.pdf, id=159, 330.23375pt x 194.7275pt>
 File: 0_intro/triangle-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 0_intro/triangle-eps-converted-to.pdf>
@@ -710,7 +710,7 @@ onverted-to.pdf 1_electrostatics/es1.eps>
 (epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
 
-<1_electrostatics/es1-eps-converted-to.pdf, id=202, 614.295pt x 794.97pt>
+<1_electrostatics/es1-eps-converted-to.pdf, id=208, 614.295pt x 794.97pt>
 File: 1_electrostatics/es1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 1_electrostatics/es1-eps-converted-to.pdf>
@@ -729,7 +729,7 @@ onverted-to.pdf 1_electrostatics/es2.eps>
 (epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
 
-<1_electrostatics/es2-eps-converted-to.pdf, id=203, 614.295pt x 794.97pt>
+<1_electrostatics/es2-eps-converted-to.pdf, id=209, 614.295pt x 794.97pt>
 File: 1_electrostatics/es2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 1_electrostatics/es2-eps-converted-to.pdf>
@@ -756,7 +756,7 @@ Package epstopdf Info: Source file: <1_electrostatics/es3.eps>
 onverted-to.pdf 1_electrostatics/es3.eps>
 (epstopdf)             \includegraphics on input line 154.
 Package epstopdf Info: Output file is already uptodate.
-<1_electrostatics/es3-eps-converted-to.pdf, id=223, 614.295pt x 794.97pt>
+<1_electrostatics/es3-eps-converted-to.pdf, id=229, 614.295pt x 794.97pt>
 File: 1_electrostatics/es3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 1_electrostatics/es3-eps-converted-to.pdf>
@@ -781,7 +781,7 @@ atics-eps-converted-to.pdf 1_electrostatics/Electrostatics.eps>
 (epstopdf)             \includegraphics on input line 284.
 Package epstopdf Info: Output file is already uptodate.
 
-<1_electrostatics/Electrostatics-eps-converted-to.pdf, id=239, 532.99126pt x 20
+<1_electrostatics/Electrostatics-eps-converted-to.pdf, id=245, 532.99126pt x 20
 7.77625pt>
 File: 1_electrostatics/Electrostatics-eps-converted-to.pdf Graphic file (type p
 df)
@@ -823,7 +823,7 @@ onverted-to.pdf 1_electrostatics/es4.eps>
 (epstopdf)             \includegraphics on input line 413.
 Package epstopdf Info: Output file is already uptodate.
 
-<1_electrostatics/es4-eps-converted-to.pdf, id=252, 288.07625pt x 238.8925pt>
+<1_electrostatics/es4-eps-converted-to.pdf, id=258, 288.07625pt x 238.8925pt>
 File: 1_electrostatics/es4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 1_electrostatics/es4-eps-converted-to.pdf>
@@ -990,7 +990,7 @@ d-to.pdf 2_dc/voltdrop.eps>
 (epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/voltdrop-eps-converted-to.pdf, id=317, 277.035pt x 148.555pt>
+<2_dc/voltdrop-eps-converted-to.pdf, id=323, 277.035pt x 148.555pt>
 File: 2_dc/voltdrop-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/voltdrop-eps-converted-to.pdf>
@@ -1008,7 +1008,7 @@ ted-to.pdf 2_dc/voltsource.eps>
 (epstopdf)             \includegraphics on input line 116.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/voltsource-eps-converted-to.pdf, id=318, 394.47375pt x 264.99pt>
+<2_dc/voltsource-eps-converted-to.pdf, id=324, 394.47375pt x 264.99pt>
 File: 2_dc/voltsource-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/voltsource-eps-converted-to.pdf>
@@ -1026,7 +1026,7 @@ Package epstopdf Info: Source file: <2_dc/schemdef.eps>
 d-to.pdf 2_dc/schemdef.eps>
 (epstopdf)             \includegraphics on input line 123.
 Package epstopdf Info: Output file is already uptodate.
- <2_dc/schemdef-eps-converted-to.pdf, id=330, 625.33624pt x 59.22125pt>
+ <2_dc/schemdef-eps-converted-to.pdf, id=337, 625.33624pt x 59.22125pt>
 File: 2_dc/schemdef-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/schemdef-eps-converted-to.pdf>
@@ -1049,7 +1049,7 @@ ed-to.pdf 2_dc/voltmeter.eps>
 (epstopdf)             \includegraphics on input line 137.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/voltmeter-eps-converted-to.pdf, id=351, 50.1875pt x 35.13126pt>
+<2_dc/voltmeter-eps-converted-to.pdf, id=357, 50.1875pt x 35.13126pt>
 File: 2_dc/voltmeter-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/voltmeter-eps-converted-to.pdf>
@@ -1067,7 +1067,7 @@ Package epstopdf Info: Source file: <2_dc/ammeter.eps>
 (epstopdf)             \includegraphics on input line 153.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/ammeter-eps-converted-to.pdf, id=352, 50.1875pt x 35.13126pt>
+<2_dc/ammeter-eps-converted-to.pdf, id=358, 50.1875pt x 35.13126pt>
 File: 2_dc/ammeter-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/ammeter-eps-converted-to.pdf>
@@ -1085,7 +1085,7 @@ ted-to.pdf 2_dc/voltseries.eps>
 (epstopdf)             \includegraphics on input line 165.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/voltseries-eps-converted-to.pdf, id=353, 474.77374pt x 154.5775pt>
+<2_dc/voltseries-eps-converted-to.pdf, id=359, 474.77374pt x 154.5775pt>
 File: 2_dc/voltseries-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/voltseries-eps-converted-to.pdf>
@@ -1107,7 +1107,7 @@ ed-to.pdf 2_dc/battalign.eps>
 (epstopdf)             \includegraphics on input line 178.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/battalign-eps-converted-to.pdf, id=366, 245.91875pt x 102.3825pt>
+<2_dc/battalign-eps-converted-to.pdf, id=373, 245.91875pt x 102.3825pt>
 File: 2_dc/battalign-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/battalign-eps-converted-to.pdf>
@@ -1125,7 +1125,7 @@ Package epstopdf Info: Source file: <2_dc/battopp.eps>
 (epstopdf)             \includegraphics on input line 189.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/battopp-eps-converted-to.pdf, id=367, 245.91875pt x 102.3825pt>
+<2_dc/battopp-eps-converted-to.pdf, id=374, 245.91875pt x 102.3825pt>
 File: 2_dc/battopp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/battopp-eps-converted-to.pdf>
@@ -1145,7 +1145,7 @@ erted-to.pdf 2_dc/voltparallel.eps>
 (epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/voltparallel-eps-converted-to.pdf, id=388, 243.91125pt x 227.85126pt>
+<2_dc/voltparallel-eps-converted-to.pdf, id=395, 243.91125pt x 227.85126pt>
 File: 2_dc/voltparallel-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/voltparallel-eps-converted-to.pdf>
@@ -1163,7 +1163,7 @@ d-to.pdf 2_dc/junction.eps>
 (epstopdf)             \includegraphics on input line 229.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/junction-eps-converted-to.pdf, id=389, 249.93375pt x 247.92625pt>
+<2_dc/junction-eps-converted-to.pdf, id=396, 249.93375pt x 247.92625pt>
 File: 2_dc/junction-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/junction-eps-converted-to.pdf>
@@ -1184,7 +1184,7 @@ pdf 2_dc/ohm.eps>
 (epstopdf)             \includegraphics on input line 252.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/ohm-eps-converted-to.pdf, id=426, 204.765pt x 76.285pt>
+<2_dc/ohm-eps-converted-to.pdf, id=432, 204.765pt x 76.285pt>
 File: 2_dc/ohm-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/ohm-eps-converted-to.pdf>
@@ -1201,7 +1201,7 @@ Package epstopdf Info: Source file: <2_dc/series1.eps>
 (epstopdf)             \includegraphics on input line 283.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/series1-eps-converted-to.pdf, id=427, 701.62125pt x 112.42pt>
+<2_dc/series1-eps-converted-to.pdf, id=433, 701.62125pt x 112.42pt>
 File: 2_dc/series1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/series1-eps-converted-to.pdf>
@@ -1220,7 +1220,7 @@ erted-to.pdf 2_dc/resistseries.eps>
 (epstopdf)             \includegraphics on input line 301.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/resistseries-eps-converted-to.pdf, id=436, 589.20125pt x 257.96375pt>
+<2_dc/resistseries-eps-converted-to.pdf, id=442, 589.20125pt x 257.96375pt>
 File: 2_dc/resistseries-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/resistseries-eps-converted-to.pdf>
@@ -1238,7 +1238,7 @@ ed-to.pdf 2_dc/parallel1.eps>
 (epstopdf)             \includegraphics on input line 322.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/parallel1-eps-converted-to.pdf, id=437, 643.40375pt x 275.0275pt>
+<2_dc/parallel1-eps-converted-to.pdf, id=443, 643.40375pt x 275.0275pt>
 File: 2_dc/parallel1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/parallel1-eps-converted-to.pdf>
@@ -1258,7 +1258,7 @@ ed-to.pdf 2_dc/parallel2.eps>
 (epstopdf)             \includegraphics on input line 342.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/parallel2-eps-converted-to.pdf, id=457, 555.07375pt x 275.0275pt>
+<2_dc/parallel2-eps-converted-to.pdf, id=463, 555.07375pt x 275.0275pt>
 File: 2_dc/parallel2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/parallel2-eps-converted-to.pdf>
@@ -1276,7 +1276,7 @@ Package epstopdf Info: Source file: <2_dc/resistpar.eps>
 ed-to.pdf 2_dc/resistpar.eps>
 (epstopdf)             \includegraphics on input line 386.
 Package epstopdf Info: Output file is already uptodate.
- <2_dc/resistpar-eps-converted-to.pdf, id=469, 555.07375pt x 289.08pt>
+ <2_dc/resistpar-eps-converted-to.pdf, id=476, 555.07375pt x 289.08pt>
 File: 2_dc/resistpar-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/resistpar-eps-converted-to.pdf>
@@ -1294,7 +1294,7 @@ rted-to.pdf 2_dc/parallelred.eps>
 (epstopdf)             \includegraphics on input line 395.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/parallelred-eps-converted-to.pdf, id=470, 804.00375pt x 189.70876pt>
+<2_dc/parallelred-eps-converted-to.pdf, id=477, 804.00375pt x 189.70876pt>
 File: 2_dc/parallelred-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/parallelred-eps-converted-to.pdf>
@@ -1319,7 +1319,7 @@ erted-to.pdf 2_dc/resistreduce.eps>
 (epstopdf)             \includegraphics on input line 422.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/resistreduce-eps-converted-to.pdf, id=503, 518.93875pt x 330.23375pt>
+<2_dc/resistreduce-eps-converted-to.pdf, id=509, 518.93875pt x 330.23375pt>
 File: 2_dc/resistreduce-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/resistreduce-eps-converted-to.pdf>
@@ -1343,7 +1343,7 @@ d-to.pdf 2_dc/resistor.eps>
 (epstopdf)             \includegraphics on input line 451.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/resistor-eps-converted-to.pdf, id=512, 545.03625pt x 234.8775pt>
+<2_dc/resistor-eps-converted-to.pdf, id=518, 545.03625pt x 234.8775pt>
 File: 2_dc/resistor-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/resistor-eps-converted-to.pdf>
@@ -1365,7 +1365,7 @@ Package epstopdf Info: Source file: <2_dc/multimeter.eps>
 ted-to.pdf 2_dc/multimeter.eps>
 (epstopdf)             \includegraphics on input line 497.
 Package epstopdf Info: Output file is already uptodate.
-<2_dc/multimeter-eps-converted-to.pdf, id=513, 234.8775pt x 397.485pt>
+<2_dc/multimeter-eps-converted-to.pdf, id=519, 234.8775pt x 397.485pt>
 File: 2_dc/multimeter-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/multimeter-eps-converted-to.pdf>
@@ -1387,7 +1387,7 @@ rted-to.pdf 2_dc/powersupply.eps>
 (epstopdf)             \includegraphics on input line 550.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/powersupply-eps-converted-to.pdf, id=543, 397.485pt x 379.4175pt>
+<2_dc/powersupply-eps-converted-to.pdf, id=550, 397.485pt x 379.4175pt>
 File: 2_dc/powersupply-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/powersupply-eps-converted-to.pdf>
@@ -1405,7 +1405,7 @@ ted-to.pdf 2_dc/breadboard.eps>
 (epstopdf)             \includegraphics on input line 560.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/breadboard-eps-converted-to.pdf, id=544, 48.18pt x 106.3975pt>
+<2_dc/breadboard-eps-converted-to.pdf, id=551, 48.18pt x 106.3975pt>
 File: 2_dc/breadboard-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/breadboard-eps-converted-to.pdf>
@@ -1423,7 +1423,7 @@ ed-to.pdf 2_dc/backboard.eps>
 (epstopdf)             \includegraphics on input line 561.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/backboard-eps-converted-to.pdf, id=545, 39.14626pt x 98.3675pt>
+<2_dc/backboard-eps-converted-to.pdf, id=552, 39.14626pt x 98.3675pt>
 File: 2_dc/backboard-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/backboard-eps-converted-to.pdf>
@@ -1441,7 +1441,7 @@ erted-to.pdf 2_dc/exampleboard.eps>
 (epstopdf)             \includegraphics on input line 573.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/exampleboard-eps-converted-to.pdf, id=546, 99.37125pt x 107.40125pt>
+<2_dc/exampleboard-eps-converted-to.pdf, id=553, 99.37125pt x 107.40125pt>
 File: 2_dc/exampleboard-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/exampleboard-eps-converted-to.pdf>
@@ -1483,7 +1483,7 @@ Package epstopdf Info: Source file: <2_dc/procbatt.eps>
 d-to.pdf 2_dc/procbatt.eps>
 (epstopdf)             \includegraphics on input line 635.
 Package epstopdf Info: Output file is already uptodate.
-<2_dc/procbatt-eps-converted-to.pdf, id=595, 544.0325pt x 196.735pt>
+<2_dc/procbatt-eps-converted-to.pdf, id=601, 544.0325pt x 196.735pt>
 File: 2_dc/procbatt-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/procbatt-eps-converted-to.pdf>
@@ -1512,7 +1512,7 @@ Package epstopdf Info: Source file: <2_dc/procresist.eps>
 ted-to.pdf 2_dc/procresist.eps>
 (epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
-<2_dc/procresist-eps-converted-to.pdf, id=599, 132.495pt x 68.255pt>
+<2_dc/procresist-eps-converted-to.pdf, id=605, 132.495pt x 68.255pt>
 File: 2_dc/procresist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/procresist-eps-converted-to.pdf>
@@ -1532,7 +1532,7 @@ ted-to.pdf 2_dc/procserpar.eps>
 (epstopdf)             \includegraphics on input line 748.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_dc/procserpar-eps-converted-to.pdf, id=619, 498.86375pt x 112.42pt>
+<2_dc/procserpar-eps-converted-to.pdf, id=626, 498.86375pt x 112.42pt>
 File: 2_dc/procserpar-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/procserpar-eps-converted-to.pdf>
@@ -1618,7 +1618,7 @@ Package epstopdf Info: Source file: <2_dc/procintresist.eps>
 verted-to.pdf 2_dc/procintresist.eps>
 (epstopdf)             \includegraphics on input line 1061.
 Package epstopdf Info: Output file is already uptodate.
- <2_dc/procintresist-eps-converted-to.pdf, id=652, 125.46875pt x 168.63pt>
+ <2_dc/procintresist-eps-converted-to.pdf, id=658, 125.46875pt x 168.63pt>
 File: 2_dc/procintresist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_dc/procintresist-eps-converted-to.pdf>
@@ -1704,7 +1704,7 @@ n-eps-converted-to.pdf 3_electrondynamics/electron.eps>
 (epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
 
-<3_electrondynamics/electron-eps-converted-to.pdf, id=680, 483.8075pt x 293.095
+<3_electrondynamics/electron-eps-converted-to.pdf, id=686, 483.8075pt x 293.095
 pt>
 File: 3_electrondynamics/electron-eps-converted-to.pdf Graphic file (type pdf)
  <use 3_electrondynamics/electron-eps-converted-to.pdf>
@@ -1724,7 +1724,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 99.
 Package epstopdf Info: Output file is already uptodate.
 
-<3_electrondynamics/lorentz-eps-converted-to.pdf, id=692, 370.38374pt x 215.806
+<3_electrondynamics/lorentz-eps-converted-to.pdf, id=698, 370.38374pt x 215.806
 24pt>
 File: 3_electrondynamics/lorentz-eps-converted-to.pdf Graphic file (type pdf)
  <use 3_electrondynamics/lorentz-eps-converted-to.pdf>
@@ -1744,7 +1744,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 156.
 Package epstopdf Info: Output file is already uptodate.
 
-<3_electrondynamics/circorb-eps-converted-to.pdf, id=707, 325.215pt x 325.215pt
+<3_electrondynamics/circorb-eps-converted-to.pdf, id=714, 325.215pt x 325.215pt
 >
 File: 3_electrondynamics/circorb-eps-converted-to.pdf Graphic file (type pdf)
  <use 3_electrondynamics/circorb-eps-converted-to.pdf>
@@ -1764,7 +1764,7 @@ atus-eps-converted-to.pdf 3_electrondynamics/emapparatus.eps>
 (epstopdf)             \includegraphics on input line 212.
 Package epstopdf Info: Output file is already uptodate.
 
-<3_electrondynamics/emapparatus-eps-converted-to.pdf, id=712, 367.3725pt x 491.
+<3_electrondynamics/emapparatus-eps-converted-to.pdf, id=718, 367.3725pt x 491.
 8375pt>
 File: 3_electrondynamics/emapparatus-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1784,7 +1784,7 @@ ngun-eps-converted-to.pdf 3_electrondynamics/electrongun.eps>
 (epstopdf)             \includegraphics on input line 217.
 Package epstopdf Info: Output file is already uptodate.
 
-<3_electrondynamics/electrongun-eps-converted-to.pdf, id=713, 388.45125pt x 260
+<3_electrondynamics/electrongun-eps-converted-to.pdf, id=719, 388.45125pt x 260
 .975pt>
 File: 3_electrondynamics/electrongun-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1805,7 +1805,7 @@ tz-eps-converted-to.pdf 3_electrondynamics/helmholtz.eps>
 (epstopdf)             \includegraphics on input line 225.
 Package epstopdf Info: Output file is already uptodate.
 
-<3_electrondynamics/helmholtz-eps-converted-to.pdf, id=725, 302.12875pt x 247.9
+<3_electrondynamics/helmholtz-eps-converted-to.pdf, id=731, 302.12875pt x 247.9
 2625pt>
 File: 3_electrondynamics/helmholtz-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1847,7 +1847,7 @@ eps-converted-to.pdf 3_electrondynamics/sketch.eps>
 (epstopdf)             \includegraphics on input line 291.
 Package epstopdf Info: Output file is already uptodate.
 
-<3_electrondynamics/sketch-eps-converted-to.pdf, id=759, 325.215pt x 277.035pt>
+<3_electrondynamics/sketch-eps-converted-to.pdf, id=766, 325.215pt x 277.035pt>
 File: 3_electrondynamics/sketch-eps-converted-to.pdf Graphic file (type pdf)
 <use 3_electrondynamics/sketch-eps-converted-to.pdf>
 Package pdftex.def Info: 3_electrondynamics/sketch-eps-converted-to.pdf used on
@@ -1865,7 +1865,7 @@ eps-converted-to.pdf 3_electrondynamics/bfield.eps>
 (epstopdf)             \includegraphics on input line 297.
 Package epstopdf Info: Output file is already uptodate.
 
-<3_electrondynamics/bfield-eps-converted-to.pdf, id=760, 410.53375pt x 178.6675
+<3_electrondynamics/bfield-eps-converted-to.pdf, id=767, 410.53375pt x 178.6675
 pt>
 File: 3_electrondynamics/bfield-eps-converted-to.pdf Graphic file (type pdf)
  <use 3_electrondynamics/bfield-eps-converted-to.pdf>
@@ -1889,7 +1889,7 @@ ps-converted-to.pdf 3_electrondynamics/csect.eps>
 (epstopdf)             \includegraphics on input line 316.
 Package epstopdf Info: Output file is already uptodate.
 
-<3_electrondynamics/csect-eps-converted-to.pdf, id=761, 140.525pt x 229.85875pt
+<3_electrondynamics/csect-eps-converted-to.pdf, id=768, 140.525pt x 229.85875pt
 >
 File: 3_electrondynamics/csect-eps-converted-to.pdf Graphic file (type pdf)
  <use 3_electrondynamics/csect-eps-converted-to.pdf>
@@ -2022,7 +2022,7 @@ s-converted-to.pdf 4_oscilloscope/periodic.eps>
 (epstopdf)             \includegraphics on input line 40.
 Package epstopdf Info: Output file is already uptodate.
 
-<4_oscilloscope/periodic-eps-converted-to.pdf, id=813, 704.6325pt x 158.5925pt>
+<4_oscilloscope/periodic-eps-converted-to.pdf, id=820, 704.6325pt x 158.5925pt>
 File: 4_oscilloscope/periodic-eps-converted-to.pdf Graphic file (type pdf)
 <use 4_oscilloscope/periodic-eps-converted-to.pdf>
 Package pdftex.def Info: 4_oscilloscope/periodic-eps-converted-to.pdf used on i
@@ -2040,7 +2040,7 @@ s-converted-to.pdf 4_oscilloscope/sinusoid.eps>
 (epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
 
-<4_oscilloscope/sinusoid-eps-converted-to.pdf, id=814, 536.0025pt x 411.5375pt>
+<4_oscilloscope/sinusoid-eps-converted-to.pdf, id=821, 536.0025pt x 411.5375pt>
 File: 4_oscilloscope/sinusoid-eps-converted-to.pdf Graphic file (type pdf)
 <use 4_oscilloscope/sinusoid-eps-converted-to.pdf>
 Package pdftex.def Info: 4_oscilloscope/sinusoid-eps-converted-to.pdf used on i
@@ -2059,7 +2059,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
 
-<4_oscilloscope/phasediffer-eps-converted-to.pdf, id=827, 536.0025pt x 411.5375
+<4_oscilloscope/phasediffer-eps-converted-to.pdf, id=834, 536.0025pt x 411.5375
 pt>
 File: 4_oscilloscope/phasediffer-eps-converted-to.pdf Graphic file (type pdf)
  <use 4_oscilloscope/phasediffer-eps-converted-to.pdf>
@@ -2078,7 +2078,7 @@ eps-converted-to.pdf 4_oscilloscope/differfreq.eps>
 (epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
 
-<4_oscilloscope/differfreq-eps-converted-to.pdf, id=828, 536.0025pt x 411.5375p
+<4_oscilloscope/differfreq-eps-converted-to.pdf, id=835, 536.0025pt x 411.5375p
 t>
 File: 4_oscilloscope/differfreq-eps-converted-to.pdf Graphic file (type pdf)
  <use 4_oscilloscope/differfreq-eps-converted-to.pdf>
@@ -2099,7 +2099,7 @@ eps-converted-to.pdf 4_oscilloscope/squarewave.eps>
 (epstopdf)             \includegraphics on input line 135.
 Package epstopdf Info: Output file is already uptodate.
 
-<4_oscilloscope/squarewave-eps-converted-to.pdf, id=854, 379.4175pt x 254.9525p
+<4_oscilloscope/squarewave-eps-converted-to.pdf, id=860, 379.4175pt x 254.9525p
 t>
 File: 4_oscilloscope/squarewave-eps-converted-to.pdf Graphic file (type pdf)
  <use 4_oscilloscope/squarewave-eps-converted-to.pdf>
@@ -2118,7 +2118,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 146.
 Package epstopdf Info: Output file is already uptodate.
 
-<4_oscilloscope/squarephase-eps-converted-to.pdf, id=855, 415.5525pt x 254.9525
+<4_oscilloscope/squarephase-eps-converted-to.pdf, id=861, 415.5525pt x 254.9525
 pt>
 File: 4_oscilloscope/squarephase-eps-converted-to.pdf Graphic file (type pdf)
  <use 4_oscilloscope/squarephase-eps-converted-to.pdf>
@@ -2137,7 +2137,7 @@ f>
 (epstopdf)             \includegraphics on input line 153.
 Package epstopdf Info: Output file is already uptodate.
 
-<4_oscilloscope/triwave-eps-converted-to.pdf, id=856, 542.025pt x 368.37625pt>
+<4_oscilloscope/triwave-eps-converted-to.pdf, id=862, 542.025pt x 368.37625pt>
 File: 4_oscilloscope/triwave-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 4_oscilloscope/triwave-eps-converted-to.pdf>
@@ -2156,7 +2156,7 @@ ps-converted-to.pdf 4_oscilloscope/TDS1002FP.eps>
 (epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
 
-<4_oscilloscope/TDS1002FP-eps-converted-to.pdf, id=857, 4969.56625pt x 2250.407
+<4_oscilloscope/TDS1002FP-eps-converted-to.pdf, id=863, 4969.56625pt x 2250.407
 5pt>
 File: 4_oscilloscope/TDS1002FP-eps-converted-to.pdf Graphic file (type pdf)
  <use 4_oscilloscope/TDS1002FP-eps-converted-to.pdf>
@@ -2182,7 +2182,7 @@ s-converted-to.pdf 4_oscilloscope/tds1002d.eps>
 (epstopdf)             \includegraphics on input line 256.
 Package epstopdf Info: Output file is already uptodate.
 
-<4_oscilloscope/tds1002d-eps-converted-to.pdf, id=902, 496.85625pt x 373.395pt>
+<4_oscilloscope/tds1002d-eps-converted-to.pdf, id=909, 496.85625pt x 373.395pt>
 File: 4_oscilloscope/tds1002d-eps-converted-to.pdf Graphic file (type pdf)
 <use 4_oscilloscope/tds1002d-eps-converted-to.pdf>
 Package pdftex.def Info: 4_oscilloscope/tds1002d-eps-converted-to.pdf used on i
@@ -2201,7 +2201,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 420.
 Package epstopdf Info: Output file is already uptodate.
 
-<4_oscilloscope/functiongen-eps-converted-to.pdf, id=919, 686.565pt x 234.8775p
+<4_oscilloscope/functiongen-eps-converted-to.pdf, id=925, 686.565pt x 234.8775p
 t>
 File: 4_oscilloscope/functiongen-eps-converted-to.pdf Graphic file (type pdf)
  <use 4_oscilloscope/functiongen-eps-converted-to.pdf>
@@ -2227,7 +2227,7 @@ r-eps-converted-to.pdf 4_oscilloscope/phaseshifter.eps>
 (epstopdf)             \includegraphics on input line 462.
 Package epstopdf Info: Output file is already uptodate.
 
-<4_oscilloscope/phaseshifter-eps-converted-to.pdf, id=931, 442.65375pt x 228.85
+<4_oscilloscope/phaseshifter-eps-converted-to.pdf, id=938, 442.65375pt x 228.85
 5pt>
 File: 4_oscilloscope/phaseshifter-eps-converted-to.pdf Graphic file (type pdf)
  <use 4_oscilloscope/phaseshifter-eps-converted-to.pdf>
@@ -2274,7 +2274,7 @@ onverted-to.pdf 4_oscilloscope/scope.eps>
 (epstopdf)             \includegraphics on input line 563.
 Package epstopdf Info: Output file is already uptodate.
 
-<4_oscilloscope/scope-eps-converted-to.pdf, id=954, 271.0125pt x 216.81pt>
+<4_oscilloscope/scope-eps-converted-to.pdf, id=960, 271.0125pt x 216.81pt>
 File: 4_oscilloscope/scope-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 4_oscilloscope/scope-eps-converted-to.pdf>
@@ -2391,7 +2391,7 @@ ps-converted-to.pdf 4_oscilloscope/phasemeas.eps>
 (epstopdf)             \includegraphics on input line 626.
 Package epstopdf Info: Output file is already uptodate.
 
-<4_oscilloscope/phasemeas-eps-converted-to.pdf, id=963, 435.6275pt x 178.6675pt
+<4_oscilloscope/phasemeas-eps-converted-to.pdf, id=970, 435.6275pt x 178.6675pt
 >
 File: 4_oscilloscope/phasemeas-eps-converted-to.pdf Graphic file (type pdf)
  <use 4_oscilloscope/phasemeas-eps-converted-to.pdf>
@@ -2606,7 +2606,7 @@ rted-to.pdf 5_rccircuits/rc1.eps>
 (epstopdf)             \includegraphics on input line 44.
 Package epstopdf Info: Output file is already uptodate.
 
-<5_rccircuits/rc1-eps-converted-to.pdf, id=992, 509.905pt x 219.82124pt>
+<5_rccircuits/rc1-eps-converted-to.pdf, id=998, 509.905pt x 219.82124pt>
 File: 5_rccircuits/rc1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 5_rccircuits/rc1-eps-converted-to.pdf>
@@ -2626,7 +2626,7 @@ onverted-to.pdf 5_rccircuits/chargev.eps>
 (epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
 
-<5_rccircuits/chargev-eps-converted-to.pdf, id=1007, 536.0025pt x 411.5375pt>
+<5_rccircuits/chargev-eps-converted-to.pdf, id=1013, 536.0025pt x 411.5375pt>
 File: 5_rccircuits/chargev-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 5_rccircuits/chargev-eps-converted-to.pdf>
@@ -2645,7 +2645,7 @@ onverted-to.pdf 5_rccircuits/chargei.eps>
 (epstopdf)             \includegraphics on input line 144.
 Package epstopdf Info: Output file is already uptodate.
 
-<5_rccircuits/chargei-eps-converted-to.pdf, id=1008, 536.0025pt x 411.5375pt>
+<5_rccircuits/chargei-eps-converted-to.pdf, id=1014, 536.0025pt x 411.5375pt>
 File: 5_rccircuits/chargei-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 5_rccircuits/chargei-eps-converted-to.pdf>
@@ -2665,7 +2665,7 @@ s-converted-to.pdf 5_rccircuits/dischargev.eps>
 (epstopdf)             \includegraphics on input line 188.
 Package epstopdf Info: Output file is already uptodate.
 
-<5_rccircuits/dischargev-eps-converted-to.pdf, id=1012, 536.0025pt x 411.5375pt
+<5_rccircuits/dischargev-eps-converted-to.pdf, id=1018, 536.0025pt x 411.5375pt
 >
 File: 5_rccircuits/dischargev-eps-converted-to.pdf Graphic file (type pdf)
  <use 5_rccircuits/dischargev-eps-converted-to.pdf>
@@ -2684,7 +2684,7 @@ s-converted-to.pdf 5_rccircuits/dischargei.eps>
 (epstopdf)             \includegraphics on input line 189.
 Package epstopdf Info: Output file is already uptodate.
 
-<5_rccircuits/dischargei-eps-converted-to.pdf, id=1013, 536.0025pt x 411.5375pt
+<5_rccircuits/dischargei-eps-converted-to.pdf, id=1019, 536.0025pt x 411.5375pt
 >
 File: 5_rccircuits/dischargei-eps-converted-to.pdf Graphic file (type pdf)
  <use 5_rccircuits/dischargei-eps-converted-to.pdf>
@@ -2702,7 +2702,7 @@ rted-to.pdf 5_rccircuits/rc2.eps>
 (epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
 
-<5_rccircuits/rc2-eps-converted-to.pdf, id=1014, 443.6575pt x 198.7425pt>
+<5_rccircuits/rc2-eps-converted-to.pdf, id=1020, 443.6575pt x 198.7425pt>
 File: 5_rccircuits/rc2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 5_rccircuits/rc2-eps-converted-to.pdf>
@@ -2722,7 +2722,7 @@ converted-to.pdf 5_rccircuits/sinevout.eps>
 (epstopdf)             \includegraphics on input line 290.
 Package epstopdf Info: Output file is already uptodate.
 
-<5_rccircuits/sinevout-eps-converted-to.pdf, id=1021, 536.0025pt x 411.5375pt>
+<5_rccircuits/sinevout-eps-converted-to.pdf, id=1028, 536.0025pt x 411.5375pt>
 File: 5_rccircuits/sinevout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 5_rccircuits/sinevout-eps-converted-to.pdf>
@@ -2741,7 +2741,7 @@ converted-to.pdf 5_rccircuits/sineiout.eps>
 (epstopdf)             \includegraphics on input line 291.
 Package epstopdf Info: Output file is already uptodate.
 
-<5_rccircuits/sineiout-eps-converted-to.pdf, id=1022, 536.0025pt x 411.5375pt>
+<5_rccircuits/sineiout-eps-converted-to.pdf, id=1029, 536.0025pt x 411.5375pt>
 File: 5_rccircuits/sineiout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 5_rccircuits/sineiout-eps-converted-to.pdf>
@@ -2760,7 +2760,7 @@ onverted-to.pdf 5_rccircuits/campout.eps>
 (epstopdf)             \includegraphics on input line 309.
 Package epstopdf Info: Output file is already uptodate.
 
-<5_rccircuits/campout-eps-converted-to.pdf, id=1023, 536.0025pt x 411.5375pt>
+<5_rccircuits/campout-eps-converted-to.pdf, id=1030, 536.0025pt x 411.5375pt>
 File: 5_rccircuits/campout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 5_rccircuits/campout-eps-converted-to.pdf>
@@ -2780,7 +2780,7 @@ onverted-to.pdf 5_rccircuits/rampout.eps>
 (epstopdf)             \includegraphics on input line 336.
 Package epstopdf Info: Output file is already uptodate.
 
-<5_rccircuits/rampout-eps-converted-to.pdf, id=1028, 536.0025pt x 411.5375pt>
+<5_rccircuits/rampout-eps-converted-to.pdf, id=1034, 536.0025pt x 411.5375pt>
 File: 5_rccircuits/rampout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 5_rccircuits/rampout-eps-converted-to.pdf>
@@ -2800,7 +2800,7 @@ f>
 (epstopdf)             \includegraphics on input line 378.
 Package epstopdf Info: Output file is already uptodate.
 
-<5_rccircuits/capacitor-eps-converted-to.pdf, id=1032, 106.3975pt x 68.255pt>
+<5_rccircuits/capacitor-eps-converted-to.pdf, id=1038, 106.3975pt x 68.255pt>
 File: 5_rccircuits/capacitor-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 5_rccircuits/capacitor-eps-converted-to.pdf>
@@ -2835,7 +2835,7 @@ f>
 -converted-to.pdf 5_rccircuits/squareout.eps>
 (epstopdf)             \includegraphics on input line 412.
 Package epstopdf Info: Output file is already uptodate.
-<5_rccircuits/squareout-eps-converted-to.pdf, id=1168, 650.43pt x 365.365pt>
+<5_rccircuits/squareout-eps-converted-to.pdf, id=1174, 650.43pt x 365.365pt>
 File: 5_rccircuits/squareout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 5_rccircuits/squareout-eps-converted-to.pdf>
@@ -2853,7 +2853,7 @@ nverted-to.pdf 5_rccircuits/wiring.eps>
 (epstopdf)             \includegraphics on input line 435.
 Package epstopdf Info: Output file is already uptodate.
 
-<5_rccircuits/wiring-eps-converted-to.pdf, id=1169, 467.7475pt x 102.3825pt>
+<5_rccircuits/wiring-eps-converted-to.pdf, id=1175, 467.7475pt x 102.3825pt>
 File: 5_rccircuits/wiring-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 5_rccircuits/wiring-eps-converted-to.pdf>
@@ -2886,7 +2886,7 @@ onverted-to.pdf 5_rccircuits/rcboard.eps>
 (epstopdf)             \includegraphics on input line 461.
 Package epstopdf Info: Output file is already uptodate.
 
-<5_rccircuits/rcboard-eps-converted-to.pdf, id=1186, 1133.23375pt x 1214.5375pt
+<5_rccircuits/rcboard-eps-converted-to.pdf, id=1193, 1133.23375pt x 1214.5375pt
 >
 File: 5_rccircuits/rcboard-eps-converted-to.pdf Graphic file (type pdf)
  <use 5_rccircuits/rcboard-eps-converted-to.pdf>
@@ -2916,7 +2916,7 @@ Package epstopdf Info: Source file: <5_rccircuits/scope.eps>
 verted-to.pdf 5_rccircuits/scope.eps>
 (epstopdf)             \includegraphics on input line 483.
 Package epstopdf Info: Output file is already uptodate.
-<5_rccircuits/scope-eps-converted-to.pdf, id=1206, 271.0125pt x 242.9075pt>
+<5_rccircuits/scope-eps-converted-to.pdf, id=1213, 271.0125pt x 242.9075pt>
 File: 5_rccircuits/scope-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 5_rccircuits/scope-eps-converted-to.pdf>
@@ -2959,7 +2959,7 @@ onverted-to.pdf 5_rccircuits/lowpass.eps>
 (epstopdf)             \includegraphics on input line 586.
 Package epstopdf Info: Output file is already uptodate.
 
-<5_rccircuits/lowpass-eps-converted-to.pdf, id=1222, 682.55pt x 372.39125pt>
+<5_rccircuits/lowpass-eps-converted-to.pdf, id=1228, 682.55pt x 372.39125pt>
 File: 5_rccircuits/lowpass-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 5_rccircuits/lowpass-eps-converted-to.pdf>
@@ -3031,52 +3031,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 754--757
 ]
 Chapter 6.
 (./6_induction/6_induction.tex [177]
-
-LaTeX Warning: Reference `fig:ind:fluxdef' on page 178 undefined on input line 
-44.
-
 Package epstopdf Info: Source file: <6_induction/fluxdef.eps>
 (epstopdf)                    date: 2015-06-03 19:38:32
 (epstopdf)                    size: 4059 bytes
 (epstopdf)             Output file: <6_induction/fluxdef-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-03 19:38:42
+(epstopdf)                    size: 4954 bytes
 (epstopdf)             Command: <repstopdf --outfile=6_induction/fluxdef-eps-co
 nverted-to.pdf 6_induction/fluxdef.eps>
 (epstopdf)             \includegraphics on input line 47.
-runsystem(repstopdf --outfile=6_induction/fluxdef-eps-converted-to.pdf 6_induct
-ion/fluxdef.eps)...executed safely (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <6_induction/fluxdef-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-03 19:38:42
-(epstopdf)                    size: 4954 bytes.
-
-<6_induction/fluxdef-eps-converted-to.pdf, id=1265, 263.98625pt x 233.87375pt>
+<6_induction/fluxdef-eps-converted-to.pdf, id=1272, 263.98625pt x 233.87375pt>
 File: 6_induction/fluxdef-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 6_induction/fluxdef-eps-converted-to.pdf>
 Package pdftex.def Info: 6_induction/fluxdef-eps-converted-to.pdf used on input
  line 47.
 (pdftex.def)             Requested size: 158.39296pt x 140.32532pt.
-
-
-LaTeX Warning: Reference `fig:ind:solenoid' on page 178 undefined on input line
- 59.
-
 Package epstopdf Info: Source file: <6_induction/solenoid.eps>
 (epstopdf)                    date: 2015-06-03 19:38:32
 (epstopdf)                    size: 8280 bytes
 (epstopdf)             Output file: <6_induction/solenoid-eps-converted-to.pdf>
 
+(epstopdf)                    date: 2015-06-03 19:38:42
+(epstopdf)                    size: 6553 bytes
 (epstopdf)             Command: <repstopdf --outfile=6_induction/solenoid-eps-c
 onverted-to.pdf 6_induction/solenoid.eps>
 (epstopdf)             \includegraphics on input line 62.
-runsystem(repstopdf --outfile=6_induction/solenoid-eps-converted-to.pdf 6_induc
-tion/solenoid.eps)...executed safely (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <6_induction/solenoid-eps-converted-to.pdf>
-
-(epstopdf)                    date: 2015-06-03 19:38:42
-(epstopdf)                    size: 6553 bytes.
-<6_induction/solenoid-eps-converted-to.pdf, id=1266, 610.28pt x 329.23pt>
+<6_induction/solenoid-eps-converted-to.pdf, id=1273, 610.28pt x 329.23pt>
 File: 6_induction/solenoid-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 6_induction/solenoid-eps-converted-to.pdf>
@@ -3089,158 +3074,81 @@ Overfull \hbox (2.80287pt too wide) in paragraph at lines 57--69
 ong thin solenoid,
  []
 
-[178 <./6_induction/fluxdef-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `fig:ind:solenoid' on page 179 undefined on input line
- 80.
-
-[179 <./6_induction/solenoid-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `fig:ind:transformer' on page 180 undefined on input l
-ine 95.
-
+[178 <./6_induction/fluxdef-eps-converted-to.pdf>] [179 <./6_induction/solenoid
+-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <6_induction/transformer.eps>
 (epstopdf)                    date: 2015-06-03 19:38:32
 (epstopdf)                    size: 4376 bytes
 (epstopdf)             Output file: <6_induction/transformer-eps-converted-to.p
 df>
+(epstopdf)                    date: 2015-06-03 19:38:43
+(epstopdf)                    size: 7055 bytes
 (epstopdf)             Command: <repstopdf --outfile=6_induction/transformer-ep
 s-converted-to.pdf 6_induction/transformer.eps>
 (epstopdf)             \includegraphics on input line 98.
-runsystem(repstopdf --outfile=6_induction/transformer-eps-converted-to.pdf 6_in
-duction/transformer.eps)...executed safely (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <6_induction/transformer-eps-converted-to.p
-df>
-(epstopdf)                    date: 2015-06-03 19:38:43
-(epstopdf)                    size: 7055 bytes.
-
-<6_induction/transformer-eps-converted-to.pdf, id=1284, 407.5225pt x 269.005pt>
+<6_induction/transformer-eps-converted-to.pdf, id=1290, 407.5225pt x 269.005pt>
 File: 6_induction/transformer-eps-converted-to.pdf Graphic file (type pdf)
 <use 6_induction/transformer-eps-converted-to.pdf>
 Package pdftex.def Info: 6_induction/transformer-eps-converted-to.pdf used on i
 nput line 98.
 (pdftex.def)             Requested size: 244.51538pt x 161.40424pt.
-
-
-LaTeX Warning: Reference `eq:ind:fluxgen' on page 180 undefined on input line 1
-03.
-
-
-LaTeX Warning: Reference `eq:ind:faraday' on page 180 undefined on input line 1
-11.
-
-[180 <./6_induction/transformer-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `eq:ind:transformer' on page 181 undefined on input li
-ne 130.
-
-
-LaTeX Warning: Reference `eq:ind:faraday' on page 181 undefined on input line 1
-31.
-
-
-LaTeX Warning: Reference `eq:ind:transformer' on page 181 undefined on input li
-ne 134.
-
-
-LaTeX Warning: Reference `eq:ind:transformer' on page 181 undefined on input li
-ne 139.
-
-
-LaTeX Warning: Reference `fig:ind:sinusoid' on page 181 undefined on input line
- 143.
-
-
-LaTeX Warning: Reference `eq:ind:currentin' on page 181 undefined on input line
- 160.
-
-[181]
+ [180 <./6_induction/transformer-eps-converted-to.pdf>] [181]
 Package epstopdf Info: Source file: <6_induction/sinusoid.eps>
 (epstopdf)                    date: 2015-06-03 19:38:32
 (epstopdf)                    size: 10034 bytes
 (epstopdf)             Output file: <6_induction/sinusoid-eps-converted-to.pdf>
 
+(epstopdf)                    date: 2015-06-03 19:38:44
+(epstopdf)                    size: 7763 bytes
 (epstopdf)             Command: <repstopdf --outfile=6_induction/sinusoid-eps-c
 onverted-to.pdf 6_induction/sinusoid.eps>
 (epstopdf)             \includegraphics on input line 178.
-runsystem(repstopdf --outfile=6_induction/sinusoid-eps-converted-to.pdf 6_induc
-tion/sinusoid.eps)...executed safely (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <6_induction/sinusoid-eps-converted-to.pdf>
-
-(epstopdf)                    date: 2015-06-03 19:38:44
-(epstopdf)                    size: 7763 bytes.
-
-<6_induction/sinusoid-eps-converted-to.pdf, id=1299, 536.0025pt x 411.5375pt>
+<6_induction/sinusoid-eps-converted-to.pdf, id=1305, 536.0025pt x 411.5375pt>
 File: 6_induction/sinusoid-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 6_induction/sinusoid-eps-converted-to.pdf>
 Package pdftex.def Info: 6_induction/sinusoid-eps-converted-to.pdf used on inpu
 t line 178.
 (pdftex.def)             Requested size: 321.60397pt x 246.92441pt.
-
-
-LaTeX Warning: Reference `fig:ind:connect' on page 182 undefined on input line 
-186.
-
-
-LaTeX Warning: Reference `fig:ind:transformer' on page 182 undefined on input l
-ine 187.
-
-[182 <./6_induction/sinusoid-eps-converted-to.pdf>] [183]
+ [182 <./6_induction/sinusoid-eps-converted-to.pdf>] [183]
 Overfull \hbox (16.6022pt too wide) in paragraph at lines 202--206
 \OT1/cmr/bx/n/17.28 Name:  []        Day/Time: [] 
  []
-
-
-LaTeX Warning: Reference `fig:ind:transformer' on page 184 undefined on input l
-ine 210.
-
-
-LaTeX Warning: Reference `fig:ind:connect' on page 184 undefined on input line 
-211.
 
 Package epstopdf Info: Source file: <6_induction/connect.eps>
 (epstopdf)                    date: 2015-06-03 19:38:32
 (epstopdf)                    size: 4268 bytes
 (epstopdf)             Output file: <6_induction/connect-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-03 19:38:45
+(epstopdf)                    size: 6763 bytes
 (epstopdf)             Command: <repstopdf --outfile=6_induction/connect-eps-co
 nverted-to.pdf 6_induction/connect.eps>
 (epstopdf)             \includegraphics on input line 214.
-runsystem(repstopdf --outfile=6_induction/connect-eps-converted-to.pdf 6_induct
-ion/connect.eps)...executed safely (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <6_induction/connect-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-03 19:38:45
-(epstopdf)                    size: 6763 bytes.
-
-<6_induction/connect-eps-converted-to.pdf, id=1311, 577.15625pt x 346.29375pt>
+<6_induction/connect-eps-converted-to.pdf, id=1318, 577.15625pt x 346.29375pt>
 File: 6_induction/connect-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 6_induction/connect-eps-converted-to.pdf>
 Package pdftex.def Info: 6_induction/connect-eps-converted-to.pdf used on input
  line 214.
 (pdftex.def)             Requested size: 346.29642pt x 207.77785pt.
-
-
-LaTeX Warning: Reference `fig:ind:sinusoid' on page 184 undefined on input line
- 226.
-
 Package epstopdf Info: Source file: <6_induction/scope.eps>
 (epstopdf)                    date: 2015-06-03 19:37:21
 (epstopdf)                    size: 5737 bytes
 (epstopdf)             Output file: <6_induction/scope-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-03 19:38:46
+(epstopdf)                    size: 3225 bytes
 (epstopdf)             Command: <repstopdf --outfile=6_induction/scope-eps-conv
 erted-to.pdf 6_induction/scope.eps>
 (epstopdf)             \includegraphics on input line 235.
-runsystem(repstopdf --outfile=6_induction/scope-eps-converted-to.pdf 6_inductio
-n/scope.eps)...executed safely (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <6_induction/scope-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-06-03 19:38:46
-(epstopdf)                    size: 3225 bytes.
-<6_induction/scope-eps-converted-to.pdf, id=1312, 271.0125pt x 216.81pt>
+<6_induction/scope-eps-converted-to.pdf, id=1319, 271.0125pt x 216.81pt>
 File: 6_induction/scope-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 6_induction/scope-eps-converted-to.pdf>
@@ -3311,18 +3219,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 249--258
  []
 
 [185 <./6_induction/scope-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `tab:in:Avsw' on page 186 undefined on input line 262.
-
-
-
 Overfull \hbox (25.65941pt too wide) in paragraph at lines 266--343
  [] 
  []
-
-
-LaTeX Warning: Reference `tab:in:AvsN' on page 186 undefined on input line 352.
-
 
 [186]
 Package epstopdf Info: Source file: <6_induction/scope.eps>
@@ -3424,14 +3323,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 422--433
  []
 
 
-LaTeX Warning: Reference `tab:in:Avsw' on page 188 undefined on input line 439.
-
-
-
-LaTeX Warning: Reference `tab:in:AvsN' on page 188 undefined on input line 440.
-
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 439--448
 
  []
@@ -3468,14 +3359,290 @@ Underfull \hbox (badness 10000) in paragraph at lines 519--524
 
 ) [193
 
-] (./manual.aux)
+] [194
 
-LaTeX Warning: There were undefined references.
+]
+Chapter 7.
+(./7_polarization/7_polarization.tex
+Package epstopdf Info: Source file: <7_polarization/EMwave.eps>
+(epstopdf)                    date: 2015-06-03 19:44:59
+(epstopdf)                    size: 7262 bytes
+(epstopdf)             Output file: <7_polarization/EMwave-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2015-06-03 19:45:14
+(epstopdf)                    size: 5176 bytes
+(epstopdf)             Command: <repstopdf --outfile=7_polarization/EMwave-eps-
+converted-to.pdf 7_polarization/EMwave.eps>
+(epstopdf)             \includegraphics on input line 24.
+Package epstopdf Info: Output file is already uptodate.
+
+<7_polarization/EMwave-eps-converted-to.pdf, id=1361, 334.24875pt x 236.885pt>
+File: 7_polarization/EMwave-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 7_polarization/EMwave-eps-converted-to.pdf>
+Package pdftex.def Info: 7_polarization/EMwave-eps-converted-to.pdf used on inp
+ut line 24.
+(pdftex.def)             Requested size: 200.55078pt x 142.13208pt.
+ [195] [196 <./7_polarization/EMwave-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <7_polarization/polcomponent.eps>
+(epstopdf)                    date: 2015-06-03 19:44:59
+(epstopdf)                    size: 3046 bytes
+(epstopdf)             Output file: <7_polarization/polcomponent-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2015-06-03 19:45:15
+(epstopdf)                    size: 5111 bytes
+(epstopdf)             Command: <repstopdf --outfile=7_polarization/polcomponen
+t-eps-converted-to.pdf 7_polarization/polcomponent.eps>
+(epstopdf)             \includegraphics on input line 66.
+Package epstopdf Info: Output file is already uptodate.
+
+<7_polarization/polcomponent-eps-converted-to.pdf, id=1374, 228.855pt x 247.926
+25pt>
+File: 7_polarization/polcomponent-eps-converted-to.pdf Graphic file (type pdf)
+ <use 7_polarization/polcomponent-eps-converted-to.pdf>
+Package pdftex.def Info: 7_polarization/polcomponent-eps-converted-to.pdf used 
+on input line 66.
+(pdftex.def)             Requested size: 137.31404pt x 148.7569pt.
+Package epstopdf Info: Source file: <7_polarization/polvect.eps>
+(epstopdf)                    date: 2015-06-03 19:44:59
+(epstopdf)                    size: 2780 bytes
+(epstopdf)             Output file: <7_polarization/polvect-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2015-06-03 19:45:16
+(epstopdf)                    size: 5135 bytes
+(epstopdf)             Command: <repstopdf --outfile=7_polarization/polvect-eps
+-converted-to.pdf 7_polarization/polvect.eps>
+(epstopdf)             \includegraphics on input line 78.
+Package epstopdf Info: Output file is already uptodate.
+
+<7_polarization/polvect-eps-converted-to.pdf, id=1375, 259.97125pt x 148.555pt>
+File: 7_polarization/polvect-eps-converted-to.pdf Graphic file (type pdf)
+<use 7_polarization/polvect-eps-converted-to.pdf>
+Package pdftex.def Info: 7_polarization/polvect-eps-converted-to.pdf used on in
+put line 78.
+(pdftex.def)             Requested size: 155.98395pt x 89.13368pt.
+Package epstopdf Info: Source file: <7_polarization/unpolarized.eps>
+(epstopdf)                    date: 2015-06-03 19:44:59
+(epstopdf)                    size: 2879 bytes
+(epstopdf)             Output file: <7_polarization/unpolarized-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2015-06-03 19:45:17
+(epstopdf)                    size: 4959 bytes
+(epstopdf)             Command: <repstopdf --outfile=7_polarization/unpolarized
+-eps-converted-to.pdf 7_polarization/unpolarized.eps>
+(epstopdf)             \includegraphics on input line 112.
+Package epstopdf Info: Output file is already uptodate.
+
+<7_polarization/unpolarized-eps-converted-to.pdf, id=1376, 363.3575pt x 189.708
+76pt>
+File: 7_polarization/unpolarized-eps-converted-to.pdf Graphic file (type pdf)
+ <use 7_polarization/unpolarized-eps-converted-to.pdf>
+Package pdftex.def Info: 7_polarization/unpolarized-eps-converted-to.pdf used o
+n input line 112.
+(pdftex.def)             Requested size: 218.01617pt x 113.82613pt.
+ [197 <./7_polarization/polcomponent-eps-converted-to.pdf> <./7_polarization/po
+lvect-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <7_polarization/polaroid.eps>
+(epstopdf)                    date: 2015-06-03 19:44:59
+(epstopdf)                    size: 17599 bytes
+(epstopdf)             Output file: <7_polarization/polaroid-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-06-03 19:45:18
+(epstopdf)                    size: 7697 bytes
+(epstopdf)             Command: <repstopdf --outfile=7_polarization/polaroid-ep
+s-converted-to.pdf 7_polarization/polaroid.eps>
+(epstopdf)             \includegraphics on input line 125.
+Package epstopdf Info: Output file is already uptodate.
+
+<7_polarization/polaroid-eps-converted-to.pdf, id=1399, 373.395pt x 280.04625pt
+>
+File: 7_polarization/polaroid-eps-converted-to.pdf Graphic file (type pdf)
+ <use 7_polarization/polaroid-eps-converted-to.pdf>
+Package pdftex.def Info: 7_polarization/polaroid-eps-converted-to.pdf used on i
+nput line 125.
+(pdftex.def)             Requested size: 224.03873pt x 168.02904pt.
+Package epstopdf Info: Source file: <7_polarization/transmit.eps>
+(epstopdf)                    date: 2015-06-03 19:44:59
+(epstopdf)                    size: 3525 bytes
+(epstopdf)             Output file: <7_polarization/transmit-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-06-03 19:45:18
+(epstopdf)                    size: 6234 bytes
+(epstopdf)             Command: <repstopdf --outfile=7_polarization/transmit-ep
+s-converted-to.pdf 7_polarization/transmit.eps>
+(epstopdf)             \includegraphics on input line 143.
+Package epstopdf Info: Output file is already uptodate.
+
+<7_polarization/transmit-eps-converted-to.pdf, id=1400, 427.5975pt x 217.81375p
+t>
+File: 7_polarization/transmit-eps-converted-to.pdf Graphic file (type pdf)
+ <use 7_polarization/transmit-eps-converted-to.pdf>
+Package pdftex.def Info: 7_polarization/transmit-eps-converted-to.pdf used on i
+nput line 143.
+(pdftex.def)             Requested size: 256.56047pt x 130.68924pt.
+ [198 <./7_polarization/unpolarized-eps-converted-to.pdf>] [199 <./7_polarizati
+on/polaroid-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <7_polarization/malus.eps>
+(epstopdf)                    date: 2015-06-03 19:44:59
+(epstopdf)                    size: 3054 bytes
+(epstopdf)             Output file: <7_polarization/malus-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-06-03 19:45:19
+(epstopdf)                    size: 7480 bytes
+(epstopdf)             Command: <repstopdf --outfile=7_polarization/malus-eps-c
+onverted-to.pdf 7_polarization/malus.eps>
+(epstopdf)             \includegraphics on input line 164.
+Package epstopdf Info: Output file is already uptodate.
+
+<7_polarization/malus-eps-converted-to.pdf, id=1418, 307.1475pt x 307.1475pt>
+File: 7_polarization/malus-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 7_polarization/malus-eps-converted-to.pdf>
+Package pdftex.def Info: 7_polarization/malus-eps-converted-to.pdf used on inpu
+t line 164.
+(pdftex.def)             Requested size: 184.28992pt x 184.28992pt.
+ [200 <./7_polarization/transmit-eps-converted-to.pdf> <./7_polarization/malus-
+eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+[201] [202] [203]
+Overfull \hbox (16.6022pt too wide) in paragraph at lines 231--234
+\OT1/cmr/bx/n/17.28 Name:  []        Day/Time: [] 
+ []
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Underfull \hbox (badness 10000) in paragraph at lines 231--234
 
- )
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--249
+
+ []
+
+Package epstopdf Info: Source file: <7_polarization/onepol.eps>
+(epstopdf)                    date: 2015-06-03 19:44:59
+(epstopdf)                    size: 2203 bytes
+(epstopdf)             Output file: <7_polarization/onepol-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2015-06-03 19:45:20
+(epstopdf)                    size: 5244 bytes
+(epstopdf)             Command: <repstopdf --outfile=7_polarization/onepol-eps-
+converted-to.pdf 7_polarization/onepol.eps>
+(epstopdf)             \includegraphics on input line 257.
+Package epstopdf Info: Output file is already uptodate.
+
+<7_polarization/onepol-eps-converted-to.pdf, id=1449, 410.53375pt x 102.3825pt>
+File: 7_polarization/onepol-eps-converted-to.pdf Graphic file (type pdf)
+<use 7_polarization/onepol-eps-converted-to.pdf>
+Package pdftex.def Info: 7_polarization/onepol-eps-converted-to.pdf used on inp
+ut line 257.
+(pdftex.def)             Requested size: 246.32214pt x 61.42996pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--271
+
+ []
+
+[204
+
+ <./7_polarization/onepol-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <7_polarization/twopol.eps>
+(epstopdf)                    date: 2015-06-03 19:44:59
+(epstopdf)                    size: 2892 bytes
+(epstopdf)             Output file: <7_polarization/twopol-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2015-06-03 19:45:21
+(epstopdf)                    size: 6570 bytes
+(epstopdf)             Command: <repstopdf --outfile=7_polarization/twopol-eps-
+converted-to.pdf 7_polarization/twopol.eps>
+(epstopdf)             \includegraphics on input line 320.
+Package epstopdf Info: Output file is already uptodate.
+
+<7_polarization/twopol-eps-converted-to.pdf, id=1458, 419.5675pt x 135.50626pt>
+File: 7_polarization/twopol-eps-converted-to.pdf Graphic file (type pdf)
+<use 7_polarization/twopol-eps-converted-to.pdf>
+Package pdftex.def Info: 7_polarization/twopol-eps-converted-to.pdf used on inp
+ut line 320.
+(pdftex.def)             Requested size: 251.74243pt x 81.30437pt.
+
+Overfull \hbox (19.96895pt too wide) in paragraph at lines 336--360
+ [] 
+ []
+
+[205]
+Package epstopdf Info: Source file: <7_polarization/threepol.eps>
+(epstopdf)                    date: 2015-06-03 19:44:59
+(epstopdf)                    size: 3409 bytes
+(epstopdf)             Output file: <7_polarization/threepol-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-06-03 19:45:22
+(epstopdf)                    size: 6969 bytes
+(epstopdf)             Command: <repstopdf --outfile=7_polarization/threepol-ep
+s-converted-to.pdf 7_polarization/threepol.eps>
+(epstopdf)             \includegraphics on input line 380.
+Package epstopdf Info: Output file is already uptodate.
+
+<7_polarization/threepol-eps-converted-to.pdf, id=1462, 509.905pt x 135.50626pt
+>
+File: 7_polarization/threepol-eps-converted-to.pdf Graphic file (type pdf)
+ <use 7_polarization/threepol-eps-converted-to.pdf>
+Package pdftex.def Info: 7_polarization/threepol-eps-converted-to.pdf used on i
+nput line 380.
+(pdftex.def)             Requested size: 305.94536pt x 81.30437pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--386
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [206 <./7_polarization/twopol-eps-converted-to.pdf>]
+Overfull \hbox (19.96895pt too wide) in paragraph at lines 396--420
+ [] 
+ []
+
+[207 <./7_polarization/threepol-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 431--436
+
+ []
+
+[208]
+Package epstopdf Info: Source file: <7_polarization/threepolintens.eps>
+(epstopdf)                    date: 2015-06-03 19:44:59
+(epstopdf)                    size: 5691 bytes
+(epstopdf)             Output file: <7_polarization/threepolintens-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2015-06-03 19:45:23
+(epstopdf)                    size: 8531 bytes
+(epstopdf)             Command: <repstopdf --outfile=7_polarization/threepolint
+ens-eps-converted-to.pdf 7_polarization/threepolintens.eps>
+(epstopdf)             \includegraphics on input line 471.
+Package epstopdf Info: Output file is already uptodate.
+
+<7_polarization/threepolintens-eps-converted-to.pdf, id=1491, 417.56pt x 85.318
+76pt>
+File: 7_polarization/threepolintens-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use 7_polarization/threepolintens-eps-converted-to.pdf>
+Package pdftex.def Info: 7_polarization/threepolintens-eps-converted-to.pdf use
+d on input line 471.
+(pdftex.def)             Requested size: 334.04843pt x 68.25508pt.
+ [209]
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
+
+ []
+
+[210 <./7_polarization/threepolintens-eps-converted-to.pdf>] [211
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 501--504
+
+ []
+
+) [212] (./manual.aux) )
 (\end occurred inside a group at level 3)
 
 ### simple group (level 3) entered at line 408 ({)
@@ -3483,10 +3650,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 ### simple group (level 1) entered at line 70 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 2415 strings out of 493488
- 43876 string characters out of 3141326
- 93675 words of memory out of 3000000
- 5587 multiletter control sequences out of 15000+200000
+ 2493 strings out of 493488
+ 46575 string characters out of 3141326
+ 94063 words of memory out of 3000000
+ 5650 multiletter control sequences out of 15000+200000
  11699 words of font info for 40 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  44i,11n,25p,357b,368s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3505,10 +3672,10 @@ r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/l
 ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
 al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on manual.pdf (201 pages, 1107501 bytes).
+Output written on manual.pdf (222 pages, 1168420 bytes).
 PDF statistics:
- 1407 PDF objects out of 1440 (max. 8388607)
- 956 compressed objects within 10 object streams
+ 1574 PDF objects out of 1728 (max. 8388607)
+ 1071 compressed objects within 11 object streams
  0 named destinations out of 1000 (max. 500000)
- 401 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 456 words of extra memory for PDF output out of 10000 (max. 10000000)
 

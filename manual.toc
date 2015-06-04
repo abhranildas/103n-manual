@@ -1,4 +1,4 @@
-\contentsline {chapter}{\numberline {}Preface}{vii}
+\contentsline {chapter}{\numberline {}Preface}{ix}
 \contentsline {chapter}{\numberline {0}Introduction}{1}
 \contentsline {section}{\numberline {0.1}General Lab Procedures}{1}
 \contentsline {section}{\numberline {0.2}Error Estimation and Propagation}{2}
@@ -173,3 +173,24 @@
 \contentsline {subsubsection}{Sinusoidal Input}{189}
 \contentsline {subsubsection}{Triangle and Square Wave Input}{191}
 \contentsline {subsection}{\numberline {6.W.5}Conclusion}{193}
+\contentsline {chapter}{\numberline {7}Polarization of Light}{195}
+\contentsline {section}{\numberline {7.1}Introduction}{195}
+\contentsline {section}{\numberline {7.2}Theory}{195}
+\contentsline {subsection}{\numberline {7.2.1}References}{195}
+\contentsline {subsection}{\numberline {7.2.2}Polarization}{195}
+\contentsline {subsection}{\numberline {7.2.3}Polarizers}{198}
+\contentsline {subsection}{\numberline {7.2.4}Malus' Law}{199}
+\contentsline {section}{\numberline {7.3}Apparatus}{201}
+\contentsline {section}{\numberline {7.W}Polarization of Light Worksheet}{204}
+\contentsline {subsection}{\numberline {7.W.1}In-Lab Procedure}{204}
+\contentsline {subsubsection}{Preliminaries}{204}
+\contentsline {subsection}{\numberline {7.W.2}In-Lab Computer Work}{205}
+\contentsline {subsection}{\numberline {7.W.3}In-Lab Procedure}{205}
+\contentsline {subsubsection}{Polarized Light and a Polarizer}{205}
+\contentsline {subsection}{\numberline {7.W.4}In-Lab Computer Work}{206}
+\contentsline {subsection}{\numberline {7.W.5}In-Lab Procedure}{207}
+\contentsline {subsubsection}{Crossed Polarizers}{207}
+\contentsline {subsection}{\numberline {7.W.6}In-Lab Computer Work}{208}
+\contentsline {subsection}{\numberline {7.W.7}Pre-Classroom Check List}{208}
+\contentsline {subsection}{\numberline {7.W.8}In-Classroom Discussion}{208}
+\contentsline {subsection}{\numberline {7.W.9}In-Classroom Conclusion}{212}
