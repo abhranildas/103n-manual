@@ -158,7 +158,7 @@ relative uncertainty of $g$ in our example is
 $$ \frac{\Delta g}{g} = \frac{0.0014~\mbox{m/s}^2}{9.7990~\mbox{m/s}^2}
 = 0.00014 = 0.014\%.$$ 
 
-\subsection{Estimating Parameters and Their Uncertainties}
+\subsection{Estimating Quantities and Their Uncertainties}
 \label{sec:intro:uncert}
 Now that we know what constitutes error, we should describe how to estimate 
 it given a data set. Let's consider the most common situation in which we 
@@ -371,10 +371,9 @@ b = 0.1319 \pm 0.0011~{\rm V}
 \end{eqnarray*}
 
 \begin{figure}[!htb]
-\epsfxsize=13 \includegraphics[scale=0.5, width=\textwidth]{0_intro/vigraph.eps}
-%\centerline{\epsfxsize=13cm \epsfbox{intro_2/vigraph.eps}}
-\caption{Plot of voltage versus current for the data in Table 
-\ref{tab:intro:current voltage data}.}
+\centering
+\epsfxsize=12cm \includegraphics[scale=0.6]{0_intro/vigraph.eps}
+\caption{Plot of voltage versus current for the data in Table \ref{tab:intro:current voltage data}.}
 \label{fig:intro:current voltage plot}
 \end{figure}
 
@@ -389,7 +388,7 @@ still measure a voltage across the resistor. This fact should make us very
 suspicious about any other conclusions we might make from this data, until we 
 have an explanation for this apparent contradiction of Ohm's law.
 
-\subsection{Propagating and Reporting Uncertainties}
+\subsection{The Error Propagation Formul\ae}
 \label{sec:intro:reprtun}
 At this point, you should have a clear idea of what uncertainty is and how to 
 estimate it in some simple cases. Once you have your estimates of the
@@ -415,27 +414,185 @@ of this data?'' Under our assumptions, the answer comes from the Taylor
 series expansion of $f$ ({\it c.f.}~Bevington and Robinson): 
 $f(x + \Delta x) = f(x) + f^\prime(x) \Delta x + O(\Delta x ^2)$. From this we 
 find the uncertainty $\Delta f$ in the function value $f(x)$ is
-\begin{eqnarray*}
-\Delta f = \left| \frac{df}{dx} \Delta x \right|,
-\end{eqnarray*}
+\begin{equation}
+\fbox{$ \displaystyle 
+\Delta f = \left| \frac{df}{dx} \right| \Delta x, $} \label{equ:diff:single-uncertainty}
+\end{equation}
 with the derivative evaluated at the point $x$. We can generalize this result 
 to functions of several variables as follows: given the data $x \pm \Delta x, 
 y \pm \Delta y, \ldots$,  the function $f(x,y,\ldots)$ has the associated 
 uncertainty
-\begin{eqnarray*}
-\Delta f = \left| \frac{\partial f}{\partial x} \Delta x \right| +
-           \left| \frac{\partial f}{\partial y} \Delta y \right| + \ldots,
-\end{eqnarray*}
-where all the derivatives are evaluated at the point $x,y,\ldots$. If we recall
-that we defined absolute uncertainties to be positive, we can write this as
 \begin{equation}
  \fbox{$ \displaystyle \Delta f = \left| \frac{\partial f}{\partial x} \right| \Delta x +
            \left| \frac{\partial f}{\partial y} \right| \Delta y + \ldots, $}
 \label{equ:diff:uncertainty}
 \end{equation}
-From  this relationship, we can derive all the familiar results of error 
+where notice that the ordinary derivative has now been replaced by partial derivatives, since $f$ is now a multivariable function. From  this relationship, we can derive all the familiar results of error 
 propagation.\\
 \\
+\subsection{Simple graphical and physical explanations of the error-propagation formul\ae}
+Suppose someone gave you a wooden stick, and asked you to make a cube
+whose side length is that of the stick. You measure the stick and
+find its length to be 10$\pm$1 cm. Now, since the length has an uncertainty,
+so will the volume of the cube you build. What will the uncertainty
+of its volume be? The answer to such a question is what is known as
+error propagation, i.e. the error or uncertainty of a quantity propagates
+through calculations that you do on it to obtain functions of the
+quantity. In this case, the function is cubing, which gives you the
+volume of a cube corresponding to its length.
+
+\begin{figure}[!htb]
+\centering
+\epsfxsize=12cm \includegraphics[scale=0.5]{0_intro/cubing.eps}
+\caption{Error propagation through cubing a length.}
+\label{fig:intro:cubing}
+\end{figure}
+
+We can illustrate the situation graphically, as in fig. \ref{fig:intro:cubing}.
+The length measured varies from 9 to 11 cm, the interval bounded by
+the vertical lines. The corresponding volume varies from $9^{3}=729$cc
+and $11^{3}$=1331cc, the interval between the horizontal lines. That
+is, a length uncertainty of 11-9=2cm gives rise to a volume uncertainty
+of 1331-729=602cc. Now, only half of the width of the uncertainty
+is denoted by $\Delta x$ and $\Delta V$, since the error lies on
+either side of the base value as a $\pm$. (This is why the horizontal
+and vertical lengths in the plot that correspond to the uncertainties
+are $2\Delta x$ and $2\Delta V$ respectively.) So a $\Delta x=1$cm
+gives rise to a $\Delta V=301$cc. Quite a lot, since the cubed function
+amplifies its argument, and hence differences in its arguments as
+well.
+
+Here we have explicitly calculated the propagated error in the volume
+by applying the function to the two extreme values of the erroneous
+original quantity, taking the difference and halving it. But there's
+a shorter way to do this.
+
+Consider the rectangular region in the plot bounded by the error boundaries.
+We can approximate the curve in that region to be a straight line
+segment with slope equal to the slope of the curve at that point,
+given by $\frac{\partial V}{\partial x}$ at $x=10$cm. Then we consider
+the triangle created by the horizontal error, the vertical error,
+and the hypotenuse which is that straight line, and this gives us
+a simple relation between the base and perpendicular:
+
+\begin{equation}
+\frac{2\Delta V}{2\Delta x}=\tan\theta=\frac{\partial V}{\partial x}\Rightarrow\Delta V(x)=\frac{\partial V}{\partial x}\Delta x.
+\end{equation}
+
+
+Using this relation, what do we get as the propagated error in volume?
+We get:
+
+\begin{equation}
+\Delta V(x)=\frac{\partial V}{\partial x}\Delta x=3x^{2}\Delta x=3\times\left(10\textrm{cm}\right)^{2}\times1\textrm{cm}=300\textrm{cc}.
+\end{equation}
+
+
+This is \textit{not} the same as the actual propagated error of 301cc
+that we explicitly calculated!
+
+The reason is the linear approximation we made. However, in practical
+situations when the error is not too big so that the function may
+be considered linear in the small error region, this provides a good
+approximation, as it did now.
+
+You will notice that this simple derivation hasn't given us the absolute
+sign of eq. \ref{equ:diff:single-uncertainty}. To understand the necessity of the absolute sign,
+note that the partial derivative may be negative depending on the
+function, but an error is always positive. A more detailed justification
+will follow later.
+
+We now consider a physical way to extend this to multiple variables,
+that gives rise to eq. \ref{equ:diff:uncertainty}.
+
+Suppose you know the temperature at every point of a room, as a function
+$T(x,y,z)$ where $x$, $y$ and $z$ are the coordinates used to
+mark points in the room. Someone asks you what the temperature is
+at a point. You locate the point by measuring out its coordinates
+with a ruler. This will have uncertainties, so that the coordinates
+of the point are $(x\pm\Delta x,y\pm\Delta y,z\pm\Delta z)$. Since
+you don't have the location exactly pinpointed, the temperature you
+report shall also have an uncertainty $\Delta T$ owing to this variability.
+What is this uncertainty?
+
+\begin{figure}[!htb]
+\centering
+\epsfxsize=12cm \includegraphics{0_intro/temperature.eps}
+\caption{Temperature variation in a room (example of error propagation for a multi-variable function).}
+\label{fig:intro:temperature}
+\end{figure}
+
+Consider going from the point $(x,y,z)$ where the temperature is
+$T$ to the point $(x+\Delta x,y+\Delta y,z+\Delta z)$ where the
+temperature is $T+\Delta T$. One way to go about this is to first
+move by $\Delta x$ along the $x$-axis. According to simple calculus,
+the change in temperature due to this is the rate of change of temperature
+with respect to change in $x$, multiplied by the increment in $x$,
+i.e. $\frac{\partial T}{\partial x}\Delta x$. It is a partial derivative
+because we are changing only one variable and holding the other variables
+fixed. Similarly, the contributions to the change of temperature due
+to moving along the other two axes are $\frac{\partial T}{\partial y}\Delta y$
+and $\frac{\partial T}{\partial z}\Delta z$. This completes our move,
+and the total change of temperature has been:
+
+\begin{equation}
+\Delta T=\frac{\partial T}{\partial x}\Delta x+\frac{\partial T}{\partial y}\Delta y+\frac{\partial T}{\partial z}\Delta z.
+\label{equ:intro:temperature}
+\end{equation}
+
+
+\textbf{A crucial point to note} in this derivation is that the arguments of
+the function must be \textit{independent} variables, so that it is
+possible to vary one of them while keeping the other ones fixed. This
+means that when we consider the error of a multi-variable function,
+we should identify the correct independent variables that it is a
+function of. For example, if our function is $x^{2}+xy$, then we
+cannot see it as a function of $x^{2}$ and $xy$ and write its error
+in terms of partial derivatives with respect to those, because we
+cannot independently vary either of those variables without changing
+the other.
+
+Once again, note that we have not derived the absolute sign of \ref{equ:diff:uncertainty} in our
+simple explanation. We shall now give a bit more detailed justification
+for the absolute sign in the general case of a multi-variable function.
+
+We consider a two variable example. Suppose someone has asked you
+to find the difference of two lengths. You measure the lengths to
+be $x\pm\Delta x=50\pm5$cm, i.e. it can be between 45 and 55cm, and
+$y\pm\Delta y=10\pm1$cm, i.e. between 9 and 11cm. The difference
+function is $f(x,y)=x-y$. The base value of the difference is of
+course 50-10=40cm, but what is its error?
+
+If we naively use eq. \ref{equ:intro:temperature} without the absolute signs, then we shall
+get:
+
+\begin{equation}
+\Delta f(x,y)=\frac{\partial f}{\partial x}\Delta x+\frac{\partial f}{\partial y}\Delta y=\Delta x-\Delta y=4\textrm{cm}.
+\end{equation}
+
+
+However, is this true? The largest possible value of the difference
+is when the first length is the greatest (55cm) and the second is
+the least (9cm), which gives us 55-9=46cm. The smallest value of the
+difference comes from the smallest value of $x$ (45cm) and the largest
+value of $y$ (11cm), yielding 45-11=34cm. Thus, the variation of
+the difference is between 34 to 46cm, an uncertainty of 12cm. Half
+of this is $\Delta f(x,y)$, which is then 6cm.
+
+This corresponds to $\Delta x+\Delta y$, not $\Delta x-\Delta y$.
+Why did this happen? Well, even though we are subtracting the two
+lengths, we cannot be sure that their errors will also subtract. We
+could have made a positive error in one length and a negative error
+in the other, in which case they would end up adding together in the
+same direction even though we are subtracting the lengths. Thus, the
+unknown sign of the individual errors could conspire together to add
+in the worst case scenario. The uncertainty of the propagated value
+corresponds to the most general, worst case scenario, and therefore
+we should always add the absolute errors contributed by the variability
+of each of its arguments. This explains the absolute signs in eq. \ref{equ:diff:uncertainty}.
+Now that we have given a physical explanation for the single- and multi-variable error propagation formul\ae, we visit some examples that should make things clearer.
+\vspace*{.5cm}  \\
+
 \noindent {\bf Example:}  {\bf Addition and Subtraction} \\
 Given: $f(x,y) = 3x+y-z+5$ \\
 Find:  $\Delta f$ \\
@@ -466,30 +623,81 @@ Find:  $\Delta R$ \\
   & = & \left| \frac{1}{I} \right| \Delta(V) + \left| \frac{-V}{I^2} \right| \Delta I
 \end{eqnarray*}
 
+\subsection{Agreement within uncertainty} %neel
+\label{sec:intro:agreement}
+A very important idea in the sciences and engineering is to decide when two quantities agree with each other. This could be values for a quantity measured or calculated independently by different people or research groups, or by the same person but using different methods.
+
+If the quantity has no error, such as the number of tentacles of a newly discovered marine species, the question of agreement is simply to check if the number is the same.
+
+But if the different observations of the quantity come with errors, they need to {\it agree within uncertainty}. The following explains how this is done, and you will need to use this in several places throughout this course.
+
+Suppose we have two measurements $x_1 \pm \Delta x_1$ and $x_2 \pm \Delta x_2$ of the same quantity. Then we essentially need to check if their regions of uncertainty overlap. If they do, the quantities have a common overlap region and they agree within uncertainty, otherwise not.
+
+If you consider fig. REF, you will see that this implies simply to check whether the distance between the base values is greater or less than the sum of their uncertainties, i.e.:
+
+\begin{center}
+$\left|x_1-x_2\right| \stackrel{?}{\gtrless} \Delta x_1 + \Delta x_2$
+\end{center}
+
+If it is greater, the quantities don't agree, and if it is less, they do agree. If it is exactly equal, it would also be considered agreement because the value on the boundary is common.
+
+\subsection{Reporting Erroneous Quantities} %neel
+\label{sec:intro:reporting}
 Now that we have a clear idea of  what constitutes  the uncertainty of a 
 measurement, how to estimate it, and how to propagate it, we should talk about
-the proper way to report the uncertainty of a measurement. This forms the 
-subject of {\it significant figures}. Here is how you should determine the 
-number of significant figures:
+the proper way to report the uncertainty of a quantity. The following instructions explain the format of reporting quantities with errors. We take as an example a mass measurement of 14,877 g (we call this the base value) with an error of .5 kg. 
 \begin{enumerate}
-\item Calculate the uncertainty in the quantity.
-\item Round off the uncertainty to one or two digits.
-\item Express the uncertainty in the same units as the quantity measured.
-\item Round off the quantity to the last decimal place of the uncertainty.
-\item Always write down the final result of a calculation with the uncertainty
-and the units included.
+\item Convert the base and error to decimal expressions.
+
+\item Convert both the base value and the error to the same unit and order. In our case, if we choose everything to be in kg, we convert the base value to 14.877 kg.
+
+\item Either round off or add zeros to the base value so that it is up to the same decimal place as the error.
+
+In our case, therefore, the base value is rounded to 14.9 kg. If the error had been .5021 kg, the base value would have become 14.8700 kg.
+
+Thus, the error takes priority. This is easy to understand: it is the error that determines the amount of information. If we have fewer decimal places in the error than the base, then we don't really know the base up to its last place, do we? So we must round off to the last place of the error. And if the error has extra decimal places, that means we have additional accuracy to add significant zeros to the base value.
+\item Write down the base value `$\pm$'  the error, {\it followed by} the common order and the unit at the end. Don't put them next to both the base value and the error; this makes it look uglier, and harder to compare the base with the error immediately. This is not a hard rule though, nevertheless the best practise.
 \end{enumerate}
 
-\noindent Use the form
+In summary, the correct way to report an erroneous quantity is:
+
 \begin{center}
-$(2.34 \pm 0.23) \cdot 10^3$ m, or $2.34 \pm 0.23$ km,
+$14.9 \pm 0.5$ kg or $(14.9 \pm 0.5) \cdot 10^3$ g etc.
 \end{center}
-{\it not} expressions such as
-\begin{eqnarray*}
-2.34 \cdot 10^3~{\rm m} \pm 0.23 \cdot 10^3~{\rm m},\\
-2.34~{\rm km} \pm 23 \cdot10^1~{\rm m},\\
-2340~{\rm m} \pm 0.23 \cdot 10^3~{\rm m}.
-\end{eqnarray*}
+
+The following are some wrong ways, with explanations of what mistakes have been made.
+\begin{itemize}
+
+\item Quantities have not been converted to decimal:
+\begin{center}
+$\pi \pm \frac{2\pi}{3}$ rad or $\sqrt{2} \pm \frac{1}{3}$ Hz.
+\end{center}
+Expressions like $\pi$, $e$, $\sqrt{2}$ etc and recurring fractions like $\frac{1}{3}$ imply {\it infinite} digits, and it is of course impossible that that's how much accuracy you have.
+
+\item Different units for base and error:
+\begin{center}
+$14.9$ kg $\pm 1.1$ lb.
+\end{center}
+
+\item Different orders for base and error (this is a common error!):
+\begin{center}
+$14.9$ kg $\pm 0.5 \cdot 10^3$ g or $20.2$ km $\pm 300$ m or $3 \cdot 10^9 \pm 2 \cdot 10^7$ V.
+\end{center}
+
+
+\item Base and error have not been rounded to the same place (also very common!):
+\begin{center}
+$14.877 \pm 0.5$ kg or $14.877 \pm 0.5021$ kg.
+\end{center}
+
+\item Order and unit have been repeated:
+\begin{center}
+$14.9 \cdot 10^3$ g $\pm 0.5 \cdot 10^3$ g.
+\end{center}
+
+
+\end{itemize}
+
 These are the rules you will use most often in reporting your results. They 
 become rather cumbersome, though, when you begin to make very precise 
 measurements. Consider, for example, the charge on the electron; the best 
@@ -497,15 +705,14 @@ measurement we have of this number is
 \begin{eqnarray*}
 (1.60217733 \pm 0.00000049) \cdot 10^{-19}~{\rm C}.
 \end{eqnarray*}
-This is very annoying; so, we've developed a shorthand for reporting these 
+Writing so many zeroes and taking care of the aligning is very annoying; so, we've developed a shorthand for reporting these 
 kinds of measurements. You simply quote the result to the known uncertainty and
 place the uncertainty of the last few digits in parentheses after the number 
 and before the power of ten. In this notation, the electron's charge is
 \begin{eqnarray*}
 1.60217733(49) \cdot 10^{-19}~{\rm C},
 \end{eqnarray*}
-which is much easier to deal with. If you begin to make measurements of such 
-precision that you need to employ this convention, feel free to do so.
+which is much easier to deal with. This notation also provides a natural way to adhere to the rules of representation and makes it harder to make mistakes in the format, so you're recommended to use it.
 
 Finally, in various experiments we quote what are called ``accepted values''
 for various physical parameters. These are the scientific community's best 
@@ -726,103 +933,50 @@ you believe the experiment to be a success or not, justifying yourself by
 referring to your previous discussions.
 
 Your instructor may also assign additional questions for you to ponder. You 
-should incorporate the answers to these questions into your discussion. They 
-should fall naturally into your considerations, as you think about what might 
-have gone wrong, or possible sources of discrepancy that were not in the 
-original motivating theory. Typically, these questions have direct answers, 
-but only after you have thought about the lab. 
+should incorporate the answers to these questions into your discussion.
 
-\section{Using KaleidaGraph for Data Analysis}
+\vfill
+\pagebreak
+
+\renewcommand{\thesection}{\thechapter.W1}
+
+\section{Using KaleidaGraph for Data Analysis} %neel
 \label{sec:hypoexp}
-\subsection{Introduction}
-\subsubsection{What KaleidaGraph Does and Doesn't}
+\subsection{A Hypothetical Experiment}
 
 The software package known as KaleidaGraph can be a useful tool for
-data analysis. Of course, it will only be useful if you learn how to
-tell it to do what you want it to do. This knowledge is best acquired
-by experience with using the software, and you will get plenty of that
-in the upcoming semester. That fact doesn't help you at the moment,
-though. Getting started is the difficult part.  Hopefully, this
-section will help you with that.
+data analysis. In this section you shall plot and fit data collected from an imagined experiment to familiarize yourself with the software.
 
-This section is not meant to be a detailed guide to using
-KaleidaGraph. Instead, it hopes to demonstrate how to use those
-features of KaleidaGraph which will be most useful to you: plotting
-and fitting curves to data. To accomplish this, this section
-is designed to be a working example.
+A version of Murphy's law states that if a piece of buttered toast falls on an expensive carpet, the more butter you put on it, the less likely that it would have fallen butter-side up. This assertion can be represented by an equation:
 
-When you are using KaleidaGraph to analyze real data, you'll probably
-have to perform most of the tasks described below. In that spirit,
-we'll connect all the examples with\ldots
+$$P = a{1 \over V}, $$ where $P$ represents the probability of a piece
+of toast falling butter-side up, $a$ is a proportionality constant,
+and $V$ is the volume of butter applied on the toast.
 
-\subsubsection{\ldots A Hypothetical Experiment.}
+Thus, if you collected measurements of these over several trials, and plot $P$ against ${1 \over V}$, you'd expect the points to lie roughly along a straight line through the origin, with a slope equal to $a$. This is what you shall verify.
 
-Suppose an experiment has been performed that tests the well-known
-conjecture that the probability that a slice of toast buttered on one
-side will fall butter-side-up is inversely proportional to the value
-of the carpet on which it falls. This assertion can be represented by
-an equation:
-
-$$ U = a{1 \over V}, $$ where $U$ represents the probability of a piece
-of bread falling butter side up, $a$ is a proportionality constant,
-and $V$ is the price of the carpet in U.S. dollars. If you were to
-somehow measure the probabilities of the toast falling butter-side-up
-on several carpets, and plot these against the reciprocal of the price
-of the carpet, you'd expect to see a straight line, with a slope equal
-to the proportionality constant.  The following examples will lead you
-through the process of plotting data taken in such an experiment and
-finding the slope of the best fit line of the plot.
-
-Now for some details. On each run of the experiment, a helicopter
-dropped 100,000 slices of buttered toast on a large sample of
-carpet. Then, the U.S. Dept. of Parks and Wildlife flew in with their
-own helicopter to take an aerial photograph of the result. From the
-photograph, the fraction of butter-side-up slices was measured, and
-reported as the probability.\footnote{These results have met with
-some controversy. The Association of Premium Carpet Manufacturers has
-filed a lawsuit claiming that the results have been altered to make
-their products seem less desirable.} Only five runs were accomplished
-before funding ran out. The results of the experiment are
+Suppose an experiment has been performed that tests this. Various amounts of butter were applied to toast, and dropped many times on a carpet. The fraction of times it fell butter-side up was expressed as a probability. The results of the experiment are:
 \begin{center}
 \begin{tabular}{|c|c|}
 \hline
-$V (\$)$ & $U$ \\ $100 \pm 1$ & $0.43 \pm 0.01$ \\ $250 \pm 1$ & $0.15
-\pm 0.01$ \\ $500 \pm 2$ & $0.09 \pm 0.01$ \\ $750 \pm 2$ & $0.06 \pm
-0.01$ \\ $1000 \pm 3$ & $0.04 \pm 0.01$ \\
+$V$(cc) & $P$ \\ $1.0 \pm 0.1$ & $0.43 \pm 0.01$ \\ $2.5 \pm 0.6$ & $0.15
+\pm 0.01$ \\ $5.0 \pm 0.2$ & $0.09 \pm 0.01$ \\ $7.5 \pm 0.2$ & $0.06 \pm
+0.01$ \\ $10.0 \pm 0.3$ & $0.04 \pm 0.01$ \\
 \hline
 \end{tabular}
 \end{center}  
 
 
 \subsection {Entering Data}
-\subsubsection {Actually Entering Data}
-
 KaleidaGraph holds data in a {\bf data window.} One of these should
-appear when you start; it's default name is {\bf Data 1.} To enter
-data,
+appear when you start; its default name is {\bf Data 1.} Enter all the data here, entering values for $V$ in column ``A'',
+the uncertainties $\Delta V$ in column ``B'', the values for $P$ in column ``C'' 
+and the uncertainties $\Delta P$ in column ``D''.
 
-\noindent
-\begin{enumerate}
-\item Activate the data window by clicking on it.
-\item Position the cursor on the cell you want to enter data into.
-\item Type in a piece of data. 
-\item Move to another cell using mouse, arrow keys, Tab or Return.
-\end{enumerate}
-Enter all the Buttered Toast data, entering values for $V$ in column ``A'',
-the uncertainties for $V$ in column ``B'', the values for $U$ in column ``C'' 
-and the uncertainties for $U$ in column ``D''.
-
-\indent
-
-Note that KaleidaGraph plots data in a column vs. column fashion, so
-the x-coordinate and y-coordinate of a single piece of data should be
-placed in the same row, but different columns.
 
 \subsubsection{Renaming Columns of Data}
 
-This might not seem important at first, but KaleidaGraph labels the
-axes on plots with the name of the columns it used in the plot. The
-default names of columns are ``A'', ``B'', ``C'', etc. These appear in
+KaleidaGraph labels the axes on plots with the name of the columns it used in the plot. The default names of columns are ``A'', ``B'', ``C'', etc. These appear in
 the {\bf column title} row of the data window, along with a number. To
 change the name of the column,
 
@@ -831,22 +985,17 @@ change the name of the column,
 \item Double-click on the column title you wish to change.
 \item In the ``Column Format:" dialog box which appears there will be a list of column 
 titles. Highlight the title you wish to alter by clicking on it.
-\item Type in the new title of the column (for example ``A'' becomes $V(\$)$).
-\item When you are finished changing names, click on the button labeled 
-{\bf Done.}
+\item Type in the new title of the column (for example ``A'' becomes $V$(cc)). Don't forget units in parentheses for any columns. Click {\bf Done.}
 \end{enumerate}
-Make sure to name each column, include uncertainties (for example
-``B'' becomes $dV(\$)$).  Don't forget the units!
-\indent
 
 The number of any column can be set to zero merely by clicking on the
 title cell of that column. The columns to the right then take the
-numbers 1, 2, 3.... The columns to the left become unnumbered.
+numbers 1, 2, 3... The columns to the left become unnumbered.
 
 \subsection{Entering Formulas}
 
 Often, the raw data you enter is not immediately in the form you need
-for plotting.  Never fear, KaleidaGraph is capable of performing
+for plotting. KaleidaGraph is capable of performing
 mathematical operations on the numbers you have entered. One way of
 using this feature is to define a formula for KaleidaGraph. Formulas
 tell KaleidaGraph to put in one column the result of operations on
@@ -860,10 +1009,9 @@ where $x, y,$ and $z$ are the numbers of the columns which contain the
 numbers you wish to operate on, and f(...) is the mathematical
 expression you wish KaleidaGraph to calculate.
 
-For example, since you want to plot $U$ vs. $1/V$,
+For example, since you want to plot $P$ vs. $1/V$,
 you need to make a column containing
-the reciprocal dollar values of the carpets.  
-To actually enter and execute a formula,
+the the $1/V$ values. For this,
 
 \noindent
 \begin{enumerate}
@@ -884,16 +1032,11 @@ sure to rename the column you just made.
 
 Of course, the uncertainties in $1/V$ are different from the
 uncertainties in $V.$ So you'll need to get KaleidaGraph to calculate
-an uncertainty column for you. Try to figure out the necessary formula
-yourself.
+an uncertainty column for you. Figure out the necessary formula.
 
 \subsection{Plotting Data}
 
 \subsubsection{Making a Scatter Plot}
-These two sections on plotting and fitting data require little
-motivation. But a few important notes will be made. First, {\bf Never}
-connect-the-dots when you plot data.  Fortunately, if you follow these
-steps, you'll never forget and accidentally do it.
 
 \noindent
 \begin{enumerate}
@@ -909,8 +1052,6 @@ solid black circle should appear.
 \end{enumerate}
 \indent
 
-Note the conspicuous lack of error bars.
-
 \subsubsection{Adding Error Bars}
 
 \noindent
@@ -924,21 +1065,23 @@ labeled ``X Err.''
 the option ``Data Column."
 \item Select the column which contains the uncertainties in the x-coordinates of your
 plotted data.
-\item Click on button labeled {\bf OK.}
 \item Now, follow the same procedure starting with the square labeled ``Y Err.''
 \item Click on button labeled {\bf Plot.}
 \end{enumerate}
 \indent
 
-\subsection{Performing a Weighted Least-Squares Fit on Plotted Data}
-\subsubsection{Weighted Fit}
+\subsubsection{Writing a good graph title}%neel
+A good, descriptive title for plots is essential in engineering and the sciences to convey what the plot is about. Here are some pointers about writing the title.
+\begin{itemize}
+\item Don't leave your graph title as the default `Data 1' and suchlike. This is not useful at all.
+\item Don't also merely repeat the axis labels for the graph title, e.g. in this case, the title shouldn't just say `$P$ vs $1/V$' or even `Probability vs Inverse of butter volume'. An ideal graph should already provide detailed axis labels like `Probability of landing butter-side up $P$' and `Volume of applied butter $V$ (cc)', so that it is redundant to repeat them in the plot title.
+\item Then what should be in the title? It should provide context, i.e. a description of where the data came from. In this case, a good title would be `Testing Murphy's law by dropping buttered toast.'
+\item When thinking about the title, imagine slipping the printed plot under the door of any scientist in the building, who has no information otherwise of what that plot is. Will they understand what this plot is about? It is the job of the title to give the rest of the information context and meaning in a condensed description.
+\end{itemize}
+Always keep these pointers in mind while naming plots throughout the rest of this course.
 
-We come to the moment of truth. Both the slope and y-intercept of a
-linear plot are often important pieces of information to obtain. Of
-course, they are meaningless without uncertainties. Therefore, you
-should make sure you take into account the uncertainties in your
-points when calculating the fit.
-
+\subsection{Performing a Weighted Least-Squares Fit}
+Now we shall obtain the slope and y-intercept of the best fit line through the data, by means of an error-weighted least-squares fit.
 \noindent
 \begin{enumerate}
 \item Activate the window containing your plot by clicking on it.
@@ -957,8 +1100,6 @@ plotting.
 the buttons labeled $\ll$ and $\gg$ , make sure the name of the
 column containing the uncertainties for the y-coordinate appears in
 the window.
-\item Click on the button labeled {\bf OK}.
-\item Now click on this button window's labeled {\bf OK}.
 \end{enumerate}
 \indent
 
@@ -969,16 +1110,12 @@ table, m1 is the y-intercept and m2 is the slope of the best fit line.
 
 \subsubsection{The Work You Should Turn In}
 
-After you have followed through the above example, you should attach
-the printout you have made to the worksheet that follows. This printout 
-should at least contain:
-properly labeled axes, x and y error bars, and the best fit line
-plotted by KaleidaGraph through your plotted points. Also, somewhere
-on the page below the plot, you should report {\it in a complete
-sentence} what you have found to be the constant of proportionality
-(with uncertainty!). \\
+Attach the plot printout to the worksheet that follows. This printout 
+should contain: properly labeled axes and plot title, x and y error bars, best fit line, and the box of calculated parameters from the line.\\
+{\bf Below the plot, report in a complete
+sentence what you have found to be the constant of proportionality from the fit
+(with uncertainty).} \\
 
-\noindent Of course, your TA may require more of you.
 
 
 \vfill
@@ -992,7 +1129,7 @@ sentence} what you have found to be the constant of proportionality
 %  Label worksheets by \thechapter.W1
 \renewcommand{\thesection}{\thechapter.W1}
 
-\section{Error Analysis Worksheet}
+\section{In-Classroom Calculations}
 {\bf \Large Name:}~ \rule{5cm}{.1mm}~~~~~~~
 {\bf \Large Day/Time:}~\rule{3cm}{.1mm}\\
 
@@ -1075,7 +1212,7 @@ $$ \frac{1}{R_{\mbox{eq}}} = \frac{1}{R_1} + \frac{1}{R_2}.$$ \\
 \vspace*{10cm} \\
 
 \item For $\phi=60\pm 3^\circ$, calculate $\sin\phi$ and $\tan\phi$.
-Hint: Convert the angle to radians. \\
+(Hint: convert the angle to radians.) \\
 \vspace*{3cm} \\
 
 \item Given that $L=20\pm 4$~cm and $y=8\pm 2$~cm in the triangle\\
@@ -1083,7 +1220,7 @@ Hint: Convert the angle to radians. \\
 \hspace*{4cm} \epsfxsize=5cm \includegraphics[scale=0.5]{0_intro/triangle.eps}\\
  %\epsfbox{intro_2/triangle.eps}
 %\vspace*{2mm}\\
-calculate $\sin\theta$. \\
+calculate $\sin\theta$. (Hint: it's not necessary to calculate the hypotenuse.)\\
 \vspace*{3cm} \\
 \end{enumerate}
 \vfill
@@ -1151,7 +1288,7 @@ Do the following
 (Remember, use {\bf fit1} under the General option of the curve fit menu.)
 Error bars, properly labeled axes and units are essential!  All partners 
 should have their own plots.  {\bf Show}
-your work in finding $\Delta(t^2)$ below. \\
+your work in finding $\Delta(t^2)$ below (only the error propagation formula, no numbers.) \\
 \vspace*{2cm} \\
 
 {\it b)} Determine the acceleration due to gravity from the results of 
@@ -1161,7 +1298,7 @@ units and uncertainties. Show work. \\
 
 \hspace{4cm}$g=$\rule{4.0cm}{.1mm}\\
 
-{\it c)} Try to guess where you are.... \\
+{\it c)} Using the table of accelerations due to gravity of the planets that should be taped to the wall of the lab (or found online), guess where you are. (Hint: if you are high in the atmosphere, gravity will be reduced.) \\
 \vspace*{0.8cm} \\
 
 \noindent
@@ -1213,7 +1350,7 @@ Do the following
 {\it a)} Plot $\ln (V / V_0)$ vs. $t$ and obtain a {\bf weighted} least
 squares fit. Again, be sure to include error bars, units, and properly
 labeled axes.  Remember, all partners must have their own plots.  
-Show your work in finding $\Delta( \ln (V / V_0))$. \\
+Show your work in finding $\Delta( \ln \frac{V}{V_0})$ (again, just the formula). \\
 \vspace*{3cm} \\
 
 {\it b)} Report the slope and intercept of your plot.
@@ -1261,12 +1398,12 @@ while varying the potential $V$:\\
 \begin{tabular}{|c|c|}
 \hline
 $V$~(V) & $R$~(cm) \\
-\hline
-$400\pm 2$ & $5.6\pm 0.4$ \\
-$600\pm 2$ & $7.4\pm 0.4$ \\
-$800\pm 2$ & $8.2\pm 0.4$ \\
-$1000\pm 2$ & $9.0\pm 0.4$ \\
-$1200\pm 2$ & $10.2\pm 0.4$ \\
+\hline %neel
+$400\pm 20$ & $5.6\pm 0.4$ \\
+$600\pm 20$ & $7.4\pm 0.4$ \\
+$800\pm 20$ & $8.2\pm 0.4$ \\
+$1000\pm 20$ & $9.0\pm 0.4$ \\
+$1200\pm 20$ & $10.2\pm 0.4$ \\
 \hline
 \end{tabular}  
 \end{center}
@@ -1277,7 +1414,7 @@ $1200\pm 2$ & $10.2\pm 0.4$ \\
 on your graph paper.  Show your work in finding
 $\Delta(R^2)$ in the space provided here. \\
 \vspace*{2cm} \\
-\noindent Is this linear? \\
+\noindent Does this look linear? \\
 \vspace*{1cm} \\
 \noindent Find the slope of the best 
 line fit to the data. Use bounding lines to obtain the uncertainty in the 
@@ -1287,8 +1424,7 @@ slope.  {\bf Show all your work in the space provided below}. \\
 \subsubsection{Least Squares}
 \item Now use linear least squares to obtain the slope with uncertainty. Note 
 that $R^2$ is the {\it dependent} variable; you'll need to fill the following
-table. Observe that there are two extra rows in it. One is for the units and
-one is for the sums of the elements of each column. 
+table. Observe that there are two extra rows in it. Write the units of each column in the first row and the column sums in the last row. If you want you can use a spreadsheet program and either copy the results here or print it. %neel
 \begin{center}
 \begin{tabular}{|c|c|c|c|c|c|c|c|}
 \hline
@@ -1315,23 +1451,18 @@ $\frac{V_i R_i^2}{(\Delta (R_i^2) )^2}$ \\
 \hline
 \end{tabular}
 \end{center} 
-\vfill
-\newpage
-\ \\
-\noindent Now compute the sums required to find the slope, a, and
-the uncertainty in slope, $\Delta$a, as in your lab manual. \\
+
+\noindent Now compute the sums required to find the slope, $a$, and
+the uncertainty in slope, $\Delta a$, as in your lab manual. \\
 \vfill
 \pagebreak
 
-\noindent How does the least squares result compare
-with that obtained by hand? Comment on agreement (within uncertainty), the
-relative uncertainties in each result, and anything else you think is 
-important.  \\
-\vspace*{3cm} \\
+\noindent Comment on whether the least squares result or the hand graph method is better by comparing their relative uncertainties. Do they agree within uncertainty (see § \ref{sec:intro:agreement})?  \\
+%neel
+\vspace*{4cm} \\
 
 \item Use equation~(\ref{eq:1st:elect}) to calculate the charge-to-mass ratio
-of the electron, $e/m$, from the value of $B$ and each of the slopes you 
-obtained with uncertainty. Note that the accepted value of $e/m=1.758~819~62(53)\cdot 10^{11}$ C/kg \\
+of the electron, $e/m$, from the value of $B$ and each of the slopes you obtained (hand fit and least squares), with uncertainty. Do they agree with the accepted value of $e/m=1.758~819~62(53)\cdot 10^{11}$ C/kg? § \ref{sec:intro:reporting} explains the parenthesis notation.\\ %neel
 
 \end{enumerate}
 
