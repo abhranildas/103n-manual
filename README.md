@@ -1,2 +1,4 @@
 # 103n-manual
 103N Lab Manual latex source
+
+The main file is manual.tex that has some content of its own, but mostly aggregates the .tex files for each chapter. Images are inserted in the .tex files as references to .eps files. However, upon compilation, pdf files are produced from eps files which are then embedded in the final output pdf. These intermediate pdf images have been preserved. If you remove them, depending on your latex installation, it may reconvert during every compilation and then delete the intermediate pdf's (such as sharelatex.com does), resulting in longer compilation times. If the intermediate pdf's are preserved, some installations don't bother reconverting upon every compile and produces the output faster.
